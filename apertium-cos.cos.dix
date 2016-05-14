@@ -1,0 +1,901 @@
+<dictionary>
+  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZ</alphabet>
+  <sdefs>
+    <sdef n="n"        c="Sustantiu"/>
+    <sdef n="np"       c="Nom propi"/>
+    <sdef n="adv"      c="Adverbi"/>
+    <sdef n="pr"       c="Preposició"/>
+    <sdef n="num"      c="Numeral"/>
+    <sdef n="adj"      c="Adjectiu"/>
+    <sdef n="det"      c="Determinant"/>
+    <sdef n="prn"      c="Pronoun"/>
+    <sdef n="cnjcoo"   c="Coordinating conjunction"/>
+    <sdef n="cnjsub"   c="Subordinating conjunction"/>
+    <sdef n="cnjadv"   c="Adverbial conjunction"/>
+    <sdef n="vblex"    c="Verb"/>
+    <sdef n="vbmod"    c="Verb modal"/>
+    <sdef n="vbser"    c="Verb 'ser'"/>
+    <sdef n="vbhaver"  c="Verb 'haver'"/>
+
+    <sdef n="ind"      c="Indefinit"/>
+    <sdef n="def"      c="Definit"/>
+    <sdef n="itg"      c="Interrogatiu"/>
+    <sdef n="pro"      c="Proclític"/>
+    <sdef n="ref"      c="Reflexiu"/>
+    <sdef n="tn"       c="Tònic"/>
+
+    <sdef n="ant"      c="Antròponim"/>
+
+    <sdef n="inf"      c="Infinitiu"/>
+    <sdef n="ger"      c="Gerundi"/>
+    <sdef n="pp"       c="Participiu"/>
+    <sdef n="pri"      c="Present d'indicatiu"/>
+    <sdef n="pii"      c=""/>
+    <sdef n="pis"      c=""/>
+    <sdef n="prs"      c="Present de subjunctiu"/>
+    <sdef n="cni"      c=""/>
+    <sdef n="ifi"      c=""/>
+    <sdef n="fti"      c=""/>
+
+    <sdef n="m"        c="Masculí"/>
+    <sdef n="f"        c="Feminí"/>
+    <sdef n="mf"       c="Masculí / feminí"/>
+ 
+    <sdef n="p1"       c="Primera persona"/>
+    <sdef n="p2"       c="Segona persona"/>
+    <sdef n="p3"       c="Tercera persona"/>
+
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+    <sdef n="sp"       c="Singular / plural"/>
+  
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="sent"    c="Sentence marker"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquot"   c="Left quote"/>
+    <sdef n="rquot"   c="Right quote"/>
+    <sdef n="guio"    c="Hyphen"/>
+    <sdef n="apos"    c="Apostrophe"/>
+
+  </sdefs>
+
+  <pardefs> 
+
+    <!-- SECTION: Miscellaneous -->
+
+    <pardef n="separa">
+      <e><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="cometa">
+      <e><re>[’'‘]</re><p><l/><r><s n="apos"/></r></p></e>
+    </pardef>
+
+    <pardef n="guionet">
+      <e>       <p><l>-</l><r>-<s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e>       <p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l/><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l/><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="numeros">
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
+
+
+
+    <!-- SECTION: Conjunctions -->
+
+    <pardef n="è__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="sì__cnjadv">
+      <e><p><l></l><r><s n="cnjadv"/></r></p></e>
+    </pardef>
+
+    <pardef n="chì__cnjsub">
+      <e><p><l></l><r><s n="cnjsub"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Prepositions -->
+
+    <pardef n="/di__pr">
+      <e r="LR"><p><l>di</l><r>di<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>d'</l><r>di<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>di</l><r>di<s n="pr"/></r></p></e>
+    </pardef>
+
+    <pardef n="à__pr">
+      <e><p><l></l><r><s n="pr"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Determiners -->
+
+    <pardef n="/u__det">
+      <e r="LR"><p><l>u</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><a/>u</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><a/>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>e</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><a/>i</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><a/>e</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="un__det">
+      <e><p><l>u</l><r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Pronouns -->
+
+    <pardef n="eiu__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="tù__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="ell/u__prn">
+      <e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="mi__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="ti__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="si__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="ci__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="vi__prn">
+      <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Numerals -->
+
+    <pardef n="quattru__num">
+      <e><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="dui__num">
+      <e><p><l></l><r><s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>e</l><r><s n="num"/><s n="f"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Nouns -->
+
+    <pardef n="ann/u__n">
+      <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="scienz/a__n">
+      <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ricerc/a__n">
+      <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>he</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="relazion/e__n">
+      <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="zitell/u__n">
+      <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <!-- SECTION: Proper nouns -->
+
+    <pardef n="Jaume__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Maria__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
+    <!-- SECTION: Adjectives -->
+
+    <pardef n="vechj/u__adj">
+      <e><p><l>u</l><r>u<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Adverbs -->
+
+    <pardef n="parchè__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="cusì__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Verbs -->
+
+    <pardef n="/esse__vbser">
+      <e><p><l>esse</l><r>esse<s n="vbser"/><s n="inf"/></r></p></e>
+      <e><p><l>essendu</l><r>esse<s n="vbser"/><s n="ger"/></r></p></e>
+
+      <e><p><l>sò</l><r>esse<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>sè</l><r>esse<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>hè</l><r>esse<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>semu</l><r>esse<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>sete</l><r>esse<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>sò</l><r>esse<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>sia</l><r>esse<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>sia</l><r>esse<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>sia</l><r>esse<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>siamu</l><r>esse<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>siate</l><r>esse<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>sianu</l><r>esse<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>eri</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>eramu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>erate</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>eranu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>fussimu</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>fussite</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>fussinu</l><r>esse<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>statu</l><r>esse<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>stata</l><r>esse<s n="vbser"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>stati</l><r>esse<s n="vbser"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>state</l><r>esse<s n="vbser"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="/avè__vbhaver">
+      <e><p><l>avè</l><r>avè<s n="vbhaver"/><s n="inf"/></r></p></e>
+      <e><p><l>avèndu</l><r>avè<s n="vbhaver"/><s n="ger"/></r></p></e>
+
+      <e><p><l>aghju</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ai</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>hai</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>hà</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avemu</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>emu</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avete</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ete</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>anu</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>aghja</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aghja</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>aghja</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>aghjamu</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>aghjhate</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>aghjanu</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>avia</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avie</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>avia</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avìamu</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avìete</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avìanu</l><r>avè<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>avessi</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avesse</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>avessi</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avèssimu</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avèssete</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avèssinu</l><r>avè<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ebbi</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aveste</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ebbe</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ebbimu</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avestete</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ebbenu</l><r>avè<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>averaghju</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>averai</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>averà</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>averemu</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>averete</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>averanu</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>averìa</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>averìi</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>averìa</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>averìamu</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>averìate</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>averìanu</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>avutu</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>avuta</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>avute</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>avuti</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="p/udè__vbmod">
+      <e><p><l>udè</l><r>udè<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e><p><l>ossu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>oi</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ò</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>udemu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>udete</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>onu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="fini/sce__vblex">
+      <e><p><l>sce</l><r>sce<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>scu</l><r>sce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>sci</l><r>sce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>sce</l><r>sce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>mu</l><r>sce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ti</l><r>sce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>scinu</l><r>sce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>sca</l><r>sce<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>sca</l><r>sce<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>sca</l><r>sce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>scamu</l><r>sce<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>scate</l><r>sce<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>scanu</l><r>sce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>tu</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ta</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ti</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>te</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="capi/sce__vblex">
+      <e><p><l>sce</l><r>sce<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>scu</l><r>sce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>sci</l><r>sce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>sce</l><r>sce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>scemu</l><r>sce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>te</l><r>sce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>scenu</l><r>sce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>sca</l><r>sce<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>sca</l><r>sce<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>sca</l><r>sce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>scamu</l><r>sce<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>scate</l><r>sce<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>scanu</l><r>sce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>tu</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ta</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ti</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>te</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="cunn/osce__vblex">
+      <e><p><l>osce</l><r>osce<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>oscu</l><r>osce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>osci</l><r>osce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>osce</l><r>osce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iscemu</l><r>osce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iscite</l><r>osce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>oscenu</l><r>osce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>isciutu</l><r>osce<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>isciuta</l><r>osce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>isciuti</l><r>osce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>isciute</l><r>osce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+
+    <pardef n="/esce__vblex">
+      <e><p><l>esce</l><r>esce<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>escu</l><r>esce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>esci</l><r>esce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>esce</l><r>esce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iscemu</l><r>esce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iscite</l><r>esce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>escenu</l><r>esce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>esca</l><r>esce<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>esca</l><r>esce<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>esca</l><r>esce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iscamu</l><r>esce<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iscate</l><r>esce<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>escanu</l><r>esce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>sciutu</l><r>esce<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>sciuta</l><r>esce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>sciuti</l><r>esce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>sciute</l><r>esce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="/andà__vblex">
+      <e><p><l>andà</l><r>andà<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>vacu</l><r>andà<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>vai</l><r>andà<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>va</l><r>andà<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>andemu</l><r>andà<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>andate</l><r>andà<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>vanu</l><r>andà<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>andatu</l><r>andà<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>andata</l><r>andà<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>andati</l><r>andà<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>andate</l><r>andà<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="f/à__vblex">
+      <e><p><l>à</l><r>à<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>acciu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aci</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ace</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>emu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>acenu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>attu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>atta</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>atti</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>atte</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="d/à__vblex">
+      <e><p><l>à</l><r>à<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ò</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ai</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>à</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>emu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="piac/e__vblex">
+      <e><p><l>e</l><r>e<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>e</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>enu</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="m/ette__vblex">
+      <e><p><l>ette</l><r>ette<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>ettu</l><r>ette<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>etti</l><r>ette<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ette</l><r>ette<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ittemu</l><r>ette<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ittite</l><r>ette<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ettenu</l><r>ette<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>etti</l><r>ette<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>etti</l><r>ette<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>etti</l><r>ette<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ettimu</l><r>ette<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ettite</l><r>ette<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ettinu</l><r>ette<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+      <e><p><l>essu</l><r>ette<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>essa</l><r>ette<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>essi</l><r>ette<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>esse</l><r>ette<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="t/uccà__vblex">
+      <e><p><l>uccà</l><r>uccà<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>occa</l><r>uccà<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>occu</l><r>uccà<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>occa</l><r>uccà<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>occi</l><r>uccà<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>occe</l><r>uccà<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="fid/ià__vblex">
+      <e><p><l>ià</l><r>ià<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>èndu</l><r>ià<s n="vblex"/><s n="ger"/></r></p></e>
+      <e><p><l>eghju</l><r>ià<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>eghji</l><r>ià<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>eghja</l><r>ià<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iemu</l><r>ià<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iate</l><r>ià<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>eghjanu</l><r>ià<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    </pardef>
+
+
+    <pardef n="parl/à__vblex">
+      <e><p><l>à</l><r>à<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>èndu</l><r>à<s n="vblex"/><s n="ger"/></r></p></e>
+
+      <e><p><l>u</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>emu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>i</l><r>à<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>à<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>à<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>imu</l><r>à<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>à<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>inu</l><r>à<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+      <e><p><l>atu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ata</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ati</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="d/ì__vblex">
+      <e><p><l>ì</l><r>ì<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>icu</l><r>ì<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ici</l><r>ì<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ice</l><r>ì<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>icemu</l><r>ì<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>ì<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>icenu</l><r>ì<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="v/ulè__vblex">
+      <e><p><l>ulè</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ulendu</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>ogliu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>oli</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ole</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ulemu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ulete</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>olenu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulii</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uliamu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uliate</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ulianu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>olsi</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulisti</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>olse</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>olsimu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uliste</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>olsenu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>uleraghju</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulerai</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ulerà</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uleremu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ulerete</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>uleranu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ulsutu</l><r>ulè<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ulsuta</l><r>ulè<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ulsute</l><r>ulè<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ulsuti</l><r>ulè<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="cr/ede__vblex">
+      <e><p><l>ede</l><r>ede<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ergu</l><r>ede<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>edi</l><r>ede<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ede</l><r>ede<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>idemu</l><r>ede<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>idite</l><r>ede<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>edenu</l><r>ede<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>idutu</l><r>ede<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>iduta</l><r>ede<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>idute</l><r>ede<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>iduti</l><r>ede<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="t/ene__vblex">
+      <e><p><l>ene</l><r>ene<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>engu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>eni</l><r>ene<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ene</l><r>ene<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>inemu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>inite</l><r>ene<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enenu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>enga</l><r>ene<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>enga</l><r>ene<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>enga</l><r>ene<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>engamu</l><r>ene<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>engate</l><r>ene<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enganu</l><r>ene<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+      <e><p><l>inutu</l><r>ene<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>inuta</l><r>ene<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>inute</l><r>ene<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>inuti</l><r>ene<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+
+
+
+
+    <!-- SECTION: Interjections -->
+    <!-- SECTION: Punctuation -->
+
+
+  </pardefs>
+  <section id="main" type="standard">
+
+    <!-- SECTION: Miscellaneous -->
+    <!-- SECTION: Conjunctions -->
+
+    <e lm="è"><i>è</i><par n="è__cnjcoo"/></e>
+    <e lm="o"><i>o</i><par n="è__cnjcoo"/></e>
+    <e lm="ma"><i>ma</i><par n="è__cnjcoo"/></e>
+    <e lm="ni"><i>ni</i><par n="è__cnjcoo"/></e>
+    <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
+    <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
+    <e lm="parchì"><i>parchì</i><par n="sì__cnjadv"/></e>
+
+    <!-- SECTION: Prepositions -->
+
+    <e lm="di"><i></i><par n="/di__pr"/></e>
+    <e lm="à"><i>à</i><par n="à__pr"/></e>
+    <e lm="in"><i>in</i><par n="à__pr"/></e>
+    <e lm="per"><i>per</i><par n="à__pr"/></e>
+    <e lm="cù"><i>cù</i><par n="à__pr"/></e>
+
+    <!-- SECTION: Determiners -->
+
+    <e lm="u"><i></i><par n="/u__det"/></e>
+    <e lm="un"><i>un</i><par n="un__det"/></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e lm="eiu"><i>eiu</i><par n="eiu__prn"/></e>
+    <e lm="tù"><i>tù</i><par n="tù__prn"/></e>
+    <e lm="ellu"><i>ell</i><par n="ell/u__prn"/></e>
+
+    <e lm="mi"><i>mi</i><par n="mi__prn"/></e>
+    <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
+    <e lm="si"><i>si</i><par n="si__prn"/></e>
+    <e lm="ci"><i>ci</i><par n="ci__prn"/></e>
+    <e lm="vi"><i>vi</i><par n="vi__prn"/></e>
+
+    <!-- SECTION: Numerals -->
+
+    <e lm="dui"><i>dui</i><par n="dui__num"/></e>
+    <e lm="trè"><i>trè</i><par n="quattru__num"/></e>
+    <e lm="quattru"><i>quattru</i><par n="quattru__num"/></e>
+    <e lm="cinque"><i>cinque</i><par n="quattru__num"/></e>
+    <e lm="sei"><i>sei</i><par n="quattru__num"/></e>
+    <e lm="sette"><i>sette</i><par n="quattru__num"/></e>
+    <e lm="ottu"><i>ottu</i><par n="quattru__num"/></e>
+    <e lm="nove"><i>nove</i><par n="quattru__num"/></e>
+
+    <!-- SECTION: Nouns -->
+
+    <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
+    <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
+    <e lm="omu"><i>om</i><par n="ann/u__n"/></e>
+    <e lm="ortu"><i>ort</i><par n="ann/u__n"/></e>
+    <e lm="oggettu"><i>oggett</i><par n="ann/u__n"/></e>
+    <e lm="ghjocu"><i>ghjoc</i><par n="ann/u__n"/></e>
+    <e lm="zitellu"><i>zitell</i><par n="zitell/u__n"/></e>
+    <e lm="processu"><i>process</i><par n="zitell/u__n"/></e>
+
+    <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
+    <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
+    <e lm="lingua"><i>lingu</i><par n="scienz/a__n"/></e>
+    <e lm="terra"><i>terr</i><par n="scienz/a__n"/></e>
+    <e lm="acqua"><i>acqu</i><par n="scienz/a__n"/></e>
+
+    <e lm="ricerca"><i>ricerc</i><par n="ricerc/a__n"/></e>
+
+    <e lm="traduzzione"><i>traduzzion</i><par n="relazion/e__n"/></e>
+    <e lm="relazione"><i>relazion</i><par n="relazion/e__n"/></e>
+    <e lm="tradizione"><i>tradizion</i><par n="relazion/e__n"/></e>
+    <e lm="distribuzione"><i>distribuzion</i><par n="relazion/e__n"/></e>
+    <e lm="regione"><i>region</i><par n="relazion/e__n"/></e>
+    <e lm="infurmazione"><i>infurmazion</i><par n="relazion/e__n"/></e>
+    <e lm="dispusizione"><i>dispusizion</i><par n="relazion/e__n"/></e>
+    <e lm="manifestazione"><i>manifestazion</i><par n="relazion/e__n"/></e>
+
+    <e lm="agglumerazione"><i>agglumerazion</i><par n="relazion/e__n"/></e>
+    <e lm="apparizione"><i>apparizion</i><par n="relazion/e__n"/></e>
+    <e lm="applicazione"><i>applicazion</i><par n="relazion/e__n"/></e>
+    <e lm="azzione"><i>azzion</i><par n="relazion/e__n"/></e>
+    <e lm="celebrazione"><i>celebrazion</i><par n="relazion/e__n"/></e>
+    <e lm="civilisazione"><i>civilisazion</i><par n="relazion/e__n"/></e>
+    <e lm="classificazione"><i>classificazion</i><par n="relazion/e__n"/></e>
+    <e lm="coalizione"><i>coalizion</i><par n="relazion/e__n"/></e>
+    <e lm="costituzione"><i>costituzion</i><par n="relazion/e__n"/></e>
+    <e lm="creazione"><i>creazion</i><par n="relazion/e__n"/></e>
+    <e lm="cumpetizione"><i>cumpetizion</i><par n="relazion/e__n"/></e>
+    <e lm="cumunicazione"><i>cumunicazion</i><par n="relazion/e__n"/></e>
+    <e lm="custellazione"><i>custellazion</i><par n="relazion/e__n"/></e>
+    <e lm="custituzione"><i>custituzion</i><par n="relazion/e__n"/></e>
+    <e lm="custruzzione"><i>custruzzion</i><par n="relazion/e__n"/></e>
+    <e lm="declinazione"><i>declinazion</i><par n="relazion/e__n"/></e>
+    <e lm="definizione"><i>definizion</i><par n="relazion/e__n"/></e>
+    <e lm="direzzione"><i>direzzion</i><par n="relazion/e__n"/></e>
+    <e lm="distinzione"><i>distinzion</i><par n="relazion/e__n"/></e>
+    <e lm="educazione"><i>educazion</i><par n="relazion/e__n"/></e>
+    <e lm="equazione"><i>equazion</i><par n="relazion/e__n"/></e>
+    <e lm="estinzione"><i>estinzion</i><par n="relazion/e__n"/></e>
+    <e lm="evuluzione"><i>evuluzion</i><par n="relazion/e__n"/></e>
+    <e lm="fundazione"><i>fundazion</i><par n="relazion/e__n"/></e>
+    <e lm="funzione"><i>funzion</i><par n="relazion/e__n"/></e>
+    <e lm="furmazione"><i>furmazion</i><par n="relazion/e__n"/></e>
+    <e lm="infurmazioni"><i>infurmazion</i><par n="relazion/e__n"/></e>
+    <e lm="interpretazione"><i>interpretazion</i><par n="relazion/e__n"/></e>
+    <e lm="navigazione"><i>navigazion</i><par n="relazion/e__n"/></e>
+    <e lm="nazione"><i>nazion</i><par n="relazion/e__n"/></e>
+    <e lm="occupazione"><i>occupazion</i><par n="relazion/e__n"/></e>
+    <e lm="opposizione"><i>opposizion</i><par n="relazion/e__n"/></e>
+    <e lm="osservazione"><i>osservazion</i><par n="relazion/e__n"/></e>
+    <e lm="populazione"><i>populazion</i><par n="relazion/e__n"/></e>
+    <e lm="posizione"><i>posizion</i><par n="relazion/e__n"/></e>
+    <e lm="produzzione"><i>produzzion</i><par n="relazion/e__n"/></e>
+    <e lm="prutezzione"><i>prutezzion</i><par n="relazion/e__n"/></e>
+    <e lm="pusizione"><i>pusizion</i><par n="relazion/e__n"/></e>
+    <e lm="relazione"><i>relazion</i><par n="relazion/e__n"/></e>
+    <e lm="rivoluzione"><i>rivoluzion</i><par n="relazion/e__n"/></e>
+    <e lm="situazione"><i>situazion</i><par n="relazion/e__n"/></e>
+    <e lm="soluzione"><i>soluzion</i><par n="relazion/e__n"/></e>
+    <e lm="spedizione"><i>spedizion</i><par n="relazion/e__n"/></e>
+    <e lm="tentazione"><i>tentazion</i><par n="relazion/e__n"/></e>
+    <e lm="transizione"><i>transizion</i><par n="relazion/e__n"/></e>
+    <e lm="variazione"><i>variazion</i><par n="relazion/e__n"/></e>
+    <e lm="unione"><i>union</i><par n="relazion/e__n"/></e>
+
+
+    <!-- SECTION: Proper nouns -->
+
+    <e lm="Jaume"><i>Jaume</i><par n="Jaume__np"/></e>
+    <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
+
+    <!-- SECTION: Adjectives -->
+
+    <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
+
+    <!-- SECTION: Adverbs -->
+
+    <e lm="parchè"><i>parchè</i><par n="parchè__adv"/></e>
+    <e lm="cumu"><i>cumu</i><par n="parchè__adv"/></e>
+    <e lm="quandu"><i>quandu</i><par n="parchè__adv"/></e>
+
+    <e lm="ùn"><i>ùn</i><par n="cusì__adv"/></e>
+    <e lm="micca"><i>micca</i><par n="cusì__adv"/></e>
+
+    <e lm="cusì"><i>cusì</i><par n="cusì__adv"/></e>
+    <e lm="bè"><i>bè</i><par n="cusì__adv"/></e>
+    <e lm="oghje"><i>oghje</i><par n="cusì__adv"/></e>
+    <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
+    <e lm="forse"><i>forse</i><par n="cusì__adv"/></e>
+
+    <e lm="ampiamente"><i>ampiamente</i><par n="cusì__adv"/></e>
+    <e lm="attualmente"><i>attualmente</i><par n="cusì__adv"/></e>
+    <e lm="cumunemente"><i>cumunemente</i><par n="cusì__adv"/></e>
+    <e lm="cuntemporaneamente"><i>cuntemporaneamente</i><par n="cusì__adv"/></e>
+    <e lm="definitivamente"><i>definitivamente</i><par n="cusì__adv"/></e>
+    <e lm="direttamente"><i>direttamente</i><par n="cusì__adv"/></e>
+    <e lm="esattamente"><i>esattamente</i><par n="cusì__adv"/></e>
+    <e lm="essenzialmente"><i>essenzialmente</i><par n="cusì__adv"/></e>
+    <e lm="estremamente"><i>estremamente</i><par n="cusì__adv"/></e>
+    <e lm="etimologicamente"><i>etimologicamente</i><par n="cusì__adv"/></e>
+    <e lm="facilmente"><i>facilmente</i><par n="cusì__adv"/></e>
+    <e lm="finalmente"><i>finalmente</i><par n="cusì__adv"/></e>
+    <e lm="ghjeneralmente"><i>ghjeneralmente</i><par n="cusì__adv"/></e>
+    <e lm="inizialmente"><i>inizialmente</i><par n="cusì__adv"/></e>
+    <e lm="notevolmente"><i>notevolmente</i><par n="cusì__adv"/></e>
+    <e lm="novamente"><i>novamente</i><par n="cusì__adv"/></e>
+    <e lm="particularmente"><i>particularmente</i><par n="cusì__adv"/></e>
+    <e lm="principalmente"><i>principalmente</i><par n="cusì__adv"/></e>
+    <e lm="prubabilmente"><i>prubabilmente</i><par n="cusì__adv"/></e>
+    <e lm="rapidamente"><i>rapidamente</i><par n="cusì__adv"/></e>
+    <e lm="raramente"><i>raramente</i><par n="cusì__adv"/></e>
+    <e lm="recentemente"><i>recentemente</i><par n="cusì__adv"/></e>
+    <e lm="rispettivamente"><i>rispettivamente</i><par n="cusì__adv"/></e>
+    <e lm="solamente"><i>solamente</i><par n="cusì__adv"/></e>
+    <e lm="specialmente"><i>specialmente</i><par n="cusì__adv"/></e>
+    <e lm="storicamente"><i>storicamente</i><par n="cusì__adv"/></e>
+    <e lm="successivamente"><i>successivamente</i><par n="cusì__adv"/></e>
+    <e lm="ufficialmente"><i>ufficialmente</i><par n="cusì__adv"/></e>
+    <e lm="verticalmente"><i>verticalmente</i><par n="cusì__adv"/></e>
+
+
+    <!-- SECTION: Verbs -->
+
+    <e lm="esse"><i></i><par n="/esse__vbser"/></e>
+    <e lm="avè"><i></i><par n="/avè__vbhaver"/></e>
+    <e lm="pudè"><i>p</i><par n="p/udè__vbmod"/></e>
+
+    <e lm="andà"><i></i><par n="/andà__vblex"/></e>
+    <e lm="fà"><i>f</i><par n="f/à__vblex"/></e>
+    <e lm="dà"><i>d</i><par n="d/à__vblex"/></e>
+    <e lm="stà"><i>st</i><par n="d/à__vblex"/></e>
+    <e lm="dì"><i>d</i><par n="d/ì__vblex"/></e>
+    <e lm="tene"><i>t</i><par n="t/ene__vblex"/></e>
+    <e lm="vene"><i>v</i><par n="t/ene__vblex"/></e>
+    <e lm="crede"><i>cr</i><par n="cr/ede__vblex"/></e>
+
+    <e lm="parlà"><i>parl</i><par n="parl/à__vblex"/></e>
+    <e lm="truvà"><i>truv</i><par n="parl/à__vblex"/></e>
+    <e lm="aspittà"><i>aspitt</i><par n="parl/à__vblex"/></e>
+    <e lm="cantà"><i>cant</i><par n="parl/à__vblex"/></e>
+    <e lm="buscà"><i>busc</i><par n="parl/à__vblex"/></e>
+    <e lm="cunsiderà"><i>cunsider</i><par n="parl/à__vblex"/></e>
+
+    <e lm="fidià"><i>fid</i><par n="fid/ià__vblex"/></e>
+    <e lm="tuccà"><i>t</i><par n="t/uccà__vblex"/></e>
+
+    <e lm="vulè"><i>v</i><par n="v/ulè__vblex"/></e>
+    <e lm="piace"><i>piac</i><par n="piac/e__vblex"/></e>
+    <e lm="mette"><i>m</i><par n="m/ette__vblex"/></e>
+    <e lm="esce"><i></i><par n="/esce__vblex"/></e>
+    <e lm="cunnosce"><i>cunn</i><par n="cunn/osce__vblex"/></e>
+    <e lm="capisce"><i>capi</i><par n="capi/sce__vblex"/></e>
+    <e lm="finisce"><i>fini</i><par n="fini/sce__vblex"/></e>
+ 
+    <!-- SECTION: Interjections -->
+    <!-- SECTION: Punctuation -->
+
+
+  </section>
+
+  <section id="apos" type="postblank">
+    <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+  </section>
+
+  <section id="final" type="inconditional">
+    <e><par n="separa"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="cometa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="guionet"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+  </section>
+
+</dictionary>

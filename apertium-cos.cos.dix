@@ -220,6 +220,15 @@
       <e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>e</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+    
+    <pardef n="libert/a__n">
+      <e><p><l>à</l><r>à<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>à</l><r>à<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="sangue__n">
+	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
 
 
     <!-- SECTION: Proper nouns -->
@@ -739,18 +748,45 @@
 
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
+    <e lm="motu"><i>mot</i><par n="ann/u__n"/></e>
     <e lm="omu"><i>om</i><par n="ann/u__n"/></e>
     <e lm="ortu"><i>ort</i><par n="ann/u__n"/></e>
     <e lm="oggettu"><i>oggett</i><par n="ann/u__n"/></e>
     <e lm="ghjocu"><i>ghjoc</i><par n="ann/u__n"/></e>
+    <e lm="rinforzu"><i>rinforz</i><par n="ann/u__n"/></e>
+    <e lm="popolu"><i>popol</i><par n="ann/u__n"/></e>
+
+   
+   
+    <e lm="sangue"><i>sangue</i><par n="sangue__n"/></e>
+
+    
+    
     <e lm="zitellu"><i>zitell</i><par n="zitell/u__n"/></e>
     <e lm="processu"><i>process</i><par n="zitell/u__n"/></e>
+
+
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
     <e lm="lingua"><i>lingu</i><par n="scienz/a__n"/></e>
     <e lm="terra"><i>terr</i><par n="scienz/a__n"/></e>
     <e lm="acqua"><i>acqu</i><par n="scienz/a__n"/></e>
+    <e lm="mossa"><i>moss</i><par n="scienz/a__n"/></e>
+    <e lm="francisata"><i>francisat</i><par n="scienz/a__n"/></e>
+    <e lm="armata"><i>armat</i><par n="scienz/a__n"/></e>
+    <e lm="ombra"><i>ombra</i><par n="scienz/a__n"/></e>
+    <e lm="mossa"><i>moss</i><par n="scienz/a__n"/></e>
+    <e lm="riscossa"><i>riscoss</i><par n="scienz/a__n"/></e>
+    <e lm="indipendenza"><i>indipendenz</i><par n="scienz/a__n"/></e>
+    <e lm="sperenza"><i>sperenz</i><par n="scienz/a__n"/></e>
+    <e lm="bandera"><i>bander</i><par n="scienz/a__n"/></e>
+    <e lm="catena"><i>caten</i><par n="scienz/a__n"/></e>
+    <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
+
+
+    <e lm="libertà"><i>libert</i><par n="libert/a__n"/></e>
+
 
     <e lm="ricerca"><i>ricerc</i><par n="ricerc/a__n"/></e>
 
@@ -817,7 +853,8 @@
 
     <e lm="ribelle"><i>ribell</i><par n="ribell/e__n"/></e>
     <e lm="fronte"><i>front</i><par n="ribell/e__n"/></e>
-
+	<e lm="traditore"><i>traditor</i><par n="ribell/e__n"/></e>
+	<e lm="spluttatore"><i>spluttator</i><par n="ribell/e__n"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -828,6 +865,10 @@
     <!-- SECTION: Adjectives -->
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
+    <e lm="sinceru"><i>sincer</i><par n="vechj/u__adj"/></e>
+    <e lm="vivu"><i>viv</i><par n="vechj/u__adj"/></e>
+
+    
     
     <e lm="naziunalista"><i>naziunalist</i><par n="naziunalist/a__adj"/></e>
     

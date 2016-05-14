@@ -755,6 +755,8 @@
     <e lm="ghjocu"><i>ghjoc</i><par n="ann/u__n"/></e>
     <e lm="rinforzu"><i>rinforz</i><par n="ann/u__n"/></e>
     <e lm="popolu"><i>popol</i><par n="ann/u__n"/></e>
+    <e lm="fratellu"><i>fratell</i><par n="ann/u__n"/></e>
+    <e lm="cazzu"><i>cazz</i><par n="ann/u__n"/></e>
 
    
    
@@ -783,6 +785,8 @@
     <e lm="bandera"><i>bander</i><par n="scienz/a__n"/></e>
     <e lm="catena"><i>caten</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
+    <e lm="brama"><i>bram</i><par n="scienz/a__n"/></e>
+    <e lm="mamma"><i>mamm</i><par n="scienz/a__n"/></e>
 
 
     <e lm="libertà"><i>libert</i><par n="libert/a__n"/></e>
@@ -798,6 +802,7 @@
     <e lm="infurmazione"><i>infurmazion</i><par n="relazion/e__n"/></e>
     <e lm="dispusizione"><i>dispusizion</i><par n="relazion/e__n"/></e>
     <e lm="manifestazione"><i>manifestazion</i><par n="relazion/e__n"/></e>
+    <e lm="vergine"><i>vergin</i><par n="relazion/e__n"/></e>
 
     <e lm="agglumerazione"><i>agglumerazion</i><par n="relazion/e__n"/></e>
     <e lm="apparizione"><i>apparizion</i><par n="relazion/e__n"/></e>

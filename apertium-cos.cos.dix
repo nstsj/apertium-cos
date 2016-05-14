@@ -203,6 +203,11 @@
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>he</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+    
+     <pardef n="abitant/e__n">
+      <e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <pardef n="relazion/e__n">
       <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>

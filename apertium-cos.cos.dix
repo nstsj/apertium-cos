@@ -204,7 +204,7 @@
       <e><p><l>he</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-     <pardef n="abitant/e__n">
+     <pardef n="ribell/e__n">
       <e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
@@ -241,6 +241,16 @@
       <e><p><l>i</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+    
+    
+<pardef n="naziunalist/a__adj">
+      <e><p><l>a</l><r>a<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>a<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+
+      <e><p><l>i</l><r>a<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>a<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Adverbs -->
 
@@ -794,6 +804,11 @@
     <e lm="unione"><i>union</i><par n="relazion/e__n"/></e>
 
 
+    <e lm="ribelle"><i>ribell</i><par n="ribell/e__n"/></e>
+    <e lm="fronte"><i>front</i><par n="ribell/e__n"/></e>
+
+
+
     <!-- SECTION: Proper nouns -->
 
     <e lm="Jaume"><i>Jaume</i><par n="Jaume__np"/></e>
@@ -802,6 +817,9 @@
     <!-- SECTION: Adjectives -->
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
+    
+    <e lm="naziunalista"><i>naziunalist</i><par n="naziunalist/a__adj"/></e>
+    
 
     <!-- SECTION: Adverbs -->
 

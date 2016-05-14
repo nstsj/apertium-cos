@@ -252,6 +252,14 @@
     </pardef>
 
 
+<pardef n="naziunal/e__adj">
+      <e><p><l>e</l><r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+
+      <e><p><l>i</l><r>e<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+     
+    </pardef>
+
+
     <!-- SECTION: Adverbs -->
 
     <pardef n="parchè__adv">
@@ -783,6 +791,8 @@
     <e lm="furmazione"><i>furmazion</i><par n="relazion/e__n"/></e>
     <e lm="infurmazioni"><i>infurmazion</i><par n="relazion/e__n"/></e>
     <e lm="interpretazione"><i>interpretazion</i><par n="relazion/e__n"/></e>
+    <e lm="liberazione"><i>liberazion</i><par n="relazion/e__n"/></e>
+
     <e lm="navigazione"><i>navigazion</i><par n="relazion/e__n"/></e>
     <e lm="nazione"><i>nazion</i><par n="relazion/e__n"/></e>
     <e lm="occupazione"><i>occupazion</i><par n="relazion/e__n"/></e>
@@ -804,6 +814,7 @@
     <e lm="unione"><i>union</i><par n="relazion/e__n"/></e>
 
 
+
     <e lm="ribelle"><i>ribell</i><par n="ribell/e__n"/></e>
     <e lm="fronte"><i>front</i><par n="ribell/e__n"/></e>
 
@@ -820,6 +831,15 @@
     
     <e lm="naziunalista"><i>naziunalist</i><par n="naziunalist/a__adj"/></e>
     
+
+    <e lm="naziunale"><i>naziunal</i><par n="naziunal/e__adj"/></e>
+
+	<!-- SECTION: Nationality -->
+	
+	    <e lm="corsu"><i>cors</i><par n="vechj/u__adj"/></e>
+
+
+
 
     <!-- SECTION: Adverbs -->
 

@@ -25,7 +25,8 @@
     <sdef n="tn"       c="Tònic"/>
 
     <sdef n="ant"      c="Antròponim"/>
-
+    <sdef n="cog"	   c="Cognomen"/>
+    
     <sdef n="inf"      c="Infinitiu"/>
     <sdef n="ger"      c="Gerundi"/>
     <sdef n="pp"       c="Participiu"/>
@@ -234,11 +235,16 @@
     <!-- SECTION: Proper nouns -->
 
     <pardef n="Jaume__np">
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="Maria__np">
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sp"/></r></p></e>
+    </pardef>
+    
+    <pardef n="Colonna__np">
+      <e><p><l></l><r><s n="np"/><s n="cog"/><s n="sp"/></r></p></e>
+
     </pardef>
 
 
@@ -871,6 +877,12 @@
     
     
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
+    
+    
+    
+    <!-- SECTION: Surnames -->
+    
+    <e lm="Colonna"><i>Colonna</i><par n="Colonna__np"/></e>
 
     <!-- SECTION: Adjectives -->
 

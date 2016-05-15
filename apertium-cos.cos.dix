@@ -254,7 +254,7 @@
 
     </pardef>
 
-	<pardef n="Ajaccio__np">
+	<pardef n="Ajacciu__np">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 
     </pardef>
@@ -784,6 +784,10 @@
     <e lm="dipartimentu"><i>dipartiment</i><par n="ann/u__n"/></e>
     <e lm="fattu"><i>fatt</i><par n="ann/u__n"/></e>
     <e lm="articulu"><i>articul</i><par n="ann/u__n"/></e>
+    <e lm="simbulu"><i>simbul</i><par n="ann/u__n"/></e>
+    <e lm="periodu"><i>period</i><par n="ann/u__n"/></e>
+    <e lm="triangulu"><i>triangul</i><par n="ann/u__n"/></e>
+    <e lm="catalogu"><i>catalog</i><par n="ann/u__n"/></e>
 
 
    
@@ -919,11 +923,16 @@
  
      <e lm="Corsica"><i>Corsica</i><par n="Corsica__np"/></e>
      <e lm="Auropa"><i>Auropa</i><par n="Corsica__np"/></e>
+     <e lm="Asia"><i>Asia</i><par n="Corsica__np"/></e>
+
      <e lm="Italia"><i>Italia</i><par n="Corsica__np"/></e>
+     <e lm="Roma"><i>Roma</i><par n="Corsica__np"/></e>
+
+
 
      <e lm="Bastia"><i>Bastia</i><par n="Corsica__np"/></e>
 
-     <e lm="Ajaccio"><i>Ajaccio</i><par n="Ajaccio__np"/></e>
+     <e lm="Ajacciu"><i>Ajacciu</i><par n="Ajaccio__np"/></e>
 
 
 
@@ -942,6 +951,11 @@
     
 
     <e lm="naziunale"><i>naziunal</i><par n="naziunal/e__adj"/></e>
+    <e lm="currispundente"><i>currispundent</i><par n="naziunal/e__adj"/></e>
+    <e lm="grande"><i>grand</i><par n="naziunal/e__adj"/></e>
+    <e lm="bisestile"><i>bisestil</i><par n="naziunal/e__adj"/></e>
+
+
 
 	<!-- SECTION: Nationality -->
 	

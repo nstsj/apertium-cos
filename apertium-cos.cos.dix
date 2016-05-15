@@ -776,8 +776,16 @@
     <e lm="popolu"><i>popol</i><par n="ann/u__n"/></e>
     <e lm="fratellu"><i>fratell</i><par n="ann/u__n"/></e>
     <e lm="cazzu"><i>cazz</i><par n="ann/u__n"/></e>
+    <e lm="statu"><i>stat</i><par n="ann/u__n"/></e>
+    <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
+    <e lm="statu"><i>stat</i><par n="ann/u__n"/></e>
+    <e lm="seculu"><i>secul</i><par n="ann/u__n"/></e>
+    <e lm="metru"><i>metr</i><par n="ann/u__n"/></e>
+    <e lm="dipartimentu"><i>dipartiment</i><par n="ann/u__n"/></e>
+    <e lm="fattu"><i>fatt</i><par n="ann/u__n"/></e>
+    <e lm="articulu"><i>articul</i><par n="ann/u__n"/></e>
 
-   
+
    
     <e lm="sangue"><i>sangue</i><par n="sangue__n"/></e>
 
@@ -787,6 +795,7 @@
     <e lm="processu"><i>process</i><par n="zitell/u__n"/></e>
 
 
+    <e lm="via"><i>vie</i><par n="scienz/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
@@ -806,6 +815,12 @@
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
     <e lm="brama"><i>bram</i><par n="scienz/a__n"/></e>
     <e lm="mamma"><i>mamm</i><par n="scienz/a__n"/></e>
+    <e lm="famiglia"><i>famigli</i><par n="scienz/a__n"/></e>
+    <e lm="formula"><i>formul</i><par n="scienz/a__n"/></e>
+    <e lm="cultura"><i>cultur</i><par n="scienz/a__n"/></e>
+    <e lm="annata"><i>annat</i><par n="scienz/a__n"/></e>
+    <e lm="litteratura"><i>litteratur</i><par n="scienz/a__n"/></e>
+
 
 
     <e lm="libertà"><i>libert</i><par n="libert/a__n"/></e>
@@ -879,6 +894,9 @@
     <e lm="fronte"><i>front</i><par n="ribell/e__n"/></e>
 	<e lm="traditore"><i>traditor</i><par n="ribell/e__n"/></e>
 	<e lm="spluttatore"><i>spluttator</i><par n="ribell/e__n"/></e>
+    <e lm="nome"><i>nom</i><par n="ribell/e__n"/></e>
+    <e lm="paese"><i>paes</i><par n="ribell/e__n"/></e>
+    <e lm="attore"><i>attor</i><par n="ribell/e__n"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -900,6 +918,9 @@
  <!-- SECTION: Toponyms -->
  
      <e lm="Corsica"><i>Corsica</i><par n="Corsica__np"/></e>
+     <e lm="Auropa"><i>Auropa</i><par n="Corsica__np"/></e>
+     <e lm="Italia"><i>Italia</i><par n="Corsica__np"/></e>
+
      <e lm="Bastia"><i>Bastia</i><par n="Corsica__np"/></e>
 
      <e lm="Ajaccio"><i>Ajaccio</i><par n="Ajaccio__np"/></e>
@@ -926,6 +947,7 @@
 	
 	    <e lm="corsu"><i>cors</i><par n="vechj/u__adj"/></e>
 	    <e lm="talianu"><i>talian</i><par n="vechj/u__adj"/></e>
+	    <e lm="americanu"><i>american</i><par n="vechj/u__adj"/></e>
 
 
 

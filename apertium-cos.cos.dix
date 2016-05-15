@@ -26,6 +26,8 @@
 
     <sdef n="ant"      c="Antròponim"/>
     <sdef n="cog"	   c="Cognomen"/>
+    <sdef n="top"	   c="Toponimo"/>
+
     
     <sdef n="inf"      c="Infinitiu"/>
     <sdef n="ger"      c="Gerundi"/>
@@ -244,6 +246,11 @@
     
     <pardef n="Colonna__np">
       <e><p><l></l><r><s n="np"/><s n="cog"/><s n="sp"/></r></p></e>
+
+    </pardef>
+
+	<pardef n="Corsica__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 
     </pardef>
 
@@ -883,6 +890,12 @@
     <!-- SECTION: Surnames -->
     
     <e lm="Colonna"><i>Colonna</i><par n="Colonna__np"/></e>
+
+ <!-- SECTION: Countries -->
+ 
+     <e lm="Corsica"><i>Corsica</i><par n="Corsica__np"/></e>
+
+
 
     <!-- SECTION: Adjectives -->
 

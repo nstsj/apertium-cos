@@ -254,6 +254,12 @@
 
     </pardef>
 
+	<pardef n="Ajaccio__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+
+    </pardef>
+
+
 
     <!-- SECTION: Adjectives -->
 
@@ -891,9 +897,12 @@
     
     <e lm="Colonna"><i>Colonna</i><par n="Colonna__np"/></e>
 
- <!-- SECTION: Countries -->
+ <!-- SECTION: Toponyms -->
  
      <e lm="Corsica"><i>Corsica</i><par n="Corsica__np"/></e>
+     <e lm="Bastia"><i>Bastia</i><par n="Corsica__np"/></e>
+
+     <e lm="Ajaccio"><i>Ajaccio</i><par n="Ajaccio__np"/></e>
 
 
 
@@ -935,6 +944,9 @@
     <e lm="oghje"><i>oghje</i><par n="cusì__adv"/></e>
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
     <e lm="forse"><i>forse</i><par n="cusì__adv"/></e>
+    <e lm="più"><i>più</i><par n="cusì__adv"/></e>
+
+
 
     <e lm="ampiamente"><i>ampiamente</i><par n="cusì__adv"/></e>
     <e lm="attualmente"><i>attualmente</i><par n="cusì__adv"/></e>

@@ -865,6 +865,11 @@
     <!-- SECTION: Proper nouns -->
 
     <e lm="Jaume"><i>Jaume</i><par n="Jaume__np"/></e>
+    <e lm="Yvan"><i>Yvan</i><par n="Jaume__np"/></e>
+
+    
+    
+    
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
 
     <!-- SECTION: Adjectives -->
@@ -872,6 +877,9 @@
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
     <e lm="sinceru"><i>sincer</i><par n="vechj/u__adj"/></e>
     <e lm="vivu"><i>viv</i><par n="vechj/u__adj"/></e>
+    <e lm="classificatu"><i>classificat</i><par n="vechj/u__adj"/></e>
+    <e lm="ricunnisciutu"><i>ricunnisciut</i><par n="vechj/u__adj"/></e>
+    <e lm="amministrativu"><i>amministrativ</i><par n="vechj/u__adj"/></e>
 
     
     
@@ -883,6 +891,7 @@
 	<!-- SECTION: Nationality -->
 	
 	    <e lm="corsu"><i>cors</i><par n="vechj/u__adj"/></e>
+	    <e lm="talianu"><i>talian</i><par n="vechj/u__adj"/></e>
 
 
 

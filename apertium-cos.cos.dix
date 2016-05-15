@@ -139,6 +139,7 @@
     <pardef n="un__det">
       <e><p><l>u</l><r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Pronouns -->
@@ -195,6 +196,11 @@
     <pardef n="ann/u__n">
       <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+     <pardef n="cumun/a__n">
+      <e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="scienz/a__n">
@@ -723,6 +729,8 @@
     <e lm="o"><i>o</i><par n="è__cnjcoo"/></e>
     <e lm="ma"><i>ma</i><par n="è__cnjcoo"/></e>
     <e lm="ni"><i>ni</i><par n="è__cnjcoo"/></e>
+    <e lm="ancu"><i>ancu</i><par n="è__cnjcoo"/></e>
+
     <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
     <e lm="parchì"><i>parchì</i><par n="sì__cnjadv"/></e>
@@ -734,6 +742,13 @@
     <e lm="in"><i>in</i><par n="à__pr"/></e>
     <e lm="per"><i>per</i><par n="à__pr"/></e>
     <e lm="cù"><i>cù</i><par n="à__pr"/></e>
+    <e lm="da"><i>da</i><par n="à__pr"/></e>
+    <e lm="incù"><i>incù</i><par n="à__pr"/></e>
+    <e lm="annantu"><i>annantu</i><par n="à__pr"/></e>
+    <e lm="dopu"><i>dopu</i><par n="à__pr"/></e>
+    <e lm="prima"><i>prima</i><par n="à__pr"/></e>
+    <e lm="trà"><i>trà</i><par n="à__pr"/></e>
+
 
     <!-- SECTION: Determiners -->
 
@@ -799,6 +814,10 @@
     <e lm="processu"><i>process</i><par n="zitell/u__n"/></e>
 
 
+    <e lm="cumuna"><i>cumun</i><par n="cumun/a__n"/></e>
+
+
+
     <e lm="via"><i>vie</i><par n="scienz/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
@@ -824,6 +843,8 @@
     <e lm="cultura"><i>cultur</i><par n="scienz/a__n"/></e>
     <e lm="annata"><i>annat</i><par n="scienz/a__n"/></e>
     <e lm="litteratura"><i>litteratur</i><par n="scienz/a__n"/></e>
+    <e lm="partita"><i>partita</i><par n="scienz/a__n"/></e>
+    <e lm="isula"><i>isula</i><par n="scienz/a__n"/></e>
 
 
 
@@ -893,6 +914,7 @@
     <e lm="unione"><i>union</i><par n="relazion/e__n"/></e>
 
 
+    <e lm="abitante"><i>abitant</i><par n="ribell/e__n"/></e>
 
     <e lm="ribelle"><i>ribell</i><par n="ribell/e__n"/></e>
     <e lm="fronte"><i>front</i><par n="ribell/e__n"/></e>
@@ -932,7 +954,7 @@
 
      <e lm="Bastia"><i>Bastia</i><par n="Corsica__np"/></e>
 
-     <e lm="Ajacciu"><i>Ajacciu</i><par n="Ajaccio__np"/></e>
+     <e lm="Ajacciu"><i>Ajacciu</i><par n="Ajacciu__np"/></e>
 
 
 
@@ -981,6 +1003,7 @@
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
     <e lm="forse"><i>forse</i><par n="cusì__adv"/></e>
     <e lm="più"><i>più</i><par n="cusì__adv"/></e>
+    <e lm="ancu"><i>ancu</i><par n="cusì__adv"/></e>
 
 
 

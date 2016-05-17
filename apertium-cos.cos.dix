@@ -7,6 +7,7 @@
     <sdef n="pr"       c="Preposició"/>
     <sdef n="num"      c="Numeral"/>
     <sdef n="adj"      c="Adjectiu"/>
+    <sdef n="rel"      c="Relatiu"/>
     <sdef n="det"      c="Determinant"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
@@ -23,6 +24,7 @@
     <sdef n="pro"      c="Proclític"/>
     <sdef n="ref"      c="Reflexiu"/>
     <sdef n="tn"       c="Tònic"/>
+    <sdef n="an"       c="Animat/inanimat"/>
 
     <sdef n="ant"      c="Antròponim"/>
     <sdef n="cog"	   c="Cognomen"/>
@@ -128,7 +130,9 @@
 
     <pardef n="/u__det">
       <e r="LR"><p><l>u</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR" c="poesia"><p><l>lu</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR" c="poesia"><p><l>la</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><a/>u</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><a/>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>i</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
@@ -237,7 +241,7 @@
       <e><p><l>e</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="citta__n">
+    <pardef n="città__n">
       <e><p><l>à</l><r>à<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>à</l><r>à<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
@@ -337,6 +341,7 @@
       <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>eri</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>fù</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eramu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>erate</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>eranu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -751,8 +756,10 @@
     <e lm="à"><i>à</i><par n="à__pr"/></e>
     <e lm="in"><i>in</i><par n="à__pr"/></e>
     <e lm="per"><i>per</i><par n="à__pr"/></e>
+    <e lm="per" r="LR" c="sub"><p><l>par</l><r>per</r></p><par n="à__pr"/></e>
     <e lm="cù"><i>cù</i><par n="à__pr"/></e>
     <e lm="da"><i>da</i><par n="à__pr"/></e>
+    <e lm="comu" c="FIXME"><i>comu</i><par n="à__pr"/></e> 
     <e lm="incù"><i>incù</i><par n="à__pr"/></e>
     <e lm="annantu"><i>annantu</i><par n="à__pr"/></e>
     <e lm="dopu"><i>dopu</i><par n="à__pr"/></e>
@@ -882,9 +889,10 @@
 
    
     <e lm="sangue"><i>sangue</i><par n="sangue__n"/></e>
-    <e lm="città"><i>città</i><par n="citta__n"/></e>
-    <e lm="civiltà"><i>civiltà</i><par n="citta__n"/></e>
-    <e lm="libertà"><i>civiltà</i><par n="citta__n"/></e>
+    <e lm="città"><i>città</i><par n="città__n"/></e>
+    <e lm="città" r="LR" c="sub"><p><l>cità</l><r>città</r></p><par n="città__n"/></e>
+    <e lm="civiltà"><i>civiltà</i><par n="città__n"/></e>
+    <e lm="libertà"><i>civiltà</i><par n="città__n"/></e>
 
     
     
@@ -1194,9 +1202,13 @@
 
   </section>
 
-  <section id="apos" type="postblank">
+  <section id="apost" type="postblank">
     <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+    <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="cnjsub"/></r></p></e>
+    <e r="LR" lm="com'"><p><l>com'</l><r>comu<s n="pr"/></r></p></e> <!-- FIXME -->
   </section>
 
   <section id="final" type="inconditional">

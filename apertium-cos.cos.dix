@@ -858,6 +858,8 @@
     <e lm="passaghju"><i>passaghj</i><par n="ann/u__n"/></e>
     <e lm="maritu"><i>marit</i><par n="ann/u__n"/></e>
     <e lm="racontu"><i>racont</i><par n="ann/u__n"/></e>
+    <e lm="muvimentu"><i>muviment</i><par n="ann/u__n"/></e>
+    <e lm="imperu"><i>imper</i><par n="ann/u__n"/></e>
 
 
 
@@ -1034,7 +1036,17 @@
  
      <e lm="Corsica"><i>Corsica</i><par n="Corsica__np"/></e>
      <e lm="Auropa"><i>Auropa</i><par n="Corsica__np"/></e>
+     <e lm="Europa"><i>Europa</i><par n="Corsica__np"/></e>
+
      <e lm="Asia"><i>Asia</i><par n="Corsica__np"/></e>
+     <e lm="Francia"><i>Francia</i><par n="Corsica__np"/></e>
+     <e lm="America"><i>America</i><par n="Corsica__np"/></e>
+     <e lm="Sardegna"><i>Sardegna</i><par n="Corsica__np"/></e>
+     <e lm="Africa"><i>Africa</i><par n="Corsica__np"/></e>
+     <e lm="Atena"><i>Atena</i><par n="Corsica__np"/></e>
+     <e lm="India"><i>India</i><par n="Corsica__np"/></e>
+     <e lm="Grecia"><i>Grecia</i><par n="Corsica__np"/></e>
+     <e lm="Gaddura"><i>Gaddura</i><par n="Corsica__np"/></e>
 
      <e lm="Italia"><i>Italia</i><par n="Corsica__np"/></e>
      <e lm="Roma"><i>Roma</i><par n="Corsica__np"/></e>
@@ -1045,6 +1057,7 @@
 
 
      <e lm="Aiacciu"><i>Aiacciu</i><par n="Aiacciu__np"/></e>
+     <e lm="Nilu"><i>Nilu</i><par n="Aiacciu__np"/></e>
 
 
     <!-- SECTION: Adjectives -->
@@ -1055,6 +1068,8 @@
     <e lm="classificatu"><i>classificat</i><par n="vechj/u__adj"/></e>
     <e lm="ricunnisciutu"><i>ricunnisciut</i><par n="vechj/u__adj"/></e>
     <e lm="amministrativu"><i>amministrativ</i><par n="vechj/u__adj"/></e>
+    <e lm="suprano"><i>supran</i><par n="vechj/u__adj"/></e>
+    <e lm="suttano"><i>suttan</i><par n="vechj/u__adj"/></e>
 
     
     
@@ -1065,6 +1080,9 @@
     <e lm="currispundente"><i>currispundent</i><par n="naziunal/e__adj"/></e>
     <e lm="grande"><i>grand</i><par n="naziunal/e__adj"/></e>
     <e lm="bisestile"><i>bisestil</i><par n="naziunal/e__adj"/></e>
+    <e lm="uguale"><i>ugual</i><par n="naziunal/e__adj"/></e>
+    <e lm="federale"><i>federal</i><par n="naziunal/e__adj"/></e>
+    <e lm="forte"><i>fort</i><par n="naziunal/e__adj"/></e>
 
 
 
@@ -1073,6 +1091,9 @@
 	    <e lm="corsu"><i>cors</i><par n="vechj/u__adj"/></e>
 	    <e lm="talianu"><i>talian</i><par n="vechj/u__adj"/></e>
 	    <e lm="americanu"><i>american</i><par n="vechj/u__adj"/></e>
+	    <e lm="spagnolu"><i>spagnol</i><par n="vechj/u__adj"/></e>
+
+
 
 	    <e lm="gadduresu"><i>gaddures</i><par n="vechj/u__adj"/></e>
 

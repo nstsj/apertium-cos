@@ -198,6 +198,12 @@
       <e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
+        <pardef n="esempi/u__n">
+      <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    
      <pardef n="cumun/a__n">
       <e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -777,6 +783,33 @@
     <e lm="sette"><i>sette</i><par n="quattru__num"/></e>
     <e lm="ottu"><i>ottu</i><par n="quattru__num"/></e>
     <e lm="nove"><i>nove</i><par n="quattru__num"/></e>
+    
+    
+    
+    <!-- SECTION: Months and Days of the Week -->
+    
+    <e lm="Ghjiennaghju"><i>Ghjiennaghju</i><par n="sangue__n"/></e>
+    <e lm="Ferraghju"><i>Ferraghju</i><par n="sangue__n"/></e>
+    <e lm="Marzu"><i>Marzu</i><par n="sangue__n"/></e>
+    <e lm="Aprile"><i>Aprile</i><par n="sangue__n"/></e>
+    <e lm="Maghju"><i>Madhju</i><par n="sangue__n"/></e>
+    <e lm="Ghjugnu"><i>Ghjugnu</i><par n="sangue__n"/></e>
+    <e lm="Lugliu"><i>Lugliu</i><par n="sangue__n"/></e>
+    <e lm="Aostu"><i>Aostu</i><par n="sangue__n"/></e>
+    <e lm="Settembre"><i>Settembre</i><par n="sangue__n"/></e>
+    <e lm="Ottobre"><i>Ottobre</i><par n="sangue__n"/></e>
+    <e lm="Nuvembre"><i>Nuvembre</i><par n="sangue__n"/></e>
+    <e lm="Dicembre"><i>Dicembre</i><par n="sangue__n"/></e>
+
+    <e lm="Luni"><i>Luni</i><par n="sangue__n"/></e>
+    <e lm="Marti"><i>Marti</i><par n="sangue__n"/></e>
+    <e lm="Marcuri"><i>Marcuri</i><par n="sangue__n"/></e>
+    <e lm="Ghjovi"><i>Ghjovi</i><par n="sangue__n"/></e>
+    <e lm="Vennari"><i>Vennari</i><par n="sangue__n"/></e>
+    <e lm="Sabatu"><i>Sabatu</i><par n="sangue__n"/></e>
+    <e lm="Dumenica"><i>Dumenica</i><par n="sangue__n"/></e>
+
+    
 
     <!-- SECTION: Nouns -->
 
@@ -803,6 +836,15 @@
     <e lm="periodu"><i>period</i><par n="ann/u__n"/></e>
     <e lm="triangulu"><i>triangul</i><par n="ann/u__n"/></e>
     <e lm="catalogu"><i>catalog</i><par n="ann/u__n"/></e>
+    <e lm="tempu"><i>tempu</i><par n="ann/u__n"/></e>
+    <e lm="mondu"><i>mond</i><par n="ann/u__n"/></e>
+
+
+
+
+
+    <e lm="esempiu"><i>esempi</i><par n="esempi/u__n"/></e>
+    <e lm="asempiu"><i>asempi</i><par n="esempi/u__n"/></e>
 
 
    
@@ -843,8 +885,12 @@
     <e lm="cultura"><i>cultur</i><par n="scienz/a__n"/></e>
     <e lm="annata"><i>annat</i><par n="scienz/a__n"/></e>
     <e lm="litteratura"><i>litteratur</i><par n="scienz/a__n"/></e>
-    <e lm="partita"><i>partita</i><par n="scienz/a__n"/></e>
-    <e lm="isula"><i>isula</i><par n="scienz/a__n"/></e>
+    <e lm="partita"><i>partit</i><par n="scienz/a__n"/></e>
+    <e lm="isula"><i>isul</i><par n="scienz/a__n"/></e>
+    <e lm="pianta"><i>piant</i><par n="scienz/a__n"/></e>
+    <e lm="guerra"><i>guerr</i><par n="scienz/a__n"/></e>
+    <e lm="torra"><i>torr</i><par n="scienz/a__n"/></e>
+    <e lm="volta"><i>volt</i><par n="scienz/a__n"/></e>
 
 
 
@@ -1036,6 +1082,9 @@
     <e lm="successivamente"><i>successivamente</i><par n="cusì__adv"/></e>
     <e lm="ufficialmente"><i>ufficialmente</i><par n="cusì__adv"/></e>
     <e lm="verticalmente"><i>verticalmente</i><par n="cusì__adv"/></e>
+
+
+    <e lm="circa"><i>circa</i><par n="cusì__adv"/></e>
 
 
     <!-- SECTION: Verbs -->

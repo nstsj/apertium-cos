@@ -8,6 +8,7 @@
     <sdef n="num"      c="Numeral"/>
     <sdef n="adj"      c="Adjectiu"/>
     <sdef n="rel"      c="Relatiu"/>
+    <sdef n="predet"   c="Predeterminant"/>
     <sdef n="det"      c="Determinant"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
@@ -44,6 +45,7 @@
 
     <sdef n="m"        c="Masculí"/>
     <sdef n="f"        c="Feminí"/>
+    <sdef n="nt"       c="Neutre"/>
     <sdef n="mf"       c="Masculí / feminí"/>
  
     <sdef n="p1"       c="Primera persona"/>
@@ -147,6 +149,14 @@
       <e><p><l></l><r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="tutt/u__predet">
+      <e><p><l>i</l><r>u<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>u</l><r>u<s n="predet"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>u<s n="predet"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="predet"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="predet"/><s n="nt"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Pronouns -->
 
     <pardef n="eiu__prn">
@@ -185,6 +195,13 @@
       <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="altr/u__prn">
+      <e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Numerals -->
 
     <pardef n="quattru__num">
@@ -203,7 +220,7 @@
       <e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
-        <pardef n="esempi/u__n">
+    <pardef n="esempi/u__n">
       <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
@@ -241,7 +258,7 @@
       <e><p><l>e</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="città__n">
+    <pardef n="citt/à__n">
       <e><p><l>à</l><r>à<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>à</l><r>à<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
@@ -771,6 +788,7 @@
 
     <e lm="u"><i></i><par n="/u__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
+    <e lm="tuttu"><i>tutt</i><par n="tutt/u__predet"/></e>
 
     <!-- SECTION: Pronouns -->
 
@@ -783,6 +801,8 @@
     <e lm="si"><i>si</i><par n="si__prn"/></e>
     <e lm="ci"><i>ci</i><par n="ci__prn"/></e>
     <e lm="vi"><i>vi</i><par n="vi__prn"/></e>
+
+    <e lm="altru"><i>altr</i><par n="altr/u__prn"/></e>
 
     <!-- SECTION: Numerals -->
 
@@ -889,10 +909,10 @@
 
    
     <e lm="sangue"><i>sangue</i><par n="sangue__n"/></e>
-    <e lm="città"><i>città</i><par n="città__n"/></e>
-    <e lm="città" r="LR" c="sub"><p><l>cità</l><r>città</r></p><par n="città__n"/></e>
-    <e lm="civiltà"><i>civiltà</i><par n="città__n"/></e>
-    <e lm="libertà"><i>civiltà</i><par n="città__n"/></e>
+    <e lm="città"><i>citt</i><par n="citt/à__n"/></e>
+    <e lm="città" r="LR" c="sub"><p><l>cit</l><r>citt</r></p><par n="citt/à__n"/></e>
+    <e lm="civiltà"><i>civilt</i><par n="citt/à__n"/></e>
+    <e lm="libertà"><i>civilt</i><par n="citt/à__n"/></e>
 
     
     
@@ -1069,6 +1089,8 @@
 
 
     <!-- SECTION: Adjectives -->
+
+    <e lm="altru"><i>altr</i><par n="vechj/u__adj"/></e>
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
     <e lm="sinceru"><i>sincer</i><par n="vechj/u__adj"/></e>

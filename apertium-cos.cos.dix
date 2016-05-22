@@ -274,6 +274,13 @@
       <e r="LR"><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="furest/a__n">
+      <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
     <pardef n="battagli/a__n">
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l></l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -983,11 +990,17 @@
     <!-- SECTION: Nouns -->
 
     <e lm="mulinu"><i>mulin</i><par n="ann/u__n"/></e>
+    <e lm="situ"><i>sit</i><par n="ann/u__n"/></e>
+    <e lm="acellu"><i>acell</i><par n="ann/u__n"/></e>
+    <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
+    <e lm="mezu"><i>mez</i><par n="ann/u__n"/></e>
+    <e lm="casu"><i>cas</i><par n="ann/u__n"/></e>
     <e lm="usu"><i>us</i><par n="ann/u__n"/></e>
     <e lm="modu"><i>mod</i><par n="ann/u__n"/></e>
     <e lm="puntu"><i>punt</i><par n="ann/u__n"/></e>
     <e lm="cantu"><i>cant</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
+    <e lm="dialettu"><i>dialett</i><par n="ann/u__n"/></e>
     <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
     <e lm="motu"><i>mot</i><par n="ann/u__n"/></e>
     <e lm="omu"><i>om</i><par n="ann/u__n"/></e>
@@ -1103,7 +1116,9 @@
 
     <e lm="via"><i>vi</i><par n="scienz/a__n"/></e>
     <e lm="rivista"><i>rivist</i><par n="scienz/a__n"/></e>
+    <e lm="furesta"><i>furest</i><par n="furest/a__n"/></e>
     <e lm="battaglia"><i>battagli</i><par n="battagli/a__n"/></e>
+    <e lm="ghjesgia"><i>ghjesgi</i><par n="battagli/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
@@ -1141,6 +1156,8 @@
     <e lm="isula"><i>isul</i><par n="isul/a__n"/></e>
     <e lm="zona"><i>zon</i><par n="isul/a__n"/></e>
     <e lm="manera"><i>maner</i><par n="isul/a__n"/></e>
+    <e lm="muntagna"><i>muntagn</i><par n="isul/a__n"/></e>
+    <e lm="festa"><i>fest</i><par n="isul/a__n"/></e>
 
 
 
@@ -1149,7 +1166,12 @@
     <e lm="tecnica"><i>tecnic</i><par n="ricerc/a__n"/></e>
 
     <e lm="forma"><i>form</i><par n="form/a__n"/></e>
+    <e lm="prisenza"><i>prisenz</i><par n="form/a__n"/></e>
+    <e lm="donna"><i>donn</i><par n="form/a__n"/></e>
+    <e lm="femina"><i>femin</i><par n="form/a__n"/></e>
     <e lm="opara"><i>opar</i><par n="form/a__n"/></e>
+    <e lm="casa"><i>cas</i><par n="form/a__n"/></e>
+    <e lm="petra"><i>petr</i><par n="form/a__n"/></e>
 
     <e lm="capitale"><i>capital</i><par n="relazion/e__n"/></e>
     <e lm="pieve"><i>piev</i><par n="relazion/e__n"/></e>
@@ -1223,6 +1245,7 @@
 
 
     <e lm="abitante"><i>abitant</i><par n="ribell/e__n"/></e>
+    <e lm="monte"><i>mont</i><par n="ribell/e__n"/></e>
 
     <e lm="ribelle"><i>ribell</i><par n="ribell/e__n"/></e>
     <e lm="fronte"><i>front</i><par n="ribell/e__n"/></e>
@@ -1238,6 +1261,7 @@
     <e lm="mari"><i>mar</i><par n="mar/i__n"/></e>
 
     <e lm="spezia"><i>spezi</i><par n="spezi/a__n"/></e>
+    <e lm="linia"><i>lini</i><par n="spezi/a__n"/></e>
     <e lm="storia"><i>stori</i><par n="spezi/a__n"/></e>
     <e lm="locu"><i>loc</i><par n="loc/u__n"/></e>
 

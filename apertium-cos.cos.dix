@@ -989,6 +989,8 @@
 
     <!-- SECTION: Nouns -->
 
+    <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
+
     <e lm="mulinu"><i>mulin</i><par n="ann/u__n"/></e>
     <e lm="situ"><i>sit</i><par n="ann/u__n"/></e>
     <e lm="acellu"><i>acell</i><par n="ann/u__n"/></e>
@@ -1050,6 +1052,9 @@
     <e lm="racontu"><i>racont</i><par n="ann/u__n"/></e>
     <e lm="muvimentu"><i>muviment</i><par n="ann/u__n"/></e>
     <e lm="imperu"><i>imper</i><par n="ann/u__n"/></e>
+    <e lm="sviamentu"><i>sviament</i><par n="ann/u__n"/></e>
+    <e lm="soldu"><i>sold</i><par n="ann/u__n"/></e>
+    <e lm="ministru"><i>ministr</i><par n="ann/u__n"/></e>
 
     <e lm="ghjocu"><i>ghjoc</i><par n="ann/u__n"/></e>
 
@@ -1242,10 +1247,14 @@
     <e lm="transizione"><i>transizion</i><par n="relazion/e__n"/></e>
     <e lm="variazione"><i>variazion</i><par n="relazion/e__n"/></e>
     <e lm="unione"><i>union</i><par n="relazion/e__n"/></e>
+    <e lm="interdizzione"><i>interdizzion</i><par n="relazion/e__n"/></e>
+    <e lm="funzione"><i>funzion</i><par n="relazion/e__n"/></e>
+    <e lm="suluzione"><i>suluzion</i><par n="relazion/e__n"/></e>
 
 
     <e lm="abitante"><i>abitant</i><par n="ribell/e__n"/></e>
     <e lm="monte"><i>mont</i><par n="ribell/e__n"/></e>
+    <e lm="currezziunale"><i>currezziunal</i><par n="ribell/e__n"/></e>
 
     <e lm="ribelle"><i>ribell</i><par n="ribell/e__n"/></e>
     <e lm="fronte"><i>front</i><par n="ribell/e__n"/></e>
@@ -1263,6 +1272,10 @@
     <e lm="spezia"><i>spezi</i><par n="spezi/a__n"/></e>
     <e lm="linia"><i>lini</i><par n="spezi/a__n"/></e>
     <e lm="storia"><i>stori</i><par n="spezi/a__n"/></e>
+    
+    <e lm="inchiesta"><i>inchiest</i><par n="spezi/a__n"/></e>
+
+    
     <e lm="locu"><i>loc</i><par n="loc/u__n"/></e>
 
     <e lm="amicu"><i>amic</i><par n="amic/u__n"/></e>
@@ -1341,8 +1354,9 @@
     <e lm="classificatu"><i>classificat</i><par n="vechj/u__adj"/></e>
     <e lm="ricunnisciutu"><i>ricunnisciut</i><par n="vechj/u__adj"/></e>
     <e lm="amministrativu"><i>amministrativ</i><par n="vechj/u__adj"/></e>
-    <e lm="suprano"><i>supran</i><par n="vechj/u__adj"/></e>
-    <e lm="suttano"><i>suttan</i><par n="vechj/u__adj"/></e>
+    <e lm="supranu"><i>supran</i><par n="vechj/u__adj"/></e>
+    <e lm="suttanu"><i>suttan</i><par n="vechj/u__adj"/></e>
+    <e lm="diversu"><i>divers</i><par n="vechj/u__adj"/></e>
 
     
     <e lm="tipicu"><i>tipic</i><par n="tipic/u__adj"/></e>
@@ -1351,7 +1365,8 @@
     <e lm="storicu"><i>storic</i><par n="tipic/u__adj"/></e>
     <e lm="tecnicu"><i>tecnic</i><par n="tipic/u__adj"/></e>
     <e lm="grecu"><i>grec</i><par n="tipic/u__adj"/></e>
-    
+    <e lm="cundannatu"><i>cundannat</i><par n="tipic/u__adj"/></e>
+
     <e lm="naziunalista"><i>naziunalist</i><par n="naziunalist/a__adj"/></e>
     
 

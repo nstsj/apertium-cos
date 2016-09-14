@@ -1055,8 +1055,24 @@
     <e lm="sviamentu"><i>sviament</i><par n="ann/u__n"/></e>
     <e lm="soldu"><i>sold</i><par n="ann/u__n"/></e>
     <e lm="ministru"><i>ministr</i><par n="ann/u__n"/></e>
-
+    <e lm="cullettivu"><i>cullettiv</i><par n="ann/u__n"/></e>
+    <e lm="ritornu"><i>ritorn</i><par n="ann/u__n"/></e>
+    <e lm="avvicinamentu"><i>avvicinament</i><par n="ann/u__n"/></e>
+    <e lm="assassiniu"><i>assassiniu</i><par n="ann/u__n"/></e>
+    <e lm="ghjudicamentu"><i>ghjudicament</i><par n="ann/u__n"/></e>
+	<e lm="sindicatu"><i>sindicat</i><par n="ann/u__n"/></e>
+    <e lm="decretu"><i>decret</i><par n="ann/u__n"/></e>
+    <e lm="statu"><i>stat</i><par n="ann/u__n"/></e>
+    <e lm="situ"><i>sit</i><par n="ann/u__n"/></e>
+    <e lm="interrugatoriu"><i>interrugatori</i><par n="ann/u__n"/></e>
     <e lm="ghjocu"><i>ghjoc</i><par n="ann/u__n"/></e>
+    <e lm="documentu"><i>document</i><par n="ann/u__n"/></e>
+    <e lm="secretariu"><i>secretari</i><par n="ann/u__n"/></e>
+    <e lm="dispusitivu"><i>dispusitiv</i><par n="ann/u__n"/></e>
+    <e lm="impositu"><i>imposit</i><par n="ann/u__n"/></e>
+    <e lm="cuntrollu"><i>cuntroll</i><par n="ann/u__n"/></e>
+    <e lm="sdegnu"><i>sdegn</i><par n="ann/u__n"/></e>
+    <e lm="processu"><i>process</i><par n="ann/u__n"/></e>
 
 
 
@@ -1112,8 +1128,7 @@
     
     
     <e lm="zitellu"><i>zitell</i><par n="zitell/u__n"/></e>
-    <e lm="processu"><i>process</i><par n="zitell/u__n"/></e>
-
+    
 
     <e lm="cumuna"><i>cumun</i><par n="cumun/a__n"/></e>
 
@@ -1156,6 +1171,8 @@
     <e lm="via"><i>vi</i><par n="scienz/a__n"/></e>
 
     <e lm="pruvincia"><i>pruvinci</i><par n="scienz/a__n"/></e>
+    <e lm="baruffa"><i>baruff</i><par n="scienz/a__n"/></e>
+    <e lm="discuteca"><i>discutec</i><par n="scienz/a__n"/></e>
 
 
     <e lm="isula"><i>isul</i><par n="isul/a__n"/></e>
@@ -1357,6 +1374,7 @@
     <e lm="supranu"><i>supran</i><par n="vechj/u__adj"/></e>
     <e lm="suttanu"><i>suttan</i><par n="vechj/u__adj"/></e>
     <e lm="diversu"><i>divers</i><par n="vechj/u__adj"/></e>
+    <e lm="diversu"><i>divers</i><par n="vechj/u__adj"/></e>
 
     
     <e lm="tipicu"><i>tipic</i><par n="tipic/u__adj"/></e>
@@ -1365,7 +1383,6 @@
     <e lm="storicu"><i>storic</i><par n="tipic/u__adj"/></e>
     <e lm="tecnicu"><i>tecnic</i><par n="tipic/u__adj"/></e>
     <e lm="grecu"><i>grec</i><par n="tipic/u__adj"/></e>
-    <e lm="cundannatu"><i>cundannat</i><par n="tipic/u__adj"/></e>
 
     <e lm="naziunalista"><i>naziunalist</i><par n="naziunalist/a__adj"/></e>
     

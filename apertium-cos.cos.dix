@@ -1006,6 +1006,9 @@
     <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
     <e lm="motu"><i>mot</i><par n="ann/u__n"/></e>
     <e lm="omu"><i>om</i><par n="ann/u__n"/></e>
+    <e lm="gruppu"><i>grupp</i><par n="ann/u__n"/></e>
+    <e lm="veiculu"><i>veicul</i><par n="ann/u__n"/></e>
+    <e lm="successu"><i>success</i><par n="ann/u__n"/></e>
     <e lm="ortu"><i>ort</i><par n="ann/u__n"/></e>
     <e lm="oggettu"><i>oggett</i><par n="ann/u__n"/></e>
     <e lm="rinforzu"><i>rinforz</i><par n="ann/u__n"/></e>
@@ -1030,7 +1033,8 @@
     <e lm="periodu"><i>period</i><par n="ann/u__n"/></e>
     <e lm="triangulu"><i>triangul</i><par n="ann/u__n"/></e>
     <e lm="catalogu"><i>catalog</i><par n="ann/u__n"/></e>
-    <e lm="tempu"><i>tempu</i><par n="ann/u__n"/></e>
+    <e lm="tempu"><i>temp</i><par n="ann/u__n"/></e>
+    <e lm="portu"><i>port</i><par n="ann/u__n"/></e>
     <e lm="latinu"><i>latin</i><par n="ann/u__n"/></e>
     <e lm="mondu"><i>mond</i><par n="ann/u__n"/></e>
     <e lm="bacinu"><i>bacin</i><par n="ann/u__n"/></e>
@@ -1067,14 +1071,42 @@
     <e lm="interrugatoriu"><i>interrugatori</i><par n="ann/u__n"/></e>
     <e lm="ghjocu"><i>ghjoc</i><par n="ann/u__n"/></e>
     <e lm="documentu"><i>document</i><par n="ann/u__n"/></e>
-    <e lm="secretariu"><i>secretari</i><par n="ann/u__n"/></e>
     <e lm="dispusitivu"><i>dispusitiv</i><par n="ann/u__n"/></e>
     <e lm="impositu"><i>imposit</i><par n="ann/u__n"/></e>
     <e lm="cuntrollu"><i>cuntroll</i><par n="ann/u__n"/></e>
     <e lm="sdegnu"><i>sdegn</i><par n="ann/u__n"/></e>
     <e lm="processu"><i>process</i><par n="ann/u__n"/></e>
+    <e lm="anniversariu"><i>anniversariu</i><par n="ann/u__n"/></e>
+    <e lm="scontru"><i>scontr</i><par n="ann/u__n"/></e>
+    <e lm="prevenutu"><i>prevenut</i><par n="ann/u__n"/></e>
+    <e lm="quadru"><i>quadr</i><par n="ann/u__n"/></e>
+    <e lm="cuntestu"><i>cuntest</i><par n="ann/u__n"/></e>
+    <e lm="battellu"><i>battell</i><par n="ann/u__n"/></e>
+    <e lm="risultatu"><i>risultat</i><par n="ann/u__n"/></e>
+    <e lm="terrenu"><i>terren</i><par n="ann/u__n"/></e>
+    <e lm="appellu"><i>appell</i><par n="ann/u__n"/></e>
+    <e lm="prugettu"><i>prugett</i><par n="ann/u__n"/></e>
+    <e lm="cuntrullu"><i>cuntrull</i><par n="ann/u__n"/></e>
+    <e lm="trafficu"><i>traffic</i><par n="ann/u__n"/></e>
+    <e lm="succorsu"><i>succors</i><par n="ann/u__n"/></e>
+    <e lm="saltu"><i>salt</i><par n="ann/u__n"/></e>
+    <e lm="maritu"><i>marit</i><par n="ann/u__n"/></e>
+    <e lm="pianu"><i>pian</i><par n="ann/u__n"/></e>
 
+    <e lm="elicotteru"><i>elicotter</i><par n="ann/u__n"/></e>
 
+    <e lm="votu"><i>vot</i><par n="ann/u__n"/></e>
+    <e lm="avisu"><i>avis</i><par n="ann/u__n"/></e>
+    <e lm="segnu"><i>segn</i><par n="ann/u__n"/></e>
+    <e lm="velu"><i>vel</i><par n="ann/u__n"/></e>
+    <e lm="fazzulettu"><i>fazzulett</i><par n="ann/u__n"/></e>
+    <e lm="prigiuneru"><i>prigiuner</i><par n="ann/u__n"/></e>
+    <e lm="campiunatu"><i>campiunat</i><par n="ann/u__n"/></e>
+    <e lm="cullegiu"><i>cullegi</i><par n="ann/u__n"/></e>
+    <e lm="liceu"><i>lice</i><par n="ann/u__n"/></e>
+    <e lm="emiciclu"><i>emicicl</i><par n="ann/u__n"/></e>
+
+    <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
 
     <e lm="populu"><i>popul</i><par n="ann/u__n"/></e>
     <e lm="libru"><i>libr</i><par n="ann/u__n"/></e>
@@ -1083,14 +1115,23 @@
     <e lm="problemu"><i>problem</i><par n="ann/u__n"/></e>
 
 
+    <e lm="documentariu"><i>documentari</i><par n="esempi/u__n"/></e>
+    <e lm="tempacciu"><i>tempacci</i><par n="esempi/u__n"/></e>
 
+    <e lm="incendiu"><i>incendi</i><par n="esempi/u__n"/></e>
+    <e lm="associu"><i>associ</i><par n="esempi/u__n"/></e>
+    <e lm="uffiziu"><i>uffizi</i><par n="esempi/u__n"/></e>
 
     <e lm="esempiu"><i>esempi</i><par n="esempi/u__n"/></e>
     <e lm="asempiu"><i>asempi</i><par n="esempi/u__n"/></e>
     <e lm="travagliu"><i>travagli</i><par n="esempi/u__n"/></e>
     <e lm="calendariu"><i>calendari</i><par n="esempi/u__n"/></e>
     <e lm="figliu"><i>figli</i><par n="esempi/u__n"/></e>
+    <e lm="secretariu"><i>secretari</i><par n="esempi/u__n"/></e>
+    <e lm="suldatu"><i>suldat</i><par n="esempi/u__n"/></e>
+
     <e lm="territoriu"><i>territori</i><par n="esempi/u__n"/></e>
+    <e lm="arrubbecciu"><i>arrubbecci</i><par n="esempi/u__n"/></e>
 
     <e lm="razzismu"><i>razzismu</i><par n="razzismu__n"/></e>
 
@@ -1128,7 +1169,8 @@
     
     
     <e lm="zitellu"><i>zitell</i><par n="zitell/u__n"/></e>
-    
+        <e lm="passageru"><i>passager</i><par n="zitell/u__n"/></e>
+
 
     <e lm="cumuna"><i>cumun</i><par n="cumun/a__n"/></e>
 
@@ -1296,6 +1338,8 @@
     <e lm="locu"><i>loc</i><par n="loc/u__n"/></e>
 
     <e lm="amicu"><i>amic</i><par n="amic/u__n"/></e>
+    <e lm="focu"><i>foc</i><par n="amic/u__n"/></e>
+
     <e lm="matematicu"><i>matematic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
     <e lm="storicu"><i>storic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
 

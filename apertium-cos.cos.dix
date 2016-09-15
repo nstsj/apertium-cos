@@ -152,6 +152,8 @@
       <e r="LR" c="poesia"><p><l>lu</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR" c="poesia"><p><l>la</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR" c="poesia"><p><l>le</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
+
       <e r="RL"><p><l><a/>u</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><a/>a</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>i</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
@@ -189,7 +191,14 @@
 
     </pardef>
     
-    
+     <pardef n="st/u__det">
+
+		<e><p><l>e</l><r>o<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>a</l><r>o<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>i</l><r>o<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+
+</pardef>
     
 
     <!-- SECTION: Pronouns -->
@@ -915,6 +924,8 @@
     <e lm="sottu à"><i>sottu<b/>à</i><par n="à__pr"/></e>
     <e lm="cun"><i>cun</i><par n="à__pr"/></e>
     <e lm="daretu"><i>daretu</i><par n="à__pr"/></e>
+    <e lm="sopra"><i>sopra</i><par n="à__pr"/></e>
+
 
 
     <!-- SECTION: Determiners -->
@@ -924,6 +935,9 @@
     <e lm="quellu"><i>quell</i><par n="quell/u__det"/></e>
     <e lm="tuttu"><i>tutt</i><par n="tutt/u__predet"/></e>
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
+    <e lm="sto"><i>st</i><par n="st/u__det"/></e>
+
+  
 
 
 
@@ -1035,6 +1049,8 @@
     <e lm="statu"><i>stat</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="passu"><i>pass</i><par n="ann/u__n"/></e>
+    <e lm="chjassu"><i>chjass</i><par n="ann/u__n"/></e>
+    <e lm="caminu"><i>camin</i><par n="ann/u__n"/></e>
 
     <e lm="statu"><i>stat</i><par n="ann/u__n"/></e>
 
@@ -1258,6 +1274,7 @@
     <e lm="timpesta"><i>timpest</i><par n="scienz/a__n"/></e>
     <e lm="bocca"><i>bocc</i><par n="scienz/a__n"/></e>
     <e lm="parolla"><i>paroll</i><par n="scienz/a__n"/></e>
+    <e lm="canzona"><i>canzon</i><par n="scienz/a__n"/></e>
 
     <e lm="pruvincia"><i>pruvinci</i><par n="scienz/a__n"/></e>
     <e lm="baruffa"><i>baruff</i><par n="scienz/a__n"/></e>
@@ -1329,6 +1346,9 @@
     <e lm="infurmazioni"><i>infurmazion</i><par n="relazion/e__n"/></e>
     <e lm="interpretazione"><i>interpretazion</i><par n="relazion/e__n"/></e>
     <e lm="liberazione"><i>liberazion</i><par n="relazion/e__n"/></e>
+    <e lm="croce"><i>croc</i><par n="relazion/e__n"/></e>
+    <e lm="nave"><i>nave</i><par n="relazion/e__n"/></e>
+
 
     <e lm="navigazione"><i>navigazion</i><par n="relazion/e__n"/></e>
     <e lm="nazione"><i>nazion</i><par n="relazion/e__n"/></e>
@@ -1531,6 +1551,7 @@
 
     <e lm="ùn"><i>ùn</i><par n="cusì__adv"/></e>
     <e lm="micca"><i>micca</i><par n="cusì__adv"/></e>
+    <e lm="ormai"><i>ormai</i><par n="cusì__adv"/></e>
 
     <e lm="cusì"><i>cusì</i><par n="cusì__adv"/></e>
     <e lm="bè"><i>bè</i><par n="cusì__adv"/></e>
@@ -1608,6 +1629,8 @@
     <e lm="sterperà"><i>sterper</i><par n="parl/à__vblex"/></e>
     <e lm="trascinà"><i>trascin</i><par n="parl/à__vblex"/></e>
     <e lm="pensà"><i>pens</i><par n="parl/à__vblex"/></e>
+    <e lm="vugà"><i>vug</i><par n="parl/à__vblex"/></e>
+
 
 
     <e lm="fidià"><i>fid</i><par n="fid/ià__vblex"/></e>

@@ -1997,6 +1997,7 @@
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="cnjsub"/></r></p></e>
     <e r="LR" lm="com'"><p><l>com'</l><r>comu<s n="pr"/></r></p></e> <!-- FIXME -->
+    <e r="LR" lm="tropp'"><p><l>tropp'</l><r>troppu</r></p><par n="cusì__adv"/></e>
   </section>
 
   <section id="final" type="inconditional">

@@ -383,7 +383,10 @@
       <e><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
-    
+    <pardef n="nordu__n">
+      <e><p><l></l><r><s n="n"/><s n="n"/><s n="sg"/></r></p></e>
+     
+    </pardef>
 
 
 
@@ -944,6 +947,7 @@
     <e lm="tuttu"><i>tutt</i><par n="tutt/u__predet"/></e>
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
     <e lm="sto"><i>st</i><par n="st/u__det"/></e>
+    <e lm="parechju"><i>parechj</i><par n="quell/u__det"/></e>
 
   
 
@@ -1178,6 +1182,7 @@
     <e lm="stagnu"><i>stagn</i><par n="ann/u__n"/></e>
     <e lm="suldatu"><i>suldat</i><par n="ann/u__n"/></e>
 
+    <e lm="esercitu"><i>esercitu</i><par n="ann/u__n"/></e>
 
 
     <e lm="documentariu"><i>documentari</i><par n="esempi/u__n"/></e>
@@ -1459,6 +1464,8 @@
     <e lm="Zeus"><i>Zeus</i><par n="Jaume__np"/></e>
     <e lm="Luigi"><i>Luigi</i><par n="Jaume__np"/></e>
     <e lm="Jean"><i>Jean</i><par n="Jaume__np"/></e>
+    <e lm="Ghjacumu"><i>Ghjacumu</i><par n="Jaume__np"/></e>
+    <e lm="Ippolitu"><i>Ippolitu</i><par n="Jaume__np"/></e>
 
 
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
@@ -1472,13 +1479,15 @@
     <e lm="Minerva"><i>Minerva</i><par n="Maria__np"/></e>
     <e lm="Carolina"><i>Carolina</i><par n="Maria__np"/></e>
     <e lm="Victoria"><i>Victoria</i><par n="Maria__np"/></e>
-   
+    <e lm="Artemidi"><i>Artemidi</i><par n="Maria__np"/></e>
+
     
     
     <!-- SECTION: Surnames -->
     
     <e lm="Colonna"><i>Colonna</i><par n="Colonna__np"/></e>
     <e lm="Ciciaronu"><i>Ciciaronu</i><par n="Colonna__np"/></e>
+    <e lm="Turing"><i>Turing</i><par n="Colonna__np"/></e>
 
     <e lm="Bonaparte"><i>Bonaparte</i><par n="Colonna__np"/></e>
 
@@ -1517,6 +1526,7 @@
      <e lm="Inghilterra"><i>Inghilterra</i><par n="Corsica__np"/></e>
      <e lm="Londra"><i>Londra</i><par n="Corsica__np"/></e>
 
+     <e lm="Scilla"><i>Scilla</i><par n="Corsica__np"/></e>
 
      <e lm="Bastia"><i>Bastia</i><par n="Corsica__np"/></e>
      <e lm="Turchia"><i>Turchia</i><par n="Corsica__np"/></e>
@@ -1575,6 +1585,7 @@
     <e lm="rumanu"><i>ruman</i><par n="vechj/u__adj"/></e>
 
     <e lm="modernu"><i>modern</i><par n="vechj/u__adj"/></e>
+    <e lm="bisestu"><i>bisest</i><par n="vechj/u__adj"/></e>
 
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
     <e lm="citatu"><i>citat</i><par n="vechj/u__adj"/></e>
@@ -1654,6 +1665,7 @@
     <e lm="spessu"><i>spessu</i><par n="cusì__adv"/></e>
     <e lm="sempri"><i>sempr</i><par n="sempr/i__adv"/></e>
     <e lm="difatti"><i>difatti</i><par n="cusì__adv"/></e>
+    <e lm="solu"><i>solu</i><par n="cusì__adv"/></e>
 
 
     <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>

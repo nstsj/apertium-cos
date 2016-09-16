@@ -932,6 +932,7 @@
     <e lm="versu"><i>versu</i><par n="à__pr"/></e>
     <e lm="frà"><i>frà</i><par n="à__pr"/></e>
     <e lm="accantu"><i>accantu</i><par n="à__pr"/></e>
+    <e lm="fora"><i>fora</i><par n="à__pr"/></e>
 
 
 
@@ -1058,6 +1059,11 @@
     <e lm="passu"><i>pass</i><par n="ann/u__n"/></e>
     <e lm="chjassu"><i>chjass</i><par n="ann/u__n"/></e>
     <e lm="caminu"><i>camin</i><par n="ann/u__n"/></e>
+    <e lm="ogettu"><i>ogett</i><par n="ann/u__n"/></e>
+    <e lm="numaru"><i>numaru</i><par n="ann/u__n"/></e>
+    <e lm="costu"><i>cost</i><par n="ann/u__n"/></e>
+    <e lm="legnu"><i>legn</i><par n="ann/u__n"/></e>
+
 
     <e lm="statu"><i>stat</i><par n="ann/u__n"/></e>
 
@@ -1168,6 +1174,10 @@
     <e lm="viaghju"><i>viaghj</i><par n="ann/u__n"/></e>
     <e lm="filmu"><i>film</i><par n="ann/u__n"/></e>
     <e lm="problemu"><i>problem</i><par n="ann/u__n"/></e>
+    <e lm="aspettu"><i>aspett</i><par n="ann/u__n"/></e>
+    <e lm="stagnu"><i>stagn</i><par n="ann/u__n"/></e>
+    <e lm="suldatu"><i>suldat</i><par n="ann/u__n"/></e>
+
 
 
     <e lm="documentariu"><i>documentari</i><par n="esempi/u__n"/></e>
@@ -1183,7 +1193,6 @@
     <e lm="calendariu"><i>calendari</i><par n="esempi/u__n"/></e>
     <e lm="figliu"><i>figli</i><par n="esempi/u__n"/></e>
     <e lm="secretariu"><i>secretari</i><par n="esempi/u__n"/></e>
-    <e lm="suldatu"><i>suldat</i><par n="esempi/u__n"/></e>
 
     <e lm="territoriu"><i>territori</i><par n="esempi/u__n"/></e>
     <e lm="arrubbecciu"><i>arrubbecci</i><par n="esempi/u__n"/></e>
@@ -1236,9 +1245,13 @@
     <e lm="rivista"><i>rivist</i><par n="scienz/a__n"/></e>
     <e lm="furesta"><i>furest</i><par n="furest/a__n"/></e>
     <e lm="battaglia"><i>battagli</i><par n="battagli/a__n"/></e>
+    <e lm="moglia"><i>moglia</i><par n="battagli/a__n"/></e>
+
     <e lm="ghjesgia"><i>ghjesgi</i><par n="battagli/a__n"/></e>
     <e lm="vittoria"><i>vittori</i><par n="scienz/a__n"/></e>
     <e lm="miseria"><i>miseri</i><par n="scienz/a__n"/></e>
+    <e lm="ripublica"><i>scienz</i><par n="scienz/a__n"/></e>
+    <e lm="impurtanza"><i>impurtanz</i><par n="scienz/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
@@ -1282,6 +1295,7 @@
     <e lm="bocca"><i>bocc</i><par n="scienz/a__n"/></e>
     <e lm="parolla"><i>paroll</i><par n="scienz/a__n"/></e>
     <e lm="canzona"><i>canzon</i><par n="scienz/a__n"/></e>
+    <e lm="testa"><i>testa</i><par n="scienz/a__n"/></e>
 
     <e lm="pruvincia"><i>pruvinci</i><par n="scienz/a__n"/></e>
     <e lm="baruffa"><i>baruff</i><par n="scienz/a__n"/></e>
@@ -1439,7 +1453,14 @@
     <e lm="Francescu"><i>Francescu</i><par n="Jaume__np"/></e>
     <e lm="Pasquale"><i>Pasquale</i><par n="Jaume__np"/></e>
     <e lm="Yvan"><i>Yvan</i><par n="Jaume__np"/></e>
-    
+    <e lm="Nabulionu"><i>Nabulionu</i><par n="Jaume__np"/></e>
+    <e lm="Teseiu"><i>Teseiu</i><par n="Jaume__np"/></e>
+    <e lm="Antone"><i>Antone</i><par n="Jaume__np"/></e>
+    <e lm="Zeus"><i>Zeus</i><par n="Jaume__np"/></e>
+    <e lm="Luigi"><i>Luigi</i><par n="Jaume__np"/></e>
+    <e lm="Jean"><i>Jean</i><par n="Jaume__np"/></e>
+
+
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     <e lm="Ghjulia"><i>Ghjulia</i><par n="Maria__np"/></e>
     <e lm="Elena"><i>Elena</i><par n="Maria__np"/></e>
@@ -1451,11 +1472,16 @@
     <e lm="Minerva"><i>Minerva</i><par n="Maria__np"/></e>
     <e lm="Carolina"><i>Carolina</i><par n="Maria__np"/></e>
     <e lm="Victoria"><i>Victoria</i><par n="Maria__np"/></e>
+   
     
     
     <!-- SECTION: Surnames -->
     
     <e lm="Colonna"><i>Colonna</i><par n="Colonna__np"/></e>
+    <e lm="Ciciaronu"><i>Ciciaronu</i><par n="Colonna__np"/></e>
+
+    <e lm="Bonaparte"><i>Bonaparte</i><par n="Colonna__np"/></e>
+
 
  <!-- SECTION: Toponyms -->
  
@@ -1485,7 +1511,11 @@
 
      <e lm="Italia"><i>Italia</i><par n="Corsica__np"/></e>
      <e lm="Roma"><i>Roma</i><par n="Corsica__np"/></e>
-
+     <e lm="Spagna"><i>Spagna</i><par n="Corsica__np"/></e>
+     <e lm="Pisa"><i>Pisa</i><par n="Corsica__np"/></e>
+     <e lm="Tuscana"><i>Tuscana</i><par n="Corsica__np"/></e>
+     <e lm="Inghilterra"><i>Inghilterra</i><par n="Corsica__np"/></e>
+     <e lm="Londra"><i>Londra</i><par n="Corsica__np"/></e>
 
 
      <e lm="Bastia"><i>Bastia</i><par n="Corsica__np"/></e>
@@ -1504,6 +1534,8 @@
      <e lm="Livornu"><i>Livornu</i><par n="Aiacciu__np"/></e>
      <e lm="Montecristu"><i>Montecristu</i><par n="Aiacciu__np"/></e>
      <e lm="Sassari"><i>Sassari</i><par n="Aiacciu__np"/></e>
+     <e lm="Egeiu"><i>Egeiu</i><par n="Aiacciu__np"/></e>
+     <e lm="Laziu"><i>Laziu</i><par n="Aiacciu__np"/></e>
 
 
 
@@ -1513,8 +1545,9 @@
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
 
-
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
+
+    <e lm="prutettu"><i>prutett</i><par n="vechj/u__adj"/></e>
     <e lm="sinceru"><i>sincer</i><par n="vechj/u__adj"/></e>
     <e lm="vivu"><i>viv</i><par n="vechj/u__adj"/></e>
     <e lm="latinu"><i>latin</i><par n="vechj/u__adj"/></e>
@@ -1532,7 +1565,19 @@
     <e lm="scupertu"><i>scupert</i><par n="vechj/u__adj"/></e>
     <e lm="internu"><i>internu</i><par n="vechj/u__adj"/></e>
     <e lm="cumpostu"><i>cumpostu</i><par n="vechj/u__adj"/></e>
+    <e lm="tuscanu"><i>tuscan</i><par n="vechj/u__adj"/></e>
+    <e lm="inglesu"><i>ingles</i><par n="vechj/u__adj"/></e>
+    <e lm="usatu"><i>usat</i><par n="vechj/u__adj"/></e>
+    <e lm="picculu"><i>piccul</i><par n="vechj/u__adj"/></e>
+    <e lm="marinu"><i>marinu</i><par n="vechj/u__adj"/></e>
+    <e lm="custruitu"><i>custruit</i><par n="vechj/u__adj"/></e>
+    <e lm="bassu"><i>bass</i><par n="vechj/u__adj"/></e>
+    <e lm="rumanu"><i>ruman</i><par n="vechj/u__adj"/></e>
 
+    <e lm="modernu"><i>modern</i><par n="vechj/u__adj"/></e>
+
+    <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
+    <e lm="citatu"><i>citat</i><par n="vechj/u__adj"/></e>
 
     <e lm="luntanu"><i>luntan</i><par n="vechj/u__adj"/></e>
 
@@ -1541,7 +1586,10 @@
     <e lm="stancu"><i>stanc</i><par n="tipic/u__adj"/></e>
     <e lm="carcu"><i>carc</i><par n="tipic/u__adj"/></e>
     <e lm="anticu"><i>antic</i><par n="tipic/u__adj"/></e>
-    <e lm="tuscanu"><i>tuscan</i><par n="tipic/u__adj"/></e>
+    <e lm="biancu"><i>biancu</i><par n="tipic/u__adj"/></e>
+    <e lm="unicu"><i>unic</i><par n="tipic/u__adj"/></e>
+    <e lm="britannicu"><i>britannic</i><par n="tipic/u__adj"/></e>
+
 
     <e lm="matematicu"><i>matematic</i><par n="tipic/u__adj"/></e>
     <e lm="storicu"><i>storic</i><par n="tipic/u__adj"/></e>
@@ -1559,6 +1607,8 @@
     <e lm="uguale"><i>ugual</i><par n="naziunal/e__adj"/></e>
     <e lm="federale"><i>federal</i><par n="naziunal/e__adj"/></e>
     <e lm="forte"><i>fort</i><par n="naziunal/e__adj"/></e>
+    <e lm="francese"><i>frances</i><par n="naziunal/e__adj"/></e>
+    <e lm="cintrale"><i>cintral</i><par n="naziunal/e__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>
@@ -1570,6 +1620,8 @@
     <e lm="talianu"><i>talian</i><par n="vechj/u__adj"/></e>
     <e lm="americanu"><i>american</i><par n="vechj/u__adj"/></e>
     <e lm="spagnolu"><i>spagnol</i><par n="vechj/u__adj"/></e>
+    <e lm="sardu"><i>sard</i><par n="vechj/u__adj"/></e>
+    <e lm="catalanu"><i>catalan</i><par n="vechj/u__adj"/></e>
 
 
 
@@ -1604,6 +1656,7 @@
     <e lm="difatti"><i>difatti</i><par n="cusì__adv"/></e>
 
 
+    <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>
 
     <e lm="ampiamente"><i>ampiamente</i><par n="cusì__adv"/></e>
     <e lm="attualmente"><i>attualmente</i><par n="cusì__adv"/></e>
@@ -1674,6 +1727,8 @@
     <e lm="pensà"><i>pens</i><par n="parl/à__vblex"/></e>
     <e lm="vugà"><i>vug</i><par n="parl/à__vblex"/></e>
     <e lm="trovà"><i>trov</i><par n="parl/à__vblex"/></e>
+    <e lm="chjamà"><i>chjam</i><par n="parl/à__vblex"/></e>
+    <e lm="diventà"><i>divent</i><par n="parl/à__vblex"/></e>
 
 
 

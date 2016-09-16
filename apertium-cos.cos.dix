@@ -1570,6 +1570,17 @@
     <e lm="David"><i>David</i><par n="Jaume__np"/></e>
     <e lm="Bonifaziu"><i>Bonifaziu</i><par n="Jaume__np"/></e>
     <e lm="Oscar"><i>Oscar</i><par n="Jaume__np"/></e>
+    <e lm="Richard"><i>Richard</i><par n="Jaume__np"/></e>
+    <e lm="Omeru"><i>Omeru</i><par n="Jaume__np"/></e>
+    <e lm="Minotauru"><i>Minotauru</i><par n="Jaume__np"/></e>
+    <e lm="Vattelapesca"><i>Vattelapesca</i><par n="Jaume__np"/></e>
+    <e lm="Rinatu"><i>Rinatu</i><par n="Jaume__np"/></e>
+    <e lm="Niccolò"><i>Niccolò</i><par n="Jaume__np"/></e>
+    <e lm="Christopher"><i>Christopher</i><par n="Jaume__np"/></e>
+    <e lm="Samperu"><i>Samperu</i><par n="Jaume__np"/></e>
+    <e lm="Ovidiu"><i>Ovidiu</i><par n="Jaume__np"/></e>
+    <e lm="Guglielmu"><i>Guglielmu</i><par n="Jaume__np"/></e>
+    <e lm="Asclepiu"><i>Asclepiu</i><par n="Jaume__np"/></e>
 
 
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
@@ -1586,6 +1597,8 @@
     <e lm="Artemidi"><i>Artemidi</i><par n="Maria__np"/></e>
     <e lm="Santa"><i>Santa</i><par n="Maria__np"/></e>
     <e lm="Venera"><i>Venera</i><par n="Maria__np"/></e>
+    <e lm="Marie"><i>Marie</i><par n="Maria__np"/></e>
+    <e lm="Afrudita"><i>Afrudita</i><par n="Maria__np"/></e>
 
     
     
@@ -1604,6 +1617,8 @@
      <e lm="Corsica"><i>Corsica</i><par n="Corsica__np"/></e>
      <e lm="Auropa"><i>Auropa</i><par n="Corsica__np"/></e>
      <e lm="Europa" r="LR"><p><l>Europa</l><r>Auropa</r></p><par n="Corsica__np"/></e>
+     <e lm="Lipsia"><i>Lipsia</i><par n="Corsica__np"/></e>
+     <e lm="Catalunia"><i>Catalunia</i><par n="Corsica__np"/></e>
 
      <e lm="Asia"><i>Asia</i><par n="Corsica__np"/></e>
      <e lm="Francia"><i>Francia</i><par n="Corsica__np"/></e>
@@ -1624,6 +1639,7 @@
      <e lm="Alimagna"><i>Alimagna</i><par n="Corsica__np"/></e>
      <e lm="California"><i>California</i><par n="Corsica__np"/></e>
      <e lm="Svizzera"><i>Svizzera</i><par n="Corsica__np"/></e>
+     <e lm="Messina"><i>Messina</i><par n="Corsica__np"/></e>
 
      <e lm="Italia"><i>Italia</i><par n="Corsica__np"/></e>
      <e lm="Roma"><i>Roma</i><par n="Corsica__np"/></e>
@@ -1635,12 +1651,16 @@
      <e lm="Germania"><i>Germania</i><par n="Corsica__np"/></e>
      <e lm="Parighji"><i>Parighji</i><par n="Corsica__np"/></e>
      <e lm="Etruria"><i>Etruria</i><par n="Corsica__np"/></e>
+     <e lm="Ghjermania"><i>Ghjermania</i><par n="Corsica__np"/></e>
+     <e lm="Finlandia"><i>Finlandia</i><par n="Corsica__np"/></e>
 
      <e lm="Scilla"><i>Scilla</i><par n="Corsica__np"/></e>
      <e lm="Balagna"><i>Balagna</i><par n="Corsica__np"/></e>
 
      <e lm="Bastia"><i>Bastia</i><par n="Corsica__np"/></e>
      <e lm="Turchia"><i>Turchia</i><par n="Corsica__np"/></e>
+     <e lm="Zilanda"><i>Zilanda</i><par n="Corsica__np"/></e>
+     <e lm="Virginia"><i>Virginia</i><par n="Corsica__np"/></e>
 
 
      <e lm="Aiacciu"><i>Aiacciu</i><par n="Aiacciu__np"/></e>
@@ -1660,6 +1680,12 @@
      <e lm="Atlanticu"><i>Atlanticu</i><par n="Aiacciu__np"/></e>
      <e lm="Meziornu"><i>Meziornu</i><par n="Aiacciu__np"/></e>
      <e lm="Mar"><i>Mar</i><par n="Aiacciu__np"/></e>
+     <e lm="Monticristu"><i>Monticristu</i><par n="Aiacciu__np"/></e>
+     <e lm="Sahara"><i>Sahara</i><par n="Aiacciu__np"/></e>
+     <e lm="Torinu"><i>Torinu</i><par n="Aiacciu__np"/></e>
+     <e lm="Illinois"><i>Illinois</i><par n="Aiacciu__np"/></e>
+     <e lm="Venetu"><i>Venetu</i><par n="Aiacciu__np"/></e>
+     <e lm="Sudafrica"><i>Sudafrica</i><par n="Aiacciu__np"/></e>
 
 
 

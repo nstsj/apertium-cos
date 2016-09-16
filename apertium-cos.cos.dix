@@ -30,6 +30,7 @@
     <sdef n="an"       c="Animat/inanimat"/>
     <sdef n="pos"       c="Possessivo"/>
 
+    <sdef n="acr"      c="Acrònim"/>
 
     <sdef n="ant"      c="Antròponim"/>
     <sdef n="cog"	   c="Cognomen"/>
@@ -285,6 +286,11 @@
     </pardef>
 
     <!-- SECTION: Nouns -->
+
+
+    <pardef n="km__n">
+      <e><p><l></l><r><s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+    </pardef>
 
     <pardef n="ann/u__n">
       <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1574,6 +1580,9 @@
 
     <e lm="matematicu"><i>matematic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
     <e lm="storicu"><i>storic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
+
+    <e lm="km"><i>km</i><par n="km__n"/></e>
+    <e lm="cm"><i>cm</i><par n="km__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 

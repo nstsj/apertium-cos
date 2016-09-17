@@ -1395,9 +1395,9 @@
     <e lm="rivista"><i>rivist</i><par n="scienz/a__n"/></e>
     <e lm="furesta"><i>furest</i><par n="furest/a__n"/></e>
     <e lm="battaglia"><i>battagli</i><par n="battagli/a__n"/></e>
-    <e lm="moglia"><i>moglia</i><par n="battagli/a__n"/></e>
-    <e lm="grazia"><i>grazie</i><par n="battagli/a__n"/></e>
-    <e lm="lotta"><i>lotta</i><par n="scienz/a__n"/></e>
+    <e lm="moglia"><i>mogli</i><par n="battagli/a__n"/></e>
+    <e lm="grazia"><i>grazi</i><par n="battagli/a__n"/></e>
+    <e lm="lotta"><i>lott</i><par n="scienz/a__n"/></e>
 
     <e lm="ghjesgia"><i>ghjesgi</i><par n="battagli/a__n"/></e>
     <e lm="vittoria"><i>vittori</i><par n="scienz/a__n"/></e>

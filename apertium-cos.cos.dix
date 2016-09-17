@@ -484,7 +484,7 @@
     </pardef>
 
 <pardef n="uccidental/i__adj">
-      <e><p><l></l><r>i<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>i</l><r><s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
      
 
     </pardef>
@@ -989,7 +989,7 @@
     <e lm="ind"><i>ind</i><par n="à__pr"/></e>
     <e lm="sottu"><i>sottu</i><par n="à__pr"/></e>
     <e lm="intornu"><i>intornu</i><par n="à__pr"/></e>
-    <e lm="traversu"><i>intornu</i><par n="à__pr"/></e>
+    <e lm="traversu"><i>traversu</i><par n="à__pr"/></e>
 	<e lm="nanzu"><i>nanzu</i><par n="à__pr"/></e>
 
 

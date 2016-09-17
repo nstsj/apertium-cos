@@ -1039,6 +1039,7 @@
     <e lm="piuttostu"><i>piuttostu</i><par n="è__cnjcoo"/></e>
     <e lm="parò"><i>parò</i><par n="è__cnjcoo"/></e>
     <e lm="ò"><i>ò</i><par n="è__cnjcoo"/></e>
+    <e lm="mentre"><i>mentre</i><par n="è__cnjcoo"/></e>
 
 
 
@@ -1235,7 +1236,8 @@
     <e lm="statu"><i>stat</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="centru"><i>centr</i><par n="ann/u__n"/></e>
-    <e lm="tipu"><i>centr</i><par n="ann/u__n"/></e>
+    <e lm="tipu"><i>tip</i><par n="ann/u__n"/></e>
+    <e lm="corpu"><i>corp</i><par n="ann/u__n"/></e>
 
     <e lm="passu"><i>pass</i><par n="ann/u__n"/></e>
     <e lm="chjassu"><i>chjass</i><par n="ann/u__n"/></e>
@@ -1410,6 +1412,8 @@
     <e lm="secretariu"><i>secretari</i><par n="esempi/u__n"/></e>
 
     <e lm="territoriu"><i>territori</i><par n="esempi/u__n"/></e>
+    <e lm="tarritoriu"><i>tarritori</i><par n="esempi/u__n"/></e>
+
     <e lm="arrubbecciu"><i>arrubbecci</i><par n="esempi/u__n"/></e>
     <e lm="duminiu"><i>dumini</i><par n="esempi/u__n"/></e>
     <e lm="studiu"><i>studi</i><par n="esempi/u__n"/></e>
@@ -2021,6 +2025,10 @@
 
 
     <e lm="seguitu"><i>seguit</i><par n="vechj/u__adj"/></e>
+    <e lm="dettu"><i>dettu</i><par n="vechj/u__adj"/></e>
+
+
+    <e lm="moltu"><i>molt</i><par n="vechj/u__adj"/></e>
 
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
     <e lm="certu"><i>cert</i><par n="vechj/u__adj"/></e>
@@ -2165,6 +2173,7 @@
     <e lm="guasi"><i>guasi</i><par n="cusì__adv"/></e>
     <e lm="inveci"><i>inveci</i><par n="cusì__adv"/></e>
     <e lm="soprattuttu"><i>soprattuttu</i><par n="cusì__adv"/></e>
+    <e lm="mai"><i>mai</i><par n="cusì__adv"/></e>
 
 
     <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>

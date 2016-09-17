@@ -392,6 +392,8 @@
     <pardef n="form/a__n">
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
     </pardef>
 
     <pardef n="relazion/e__n">
@@ -453,6 +455,12 @@
         <pardef n="re__n">
       <e><p><l></l><r><s n="n"/><s n="n"/><s n="sg"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="n"/><s n="pl"/></r></p></e>
+
+    <pardef n="attric/e__n">
+      <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
 
 
     </pardef>
@@ -1638,6 +1646,9 @@
     <e lm="struttura"><i>struttur</i><par n="form/a__n"/></e>
     <e lm="scola"><i>scol</i><par n="form/a__n"/></e>
     <e lm="stantara"><i>stantar</i><par n="form/a__n"/></e>
+    
+    <e lm="attrice"><i>attrice</i><par n="attric/e__n"/></e>
+
 
     <e lm="capitale"><i>capital</i><par n="relazion/e__n"/></e>
     <e lm="pieve"><i>piev</i><par n="relazion/e__n"/></e>

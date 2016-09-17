@@ -1431,6 +1431,9 @@
     <e lm="uffiziu"><i>uffizi</i><par n="esempi/u__n"/></e>
     <e lm="iniziu"><i>inizi</i><par n="esempi/u__n"/></e>
 
+
+    <e lm="pesciu"><i>pesci</i><par n="esempi/u__n"/></e>
+
     <e lm="esempiu"><i>esempi</i><par n="esempi/u__n"/></e>
     <e lm="asempiu"><i>asempi</i><par n="esempi/u__n"/></e>
     <e lm="travagliu"><i>travagli</i><par n="esempi/u__n"/></e>
@@ -3247,6 +3250,8 @@
     <e lm="pocu"><i>poc</i><par n="tipic/u__adj"/></e>
     <e lm="longu"><i>long</i><par n="tipic/u__adj"/></e>
     <e lm="etruscu"><i>etrusc</i><par n="tipic/u__adj"/></e>
+    <e lm="largu"><i>larg</i><par n="tipic/u__adj"/></e>
+
 
 
     <e lm="matematicu"><i>matematic</i><par n="tipic/u__adj"/></e>

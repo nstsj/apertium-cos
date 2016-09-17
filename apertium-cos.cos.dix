@@ -1,5 +1,5 @@
 <dictionary>
-  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁá</alphabet>
+  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁáëūīḥʿțöāîĭēåă</alphabet>
   <sdefs>
     <sdef n="n"        c="Sustantiu"/>
     <sdef n="np"       c="Nom propi"/>
@@ -114,6 +114,9 @@
     </pardef>
 
     <pardef n="ordinals">
+      <e r="LR"><re>[0-9]+</re><p><l>imu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><re>[0-9]+</re><p><l>ima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><re>[0-9]+</re><p><l>imi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><re>[0-9]+</re><p><l>esimu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
       <e><re>[0-9]+</re><p><l>esima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
       <e><re>[0-9]+</re><p><l>esimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1060,6 +1063,7 @@
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
     <e lm="parchì"><i>parchì</i><par n="sì__cnjadv"/></e>
     <e lm="dunqua"><i>dunqua</i><par n="sì__cnjadv"/></e>
+    <e lm="dunqua" r="LR"><p><l>dunque</l><r>dunqua</r></p><par n="sì__cnjadv"/></e>
 
 
     <!-- SECTION: Prepositions -->
@@ -1111,6 +1115,8 @@
     <e lm="un"><i>un</i><par n="un__det"/></e>
     <e lm="tuttu"><i>tutt</i><par n="tutt/u__predet"/></e>
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
+    <e lm="calchì"><i>calchì</i><par n="ogni__det"/></e>
+    <e lm="calchì" r="LR"><p><l>qualchì</l><r>calchì</r></p><par n="ogni__det"/></e>
     <e lm="sto"><i>st</i><par n="st/u__det"/></e>
 
     <e lm="quellu"><i>quell</i><par n="quell/u__det"/></e>
@@ -1417,7 +1423,6 @@
 
     <e lm="documentariu"><i>documentari</i><par n="esempi/u__n"/></e>
     <e lm="tempacciu"><i>tempacci</i><par n="esempi/u__n"/></e>
-    <e lm="capilocu"><i>documentari</i><par n="esempi/u__n"/></e>
 
     <e lm="diu"><i>di</i><par n="esempi/u__n"/></e>
 
@@ -1567,6 +1572,7 @@
     <e lm="litteratura"><i>litteratur</i><par n="scienz/a__n"/></e>
     <e lm="partita"><i>partit</i><par n="scienz/a__n"/></e>
     <e lm="pianta"><i>piant</i><par n="scienz/a__n"/></e>
+    <e lm="punta"><i>punt</i><par n="scienz/a__n"/></e>
     <e lm="guerra"><i>guerr</i><par n="scienz/a__n"/></e>
     <e lm="torra"><i>torr</i><par n="scienz/a__n"/></e>
     <e lm="volta"><i>volt</i><par n="scienz/a__n"/></e>
@@ -1779,6 +1785,7 @@
 
     
     <e lm="locu"><i>loc</i><par n="loc/u__n"/></e>
+    <e lm="capilocu"><i>capiloc</i><par n="loc/u__n"/></e>
 
     <e lm="amicu"><i>amic</i><par n="amic/u__n"/></e>
     <e lm="focu"><i>foc</i><par n="amic/u__n"/></e>
@@ -3254,6 +3261,7 @@
     <e lm="mundiale"><i>mundial</i><par n="naziunal/e__adj"/></e>
 
     <e lm="naziunale"><i>naziunal</i><par n="naziunal/e__adj"/></e>
+    <e lm="principale"><i>principal</i><par n="naziunal/e__adj"/></e>
     <e lm="currispundente"><i>currispundent</i><par n="naziunal/e__adj"/></e>
     <e lm="grande"><i>grand</i><par n="naziunal/e__adj"/></e>
     <e lm="bisestile"><i>bisestil</i><par n="naziunal/e__adj"/></e>

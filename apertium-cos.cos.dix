@@ -1763,10 +1763,11 @@
 
     <e lm="m"><i>m</i><par n="km__n"/></e>
     <e lm="km"><i>km</i><par n="km__n"/></e>
+    <e lm="mm"><i>mm</i><par n="km__n"/></e>
     <e lm="cm"><i>cm</i><par n="km__n"/></e>
     <e lm="mol"><i>mol</i><par n="km__n"/></e>
     <e lm="cos"><i>cos</i><par n="km__n"/></e>
-    <e lm="kg"><i>cos</i><par n="km__n"/></e>
+    <e lm="mg"><i>mg</i><par n="km__n"/></e>
     <e lm="kg"><i>kg</i><par n="km__n"/></e>
     <e lm="g"><i>g</i><par n="km__n"/></e>
 

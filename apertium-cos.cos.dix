@@ -1087,6 +1087,9 @@
     <e lm="traversu"><i>traversu</i><par n="à__pr"/></e>
 	<e lm="nanzu"><i>nanzu</i><par n="à__pr"/></e>
 	<e lm="sin'à"><i>nant'à</i><par n="à__pr"/></e>
+	<e lm="rispettu à"><i>rispettu<b/>'à</i><par n="à__pr"/></e>
+	<e lm="sinu à"><i>rispettu<b/>'à</i><par n="à__pr"/></e>
+
 
 
     <!-- SECTION: Determiners -->
@@ -1240,6 +1243,8 @@
     <e lm="centru"><i>centr</i><par n="ann/u__n"/></e>
     <e lm="tipu"><i>tip</i><par n="ann/u__n"/></e>
     <e lm="corpu"><i>corp</i><par n="ann/u__n"/></e>
+    <e lm="sistema"><i>sistem</i><par n="ann/u__n"/></e>
+    <e lm="rispettu"><i>rispett</i><par n="ann/u__n"/></e>
 
     <e lm="passu"><i>pass</i><par n="ann/u__n"/></e>
     <e lm="chjassu"><i>chjass</i><par n="ann/u__n"/></e>
@@ -1401,6 +1406,8 @@
     <e lm="tempacciu"><i>tempacci</i><par n="esempi/u__n"/></e>
     <e lm="capilocu"><i>documentari</i><par n="esempi/u__n"/></e>
 
+    <e lm="diu"><i>di</i><par n="esempi/u__n"/></e>
+
     <e lm="incendiu"><i>incendi</i><par n="esempi/u__n"/></e>
     <e lm="associu"><i>associ</i><par n="esempi/u__n"/></e>
     <e lm="uffiziu"><i>uffizi</i><par n="esempi/u__n"/></e>
@@ -1512,7 +1519,6 @@
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
-    <e lm="lingua"><i>lingu</i><par n="scienz/a__n"/></e>
     <e lm="terra"><i>terr</i><par n="scienz/a__n"/></e>
     <e lm="acqua"><i>acqu</i><par n="scienz/a__n"/></e>
     <e lm="mossa"><i>moss</i><par n="scienz/a__n"/></e>
@@ -1582,6 +1588,8 @@
     <e lm="cunniscenza"><i>cunniscenz</i><par n="scienz/a__n"/></e>
 
     <e lm="massa"><i>mass</i><par n="scienz/a__n"/></e>
+    <e lm="altezza"><i>altezz</i><par n="scienz/a__n"/></e>
+    <e lm="strada"><i>strad</i><par n="scienz/a__n"/></e>
 
     <e lm="urighjina"><i>urighjina</i><par n="scienz/a__n"/></e>
 
@@ -1611,6 +1619,8 @@
     <e lm="ricerca"><i>ricerc</i><par n="ricerc/a__n"/></e>
     <e lm="matematica"><i>matematic</i><par n="ricerc/a__n"/></e>
     <e lm="tecnica"><i>tecnic</i><par n="ricerc/a__n"/></e>
+
+    <e lm="lingua"><i>lingu</i><par n="form/a__n"/></e>
 
     <e lm="forma"><i>form</i><par n="form/a__n"/></e>
     <e lm="prisenza"><i>prisenz</i><par n="form/a__n"/></e>
@@ -1679,7 +1689,7 @@
     <e lm="interpretazione"><i>interpretazion</i><par n="relazion/e__n"/></e>
     <e lm="liberazione"><i>liberazion</i><par n="relazion/e__n"/></e>
     <e lm="croce"><i>croc</i><par n="relazion/e__n"/></e>
-    <e lm="nave"><i>nave</i><par n="relazion/e__n"/></e>
+    <e lm="nave"><i>nav</i><par n="relazion/e__n"/></e>
     <e lm="virsione"><i>virsion</i><par n="relazion/e__n"/></e>
 
     <e lm="fine"><i>fin</i><par n="relazion/e__n"/></e>
@@ -1716,10 +1726,15 @@
     <e lm="riligione"><i>riligion</i><par n="relazion/e__n"/></e>
     <e lm="cunvinzione"><i>cunvinzion</i><par n="relazion/e__n"/></e>
     <e lm="persecuzione"><i>persecuzion</i><par n="relazion/e__n"/></e>
+    <e lm="sprissione"><i>sprission</i><par n="relazion/e__n"/></e>
+
+    <e lm="presidente"><i>president</i><par n="ribell/e__n"/></e>
 
     <e lm="autore"><i>autor</i><par n="ribell/e__n"/></e>
     <e lm="prisente"><i>prisent</i><par n="ribell/e__n"/></e>
-    <e lm="fonte"><i>font</i><par n="ribell/e__n"/></e>
+    <e lm="fonte"><i>font</i><par n="ribell/e__n"/></e>    
+    <e lm="culore"><i>culor</i><par n="ribell/e__n"/></e>
+
 
 
     <e lm="abitante"><i>abitant</i><par n="ribell/e__n"/></e>
@@ -3142,6 +3157,7 @@
 
 
     <e lm="moltu"><i>molt</i><par n="vechj/u__adj"/></e>
+    <e lm="epicu"><i>epic</i><par n="vechj/u__adj"/></e>
 
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
     <e lm="certu"><i>cert</i><par n="vechj/u__adj"/></e>
@@ -3207,6 +3223,8 @@
     <e lm="semplice"><i>semplice</i><par n="naziunal/e__adj"/></e>
     <e lm="originale"><i>original</i><par n="naziunal/e__adj"/></e>
     <e lm="simile"><i>simil</i><par n="naziunal/e__adj"/></e>
+    <e lm="generale"><i>general</i><par n="naziunal/e__adj"/></e>
+    <e lm="diffarente"><i>diffarent</i><par n="naziunal/e__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>
@@ -3236,7 +3254,7 @@
     <e lm="sittintriunali"><i>sittintriunal</i><par n="uccidental/i__adj"/></e>
    
     <e lm="principali"><i>principal</i><par n="uccidental/i__adj"/></e>
-    <e lm="generali"><i>general</i><par n="uccidental/i__adj"/></e>
+  
     <e lm="particulari"><i>particular</i><par n="uccidental/i__adj"/></e>
 
 

@@ -178,6 +178,14 @@
       <e>       <p><l>i</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>e</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+    
+     <pardef n="quidd/u__det">
+      <e>       <p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>i</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>e</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
 
     <pardef n="tutt/u__predet">
       <e><p><l>i</l><r>u<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
@@ -414,6 +422,13 @@
       <e><p><l></l><r><s n="n"/><s n="n"/><s n="sg"/></r></p></e>
      
     </pardef>
+    
+        <pardef n="re__n">
+      <e><p><l></l><r><s n="n"/><s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="n"/><s n="pl"/></r></p></e>
+
+
+    </pardef>
 
 
 
@@ -528,6 +543,14 @@
       <e><p><l>siamu</l><r>esse<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>siate</l><r>esse<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>sianu</l><r>esse<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      
+      
+      <e><p><l>fui</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>fuste</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>fu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>fuimu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>fustete</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>funi</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>seraghju</l><r>esse<s n="vbser"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>serai</l><r>esse<s n="vbser"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -536,13 +559,13 @@
       <e><p><l>serete</l><r>esse<s n="vbser"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>seranu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>eri</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>era</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>fù</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>eramu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>erate</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>eranu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>era</l><r>esse<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>eri</l><r>esse<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>era</l><r>esse<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>fù</l><r>esse<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>eramu</l><r>esse<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>erate</l><r>esse<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>eranu</l><r>esse<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>erani</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1002,6 +1025,7 @@
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
     <e lm="sto"><i>st</i><par n="st/u__det"/></e>
     <e lm="parechju"><i>parechj</i><par n="quell/u__det"/></e>
+    <e lm="quiddu"><i>quidd</i><par n="quidd/u__det"/></e>
 
   
 
@@ -1092,6 +1116,10 @@
     
 
     <!-- SECTION: Nouns -->
+
+    <e lm="rè"><i>rè</i><par n="re__n"/></e>
+
+
 
     <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
@@ -1623,6 +1651,8 @@
     <e lm="focu"><i>foc</i><par n="amic/u__n"/></e>
   
     <e lm="nordu"><i>nordu</i><par n="nordu__n"/></e>
+    <e lm="sudu"><i>sudu</i><par n="nordu__n"/></e>
+
 
     <e lm="punenti"><i>punenti</i><par n="nordu__n"/></e>
     <e lm="livanti"><i>livanti</i><par n="nordu__n"/></e>

@@ -1,5 +1,5 @@
 <dictionary>
-  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKk</alphabet>
+  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁá</alphabet>
   <sdefs>
     <sdef n="n"        c="Sustantiu"/>
     <sdef n="np"       c="Nom propi"/>
@@ -3099,6 +3099,7 @@
 
      <e lm="NGC"><i>NGC</i><par n="CIA__np"/></e>
      <e lm="CIA"><i>CIA</i><par n="CIA__np"/></e>
+     <e lm="Wikipedia"><i>wikipedia</i><par n="CIA__np"/></e>
 
 
      <e lm="FLNC"><i>FLNC</i><par n="FLNC__np"/></e>

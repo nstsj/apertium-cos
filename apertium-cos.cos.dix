@@ -1053,7 +1053,9 @@
 
     <e lm="di"><i></i><par n="/di__pr"/></e>
     <e lm="à"><i>à</i><par n="à__pr"/></e>
+    <e lm="sin'à"><i>sin'à</i><par n="à__pr"/></e>
     <e lm="in"><i>in</i><par n="à__pr"/></e>
+    <e lm="pà"><i>pà</i><par n="à__pr"/></e>
     <e lm="per"><i>per</i><par n="à__pr"/></e>
     <e lm="per" r="LR" c="sub"><p><l>par</l><r>per</r></p><par n="à__pr"/></e>
     <e lm="pè"><i>pè</i><par n="à__pr"/></e>

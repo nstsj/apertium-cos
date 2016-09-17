@@ -504,6 +504,13 @@
 
     <!-- SECTION: Adjectives -->
 
+    <pardef n="molt/u__adj">
+      <e><p><l>u</l><r>u<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>u<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+ 
     <pardef n="vechj/u__adj">
       <e><p><l>u</l><r>u<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1955,6 +1962,8 @@
      <e lm="FLNC"><i>FLNC</i><par n="FLNC__np"/></e>
 
     <!-- SECTION: Adjectives -->
+
+    <e lm="moltu"><i>molt</i><par n="molt/u__adj"/></e>
 
     <e lm="altru"><i>altr</i><par n="vechj/u__adj"/></e>
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>

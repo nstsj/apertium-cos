@@ -990,7 +990,7 @@
     <e lm="sottu"><i>sottu</i><par n="à__pr"/></e>
     <e lm="intornu"><i>intornu</i><par n="à__pr"/></e>
     <e lm="traversu"><i>intornu</i><par n="à__pr"/></e>
-
+	<e lm="nanzu"><i>nanzu</i><par n="à__pr"/></e>
 
 
     <!-- SECTION: Determiners -->
@@ -1241,6 +1241,7 @@
     <e lm="cullegiu"><i>cullegi</i><par n="ann/u__n"/></e>
     <e lm="liceu"><i>lice</i><par n="ann/u__n"/></e>
     <e lm="emiciclu"><i>emicicl</i><par n="ann/u__n"/></e>
+    <e lm="pasturalismu"><i>pasturalism</i><par n="ann/u__n"/></e>
 
     <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
 
@@ -1357,6 +1358,11 @@
 
     <e lm="pulitica"><i>pulitic</i><par n="scienz/a__n"/></e>
 
+    <e lm="antulugia"><i>antulugi</i><par n="scienz/a__n"/></e>
+    <e lm="diaspora"><i>diaspor</i><par n="scienz/a__n"/></e>
+    <e lm="memoria"><i>memori</i><par n="scienz/a__n"/></e>
+    <e lm="econumia"><i>econumi</i><par n="scienz/a__n"/></e>
+
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
     <e lm="lingua"><i>lingu</i><par n="scienz/a__n"/></e>
@@ -1468,6 +1474,7 @@
     <e lm="dispusizione"><i>dispusizion</i><par n="relazion/e__n"/></e>
     <e lm="manifestazione"><i>manifestazion</i><par n="relazion/e__n"/></e>
     <e lm="vergine"><i>vergin</i><par n="relazion/e__n"/></e>
+    <e lm="civilizazione"><i>civilizazion</i><par n="relazion/e__n"/></e>
 
     <e lm="agglumerazione"><i>agglumerazion</i><par n="relazion/e__n"/></e>
     <e lm="apparizione"><i>apparizion</i><par n="relazion/e__n"/></e>
@@ -1628,6 +1635,7 @@
     <e lm="Ovidiu"><i>Ovidiu</i><par n="Jaume__np"/></e>
     <e lm="Guglielmu"><i>Guglielmu</i><par n="Jaume__np"/></e>
     <e lm="Asclepiu"><i>Asclepiu</i><par n="Jaume__np"/></e>
+    <e lm="Alain"><i>Alain</i><par n="Jaume__np"/></e>
 
 
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
@@ -1646,8 +1654,13 @@
     <e lm="Venera"><i>Venera</i><par n="Maria__np"/></e>
     <e lm="Marie"><i>Marie</i><par n="Maria__np"/></e>
     <e lm="Afrudita"><i>Afrudita</i><par n="Maria__np"/></e>
-
     
+    
+     <!-- SECTION: Titles before Proper nouns -->
+
+        <e lm="Monsieur"><i>Monsieur</i><par n="Jaume__np"/></e>
+        <e lm="Don"><i>Don</i><par n="Jaume__np"/></e>
+
     
     <!-- SECTION: Surnames -->
     
@@ -1655,6 +1668,8 @@
     <e lm="Ciciaronu"><i>Ciciaronu</i><par n="Colonna__np"/></e>
     <e lm="Turing"><i>Turing</i><par n="Colonna__np"/></e>
     <e lm="Ciciaronu"><i>Ciciaronu</i><par n="Colonna__np"/></e>
+    <e lm="Luccioni"><i>Luccioni</i><par n="Colonna__np"/></e>
+    <e lm="Piazzola"><i>Luccioni</i><par n="Colonna__np"/></e>
 
     <e lm="Leibniz"><i>Leibniz</i><par n="Colonna__np"/></e>
 
@@ -1781,17 +1796,21 @@
     <e lm="bassu"><i>bass</i><par n="vechj/u__adj"/></e>
     <e lm="rumanu"><i>ruman</i><par n="vechj/u__adj"/></e>
     <e lm="marinu"><i>marin</i><par n="vechj/u__adj"/></e>
+    <e lm="natu"><i>nat</i><par n="vechj/u__adj"/></e>
 
     <e lm="modernu"><i>modern</i><par n="vechj/u__adj"/></e>
     <e lm="bisestu"><i>bisest</i><par n="vechj/u__adj"/></e>
     <e lm="natu"><i>nat</i><par n="vechj/u__adj"/></e>
     <e lm="altu"><i>alt</i><par n="vechj/u__adj"/></e>
+    <e lm="primu"><i>prim</i><par n="vechj/u__adj"/></e>
 
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
     <e lm="certu"><i>cert</i><par n="vechj/u__adj"/></e>
     <e lm="internu"><i>intern</i><par n="vechj/u__adj"/></e>
     <e lm="numarosu"><i>numaros</i><par n="vechj/u__adj"/></e>
     <e lm="scrittu"><i>scritt</i><par n="vechj/u__adj"/></e>
+    <e lm="veru"><i>ver</i><par n="vechj/u__adj"/></e>
+    <e lm="mediterraniu"><i>mediterrani</i><par n="vechj/u__adj"/></e>
 
     <e lm="citatu"><i>citat</i><par n="vechj/u__adj"/></e>
     <e lm="cumpostu"><i>cumpost</i><par n="vechj/u__adj"/></e>
@@ -1824,7 +1843,7 @@
     <e lm="chimicu"><i>chimic</i><par n="tipic/u__adj"/></e>
 
     <e lm="naziunalista"><i>naziunalist</i><par n="naziunalist/a__adj"/></e>
-    
+  
 
     <e lm="naziunale"><i>naziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="currispundente"><i>currispundent</i><par n="naziunal/e__adj"/></e>
@@ -1837,7 +1856,10 @@
     <e lm="prisente"><i>prisent</i><par n="naziunal/e__adj"/></e>
     <e lm="ufficiale"><i>ufficial</i><par n="naziunal/e__adj"/></e>
     <e lm="impurtante"><i>impurtant</i><par n="naziunal/e__adj"/></e>
-
+    <e lm="rurale"><i>rurale</i><par n="naziunal/e__adj"/></e>
+    <e lm="originale"><i>original</i><par n="naziunal/e__adj"/></e>
+    <e lm="semplice"><i>semplice</i><par n="naziunal/e__adj"/></e>
+    <e lm="originale"><i>original</i><par n="naziunal/e__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>
@@ -1985,6 +2007,7 @@
     <e lm="contà"><i>cont</i><par n="parl/à__vblex"/></e>
     <e lm="misurà"><i>misur</i><par n="parl/à__vblex"/></e>
     <e lm="mintuvà"><i>mintuv</i><par n="parl/à__vblex"/></e>
+    <e lm="approntà"><i>appront</i><par n="parl/à__vblex"/></e>
 
 
 

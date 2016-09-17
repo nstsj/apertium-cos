@@ -1002,6 +1002,7 @@
       <e><p><l>engu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>eni</l><r>ene<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ene</l><r>ene<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>eni</l><r>ene<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- pruveni -->
       <e><p><l>inemu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>inite</l><r>ene<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>enenu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -3372,6 +3373,7 @@
     <e lm="dì"><i>d</i><par n="d/ì__vblex"/></e>
     <e lm="tene"><i>t</i><par n="t/ene__vblex"/></e>
     <e lm="vene"><i>v</i><par n="t/ene__vblex"/></e>
+    <e lm="pruvene"><i>pruv</i><par n="t/ene__vblex"/></e>
     <e lm="crede"><i>cr</i><par n="cr/ede__vblex"/></e>
 
     <e lm="parlà"><i>parl</i><par n="parl/à__vblex"/></e>

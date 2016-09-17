@@ -179,13 +179,6 @@
       <e>       <p><l>e</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-     <pardef n="quidd/u__det">
-      <e>       <p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>a</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>i</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>e</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-    
 
     <pardef n="tutt/u__predet">
       <e><p><l>i</l><r>u<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
@@ -208,7 +201,6 @@
 		<e><p><l>a</l><r>o<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 		<e><p><l>i</l><r>o<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
 		<e><p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-
 </pardef>
     
 
@@ -819,7 +811,7 @@
       <e><p><l>occu</l><r>uccà<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>occa</l><r>uccà<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>occi</l><r>uccà<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>occe</l><r>uccà<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e
+      <e><p><l>occe</l><r>uccà<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
     </pardef>
 
@@ -1026,12 +1018,14 @@
 
     <e lm="u"><i></i><par n="/u__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
-    <e lm="quellu"><i>quell</i><par n="quell/u__det"/></e>
     <e lm="tuttu"><i>tutt</i><par n="tutt/u__predet"/></e>
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
     <e lm="sto"><i>st</i><par n="st/u__det"/></e>
+
+    <e lm="quellu"><i>quell</i><par n="quell/u__det"/></e>
     <e lm="parechju"><i>parechj</i><par n="quell/u__det"/></e>
-    <e lm="quiddu"><i>quidd</i><par n="quidd/u__det"/></e>
+    <e lm="quiddu"><i>quidd</i><par n="quell/u__det"/></e>
+    <e lm="'ssu"><i>'ss</i><par n="quell/u__det"/></e>
 
   
 

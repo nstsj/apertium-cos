@@ -19,6 +19,7 @@
     <sdef n="vbser"    c="Verb 'ser'"/>
     <sdef n="vbhaver"  c="Verb 'haver'"/>
 
+    <sdef n="abbr"     c="Abbreviation"/>
     <sdef n="ind"      c="Indefinit"/>
     <sdef n="dem"      c="Demonstratiu"/>
     <sdef n="ord"      c="Ordinal"/>
@@ -467,6 +468,10 @@
 
 
     <!-- SECTION: Proper nouns -->
+
+    <pardef n="C.__np">
+      <e><p><l></l><r><s n="np"/><s n="abbr"/></r></p></e>
+    </pardef>
 
     <pardef n="Jaume__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sp"/></r></p></e>
@@ -2984,6 +2989,34 @@
     <e lm="Andrew"><i>Andrew</i><par n="Jaume__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Jaume__np"/></e>
     <e lm="Franz"><i>Franz</i><par n="Jaume__np"/></e>
+
+    <e lm="A."><i>A.</i><par n="C.__np"/></e>
+    <e lm="B."><i>B.</i><par n="C.__np"/></e>
+    <e lm="C."><i>C.</i><par n="C.__np"/></e>
+    <e lm="D."><i>D.</i><par n="C.__np"/></e>
+    <e lm="E."><i>E.</i><par n="C.__np"/></e>
+    <e lm="F."><i>F.</i><par n="C.__np"/></e>
+    <e lm="G."><i>G.</i><par n="C.__np"/></e>
+    <e lm="H."><i>H.</i><par n="C.__np"/></e>
+    <e lm="I."><i>I.</i><par n="C.__np"/></e>
+    <e lm="J."><i>J.</i><par n="C.__np"/></e>
+    <e lm="K."><i>K.</i><par n="C.__np"/></e>
+    <e lm="L."><i>L.</i><par n="C.__np"/></e>
+    <e lm="M."><i>M.</i><par n="C.__np"/></e>
+    <e lm="N."><i>N.</i><par n="C.__np"/></e>
+    <e lm="O."><i>O.</i><par n="C.__np"/></e>
+    <e lm="P."><i>P.</i><par n="C.__np"/></e>
+    <e lm="Q."><i>Q.</i><par n="C.__np"/></e>
+    <e lm="R."><i>R.</i><par n="C.__np"/></e>
+    <e lm="S."><i>S.</i><par n="C.__np"/></e>
+    <e lm="T."><i>T.</i><par n="C.__np"/></e>
+    <e lm="U."><i>U.</i><par n="C.__np"/></e>
+    <e lm="V."><i>V.</i><par n="C.__np"/></e>
+    <e lm="W."><i>W.</i><par n="C.__np"/></e>
+    <e lm="X."><i>X.</i><par n="C.__np"/></e>
+    <e lm="Y."><i>Y.</i><par n="C.__np"/></e>
+    <e lm="Z."><i>Z.</i><par n="C.__np"/></e>
+
 
     
      <!-- SECTION: Titles before Proper nouns -->

@@ -75,6 +75,7 @@
     <sdef n="lpar"    c="Left parenthesis"/>
     <sdef n="rpar"    c="Right parenthesis"/>
     <sdef n="lquot"   c="Left quote"/>
+    <sdef n="quot"    c="Quote"/>
     <sdef n="rquot"   c="Right quote"/>
     <sdef n="guio"    c="Hyphen"/>
     <sdef n="apos"    c="Apostrophe"/>
@@ -91,6 +92,12 @@
 
     <pardef n="cometa">
       <e><re>[’'‘]</re><p><l/><r><s n="apos"/></r></p></e>
+    </pardef>
+
+    <pardef n="quotes">
+      <e><re>"</re><p><l/><r><s n="quot"/></r></p></e>
+      <e><re>»</re><p><l/><r><s n="rquot"/></r></p></e>
+      <e><re>«</re><p><l/><r><s n="lquot"/></r></p></e>
     </pardef>
 
     <pardef n="guionet">
@@ -4200,6 +4207,7 @@
 
     <e lm="moltu"><i>molt</i><par n="vechj/u__adj"/></e>
     <e lm="epicu"><i>epic</i><par n="tipic/u__adj"/></e>
+    <e lm="burbonicu"><i>burbonic</i><par n="tipic/u__adj"/></e>
     <e lm="classicu"><i>classic</i><par n="tipic/u__adj"/></e>
     <e lm="caratteristicu"><i>caratteristic</i><par n="tipic/u__adj"/></e>
 
@@ -4215,6 +4223,7 @@
     <e lm="propriu"><i>propri</i><par n="vechj/u__adj"/></e>
     <e lm="sanu"><i>san</i><par n="vechj/u__adj"/></e>
     <e lm="publicatu"><i>publicat</i><par n="vechj/u__adj"/></e>
+    <e lm="libaru"><i>libar</i><par n="vechj/u__adj"/></e>
     <e lm="unitu"><i>unitu</i><par n="vechj/u__adj"/></e>
     <e lm="cristianu"><i>cristian</i><par n="vechj/u__adj"/></e>
     <e lm="grandissimu"><i>grandissim</i><par n="vechj/u__adj"/></e>
@@ -4596,6 +4605,8 @@
     <e lm="ritirà"><i>ritir</i><par n="parl/à__vblex"/></e>
     <e lm="salpà"><i>salp</i><par n="parl/à__vblex"/></e>
     <e lm="battizà"><i>battiz</i><par n="parl/à__vblex"/></e>
+    <e lm="gridà"><i>grid</i><par n="parl/à__vblex"/></e>
+    <e lm="sparà"><i>spar</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>
@@ -4646,6 +4657,7 @@
     <e><par n="cometa"/></e>
     <e><par n="coma"/></e>
     <e><par n="guionet"/></e>
+    <e><par n="quotes"/></e>
     <e><par n="paresq"/></e>
     <e><par n="pardret"/></e>
     <e><par n="ordinals"/></e>

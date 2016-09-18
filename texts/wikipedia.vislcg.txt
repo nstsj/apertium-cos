@@ -390,3 +390,58 @@
 "<.>"
 	"." sent @punct #7->5
 
+"<Nabulionu>"
+	"Nabulionu" np ant m sp @dep #1->2
+"<mossi>"
+	"*mossi" vblex pri p3 sg @root #2->0
+"<incontru>"
+	"incontru" adv @advmod #3->4
+"<à>"
+	"à" pr @case #4->6
+"<i>"
+	"u" det def m pl @det #5->6
+"<suldati>"
+	"suldatu" n m pl @nmod #6->2
+"<di>"
+	"di" pr @case #7->9
+"<l'>"
+	"u" det def mf sp @det #8->9
+"<armata>"
+	"armata" n f sg @nmod:poss #9->6
+"<burbonica>"
+	"burbonicu" adj f sg @amod #10->9
+"<è>"
+	"è" cnjcoo @cc #11->12
+"<gridò>"
+	"gridà" vblex ifi p3 sg @conj #12->2
+"<«>"
+	"«" lquot @dep #13->16
+"<Chì>"
+	"chì" rel an mf sp @dep #14->16
+"<voli>"
+	"vulè" vblex pri p3 sg @aux #15->16
+"<sparà>"
+	"sparà" vblex inf @csubj:cop #16->22
+"<à>"
+	"à" pr @dep #17->20
+"<u>"
+	"u" det def m sg @dep #18->20
+"<so>"
+	"so" adj pos m sg @dep #19->20
+"<Imperatori>"
+	"imperatoru" n m pl @nmod #20->16
+"<hè>"
+	"esse" vbser pri p3 sg @cop #21->22
+"<libaru>"
+	"libaru" adj m sg @parataxis #22->12
+"<di>"
+	"di" pr @dep #23->24
+"<fà>"
+	"fà" vblex inf @dep #24->22
+"<lu>"
+	"lu" prn enc p3 nt @obj:dir #25->24
+"<»>"
+	"»" rquot @dep #26->16
+"<.>"
+	"." sent @dep #27->2
+

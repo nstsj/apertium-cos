@@ -588,6 +588,11 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="facilment/e__adv">
+      <e><p><l>e</l><r>e<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>e<s n="adv"/></r></p></e>
+    </pardef>
+
     <pardef n="a.C.__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
@@ -4038,7 +4043,8 @@
     <e lm="attuale"><i>attual</i><par n="naziunal/e__adj"/></e>
     <e lm="culturale"><i>cultural</i><par n="naziunal/e__adj"/></e>
     <e lm="tradiziunale"><i>tradiziunal</i><par n="naziunal/e__adj"/></e>
-    <e lm="naturale"><i>natural</i><par n="naziunal/e__adj"/></e>
+    <e lm="civile"><i>civil</i><par n="naziunal/e__adj"/></e>
+    <e lm="lucale"><i>lucal</i><par n="naziunal/e__adj"/></e>
     <e lm="breve"><i>brev</i><par n="naziunal/e__adj"/></e>
     <e lm="fundamintale"><i>fundamintal</i><par n="naziunal/e__adj"/></e>
     <e lm="portughese"><i>portughes</i><par n="naziunal/e__adj"/></e>
@@ -4136,35 +4142,37 @@
 
     <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>
 
-    <e lm="ampiamente"><i>ampiamente</i><par n="cusì__adv"/></e>
-    <e lm="attualmente"><i>attualmente</i><par n="cusì__adv"/></e>
-    <e lm="cumunemente"><i>cumunemente</i><par n="cusì__adv"/></e>
-    <e lm="cuntemporaneamente"><i>cuntemporaneamente</i><par n="cusì__adv"/></e>
-    <e lm="definitivamente"><i>definitivamente</i><par n="cusì__adv"/></e>
-    <e lm="direttamente"><i>direttamente</i><par n="cusì__adv"/></e>
-    <e lm="esattamente"><i>esattamente</i><par n="cusì__adv"/></e>
-    <e lm="essenzialmente"><i>essenzialmente</i><par n="cusì__adv"/></e>
-    <e lm="estremamente"><i>estremamente</i><par n="cusì__adv"/></e>
-    <e lm="etimologicamente"><i>etimologicamente</i><par n="cusì__adv"/></e>
-    <e lm="facilmente"><i>facilmente</i><par n="cusì__adv"/></e>
-    <e lm="finalmente"><i>finalmente</i><par n="cusì__adv"/></e>
-    <e lm="ghjeneralmente"><i>ghjeneralmente</i><par n="cusì__adv"/></e>
-    <e lm="inizialmente"><i>inizialmente</i><par n="cusì__adv"/></e>
-    <e lm="notevolmente"><i>notevolmente</i><par n="cusì__adv"/></e>
-    <e lm="novamente"><i>novamente</i><par n="cusì__adv"/></e>
-    <e lm="particularmente"><i>particularmente</i><par n="cusì__adv"/></e>
-    <e lm="principalmente"><i>principalmente</i><par n="cusì__adv"/></e>
-    <e lm="prubabilmente"><i>prubabilmente</i><par n="cusì__adv"/></e>
-    <e lm="rapidamente"><i>rapidamente</i><par n="cusì__adv"/></e>
-    <e lm="raramente"><i>raramente</i><par n="cusì__adv"/></e>
-    <e lm="recentemente"><i>recentemente</i><par n="cusì__adv"/></e>
-    <e lm="rispettivamente"><i>rispettivamente</i><par n="cusì__adv"/></e>
-    <e lm="solamente"><i>solamente</i><par n="cusì__adv"/></e>
-    <e lm="specialmente"><i>specialmente</i><par n="cusì__adv"/></e>
-    <e lm="storicamente"><i>storicamente</i><par n="cusì__adv"/></e>
-    <e lm="successivamente"><i>successivamente</i><par n="cusì__adv"/></e>
-    <e lm="ufficialmente"><i>ufficialmente</i><par n="cusì__adv"/></e>
-    <e lm="verticalmente"><i>verticalmente</i><par n="cusì__adv"/></e>
+    <e lm="ampiamente"><i>ampiament</i><par n="facilment/e__adv"/></e>
+    <e lm="attualmente"><i>attualment</i><par n="facilment/e__adv"/></e>
+    <e lm="cumunemente"><i>cumunement</i><par n="facilment/e__adv"/></e>
+    <e lm="cuntemporaneamente"><i>cuntemporaneament</i><par n="facilment/e__adv"/></e>
+    <e lm="definitivamente"><i>definitivament</i><par n="facilment/e__adv"/></e>
+    <e lm="direttamente"><i>direttament</i><par n="facilment/e__adv"/></e>
+    <e lm="direttamente" r="LR"><p><l>dirittament</l><r>direttament</r></p><par n="facilment/e__adv"/></e>
+    <e lm="esattamente"><i>esattament</i><par n="facilment/e__adv"/></e>
+    <e lm="essenzialmente"><i>essenzialment</i><par n="facilment/e__adv"/></e>
+    <e lm="estremamente"><i>estremament</i><par n="facilment/e__adv"/></e>
+    <e lm="etimologicamente"><i>etimologicament</i><par n="facilment/e__adv"/></e>
+    <e lm="facilmente"><i>facilment</i><par n="facilment/e__adv"/></e>
+    <e lm="finalmente"><i>finalment</i><par n="facilment/e__adv"/></e>
+    <e lm="ghjeneralmente"><i>ghjeneralment</i><par n="facilment/e__adv"/></e>
+    <e lm="inizialmente"><i>inizialment</i><par n="facilment/e__adv"/></e>
+    <e lm="notevolmente"><i>notevolment</i><par n="facilment/e__adv"/></e>
+    <e lm="novamente"><i>novament</i><par n="facilment/e__adv"/></e>
+    <e lm="particularmente"><i>particularment</i><par n="facilment/e__adv"/></e>
+    <e lm="principalmente"><i>principalment</i><par n="facilment/e__adv"/></e>
+    <e lm="prubabilmente"><i>prubabilment</i><par n="facilment/e__adv"/></e>
+    <e lm="rapidamente"><i>rapidament</i><par n="facilment/e__adv"/></e>
+    <e lm="raramente"><i>rarament</i><par n="facilment/e__adv"/></e>
+    <e lm="recentemente"><i>recentement</i><par n="facilment/e__adv"/></e>
+    <e lm="rispettivamente"><i>rispettivament</i><par n="facilment/e__adv"/></e>
+    <e lm="solamente"><i>solament</i><par n="facilment/e__adv"/></e>
+    <e lm="specialmente"><i>specialment</i><par n="facilment/e__adv"/></e>
+    <e lm="storicamente"><i>storicament</i><par n="facilment/e__adv"/></e>
+    <e lm="successivamente"><i>successivament</i><par n="facilment/e__adv"/></e>
+    <e lm="ufficialmente"><i>ufficialment</i><par n="facilment/e__adv"/></e>
+    <e lm="verticalmente"><i>verticalment</i><par n="facilment/e__adv"/></e>
+
     <e lm="suprattuttu"><i>suprattuttu</i><par n="cusì__adv"/></e>
     <e lm="probbiu"><i>probbiu</i><par n="cusì__adv"/></e>
     <e lm="non"><i>non</i><par n="cusì__adv"/></e>

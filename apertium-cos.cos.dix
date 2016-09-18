@@ -1,5 +1,5 @@
 <dictionary>
-  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁáëūīḥʿțöāîĭēåă</alphabet>
+  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁáëūīḥʿțöāîĭēåăíóúÚōÓÍ</alphabet>
   <sdefs>
     <sdef n="n"        c="Sustantiu"/>
     <sdef n="np"       c="Nom propi"/>
@@ -278,6 +278,11 @@
 
  <pardef n="cio__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="sg"/></r></p></e>
+
+    </pardef>
+ 
+ <pardef n="edda__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
 
     </pardef>
     
@@ -1457,6 +1462,7 @@
     <e lm="ciò"><i>ciò</i><par n="cio__prn"/></e>
     
     <e lm="ne"><i>ne</i><par n="ne__prn"/></e>
+    <e lm="edda"><i>edda</i><par n="edda__prn"/></e>
     <e lm="cosa"><i>cosa</i><par n="cosa__prn"/></e>
     
     
@@ -1479,6 +1485,7 @@
     <e lm="ottu"><i>ottu</i><par n="quattru__num"/></e>
     <e lm="nove"><i>nove</i><par n="quattru__num"/></e>
     <e lm="dodici"><i>dodici</i><par n="quattru__num"/></e>
+    <e lm="centu"><i>centu</i><par n="quattru__num"/></e>
     
     <e lm="I"><i>I</i><par n="XIII__num"/></e>
     <e lm="II"><i>II</i><par n="XIII__num"/></e>
@@ -1641,6 +1648,7 @@
     <e lm="aiutu"><i>aiut</i><par n="ann/u__n"/></e>
     <e lm="cavaddu"><i>cavadd</i><par n="ann/u__n"/></e>
     <e lm="ghjaddu"><i>ghjadd</i><par n="ann/u__n"/></e>
+    <e lm="meziornu"><i>meziorn</i><par n="ann/u__n"/></e>
     <e lm="capu"><i>cap</i><par n="ann/u__n"/></e>
     <e lm="significatu"><i>significat</i><par n="ann/u__n"/></e>
     <e lm="regnu"><i>regni</i><par n="ann/u__n"/></e>
@@ -1797,6 +1805,7 @@
     <e lm="mità"><i>mit</i><par n="citt/à__n"/></e>
 
     <e lm="tutalità"><i>tutalit</i><par n="citt/à__n"/></e>
+    <e lm="lungività"><i>lungivit</i><par n="citt/à__n"/></e>
     <e lm="densità"><i>densit</i><par n="citt/à__n"/></e>
     <e lm="attività"><i>attivit</i><par n="citt/à__n"/></e>
     <e lm="cumunità"><i>cumunit</i><par n="citt/à__n"/></e>
@@ -1807,6 +1816,7 @@
     <e lm="antichità"><i>antichit</i><par n="citt/à__n"/></e>
     <e lm="lucalità"><i>lucalit</i><par n="citt/à__n"/></e>
     <e lm="sucità"><i>sucit</i><par n="citt/à__n"/></e>
+    <e lm="ità"><i>it</i><par n="citt/à__n"/></e>
     <e lm="qualità"><i>qualit</i><par n="citt/à__n"/></e>
     <e lm="capacità"><i>capacit</i><par n="citt/à__n"/></e>
     <e lm="unità"><i>unit</i><par n="citt/à__n"/></e>
@@ -1870,6 +1880,7 @@
     <e lm="annata"><i>annat</i><par n="scienz/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
+    <e lm="fiuma"><i>fium</i><par n="scienz/a__n"/></e>
     <e lm="ghjaddina"><i>ghjaddin</i><par n="scienz/a__n"/></e>
     <e lm="cresta"><i>crest</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
@@ -4200,6 +4211,7 @@
     <e lm="publicatu"><i>publicat</i><par n="vechj/u__adj"/></e>
     <e lm="unitu"><i>unitu</i><par n="vechj/u__adj"/></e>
     <e lm="cristianu"><i>cristian</i><par n="vechj/u__adj"/></e>
+    <e lm="grandissimu"><i>grandissim</i><par n="vechj/u__adj"/></e>
 
     <e lm="citatu"><i>citat</i><par n="vechj/u__adj"/></e>
     <e lm="cumpostu"><i>cumpost</i><par n="vechj/u__adj"/></e>
@@ -4358,6 +4370,7 @@
     <e lm="avà"><i>avà</i><par n="cusì__adv"/></e>
     <e lm="bè"><i>bè</i><par n="cusì__adv"/></e>
     <e lm="oghje"><i>oghje</i><par n="cusì__adv"/></e>
+    <e lm="inoltri"><i>inoltri</i><par n="cusì__adv"/></e>
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
     <e lm="quà"><i>quà</i><par n="cusì__adv"/></e>
     <e lm="dighjà"><i>dighjà</i><par n="cusì__adv"/></e>
@@ -4394,6 +4407,7 @@
     <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>
 
     <e lm="ampiamente"><i>ampiament</i><par n="facilment/e__adv"/></e>
+    <e lm="prisumibilamente"><i>prisumibilament</i><par n="facilment/e__adv"/></e>
     <e lm="attualmente"><i>attualment</i><par n="facilment/e__adv"/></e>
     <e lm="cumunemente"><i>cumunement</i><par n="facilment/e__adv"/></e>
     <e lm="cuntemporaneamente"><i>cuntemporaneament</i><par n="facilment/e__adv"/></e>
@@ -4572,6 +4586,7 @@
     <e lm="cullaburà"><i>cullabur</i><par n="parl/à__vblex"/></e>
     <e lm="utilizzà"><i>utilizz</i><par n="parl/à__vblex"/></e>
     <e lm="occupà"><i>occup</i><par n="parl/à__vblex"/></e>
+    <e lm="suparà"><i>supar</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>
@@ -4611,6 +4626,7 @@
     <e r="LR" lm="quiss'"><p><l>quiss'</l><r>quissu<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR" lm="t'"><p><l>t'</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="n'"><p><l>n'</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
   </section>
 

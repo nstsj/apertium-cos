@@ -373,6 +373,20 @@
 "<suldati>"
 	"suldatu" n m pl @conj #39->26
 "<.>"
-	"." sent @punct 40->3
+	"." sent @punct #40->3
 
+"<U>"
+	"u" det def m sg @det #1->2
+"<15>"
+	"15" num @nmod #2->5
+"<austu>"
+	"aostu" n m sg @nmod:poss #3->2
+"<1769>"
+	"1769" num @nmod:poss #4->3
+"<nasci>"
+	"nasce" vblex ifi p3 sg @root #5->0
+"<Nabulionu>"
+	"Nabulionu" np ant m sp @nsubj #6->5
+"<.>"
+	"." sent @punct #7->5
 

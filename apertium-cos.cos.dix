@@ -1523,7 +1523,9 @@
     <e lm="maghju"><i>maghju</i><par n="sangue__n"/></e>
     <e lm="ghjugnu"><i>ghjugnu</i><par n="sangue__n"/></e>
     <e lm="lugliu"><i>lugliu</i><par n="sangue__n"/></e>
+    <e lm="lugliu" r="LR"><p><l>luddu</l><r>lugliu</r></p><par n="sangue__n"/></e>
     <e lm="aostu"><i>aostu</i><par n="sangue__n"/></e>
+    <e lm="aostu" r="LR"><p><l>austu</l><r>aostu</r></p><par n="sangue__n"/></e>
     <e lm="settembre"><i>settembre</i><par n="sangue__n"/></e>
     <e lm="settembre" r="LR"><p><l>sittembre</l><r>settembre</r></p><par n="sangue__n"/></e>
     <e lm="ottobre"><i>ottobre</i><par n="sangue__n"/></e>
@@ -4593,6 +4595,7 @@
     <e lm="suparà"><i>supar</i><par n="parl/à__vblex"/></e>
     <e lm="ritirà"><i>ritir</i><par n="parl/à__vblex"/></e>
     <e lm="salpà"><i>salp</i><par n="parl/à__vblex"/></e>
+    <e lm="battizà"><i>battiz</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>

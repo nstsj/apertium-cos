@@ -3826,6 +3826,7 @@
     <e lm="Stuccarda"><i>Stuccarda</i><par n="Corsica__np"/></e>
     <e lm="Sudan"><i>Sudan</i><par n="Aiacciu__np"/></e>
     <e lm="Svezia"><i>Svezia</i><par n="Corsica__np"/></e>
+    <e lm="Sardigna"><i>Sardigna</i><par n="Corsica__np"/></e>
     <e lm="Sydney"><i>Sydney</i><par n="Aiacciu__np"/></e>
     <e lm="Telti"><i>Telti</i><par n="Aiacciu__np"/></e>
     <e lm="Tempiu"><i>Tempiu</i><par n="Aiacciu__np"/></e>
@@ -4237,6 +4238,7 @@
     <e lm="cantà"><i>cant</i><par n="parl/à__vblex"/></e>
     <e lm="buscà"><i>busc</i><par n="parl/à__vblex"/></e>
     <e lm="cunsiderà"><i>cunsider</i><par n="parl/à__vblex"/></e>
+    <e lm="cunsiderà" r="LR"><p><l>cunsidar</l><r>cunsider</r></p><par n="parl/à__vblex"/></e>
     <e lm="francà"><i>franc</i><par n="parl/à__vblex"/></e>
     <e lm="trimà"><i>trim</i><par n="parl/à__vblex"/></e>
     <e lm="fissà"><i>fiss</i><par n="parl/à__vblex"/></e>
@@ -4278,7 +4280,15 @@
 
     <!-- FMT: Comprovare -->
     <e lm="aiutà"><i>aiut</i><par n="parl/à__vblex"/></e>
+    <e lm="trattà"><i>tratt</i><par n="parl/à__vblex"/></e>
+    <e lm="rializà"><i>rializ</i><par n="parl/à__vblex"/></e>
+    <e lm="rializà" r="LR"><p><l>realiz</l><r>rializ</r></p><par n="parl/à__vblex"/></e>
+    <e lm="dimustrà"><i>dimustr</i><par n="parl/à__vblex"/></e>
+    <e lm="accumpagnà"><i>accumpagn</i><par n="parl/à__vblex"/></e>
+    <e lm="mustrà"><i>mustr</i><par n="parl/à__vblex"/></e>
     <e lm="circà"><i>circ</i><par n="circ/à__vblex"/></e>
+    <e lm="significà"><i>signific</i><par n="circ/à__vblex"/></e>
+    <e lm="didicà"><i>didic</i><par n="circ/à__vblex"/></e>
     <e lm="ricircà"><i>ricirc</i><par n="circ/à__vblex"/></e>
     <e lm="sapè"><i>s</i><par n="s/apè__vblex"/></e>
     <e lm="sviluppà"><i>svilupp</i><par n="parl/à__vblex"/></e>
@@ -4287,6 +4297,9 @@
     <e lm="rapprisint" r="LR"><p><l>rapprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="rapprisint" r="LR"><p><l>ripprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="carattarizà"><i>carattariz</i><par n="parl/à__vblex"/></e>
+
+    <e lm="studià"><i>studi</i><par n="parl/à__vblex"/></e>
+    <e lm="cambià"><i>cambi</i><par n="parl/à__vblex"/></e>
  
     <!-- SECTION: Interjections -->
 

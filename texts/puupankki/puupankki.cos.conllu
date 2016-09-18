@@ -211,19 +211,19 @@
 10	burbonica	burbonicu	_	adj	f|sg	9	amod	_	_
 11	è	è	_	cnjcoo	_	12	cc	_	_
 12	gridò	gridà	_	vblex	ifi|p3|sg	2	conj	_	_
-13	«	«	_	lquot	_	16	dep	_	_
+13	«	«	_	lquot	_	22	punct	_	_
 14	Chì	chì	_	rel	an|mf|sp	16	dep	_	_
 15	voli	vulè	_	vblex	pri|p3|sg	16	aux	_	_
 16	sparà	sparà	_	vblex	inf	22	csubj:cop	_	_
-17	à	à	_	pr	_	20	dep	_	_
-18	u	u	_	det	def|m|sg	20	dep	_	_
-19	so	so	_	adj	pos|m|sg	20	dep	_	_
+17	à	à	_	pr	_	20	case	_	_
+18	u	u	_	det	def|m|sg	20	det	_	_
+19	so	so	_	adj	pos|m|sg	20	amod	_	_
 20	Imperatori	imperatoru	_	n	m|pl	16	nmod	_	_
 21	hè	esse	_	vbser	pri|p3|sg	22	cop	_	_
 22	libaru	libaru	_	adj	m|sg	12	parataxis	_	_
 23	di	di	_	pr	_	24	dep	_	_
 24	fà	fà	_	vblex	inf	22	dep	_	_
 25	lu	lu	_	prn	enc|p3|nt	24	obj:dir	_	_
-26	»	»	_	rquot	_	16	dep	_	_
-27	.	.	_	sent	_	2	dep	_	_
+26	»	»	_	rquot	_	22	punct	_	_
+27	.	.	_	sent	_	2	punct	_	_
 

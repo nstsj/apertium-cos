@@ -415,7 +415,7 @@
 "<gridò>"
 	"gridà" vblex ifi p3 sg @conj #12->2
 "<«>"
-	"«" lquot @dep #13->16
+	"«" lquot @punct #13->22
 "<Chì>"
 	"chì" rel an mf sp @dep #14->16
 "<voli>"
@@ -423,11 +423,11 @@
 "<sparà>"
 	"sparà" vblex inf @csubj:cop #16->22
 "<à>"
-	"à" pr @dep #17->20
+	"à" pr @case #17->20
 "<u>"
-	"u" det def m sg @dep #18->20
+	"u" det def m sg @det #18->20
 "<so>"
-	"so" adj pos m sg @dep #19->20
+	"so" adj pos m sg @amod #19->20
 "<Imperatori>"
 	"imperatoru" n m pl @nmod #20->16
 "<hè>"
@@ -441,7 +441,7 @@
 "<lu>"
 	"lu" prn enc p3 nt @obj:dir #25->24
 "<»>"
-	"»" rquot @dep #26->16
+	"»" rquot @punct #26->22
 "<.>"
-	"." sent @dep #27->2
+	"." sent @punct #27->2
 

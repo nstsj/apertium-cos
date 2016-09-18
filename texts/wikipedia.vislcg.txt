@@ -1,0 +1,17 @@
+"<Ginevra>"
+	"Ginevra" np top f sg @nsubj:cop #1->4
+"<hè>"
+	"esse" vbser pri p3 sg @cop #2->4
+"<una>"
+	"un" det ind f sg @det #3->4
+"<cità>"
+	"città" n f sg @root #4->0
+"<in>"
+	"in" pr @case #5->7
+"<a>"
+	"u" det def f sg @det #6->7 
+"<Sguìzzera>"
+	"Sguìzzera" np top f sg @nmod #7->4
+"<.>"
+	"." sent @punct #8->4
+

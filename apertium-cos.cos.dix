@@ -4245,6 +4245,8 @@
     <e lm="lucale"><i>lucal</i><par n="naziunal/e__adj"/></e>
     <e lm="breve"><i>brev</i><par n="naziunal/e__adj"/></e>
     <e lm="fundamintale"><i>fundamintal</i><par n="naziunal/e__adj"/></e>
+    <e lm="orientale"><i>oriental</i><par n="naziunal/e__adj"/></e>
+    <e lm="orientale" r="LR"><p><l>uriental</l><r>oriental</r></p><par n="naziunal/e__adj"/></e>
     <e lm="portughese"><i>portughes</i><par n="naziunal/e__adj"/></e>
     <e lm="propriu"><i>propri</i><par n="naziunal/e__adj"/></e>
     <e lm="culturale"><i>cultural</i><par n="naziunal/e__adj"/></e>

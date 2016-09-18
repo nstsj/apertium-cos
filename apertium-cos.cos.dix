@@ -30,7 +30,7 @@
     <sdef n="tn"       c="Tònic"/>
     <sdef n="an"       c="Animat/inanimat"/>
     <sdef n="pos"       c="Possessivo"/>
-    <sdef n="nn"       c="?"/>
+    <sdef n="nn"       c="Inanimate"/>
 
     
     
@@ -587,6 +587,13 @@
 
     <!-- SECTION: Verbs -->
 
+    <pardef n="S__stat/u">
+      <e><p><l>u</l><r><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="/esse__vbser">
       <e><p><l>esse</l><r>esse<s n="vbser"/><s n="inf"/></r></p></e>
       <e><p><l>essendu</l><r>esse<s n="vbser"/><s n="ger"/></r></p></e>
@@ -731,6 +738,8 @@
       <e><p><l>onu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>oni</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>ussut</l><r>udè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+      <e r="LR"><p><l>udut</l><r>udè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
 
     <pardef n="fini/sce__vblex">
@@ -842,10 +851,7 @@
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>acenu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>attu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>atta</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>atti</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>atte</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>att</l><r>à<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
 
     <pardef n="d/à__vblex">
@@ -856,6 +862,7 @@
       <e><p><l>emu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>at</l><r>à<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
 
     <pardef n="piac/e__vblex">
@@ -913,6 +920,42 @@
 
     </pardef>
 
+    <pardef n="circ/à__vblex">
+      <e><p><l>à</l><r>à<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>hendu</l><r>à<s n="vblex"/><s n="ger"/></r></p></e>
+
+      <e><p><l>u</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>hi</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>hemu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+      <e><p><l>hi</l><r>à<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>hi</l><r>à<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>hi</l><r>à<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>himu</l><r>à<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>hite</l><r>à<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>hinu</l><r>à<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      
+      <e><p><l>ò</l><r>à<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>arà</l><r>à<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      
+      <e><p><l>ava</l><r>à<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ave</l><r>à<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ava</l><r>à<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avamu</l><r>à<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avete</l><r>à<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avanu</l><r>à<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+      <e><p><l>atu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ata</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ati</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <pardef n="parl/à__vblex">
       <e><p><l>à</l><r>à<s n="vblex"/><s n="inf"/></r></p></e>
@@ -933,6 +976,9 @@
       <e><p><l>ite</l><r>à<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>inu</l><r>à<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       
+      <e><p><l>ò</l><r>à<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>arà</l><r>à<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       
       <e><p><l>ava</l><r>à<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ave</l><r>à<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -958,7 +1004,25 @@
       <e><p><l>ite</l><r>ì<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>icenu</l><r>ì<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>ett</l><r>ì<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+
     </pardef>
+
+    <pardef n="s/apè__vblex">
+      <e><p><l>apè</l><r>apè<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>ò</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ai</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>à</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>èmu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ète</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>anu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>appiut</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+      <e r="LR"><p><l>aput</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+
+    </pardef>
+
 
     <pardef n="v/ulè__vblex">
       <e><p><l>ulè</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
@@ -1563,6 +1627,7 @@
     <e lm="iputenusa"><i>iputenus</i><par n="scienz/a__n"/></e>
     <e lm="dimucrazia"><i>dimucrazi</i><par n="scienz/a__n"/></e>
     <e lm="cunsiquenza"><i>cunsiquenz</i><par n="scienz/a__n"/></e>
+    <e lm="circumfarenza"><i>circumfarenz</i><par n="scienz/a__n"/></e>
     <e lm="pianura"><i>pianur</i><par n="scienz/a__n"/></e>
     <e lm="lettera"><i>letter</i><par n="scienz/a__n"/></e>
 
@@ -3805,6 +3870,7 @@
     <e lm="cintrale"><i>cintral</i><par n="naziunal/e__adj"/></e>
     <e lm="prisente"><i>prisent</i><par n="naziunal/e__adj"/></e>
     <e lm="ufficiale"><i>ufficial</i><par n="naziunal/e__adj"/></e>
+    <e lm="ufficiale" r="LR"><p><l>uffizial</l><r>ufficial</r></p><par n="naziunal/e__adj"/></e>
     <e lm="impurtante"><i>impurtant</i><par n="naziunal/e__adj"/></e>
     <e lm="rurale"><i>rurale</i><par n="naziunal/e__adj"/></e>
     <e lm="originale"><i>original</i><par n="naziunal/e__adj"/></e>
@@ -3813,6 +3879,15 @@
     <e lm="simile"><i>simil</i><par n="naziunal/e__adj"/></e>
     <e lm="generale"><i>general</i><par n="naziunal/e__adj"/></e>
     <e lm="diffarente"><i>diffarent</i><par n="naziunal/e__adj"/></e>
+
+    <e lm="suciale"><i>sucial</i><par n="naziunal/e__adj"/></e>
+    <e lm="suciale" r="LR"><p><l>social</l><r>sucial</r></p><par n="naziunal/e__adj"/></e>
+    <e lm="cummerciale"><i>cummercial</i><par n="naziunal/e__adj"/></e>
+    <e lm="territuriale"><i>territurial</i><par n="naziunal/e__adj"/></e>
+    <e lm="industriale"><i>industrial</i><par n="naziunal/e__adj"/></e>
+    <e lm="iniziale"><i>inizial</i><par n="naziunal/e__adj"/></e>
+    <e lm="culuniale"><i>culunial</i><par n="naziunal/e__adj"/></e>
+    <e lm="imperiale"><i>imperial</i><par n="naziunal/e__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>
@@ -3952,6 +4027,7 @@
     <e lm="pruvene"><i>pruv</i><par n="t/ene__vblex"/></e>
     <e lm="crede"><i>cr</i><par n="cr/ede__vblex"/></e>
 
+
     <e lm="parlà"><i>parl</i><par n="parl/à__vblex"/></e>
     <e lm="truvà"><i>truv</i><par n="parl/à__vblex"/></e>
     <e lm="aspittà"><i>aspitt</i><par n="parl/à__vblex"/></e>
@@ -3989,10 +4065,17 @@
     <e lm="vulè"><i>v</i><par n="v/ulè__vblex"/></e>
     <e lm="piace"><i>piac</i><par n="piac/e__vblex"/></e>
     <e lm="mette"><i>m</i><par n="m/ette__vblex"/></e>
+    <e lm="permette"><i>perm</i><par n="m/ette__vblex"/></e>
     <e lm="esce"><i></i><par n="/esce__vblex"/></e>
     <e lm="cunnosce"><i>cunn</i><par n="cunn/osce__vblex"/></e>
     <e lm="capisce"><i>capi</i><par n="capi/sce__vblex"/></e>
     <e lm="finisce"><i>fini</i><par n="fini/sce__vblex"/></e>
+
+    <!-- FMT: Comprovare -->
+    <e lm="aiutà"><i>aiut</i><par n="parl/à__vblex"/></e>
+    <e lm="circà"><i>circ</i><par n="circ/à__vblex"/></e>
+    <e lm="ricircà"><i>ricirc</i><par n="circ/à__vblex"/></e>
+    <e lm="sapè"><i>s</i><par n="s/apè__vblex"/></e>
  
     <!-- SECTION: Interjections -->
     <!-- SECTION: Punctuation -->

@@ -1623,6 +1623,7 @@
     <e lm="seculu"><i>secul</i><par n="ann/u__n"/></e>
     <e lm="metru"><i>metr</i><par n="ann/u__n"/></e>
     <e lm="dipartimentu"><i>dipartiment</i><par n="ann/u__n"/></e>
+    <e lm="tradimentu"><i>tradiment</i><par n="ann/u__n"/></e>
     <e lm="elementu"><i>element</i><par n="ann/u__n"/></e>
     <e lm="mumentu"><i>mument</i><par n="ann/u__n"/></e>
     <e lm="munimentu"><i>muniment</i><par n="ann/u__n"/></e>
@@ -1637,6 +1638,7 @@
     <e lm="catalogu"><i>catalog</i><par n="ann/u__n"/></e>
     <e lm="tempu"><i>temp</i><par n="ann/u__n"/></e>
     <e lm="portu"><i>port</i><par n="ann/u__n"/></e>
+    <e lm="trasportu"><i>trasport</i><par n="ann/u__n"/></e>
     <e lm="latinu"><i>latin</i><par n="ann/u__n"/></e>
     <e lm="mondu"><i>mond</i><par n="ann/u__n"/></e>
     <e lm="bacinu"><i>bacin</i><par n="ann/u__n"/></e>
@@ -2104,6 +2106,7 @@
     <e lm="sprissione"><i>sprission</i><par n="relazion/e__n"/></e>
 
     <e lm="presidente"><i>president</i><par n="ribell/e__n"/></e>
+    <e lm="uriente"><i>urient</i><par n="ribell/e__n"/></e>
 
     <e lm="autore"><i>autor</i><par n="ribell/e__n"/></e>
     <e lm="prisente"><i>prisent</i><par n="ribell/e__n"/></e>
@@ -3547,6 +3550,7 @@
      <e lm="New Zealand"><i>New<b/>Zealand</i><par n="Aiacciu__np"/></e>
  
 
+     <e lm="Tulonu"><i>Tulonu</i><par n="Aiacciu__np"/></e>
      <e lm="Mississippi"><i>Mississippi</i><par n="Aiacciu__np"/></e>
      <e lm="Balticu"><i>Balticu</i><par n="Aiacciu__np"/></e>
      <e lm="Meditarraniu"><i>Meditarraniu</i><par n="Aiacciu__np"/></e>
@@ -4587,12 +4591,15 @@
     <e lm="utilizzà"><i>utilizz</i><par n="parl/à__vblex"/></e>
     <e lm="occupà"><i>occup</i><par n="parl/à__vblex"/></e>
     <e lm="suparà"><i>supar</i><par n="parl/à__vblex"/></e>
+    <e lm="ritirà"><i>ritir</i><par n="parl/à__vblex"/></e>
+    <e lm="salpà"><i>salp</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>
     <e lm="studià"><i>studi</i><par n="parl/à__vblex"/></e>
     <e lm="cambià"><i>cambi</i><par n="parl/à__vblex"/></e>
     <e lm="crià"><i>cri</i><par n="parl/à__vblex"/></e>
+    <e lm="inizià"><i>inizi</i><par n="parl/à__vblex"/></e>
     <e lm="creà"><i>cre</i><par n="parl/à__vblex"/></e>
 
     <e lm="vedè"><i>v</i><par n="v/edè__vblex"/></e>

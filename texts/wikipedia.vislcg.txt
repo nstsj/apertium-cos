@@ -294,3 +294,85 @@
 "<.>"
 	"." sent @punct #20->2
 
+"<A>"
+	"u" det def f sg @det #1->2
+"<spidizioni>"
+	"spidizione" n f sg @nsubj #2->3
+"<iniziò>"
+	"inizià" vblex ifi p3 sg @root #3->0
+"<u>"
+	"u" det def m sg @det #4->5
+"<19>"
+	"19" num @nmod #5->3
+"<maghju>"
+	"maghju" n m sg @nmod #6->5
+"<,>"
+	"," cm @punct #7->3
+"<quandu>"
+	"quandu" adv rel @mark #8->10
+"<Nabulionu>"
+	"Nabulionu" np ant m sp @nsubj #9->10
+"<salpò>"
+	"salpà" vblex ifi p3 sg @advcl #10->3
+"<da>"
+	"da" pr @case #11->12
+"<Tulonu>"
+	"Tulonu" np top m sg @nmod #12->10
+"<à>"
+	"à" pr @case #13->14 
+"<capu>"
+	"capu" n m sg @nmod #14->10
+"<di>"
+	"di" pr @case #15->17
+"<l'>"
+	"u" det def mf sp @det #16->17
+"<Armata>"
+	"armata" n f sg @nmod:poss #17->14
+"<d'>"
+	"di" pr @case #18->19
+"<Urienti>"
+	"uriente" n m pl @nmod:poss #19->17
+"<,>"
+	"," cm @punct #20->21
+"<cumposta>"
+	"cumpone" vblex pp f sg @acl #21->17
+"<da>"
+	"da" pr @case #22->26
+"<più>"
+	"più" adv @advmod #23->26
+"<di>"
+	"di" pr @case #24->26
+"<60>"
+	"60" num @nummod #25->26
+"<navi>" 
+	"nave" n f pl @dep #26->21
+"<di>"
+	"di" pr @case #27->28
+"<guerra>" 
+	"guerra" n f sg @nmod:poss #28->26
+"<,>"
+	"," cm @punct #29->31
+"<280>"
+	"280" num @nummod #30->31
+"<navi>"
+	"nave" n f pl @conj #31->26
+"<di>"
+	"di" pr @case #32->33
+"<trasportu>"
+	"trasportu" n m sg @nmod:poss #33->31
+"<,>"
+	"," cm @punct #34->36
+"<16.000>"
+	"16.000" num @nummod #35->36
+"<marinari>"
+	"marinari" n m pl @conj #36->26
+"<è>"
+	"è" cnjcoo @cc #37->39
+"<38.000>"
+	"38.000" num @nummod #38->39
+"<suldati>"
+	"suldatu" n m pl @conj #39->26
+"<.>"
+	"." sent @punct 40->3
+
+

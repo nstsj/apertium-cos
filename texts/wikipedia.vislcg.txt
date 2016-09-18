@@ -253,3 +253,44 @@
 "<.>"
 	"." sent @punct #14->4
 
+"<Si>"
+	"si" prn pro ref p3 mf sp @obj:ind #1->2
+"<tratta>"
+	"trattà" vblex pri p3 sg @root #2->0
+"<inoltri>"
+	"inoltri" adv @advmod #3->2
+"<di>"
+	"di" pr @case #4->6
+"<un>"
+	"un" det ind m sg @det #5->6
+"<pesci>"
+	"pesce" n m sg @nmod #6->2
+"<di>"
+	"di" pr @case #7->9
+"<grandissima>"
+	"grandissimu" adj f sg @amod #8->9
+"<lungività>"
+	"lungività" n f sg @nmod #9->6
+"<:>"
+	":" sent @punct #10->2
+"<prisumibilamenti>"
+	"prisumibilamente" adv @advmod #11->13
+"<pò>"
+	"pudè" vbmod pri p3 sg @aux #12->13
+"<suparà>"
+	"suparà" vblex inf @parataxis #13->2
+"<ampiamenti>"
+	"ampiamente" adv @advmod #14->13
+"<i>"
+	"u" det def m pl @det #15->17
+"<centu>"
+	"centu" num mf sp @nummod #16->17
+"<anni>"
+	"annu" n m pl @obj:dir #17->13
+"<di>"
+	"di" pr @case #18->19
+"<ità>"
+	"ità" n f sg @nmod:poss #19->17
+"<.>"
+	"." sent @punct #20->2
+

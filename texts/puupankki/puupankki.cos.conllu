@@ -7,3 +7,33 @@
 7	Sguìzzera	Sguìzzera	_	np	top|f|sg	4	nmod	_	_
 8	.	.	_	sent	_	4	punct	_	_
 
+1	Hans	Hans	_	np	ant|m|sp	3	flat	_	_
+2	Christian	Christian	_	np	ant|m|sp	3	flat	_	_
+3	Andersen	Andersen	_	np	cog|mf|sp	7	nsubj:cop	_	_
+4	hè	esse	_	vbser	pri|p3|sg	7	aux	_	_
+5	statu	esse	_	vbser	pp|m|sg	7	cop	_	_
+6	unu	un	_	det	ind|m|sg	7	det	_	_
+7	scrivanu	scrivanu	_	n	m|sg	0	root	_	_
+8	danese	danese	_	adj	mf|sg	7	amod	_	_
+9	natu	natu	_	adj	m|sg	7	amod	_	_
+10	à	à	_	pr	_	11	case	_	_
+11	Odense	Odense	_	np	top|m|sg	9	nmod	_	_
+12	u	u	_	det	def|m|sg	13	det	_	_
+13	2	2	_	num	_	9	nmod	_	_
+14	aprile	aprile	_	n	m|sg	13	nmod	_	_
+15	di	di	_	pr	_	17	case	_	_
+16	u	u	_	det	def|m|sg	17	det	_	_
+17	1805	1805	_	num	_	13	nmod	_	_
+18	è	è	_	cnjcoo	_	9	cc	_	_
+19	mortu	mortu	_	adj	m|sg	9	conj	_	_
+20	u	u	_	det	def|m|sg	21	det	_	_
+21	4	4	_	num	_	19	nmod	_	_
+22	d'	di	_	pr	_	23	case	_	_
+23	aostu	aostu	_	n	m|sg	21	nmod	_	_
+24	di	di	_	pr	_	26	case	_	_
+25	u	u	_	det	def|m|sg	26	nmod	_	_
+26	1875	1875	_	num	_	23	nmod	_	_
+27	à	à	_	pr	_	28	case	_	_
+28	Copenaghen	Copenaghen	_	np	top|m|sg	19	nmod	_	_
+29	.	.	_	sent	_	7	punct	_	_
+

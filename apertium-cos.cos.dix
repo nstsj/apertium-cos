@@ -2475,6 +2475,7 @@
     <e lm="Simon"><i>Simon</i><par n="Colonna__np"/></e>
     <e lm="Lennon"><i>Lennon</i><par n="Colonna__np"/></e>
     <e lm="Mason"><i>Mason</i><par n="Colonna__np"/></e>
+    <e lm="Andersen"><i>Andersen</i><par n="Colonna__np"/></e>
     <e lm="Gibson"><i>Gibson</i><par n="Colonna__np"/></e>
     <e lm="Richardson"><i>Richardson</i><par n="Colonna__np"/></e>
     <e lm="Jackson"><i>Jackson</i><par n="Colonna__np"/></e>
@@ -3201,6 +3202,7 @@
      <e lm="Virginia"><i>Virginia</i><par n="Corsica__np"/></e>
 
 
+     <e lm="Odense"><i>Odense</i><par n="Aiacciu__np"/></e>
      <e lm="Aiacciu"><i>Aiacciu</i><par n="Aiacciu__np"/></e>
      <e lm="Nilu"><i>Nilu</i><par n="Aiacciu__np"/></e>
      <e lm="Atlantico"><i>Atlantico</i><par n="Aiacciu__np"/></e>
@@ -3910,6 +3912,8 @@
     <e lm="iniziale"><i>inizial</i><par n="naziunal/e__adj"/></e>
     <e lm="culuniale"><i>culunial</i><par n="naziunal/e__adj"/></e>
     <e lm="imperiale"><i>imperial</i><par n="naziunal/e__adj"/></e>
+
+    <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>

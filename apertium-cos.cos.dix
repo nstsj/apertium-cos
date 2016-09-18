@@ -1163,6 +1163,7 @@
     <e lm="è"><i>è</i><par n="è__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="è__cnjcoo"/></e>
     <e lm="ma"><i>ma</i><par n="è__cnjcoo"/></e>
+    <e lm="ma" r="LR"><p><l>mà</l><r>ma</r></p><par n="è__cnjcoo"/></e>
     <e lm="ni"><i>ni</i><par n="è__cnjcoo"/></e>
     <e lm="ancu"><i>ancu</i><par n="è__cnjcoo"/></e>
     <e lm="mentri"><i>mentri</i><par n="è__cnjcoo"/></e>
@@ -4311,6 +4312,7 @@
     <e lm="rapprisint" r="LR"><p><l>ripprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="carattarizà"><i>carattariz</i><par n="parl/à__vblex"/></e>
     <e lm="passà"><i>pass</i><par n="parl/à__vblex"/></e>
+    <e lm="spusà"><i>spus</i><par n="parl/à__vblex"/></e>
 
     <e lm="studià"><i>studi</i><par n="parl/à__vblex"/></e>
     <e lm="cambià"><i>cambi</i><par n="parl/à__vblex"/></e>

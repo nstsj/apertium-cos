@@ -1996,7 +1996,7 @@
     <e lm="scola"><i>scol</i><par n="form/a__n"/></e>
     <e lm="stantara"><i>stantar</i><par n="form/a__n"/></e>
     
-    <e lm="attrice"><i>attrice</i><par n="attric/e__n"/></e>
+    <e lm="attrice"><i>attric</i><par n="attric/e__n"/></e>
 
 
     <e lm="capitale"><i>capital</i><par n="relazion/e__n"/></e>
@@ -2145,14 +2145,14 @@
     <e lm="filosofia"><i>filosofi</i><par n="battagli/a__n"/></e>
     <e lm="filusufia"><i>filusufi</i><par n="battagli/a__n"/></e>
     <e lm="galassia"><i>galassi</i><par n="battagli/a__n"/></e>
-    <e lm="sistema"><i>sistem</i><par n="scienz/a__n"/></e>
+    <e lm="sistemu"><i>sistem</i><par n="ann/u__n"/></e> 
+    <e lm="sistema"><i>sistem</i><par n="puet/a__n"/></e> 
     <e lm="campagna"><i>campagn</i><par n="scienz/a__n"/></e>
     <e lm="piaghja"><i>piaghj</i><par n="scienz/a__n"/></e>
     <e lm="persona"><i>person</i><par n="scienz/a__n"/></e>
     <e lm="persona" r="LR"><p><l>parson</l><r>person</r></p><par n="scienz/a__n"/></e>
     <e lm="tampiratura"><i>tampiratur</i><par n="scienz/a__n"/></e>
     <e lm="pianeta"><i>pianet</i><par n="puet/a__n"/></e>
-    <e lm="sistema"><i>sistem</i><par n="puet/a__n"/></e> 
     <e lm="rialità"><i>rialit</i><par n="citt/à__n"/></e>
     <e lm="idantità"><i>idantit</i><par n="citt/à__n"/></e>
     <e lm="vulintà"><i>vulint</i><par n="citt/à__n"/></e>
@@ -2219,6 +2219,7 @@
     <!-- SECTION: Proper nouns -->
 
     <e lm="Jaume"><i>Jaume</i><par n="Jaume__np"/></e>
+    <e lm="Titu"><i>Titu</i><par n="Jaume__np"/></e>
     <e lm="Pitagora"><i>Pitagora</i><par n="Jaume__np"/></e>
     <e lm="Ghjaseppu"><i>Ghjaseppu</i><par n="Jaume__np"/></e>
     <e lm="Taylor"><i>Taylor</i><par n="Jaume__np"/></e>
@@ -2875,6 +2876,7 @@
     <e lm="Williams"><i>Williams</i><par n="Colonna__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Colonna__np"/></e>
     <e lm="Collins"><i>Collins</i><par n="Colonna__np"/></e>
+    <e lm="Liviu"><i>Liviu</i><par n="Colonna__np"/></e>
     <e lm="Gutenberg"><i>Gutenberg</i><par n="Colonna__np"/></e>
     <e lm="Gyatso"><i>Gyatso</i><par n="Colonna__np"/></e>
     <e lm="Nehru"><i>Nehru</i><par n="Colonna__np"/></e>
@@ -3519,6 +3521,7 @@
      <e lm="Zilanda"><i>Zilanda</i><par n="Corsica__np"/></e>
      <e lm="Virginia"><i>Virginia</i><par n="Corsica__np"/></e>
 
+     <e lm="Orezza"><i>Orezza</i><par n="Corsica__np"/></e>
      <e lm="New Delhi"><i>New<b/>Delhi</i><par n="Aiacciu__np"/></e>
      <e lm="New England"><i>New<b/>England</i><par n="Aiacciu__np"/></e>
      <e lm="New Hampshire"><i>New<b/>Hampshire</i><par n="Aiacciu__np"/></e>
@@ -4287,6 +4290,7 @@
     <e lm="fundamintale"><i>fundamintal</i><par n="naziunal/e__adj"/></e>
     <e lm="orientale"><i>oriental</i><par n="naziunal/e__adj"/></e>
     <e lm="orientale" r="LR"><p><l>uriental</l><r>oriental</r></p><par n="naziunal/e__adj"/></e>
+    <e lm="orientale" r="LR"><p><l>uriintal</l><r>oriental</r></p><par n="naziunal/e__adj"/></e>
     <e lm="portughese"><i>portughes</i><par n="naziunal/e__adj"/></e>
     <e lm="propriu"><i>propri</i><par n="naziunal/e__adj"/></e>
     <e lm="culturale"><i>cultural</i><par n="naziunal/e__adj"/></e>
@@ -4300,8 +4304,6 @@
     <e lm="canadianu"><i>canadian</i><par n="vechj/u__adj"/></e>
     <e lm="scentificu"><i>scentific</i><par n="tipic/u__adj"/></e>
     <e lm="importante"><i>important</i><par n="vechj/u__adj"/></e>
-
-
 
 	<!-- SECTION: Nationality &  -->
 	
@@ -4323,6 +4325,7 @@
     <e lm="uccidentali"><i>uccidental</i><par n="uccidental/i__adj"/></e>
     <e lm="uccidintali"><i>uccidintal</i><par n="uccidental/i__adj"/></e>
 
+    <e lm="miridiunali"><i>miridiunal</i><par n="uccidental/i__adj"/></e>
     <e lm="miridunali"><i>miridunal</i><par n="uccidental/i__adj"/></e>
     <e lm="sittintriunali"><i>sittintriunal</i><par n="uccidental/i__adj"/></e>
    
@@ -4353,6 +4356,8 @@
     <e lm="oghje"><i>oghje</i><par n="cusì__adv"/></e>
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
     <e lm="quà"><i>quà</i><par n="cusì__adv"/></e>
+    <e lm="dighjà"><i>dighjà</i><par n="cusì__adv"/></e>
+    <e lm="quì"><i>quì</i><par n="cusì__adv"/></e>
     <e lm="forse"><i>forse</i><par n="cusì__adv"/></e>
     <e lm="più"><i>più</i><par n="cusì__adv"/></e>
     <e lm="ancu"><i>ancu</i><par n="cusì__adv"/></e>

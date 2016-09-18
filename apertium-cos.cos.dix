@@ -806,11 +806,13 @@
       <e><p><l>appiut</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
       <e r="LR"><p><l>aput</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
 
+      <e><p><l>apendu</l><r>apè<s n="vblex"/><s n="ger"/></r></p></e>
+
     </pardef>
 
     <pardef n="v/ulè__vblex">
       <e><p><l>ulè</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>ulendu</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ulendu</l><r>ulè<s n="vblex"/><s n="ger"/></r></p></e>
 
       <e><p><l>ogliu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>oli</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1006,6 +1008,8 @@
       <e><p><l>ta</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ti</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>te</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>scendu</l><r>sce<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
 
@@ -1029,6 +1033,8 @@
       <e><p><l>ta</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ti</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>te</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>scendu</l><r>sce<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
     <pardef n="cunn/osce__vblex">
@@ -1044,6 +1050,8 @@
       <e><p><l>isciuta</l><r>osce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>isciuti</l><r>osce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>isciute</l><r>osce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>oscendu</l><r>osce<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
 
@@ -1085,6 +1093,7 @@
       <e><p><l>andata</l><r>andà<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>andati</l><r>andà<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>andate</l><r>andà<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+
     </pardef>
 
     <pardef n="f/à__vblex">
@@ -1097,6 +1106,8 @@
       <e><p><l>acenu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>att</l><r>à<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+
+      <e><p><l>endu</l><r>à<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
     <pardef n="d/à__vblex">
@@ -1108,6 +1119,7 @@
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>at</l><r>à<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+      <e><p><l>endu</l><r>à<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
     <pardef n="piac/e__vblex">
@@ -1252,6 +1264,7 @@
       <e><p><l>ett</l><r>ì<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
       <e r="LR"><p><l>itt</l><r>ì<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
 
+      <e><p><l>icendu</l><r>ì<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 
     <pardef n="cr/ede__vblex">

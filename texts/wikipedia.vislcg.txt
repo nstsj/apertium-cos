@@ -224,3 +224,32 @@
 "<.>"
 	"." sent @punct #16->5
 
+"<Macau>"
+	"Macau" np top m sg @nsubj:cop #1->4
+"<hè>"
+	"esse" vbser pri p3 sg @cop #2->4
+"<una>"
+	"un" det ind f sg @det #3->4
+"<cità>" 
+	"città" n f sg @root #4->0
+"<chinese>"
+	"chinese" adj mf sg @amod #5->4
+"<chi>"
+	"chì" rel an mf sp @mark #6->9
+"<era>"
+	"esse" vbser pii p3 sg @cop #7->9
+"<sott'>"
+	"sottu" pr @case #8->9
+"<amministrazione>"
+	"amministrazione" n f sg @acl:relcl #9->4
+"<purtughese>"
+	"purtughese" adj mf sg @amod #10->9
+"<sinu à>"
+	"sinu à" pr @case #11->13
+"<u>"
+	"u" det def m sg @det #12->13
+"<1999>"
+	"1999" num @nmod #13->9
+"<.>"
+	"." sent @punct #14->4
+

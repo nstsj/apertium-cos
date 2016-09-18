@@ -114,3 +114,18 @@
 15	rossa	rossu	_	adj	f|sg	14	compound	_	_
 16	.	.	_	sent	_	5	punct	_	_
 
+1	Macau	Macau	_	np	top|m|sg	4	nsubj:cop	_	_
+2	hè	esse	_	vbser	pri|p3|sg	4	cop	_	_
+3	una	un	_	det	ind|f|sg	4	det	_	_
+4	cità	città	_	n	f|sg	0	root	_	_
+5	chinese	chinese	_	adj	mf|sg	4	amod	_	_
+6	chi	chì	_	rel	an|mf|sp	9	mark	_	_
+7	era	esse	_	vbser	pii|p3|sg	9	cop	_	_
+8	sott'	sottu	_	pr	_	9	case	_	_
+9	amministrazione	amministrazione	_	n	f|sg	4	acl:relcl	_	_
+10	purtughese	purtughese	_	adj	mf|sg	9	amod	_	_
+11	sinu à	sinu à	_	pr	_	13	case	_	_
+12	u	u	_	det	def|m|sg	13	det	_	_
+13	1999	1999	_	num	_	9	nmod	_	_
+14	.	.	_	sent	_	4	punct	_	_
+

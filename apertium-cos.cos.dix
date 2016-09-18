@@ -655,13 +655,7 @@
       <e><p><l>sariati</l><r>esse<s n="vbser"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>sariani</l><r>esse<s n="vbser"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      
-      
-
-      <e><p><l>statu</l><r>esse<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>stata</l><r>esse<s n="vbser"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>stati</l><r>esse<s n="vbser"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>state</l><r>esse<s n="vbser"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>stat</l><r>esse<s n="vbser"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
 
     <pardef n="/avè__vbhaver">
@@ -728,8 +722,35 @@
       <e><p><l>avuti</l><r>avè<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="d/uvè__vbmod">
+      <e><p><l>uvè</l><r>uvè<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e r="LR"><p><l>evè</l><r>uvè<s n="vbmod"/><s n="inf"/></r></p></e>
+
+      <e><p><l>óvu</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>óvi</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>óve</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uvèmu</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uvète</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>óvenu</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e r="LR"><p><l>evu</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>evi</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>eve</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ivèmu</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ivète</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>evenu</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>uverà</l><r>uvè<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>uvut</l><r>uvè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+      <e r="LR"><p><l>ivut</l><r>uvè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+      <e r="LR"><p><l>ovut</l><r>uvè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+    </pardef>
+
+
     <pardef n="p/udè__vbmod">
       <e><p><l>udè</l><r>udè<s n="vbmod"/><s n="inf"/></r></p></e>
+
       <e><p><l>ossu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>oi</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ò</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -741,6 +762,61 @@
       <e><p><l>ussut</l><r>udè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
       <e r="LR"><p><l>udut</l><r>udè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
+
+    <pardef n="s/apè__vblex">
+      <e><p><l>apè</l><r>apè<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>ò</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ai</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>à</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>èmu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ète</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>anu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>appiut</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+      <e r="LR"><p><l>aput</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+
+    </pardef>
+
+    <pardef n="v/ulè__vblex">
+      <e><p><l>ulè</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ulendu</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>ogliu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>oli</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ole</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ulemu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ulete</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>olenu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulii</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uliamu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uliate</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ulianu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>olsi</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulisti</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>olse</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>olsimu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uliste</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>olsenu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>uleraghju</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ulerai</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ulerà</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uleremu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ulerete</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>uleranu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ulsutu</l><r>ulè<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ulsuta</l><r>ulè<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ulsute</l><r>ulè<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ulsuti</l><r>ulè<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- Coniugazione in -è – Verbo vulè (volere): I rari verbi di questa coniugazione (aé, duvè, parè, pudè, sapé, valè, vulé) sono tutti irregolari. -->
 
     <pardef n="fini/sce__vblex">
       <e><p><l>sce</l><r>sce<s n="vblex"/><s n="inf"/></r></p></e>
@@ -1006,60 +1082,6 @@
 
       <e><p><l>ett</l><r>ì<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
 
-    </pardef>
-
-    <pardef n="s/apè__vblex">
-      <e><p><l>apè</l><r>apè<s n="vblex"/><s n="inf"/></r></p></e>
-
-      <e><p><l>ò</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ai</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>à</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>èmu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ète</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>anu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-
-      <e><p><l>appiut</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
-      <e r="LR"><p><l>aput</l><r>apè<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
-
-    </pardef>
-
-
-    <pardef n="v/ulè__vblex">
-      <e><p><l>ulè</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>ulendu</l><r>ulè<s n="vblex"/><s n="inf"/></r></p></e>
-
-      <e><p><l>ogliu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>oli</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ole</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ulemu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ulete</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>olenu</l><r>ulè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-
-      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ulii</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ulia</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>uliamu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uliate</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ulianu</l><r>ulè<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-
-      <e><p><l>olsi</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ulisti</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>olse</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>olsimu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uliste</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>olsenu</l><r>ulè<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
-
-      <e><p><l>uleraghju</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ulerai</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ulerà</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>uleremu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ulerete</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>uleranu</l><r>ulè<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
-
-      <e><p><l>ulsutu</l><r>ulè<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ulsuta</l><r>ulè<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ulsute</l><r>ulè<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ulsuti</l><r>ulè<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="cr/ede__vblex">
@@ -3962,7 +3984,7 @@
     <e lm="oghji"><i>oghji</i><par n="cusì__adv"/></e>
     <e lm="tantu"><i>tantu</i><par n="cusì__adv"/></e>
     <e lm="infatti"><i>infatti</i><par n="cusì__adv"/></e>
-    <e lm="induve"><i>induve</i><par n="cusì__adv"/></e>
+    <e lm="induve" r="LR"><p><l>induve</l><r>induva</r></p><par n="cusì__adv"/></e>
     <e lm="almenu"><i>almenu</i><par n="cusì__adv"/></e>
     <e lm="guasi"><i>guasi</i><par n="cusì__adv"/></e>
     <e lm="inveci"><i>inveci</i><par n="cusì__adv"/></e>
@@ -4016,6 +4038,7 @@
     <e lm="esse"><i></i><par n="/esse__vbser"/></e>
     <e lm="avè"><i></i><par n="/avè__vbhaver"/></e>
     <e lm="pudè"><i>p</i><par n="p/udè__vbmod"/></e>
+    <e lm="duvè"><i>d</i><par n="d/uvè__vbmod"/></e>
 
     <e lm="andà"><i></i><par n="/andà__vblex"/></e>
     <e lm="fà"><i>f</i><par n="f/à__vblex"/></e>
@@ -4086,6 +4109,7 @@
   <section id="apost" type="postblank">
     <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+    <e r="LR" lm="d'"><p><l>induv'</l><r>induva<s n="adv"/></r></p></e>
     <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="cnjsub"/></r></p></e>

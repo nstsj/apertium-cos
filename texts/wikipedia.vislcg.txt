@@ -164,3 +164,30 @@
 "<.>"
 	"." sent @punct #27->7
 
+"<Fù>"
+	"esse" vbser pii p3 sg @cop #1->4
+"<tandu>"
+	"tandu" adv @advmod #2->4
+"<u>"
+	"u" det def m sg @det #3->4
+"<principiu>"
+	"principiu" n m sg @root #4->0
+"<di>"
+	"di" pr @case #5->7
+"<una>"
+	"un" det ind f sg @det #6->7
+"<guerra>"
+	"guerra" n f sg @nmod:poss #7->4
+"<chì>"
+	"chì" rel an mf sp @nsubj #8->9
+"<durara>"
+	"durà" vblex fti p3 sg @acl:relcl #9->7
+"<fin'à>"
+	"fin'à" pr @case #10->12
+"<lu>"
+	"u" det def m sg @det #11->12
+"<1783>"
+	"1783" num @nmod #12->9
+"<.>"
+	"." sent @punct #13->4
+

@@ -83,3 +83,17 @@
 26	1455	1455	_	num	_	23	conj	_	_
 27	.	.	_	sent	_	7	punct	_	_
 
+1	Fù	esse	_	vbser	pii|p3|sg	4	cop	_	_
+2	tandu	tandu	_	adv	_	4	advmod	_	_
+3	u	u	_	det	def|m|sg	4	det	_	_
+4	principiu	principiu	_	n	m|sg	0	root	_	_
+5	di	di	_	pr	_	7	case	_	_
+6	una	un	_	det	ind|f|sg	7	det	_	_
+7	guerra	guerra	_	n	f|sg	4	nmod:poss	_	_
+8	chì	chì	_	rel	an|mf|sp	9	nsubj	_	_
+9	durara	durà	_	vblex	fti|p3|sg	7	acl:relcl	_	_
+10	fin'à	fin'à	_	pr	_	12	case	_	_
+11	lu	u	_	det	def|m|sg	12	det	_	_
+12	1783	1783	_	num	_	9	nmod	_	_
+13	.	.	_	sent	_	4	punct	_	_
+

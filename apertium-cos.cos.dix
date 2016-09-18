@@ -3302,6 +3302,17 @@
      <e lm="Zilanda"><i>Zilanda</i><par n="Corsica__np"/></e>
      <e lm="Virginia"><i>Virginia</i><par n="Corsica__np"/></e>
 
+     <e lm="New Delhi"><i>New<b/>Delhi</i><par n="Aiacciu__np"/></e>
+     <e lm="New England"><i>New<b/>England</i><par n="Aiacciu__np"/></e>
+     <e lm="New Hampshire"><i>New<b/>Hampshire</i><par n="Aiacciu__np"/></e>
+     <e lm="New Haven"><i>New<b/>Haven</i><par n="Aiacciu__np"/></e>
+     <e lm="New Jersey"><i>New<b/>Jersey</i><par n="Aiacciu__np"/></e>
+     <e lm="New Mexico"><i>New<b/>Mexico</i><par n="Aiacciu__np"/></e>
+     <e lm="New Orleans"><i>New<b/>Orleans</i><par n="Aiacciu__np"/></e>
+     <e lm="New South Wales"><i>New<b/>South<b/>Wales</i><par n="Aiacciu__np"/></e>
+     <e lm="New York"><i>New<b/>York</i><par n="Aiacciu__np"/></e>
+     <e lm="New Zealand"><i>New<b/>Zealand</i><par n="Aiacciu__np"/></e>
+ 
 
      <e lm="Mississippi"><i>Mississippi</i><par n="Aiacciu__np"/></e>
      <e lm="Balticu"><i>Balticu</i><par n="Aiacciu__np"/></e>
@@ -4034,6 +4045,7 @@
     <e lm="imperiale"><i>imperial</i><par n="naziunal/e__adj"/></e>
 
     <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
+    <e lm="genuvese"><i>genuves</i><par n="naziunal/e__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>
@@ -4298,6 +4310,7 @@
     <e lm="rapprisint" r="LR"><p><l>rapprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="rapprisint" r="LR"><p><l>ripprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="carattarizà"><i>carattariz</i><par n="parl/à__vblex"/></e>
+    <e lm="passà"><i>pass</i><par n="parl/à__vblex"/></e>
 
     <e lm="studià"><i>studi</i><par n="parl/à__vblex"/></e>
     <e lm="cambià"><i>cambi</i><par n="parl/à__vblex"/></e>
@@ -4323,6 +4336,7 @@
     <e r="LR" lm="com'"><p><l>com'</l><r>comu<s n="pr"/></r></p></e> <!-- FIXME -->
     <e r="LR" lm="tropp'"><p><l>tropp'</l><r>troppu</r></p><par n="cusì__adv"/></e>
     <e r="LR" lm="'ss'"><p><l>'ss'</l><r>ssu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="quidd'"><p><l>quidd'</l><r>quiddu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">

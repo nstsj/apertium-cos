@@ -1373,6 +1373,7 @@
     <e lm="di"><i></i><par n="/di__pr"/></e>
     <e lm="à"><i>à</i><par n="à__pr"/></e>
     <e lm="sin'à"><i>sin'à</i><par n="à__pr"/></e>
+    <e lm="sinu à"><i>sinu<b/>à</i><par n="à__pr"/></e>
     <e lm="fin'à"><i>fin'à</i><par n="à__pr"/></e>
     <e lm="in"><i>in</i><par n="à__pr"/></e>
     <e lm="pà"><i>pà</i><par n="à__pr"/></e>
@@ -2005,6 +2006,7 @@
     <e lm="morte"><i>mort</i><par n="relazion/e__n"/></e>
 
     <e lm="traduzzione"><i>traduzzion</i><par n="relazion/e__n"/></e>
+    <e lm="amministrazione"><i>amministrazion</i><par n="relazion/e__n"/></e>
     <e lm="criazione"><i>criazion</i><par n="relazion/e__n"/></e>
     <e lm="citazione"><i>citazion</i><par n="relazion/e__n"/></e>
     <e lm="relazione"><i>relazion</i><par n="relazion/e__n"/></e>
@@ -4271,6 +4273,8 @@
 
     <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
     <e lm="genuvese"><i>genuves</i><par n="naziunal/e__adj"/></e>
+    <e lm="purtughese"><i>purtughes</i><par n="naziunal/e__adj"/></e>
+    <e lm="chinese"><i>chines</i><par n="naziunal/e__adj"/></e>
     <e lm="ghjinuvese"><i>ghjinuves</i><par n="naziunal/e__adj"/></e>
     <e lm="ghjinuvesu"><i>ghjinuves</i><par n="vechj/u__adj"/></e>
 
@@ -4594,6 +4598,7 @@
   <section id="apost" type="postblank">
     <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+    <e r="LR" lm="sott'"><p><l>sott'</l><r>sottu<s n="pr"/></r></p></e>
     <e r="LR" lm="d'"><p><l>induv'</l><r>induva<s n="adv"/></r></p></e>
     <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>

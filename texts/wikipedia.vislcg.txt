@@ -429,7 +429,7 @@
 "<so>"
 	"so" adj pos m sg @amod #19->20
 "<Imperatori>"
-	"imperatoru" n m pl @nmod #20->16
+	"imperatoru" n m sg @nmod #20->16
 "<hè>"
 	"esse" vbser pri p3 sg @cop #21->22
 "<libaru>"

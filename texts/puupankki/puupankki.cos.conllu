@@ -218,7 +218,7 @@
 17	à	à	_	pr	_	20	case	_	_
 18	u	u	_	det	def|m|sg	20	det	_	_
 19	so	so	_	adj	pos|m|sg	20	amod	_	_
-20	Imperatori	imperatoru	_	n	m|pl	16	nmod	_	_
+20	Imperatori	imperatoru	_	n	m|sg	16	nmod	_	_
 21	hè	esse	_	vbser	pri|p3|sg	22	cop	_	_
 22	libaru	libaru	_	adj	m|sg	12	parataxis	_	_
 23	di	di	_	pr	_	24	dep	_	_

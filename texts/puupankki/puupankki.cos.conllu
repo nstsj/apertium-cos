@@ -55,3 +55,31 @@
 16	internaziunale	internaziunale	_	adj	mf|sg	15	amod	_	_
 17	.	.	_	sent	_	9	punct	_	_
 
+1	L'	u	_	det	def|mf|sp	2	det	_	_
+2	incunabulu	incunabulu	_	n	m|sg	7	nsubj:cop	_	_
+3	più	più	_	adv	_	4	advmod	_	_
+4	anticu	anticu	_	adj	m|sg	2	amod	_	_
+5	hè	esse	_	vbser	pri|p3|sg	7	cop	_	_
+6	a	u	_	det	def|f|sg	7	det	_	_
+7	Bibbia	bibbia	_	n	f|sg	0	root	_	_
+8	di	di	_	pr	_	9	case	_	_
+9	Gutenberg	Gutenberg	_	np	cog|mf|sp	7	nmod:poss	_	_
+10	,	,	_	cm	_	7	punct	_	_
+11	in	in	_	pr	_	12	case	_	_
+12	latinu	latinu	_	n	m|sg	7	appos	_	_
+13	,	,	_	cm	_	12	punct	_	_
+14	cusì	cusì	_	adv	_	15	advmod	_	_
+15	chjamata	chjamà	_	vblex	pp|f|sg	7	acl	_	_
+16	perchè	parchì	_	cnjadv	_	17	mark	_	_
+17	stampata	stampà	_	vblex	pp|f|sg	15	advcl	_	_
+18	da	da	_	pr	_	20	case	_	_
+19	Johann	Johann	_	np	ant|m|sp	20	flat	_	_
+20	Gutenberg	Gutenberg	_	np	cog|mf|sp	17	nmod	_	_
+21	trà	trà	_	pr	_	23	case	_	_
+22	u	u	_	det	def|m|sg	23	det	_	_
+23	1452	1452	_	num	_	17	nmod	_	_
+24	è	è	_	cnjcoo	_	23	cc	_	_
+25	u	u	_	det	def|m|sg	26	det	_	_
+26	1455	1455	_	num	_	23	conj	_	_
+27	.	.	_	sent	_	7	punct	_	_
+

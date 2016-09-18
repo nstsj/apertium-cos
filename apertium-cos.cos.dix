@@ -454,8 +454,13 @@
       <e><p><l>i</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="Bibbia__n">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+     
+    </pardef>
+
     <pardef n="nordu__n">
-      <e><p><l></l><r><s n="n"/><s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
      
     </pardef>
     
@@ -1317,10 +1322,18 @@
 
 
     <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
+
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
+    <e lm="chì" r="LR"><p><l>chè</l><r>chì</r></p><par n="chì__cnjsub"/></e>
+
     <e lm="parchì"><i>parchì</i><par n="sì__cnjadv"/></e>
+    <e lm="parchì" r="LR"><p><l>parchè</l><r>parchì</r></p><par n="sì__cnjadv"/></e>
+    <e lm="parchì" r="LR"><p><l>perchè</l><r>parchì</r></p><par n="sì__cnjadv"/></e>
+    <e lm="parchì" r="LR"><p><l>perchì</l><r>parchì</r></p><par n="sì__cnjadv"/></e>
+
     <e lm="dunqua"><i>dunqua</i><par n="sì__cnjadv"/></e>
     <e lm="dunqua" r="LR"><p><l>dunque</l><r>dunqua</r></p><par n="sì__cnjadv"/></e>
+
     <e lm="nonustante"><i>nonustante</i><par n="sì__cnjadv"/></e>
     <e lm="nonustante" r="LR"><p><l>nonustanti</l><r>nonustante</r></p><par n="sì__cnjadv"/></e>
 
@@ -1428,6 +1441,7 @@
     <e lm="sette"><i>sette</i><par n="quattru__num"/></e>
     <e lm="ottu"><i>ottu</i><par n="quattru__num"/></e>
     <e lm="nove"><i>nove</i><par n="quattru__num"/></e>
+    <e lm="dodici"><i>dodici</i><par n="quattru__num"/></e>
     
     <e lm="I"><i>I</i><par n="XIII__num"/></e>
     <e lm="II"><i>II</i><par n="XIII__num"/></e>
@@ -1495,6 +1509,7 @@
     <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
 
+    <e lm="incunabulu"><i>incunabul</i><par n="ann/u__n"/></e>
     <e lm="mulinu"><i>mulin</i><par n="ann/u__n"/></e>
     <e lm="situ"><i>sit</i><par n="ann/u__n"/></e>
     <e lm="acellu"><i>acell</i><par n="ann/u__n"/></e>
@@ -2052,6 +2067,7 @@
     <e lm="spluttatore"><i>spluttator</i><par n="ribell/e__n"/></e>
     <e lm="nome"><i>nom</i><par n="ribell/e__n"/></e>
     <e lm="paese"><i>paes</i><par n="ribell/e__n"/></e>
+    <e lm="paesu"><i>paes</i><par n="ann/u__n"/></e>
     <e lm="attore"><i>attor</i><par n="ribell/e__n"/></e>
     <e lm="cuntinente"><i>cuntinent</i><par n="ribell/e__n"/></e>
     <e lm="lume"><i>lum</i><par n="ribell/e__n"/></e>
@@ -2132,7 +2148,10 @@
     <e lm="alfabetu"><i>alfabet</i><par n="ann/u__n"/></e>
     <e lm="esercitu"><i>esercit</i><par n="ann/u__n"/></e>
     <e lm="cunflittu"><i>cunflitt</i><par n="ann/u__n"/></e>
+    <e lm="pruduttu"><i>prudutt</i><par n="ann/u__n"/></e>
+    <e lm="pruduttu" r="LR"><p><l>produtt</l><r>prudutt</r></p><par n="ann/u__n"/></e>
 
+    <e lm="Bibbia"><i>bibbia</i><par n="Bibbia__n"/></e>
 
 
     <e lm="matematicu"><i>matematic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
@@ -2153,6 +2172,7 @@
     <!-- SECTION: Proper nouns -->
 
     <e lm="Jaume"><i>Jaume</i><par n="Jaume__np"/></e>
+    <e lm="Ghjaseppu"><i>Ghjaseppu</i><par n="Jaume__np"/></e>
     <e lm="Taylor"><i>Taylor</i><par n="Jaume__np"/></e>
     <e lm="Petru"><i>Petru</i><par n="Jaume__np"/></e>
     <e lm="Paoli"><i>Paoli</i><par n="Jaume__np"/></e>
@@ -2805,6 +2825,7 @@
     <e lm="Williams"><i>Williams</i><par n="Colonna__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Colonna__np"/></e>
     <e lm="Collins"><i>Collins</i><par n="Colonna__np"/></e>
+    <e lm="Gutenberg"><i>Gutenberg</i><par n="Colonna__np"/></e>
     <e lm="Gyatso"><i>Gyatso</i><par n="Colonna__np"/></e>
     <e lm="Nehru"><i>Nehru</i><par n="Colonna__np"/></e>
     <e lm="Matisse"><i>Matisse</i><par n="Colonna__np"/></e>
@@ -4054,6 +4075,7 @@
     <e lm="indianu"><i>indian</i><par n="vechj/u__adj"/></e>
     <e lm="sinceru"><i>sincer</i><par n="vechj/u__adj"/></e>
     <e lm="vivu"><i>viv</i><par n="vechj/u__adj"/></e>
+    <e lm="attivu"><i>attiv</i><par n="vechj/u__adj"/></e>
     <e lm="latinu"><i>latin</i><par n="vechj/u__adj"/></e>
     <e lm="divinu"><i>divin</i><par n="vechj/u__adj"/></e>
     <e lm="classificatu"><i>classificat</i><par n="vechj/u__adj"/></e>
@@ -4194,6 +4216,7 @@
 
     <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
     <e lm="genuvese"><i>genuves</i><par n="naziunal/e__adj"/></e>
+    <e lm="ghjinuvese"><i>ghjinuves</i><par n="naziunal/e__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>
@@ -4462,9 +4485,13 @@
     <e lm="passà"><i>pass</i><par n="parl/à__vblex"/></e>
     <e lm="spusà"><i>spus</i><par n="parl/à__vblex"/></e>
     <e lm="vultà"><i>vult</i><par n="parl/à__vblex"/></e>
+    <e lm="stampà"><i>stamp</i><par n="parl/à__vblex"/></e>
+
 
     <e lm="studià"><i>studi</i><par n="parl/à__vblex"/></e>
     <e lm="cambià"><i>cambi</i><par n="parl/à__vblex"/></e>
+    <e lm="crià"><i>cri</i><par n="parl/à__vblex"/></e>
+    <e lm="creà"><i>cre</i><par n="parl/à__vblex"/></e>
 
     <e lm="vedè"><i>v</i><par n="v/edè__vblex"/></e>
     <e lm="nasce"><i>n</i><par n="n/asce__vblex"/></e>

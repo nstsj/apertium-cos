@@ -109,3 +109,58 @@
 "<.>"
 	"." sent @punct #17->9
 
+"<L'>"
+	"u" det def mf sp @det #1->2
+"<incunabulu>"
+	"incunabulu" n m sg @nsubj:cop #2->7
+"<più>"
+	"più" adv @advmod #3->4
+"<anticu>"
+	"anticu" adj m sg @amod #4->2
+"<hè>"
+	"esse" vbser pri p3 sg @cop #5->7
+"<a>"
+	"u" det def f sg @det #6->7
+"<Bibbia>"
+	"bibbia" n f sg @root #7->0
+"<di>"
+	"di" pr @case #8->9
+"<Gutenberg>" 
+	"Gutenberg" np cog mf sp @nmod:poss #9->7
+"<,>"
+	"," cm @punct #10->7
+"<in>"
+	"in" pr @case #11->12
+"<latinu>"
+	"latinu" n m sg @appos #12->7
+"<,>"
+	"," cm @punct #13->12
+"<cusì>"
+	"cusì" adv @advmod #14->15
+"<chjamata>"
+	"chjamà" vblex pp f sg @acl #15->7
+"<perchè>"
+	"parchì" cnjadv @mark #16->17
+"<stampata>"
+	"stampà" vblex pp f sg @advcl #17->15
+"<da>"
+	"da" pr @case #18->20
+"<Johann>"
+	"Johann" np ant m sp @flat #19->20
+"<Gutenberg>"
+	"Gutenberg" np cog mf sp @nmod #20->17
+"<trà>"
+	"trà" pr @case #21->23
+"<u>"
+	"u" det def m sg @det #22->23
+"<1452>"
+	"1452" num @nmod #23->17
+"<è>"
+	"è" cnjcoo @cc #24->23
+"<u>"
+	"u" det def m sg @det #25->26
+"<1455>"
+	"1455" num @conj #26->23
+"<.>"
+	"." sent @punct #27->7
+

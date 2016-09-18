@@ -191,3 +191,36 @@
 "<.>"
 	"." sent @punct #13->4
 
+"<U>"
+	"u" det def m sg @det #1->2
+"<ghjaddu>"
+	"ghjaddu" n m sg @nsubj:cop #2->5
+"<hè>"
+	"esse" vbser pri p3 sg @cop #3->5
+"<più>"
+	"più" adv @advmod #4->5
+"<maiori>"
+	"maiore" adj mf sg @root #5->0
+"<ca>"
+	"chì" cnjsub @case #6->8
+"<a>"
+	"u" det def f sg @det #7->8
+"<ghjaddina>"
+	"ghjaddina" n f sg @acl #8->5
+"<è>"
+	"è" cnjcoo @cc #9->5
+"<t'>"
+	"ti" prn pro p2 mf sg @dep #10->11
+"<hà>"
+	"avè" vbhaver pri p3 sg @conj #11->5
+"<una>"
+	"un" det ind f sg @det #12->13
+"<cresta>"
+	"cresta" n f sg @dobj #13->11
+"<rossa>"
+	"rossu" adj f sg @amod #14->13
+"<rossa>"
+	"rossu" adj f sg @compound #15->14
+"<.>"
+	"." sent @punct #16->5
+

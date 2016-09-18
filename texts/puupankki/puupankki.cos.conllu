@@ -97,3 +97,20 @@
 12	1783	1783	_	num	_	9	nmod	_	_
 13	.	.	_	sent	_	4	punct	_	_
 
+1	U	u	_	det	def|m|sg	2	det	_	_
+2	ghjaddu	ghjaddu	_	n	m|sg	5	nsubj:cop	_	_
+3	hè	esse	_	vbser	pri|p3|sg	5	cop	_	_
+4	più	più	_	adv	_	5	advmod	_	_
+5	maiori	maiore	_	adj	mf|sg	0	root	_	_
+6	ca	chì	_	cnjsub	_	8	case	_	_
+7	a	u	_	det	def|f|sg	8	det	_	_
+8	ghjaddina	ghjaddina	_	n	f|sg	5	acl	_	_
+9	è	è	_	cnjcoo	_	5	cc	_	_
+10	t'	ti	_	prn	pro|p2|mf|sg	11	dep	_	_
+11	hà	avè	_	vbhaver	pri|p3|sg	5	conj	_	_
+12	una	un	_	det	ind|f|sg	13	det	_	_
+13	cresta	cresta	_	n	f|sg	11	dobj	_	_
+14	rossa	rossu	_	adj	f|sg	13	amod	_	_
+15	rossa	rossu	_	adj	f|sg	14	compound	_	_
+16	.	.	_	sent	_	5	punct	_	_
+

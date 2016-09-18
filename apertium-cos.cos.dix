@@ -304,7 +304,12 @@
       <e r="LR"><p><l>i<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
+     
     
+    <pardef n="chì__rel">
+	<e><p><l></l><r><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
     
     <pardef n="quant/u__rel">
 
@@ -569,6 +574,13 @@
 
       <e><p><l>i</l><r>a<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r>a<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="maior/e__adj">
+      <e><p><l>e</l><r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>e<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -1342,6 +1354,7 @@
 
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
     <e lm="chì" r="LR"><p><l>chè</l><r>chì</r></p><par n="chì__cnjsub"/></e>
+    <e lm="chì" r="LR"><p><l>ca</l><r>chì</r></p><par n="chì__cnjsub"/></e>
 
     <e lm="parchì"><i>parchì</i><par n="sì__cnjadv"/></e>
     <e lm="parchì" r="LR"><p><l>parchè</l><r>parchì</r></p><par n="sì__cnjadv"/></e>
@@ -1449,6 +1462,9 @@
     
     <e lm="quantu"><i>quant</i><par n="quant/u__rel"/></e>
 
+    <e lm="chì"><i>chì</i><par n="chì__rel"/></e>
+    <e lm="chì" r="LR"><p><l>chè</l><r>chì</r></p><par n="chì__rel"/></e>
+    <e lm="chì" r="LR"><p><l>ca</l><r>chì</r></p><par n="chì__rel"/></e>
 
 
     <!-- SECTION: Numerals -->
@@ -1561,7 +1577,6 @@
     <e lm="centru"><i>centr</i><par n="ann/u__n"/></e>
     <e lm="tipu"><i>tip</i><par n="ann/u__n"/></e>
     <e lm="corpu"><i>corp</i><par n="ann/u__n"/></e>
-    <e lm="sistema"><i>sistem</i><par n="ann/u__n"/></e>
     <e lm="rispettu"><i>rispett</i><par n="ann/u__n"/></e>
 
     <e lm="passu"><i>pass</i><par n="ann/u__n"/></e>
@@ -1624,6 +1639,7 @@
     <e lm="isolottu"><i>isolott</i><par n="ann/u__n"/></e>
     <e lm="aiutu"><i>aiut</i><par n="ann/u__n"/></e>
     <e lm="cavaddu"><i>cavadd</i><par n="ann/u__n"/></e>
+    <e lm="ghjaddu"><i>ghjadd</i><par n="ann/u__n"/></e>
     <e lm="capu"><i>cap</i><par n="ann/u__n"/></e>
     <e lm="significatu"><i>significat</i><par n="ann/u__n"/></e>
     <e lm="regnu"><i>regni</i><par n="ann/u__n"/></e>
@@ -1853,6 +1869,8 @@
     <e lm="annata"><i>annat</i><par n="scienz/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
+    <e lm="ghjaddina"><i>ghjaddin</i><par n="scienz/a__n"/></e>
+    <e lm="cresta"><i>crest</i><par n="scienz/a__n"/></e>
     <e lm="forza"><i>forz</i><par n="scienz/a__n"/></e>
     <e lm="terra"><i>terr</i><par n="scienz/a__n"/></e>
     <e lm="acqua"><i>acqu</i><par n="scienz/a__n"/></e>
@@ -2094,6 +2112,7 @@
     <e lm="paese"><i>paes</i><par n="ribell/e__n"/></e>
     <e lm="paesu"><i>paes</i><par n="ann/u__n"/></e>
     <e lm="attore"><i>attor</i><par n="ribell/e__n"/></e>
+    <e lm="scrittore"><i>scrittor</i><par n="ribell/e__n"/></e>
     <e lm="cuntinente"><i>cuntinent</i><par n="ribell/e__n"/></e>
     <e lm="lume"><i>lum</i><par n="ribell/e__n"/></e>
 
@@ -2101,6 +2120,7 @@
     <e lm="mari"><i>mar</i><par n="mar/i__n"/></e>
 
     <e lm="spezia"><i>spezi</i><par n="spezi/a__n"/></e>
+    <e lm="sottuspezia"><i>sottuspezi</i><par n="spezi/a__n"/></e>
     <e lm="linia"><i>lini</i><par n="spezi/a__n"/></e>
     <e lm="storia"><i>stori</i><par n="spezi/a__n"/></e>
     
@@ -2127,10 +2147,12 @@
     <e lm="galassia"><i>galassi</i><par n="battagli/a__n"/></e>
     <e lm="sistema"><i>sistem</i><par n="scienz/a__n"/></e>
     <e lm="campagna"><i>campagn</i><par n="scienz/a__n"/></e>
+    <e lm="piaghja"><i>piaghj</i><par n="scienz/a__n"/></e>
     <e lm="persona"><i>person</i><par n="scienz/a__n"/></e>
     <e lm="persona" r="LR"><p><l>parson</l><r>person</r></p><par n="scienz/a__n"/></e>
     <e lm="tampiratura"><i>tampiratur</i><par n="scienz/a__n"/></e>
     <e lm="pianeta"><i>pianet</i><par n="puet/a__n"/></e>
+    <e lm="sistema"><i>sistem</i><par n="puet/a__n"/></e> 
     <e lm="rialità"><i>rialit</i><par n="citt/à__n"/></e>
     <e lm="idantità"><i>idantit</i><par n="citt/à__n"/></e>
     <e lm="vulintà"><i>vulint</i><par n="citt/à__n"/></e>
@@ -2258,6 +2280,7 @@
 
 
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
+    <e lm="Lelletta"><i>Lelletta</i><par n="Maria__np"/></e>
     <e lm="Taylor"><i>Taylor</i><par n="Maria__np"/></e>
     <e lm="Ghjulia"><i>Ghjulia</i><par n="Maria__np"/></e>
     <e lm="Elena"><i>Elena</i><par n="Maria__np"/></e>
@@ -4210,6 +4233,7 @@
   
     <e lm="mundiale"><i>mundial</i><par n="naziunal/e__adj"/></e>
 
+    <e lm="maiore"><i>maior</i><par n="maior/e__adj"/></e>
     <e lm="naziunale"><i>naziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="internaziunale"><i>internaziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="principale"><i>principal</i><par n="naziunal/e__adj"/></e>
@@ -4245,6 +4269,7 @@
     <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
     <e lm="genuvese"><i>genuves</i><par n="naziunal/e__adj"/></e>
     <e lm="ghjinuvese"><i>ghjinuves</i><par n="naziunal/e__adj"/></e>
+    <e lm="ghjinuvesu"><i>ghjinuves</i><par n="vechj/u__adj"/></e>
 
     <e lm="maiò"><i>maiò</i><par n="maiò__adj"/></e>
     <e lm="anticorsu"><i>anticors</i><par n="vechj/u__adj"/></e>
@@ -4327,6 +4352,7 @@
     <e lm="bè"><i>bè</i><par n="cusì__adv"/></e>
     <e lm="oghje"><i>oghje</i><par n="cusì__adv"/></e>
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
+    <e lm="quà"><i>quà</i><par n="cusì__adv"/></e>
     <e lm="forse"><i>forse</i><par n="cusì__adv"/></e>
     <e lm="più"><i>più</i><par n="cusì__adv"/></e>
     <e lm="ancu"><i>ancu</i><par n="cusì__adv"/></e>

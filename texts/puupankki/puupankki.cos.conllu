@@ -37,3 +37,21 @@
 28	Copenaghen	Copenaghen	_	np	top|m|sg	19	nmod	_	_
 29	.	.	_	sent	_	7	punct	_	_
 
+1	In	in	_	pr	_	2	case	_	_
+2	astronomia	astrunumia	_	n	f|sg	9	nmod	_	_
+3	muderna	mudernu	_	adj	f|sg	2	amod	_	_
+4	,	,	_	cm	_	2	punct	_	_
+5	una	un	_	det	ind|f|sg	6	det	_	_
+6	custellazione	custellazione	_	n	f|sg	9	nsubj:cop	_	_
+7	hè	esse	_	vbser	pri|p3|sg	9	cop	_	_
+8	una	un	_	det	ind|f|sg	9	det	_	_
+9	zona	zona	_	n	f|sg	0	root	_	_
+10	di	di	_	pr	_	11	case	_	_
+11	celu	celu	_	n	m|sg	9	nmod	_	_
+12	definita	difinisce	_	vblex	pp|f|sg	9	acl	_	_
+13	à	à	_	pr	_	15	case	_	_
+14	u	u	_	det	def|m|sg	15	det	_	_
+15	nivellu	nivellu	_	n	m|sg	12	nmod	_	_
+16	internaziunale	internaziunale	_	adj	mf|sg	15	amod	_	_
+17	.	.	_	sent	_	9	punct	_	_
+

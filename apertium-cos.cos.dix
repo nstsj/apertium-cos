@@ -1487,6 +1487,8 @@
     <e lm="avisu"><i>avis</i><par n="ann/u__n"/></e>
     <e lm="segnu"><i>segn</i><par n="ann/u__n"/></e>
     <e lm="velu"><i>vel</i><par n="ann/u__n"/></e>
+    <e lm="celu"><i>cel</i><par n="ann/u__n"/></e>
+    <e lm="nivellu"><i>nivell</i><par n="ann/u__n"/></e>
     <e lm="fazzulettu"><i>fazzulett</i><par n="ann/u__n"/></e>
     <e lm="prigiuneru"><i>prigiuner</i><par n="ann/u__n"/></e>
     <e lm="campiunatu"><i>campiunat</i><par n="ann/u__n"/></e>
@@ -1629,6 +1631,8 @@
     <e lm="diaspora"><i>diaspor</i><par n="scienz/a__n"/></e>
     <e lm="memoria"><i>memori</i><par n="scienz/a__n"/></e>
     <e lm="econumia"><i>econumi</i><par n="scienz/a__n"/></e>
+    <e lm="astrunumia"><i>astrunumi</i><par n="scienz/a__n"/></e>
+    <e lm="astrunumia" r="LR"><p><l>astronomi</l><r>astrunumi</r></p><par n="scienz/a__n"/></e>
     <e lm="chitarra"><i>chitarr</i><par n="scienz/a__n"/></e>
     <e lm="biugrafia"><i>biugrafia</i><par n="scienz/a__n"/></e>
     <e lm="annata"><i>annat</i><par n="scienz/a__n"/></e>
@@ -1797,6 +1801,7 @@
     <e lm="altitudine"><i>altitudin</i><par n="relazion/e__n"/></e>
 
     <e lm="definizione"><i>definizion</i><par n="relazion/e__n"/></e>
+    <e lm="definizione" r="LR"><p><l>difinizion</l><r>definizion</r></p><par n="relazion/e__n"/></e>
     <e lm="direzzione"><i>direzzion</i><par n="relazion/e__n"/></e>
     <e lm="distinzione"><i>distinzion</i><par n="relazion/e__n"/></e>
     <e lm="educazione"><i>educazion</i><par n="relazion/e__n"/></e>
@@ -3884,6 +3889,7 @@
     <e lm="mundiale"><i>mundial</i><par n="naziunal/e__adj"/></e>
 
     <e lm="naziunale"><i>naziunal</i><par n="naziunal/e__adj"/></e>
+    <e lm="internaziunale"><i>internaziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="principale"><i>principal</i><par n="naziunal/e__adj"/></e>
     <e lm="currispundente"><i>currispundent</i><par n="naziunal/e__adj"/></e>
     <e lm="grande"><i>grand</i><par n="naziunal/e__adj"/></e>
@@ -4097,6 +4103,8 @@
     <e lm="cunnosce"><i>cunn</i><par n="cunn/osce__vblex"/></e>
     <e lm="capisce"><i>capi</i><par n="capi/sce__vblex"/></e>
     <e lm="finisce"><i>fini</i><par n="fini/sce__vblex"/></e>
+    <e lm="difinisce"><i>difini</i><par n="fini/sce__vblex"/></e>
+    <e lm="definisce" r="LR"><p><l>defini</l><r>difini</r></p><par n="fini/sce__vblex"/></e>
 
     <!-- FMT: Comprovare -->
     <e lm="aiutà"><i>aiut</i><par n="parl/à__vblex"/></e>

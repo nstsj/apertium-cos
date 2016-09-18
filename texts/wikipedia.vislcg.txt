@@ -74,3 +74,38 @@
 "<.>"
 	"." sent @punct #29->7
 
+"<In>"
+	"in" pr @case #1->2
+"<astronomia>"
+	"astrunumia" n f sg @nmod #2->9
+"<muderna>"
+	"mudernu" adj f sg @amod #3->2
+"<,>"
+	"," cm @punct #4->2
+"<una>"
+	"un" det ind f sg @det #5->6
+"<custellazione>"
+	"custellazione" n f sg @nsubj:cop #6->9
+"<hè>"
+	"esse" vbser pri p3 sg @cop #7->9
+"<una>"
+	"un" det ind f sg @det #8->9
+"<zona>"
+	"zona" n f sg @root #9->0
+"<di>"
+	"di" pr @case #10->11
+"<celu>"
+	"celu" n m sg @nmod #11->9
+"<definita>"
+	"difinisce" vblex pp f sg @acl #12->9
+"<à>"
+	"à" pr @case #13->15
+"<u>"
+	"u" det def m sg @det #14->15
+"<nivellu>"
+	"nivellu" n m sg @nmod #15->12
+"<internaziunale>"
+	"internaziunale" adj mf sg @amod #16->15
+"<.>"
+	"." sent @punct #17->9
+

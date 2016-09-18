@@ -32,7 +32,7 @@
 "<danese>"
 	"danese" adj mf sg @amod #8->7
 "<natu>"
-	"natu" adj m sg @amod #9->7
+	"natu" vblex pp m sg @acl #9->7
 "<à>"
 	"à" pr @case #10->11
 "<Odense>"

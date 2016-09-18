@@ -15,7 +15,7 @@
 6	unu	un	_	det	ind|m|sg	7	det	_	_
 7	scrivanu	scrivanu	_	n	m|sg	0	root	_	_
 8	danese	danese	_	adj	mf|sg	7	amod	_	_
-9	natu	natu	_	adj	m|sg	7	amod	_	_
+9	natu	natu	_	vblex	pp|m|sg	7	acl	_	_
 10	à	à	_	pr	_	11	case	_	_
 11	Odense	Odense	_	np	top|m|sg	9	nmod	_	_
 12	u	u	_	det	def|m|sg	13	det	_	_

@@ -1235,6 +1235,7 @@
       
       <e><p><l>ò</l><r>à<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
 
+      <e><p><l>eghja</l><r>à<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>arà</l><r>à<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       
       <e><p><l>ava</l><r>à<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4534,6 +4535,8 @@
     <e lm="participà"><i>particip</i><par n="parl/à__vblex"/></e>
     <e lm="trasfurmà"><i>trasfurm</i><par n="parl/à__vblex"/></e>
     <e lm="cullaburà"><i>cullabur</i><par n="parl/à__vblex"/></e>
+    <e lm="utilizzà"><i>utilizz</i><par n="parl/à__vblex"/></e>
+    <e lm="occupà"><i>occup</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>

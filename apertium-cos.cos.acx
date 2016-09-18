@@ -14,9 +14,11 @@
   </char>
   <char value="à">
     <equiv-char value="a"/>
+    <equiv-char value="á"/>
   </char>
   <char value="è">
     <equiv-char value="e"/>
+    <equiv-char value="é"/>
   </char>
   <char value="ì">
     <equiv-char value="i"/>

@@ -14,4 +14,5 @@
 /configure.ac -text
 /cos.prob -text svneol=unset#unset
 /modes.xml -text
+texts/puupankki/puupankki.cos.conllu -text
 texts/wikipedia.vislcg.txt -text

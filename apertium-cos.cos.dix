@@ -505,6 +505,10 @@
       <e><p><l>i</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+<pardef n="om/u__n">
+      <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ini</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
 
 
 
@@ -1584,6 +1588,9 @@
 
     <!-- SECTION: Nouns -->
 
+
+    <e lm="omu"><i>om</i><par n="om/u__n"/></e>
+
     <e lm="rè"><i>rè</i><par n="re__n"/></e>
 
     <e lm="kick-boxing"><i>kick-boxing</i><par n="sangue__n"/></e>
@@ -1607,7 +1614,10 @@
     <e lm="dialettu"><i>dialett</i><par n="ann/u__n"/></e>
     <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
     <e lm="motu"><i>mot</i><par n="ann/u__n"/></e>
-    <e lm="omu"><i>om</i><par n="ann/u__n"/></e>
+
+
+
+
     <e lm="gruppu"><i>grupp</i><par n="ann/u__n"/></e>
     <e lm="veiculu"><i>veicul</i><par n="ann/u__n"/></e>
     <e lm="successu"><i>success</i><par n="ann/u__n"/></e>
@@ -4410,6 +4420,7 @@
     <e lm="ormai"><i>ormai</i><par n="cusì__adv"/></e>
     <e lm="troppu"><i>troppu</i><par n="cusì__adv"/></e>
     <e lm="sopratuttu"><i>sopratuttu</i><par n="cusì__adv"/></e>
+    <e lm="a siconda"><i>a<b/>siconda</i><par n="cusì__adv"/></e>
 
     <e lm="cusì"><i>cusì</i><par n="cusì__adv"/></e>
     <e lm="avà"><i>avà</i><par n="cusì__adv"/></e>

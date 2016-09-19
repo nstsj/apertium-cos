@@ -1147,6 +1147,13 @@
       <e><p><l>att</l><r>à<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
 
       <e><p><l>endu</l><r>à<s n="vblex"/><s n="ger"/></r></p></e>
+
+
+
+      <e><p><l>eci</l><r>à<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+
+
+
     </pardef>
 
     <pardef n="d/à__vblex">
@@ -1263,7 +1270,7 @@
       <e><p><l>emu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-
+      <e><p><l>ani</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>i</l><r>à<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>à<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1451,11 +1458,12 @@
     <e lm="sottu"><i>sottu</i><par n="à__pr"/></e>
     <e lm="intornu"><i>intornu</i><par n="à__pr"/></e>
     <e lm="traversu"><i>traversu</i><par n="à__pr"/></e>
-	<e lm="nanzu"><i>nanzu</i><par n="à__pr"/></e>
-	<e lm="sin'à"><i>nant'à</i><par n="à__pr"/></e>
-	<e lm="rispettu à"><i>rispettu<b/>'à</i><par n="à__pr"/></e>
-	<e lm="sinu à"><i>rispettu<b/>'à</i><par n="à__pr"/></e>
+    <e lm="nanzu"><i>nanzu</i><par n="à__pr"/></e>
+    <e lm="sin'à"><i>nant'à</i><par n="à__pr"/></e>
+    <e lm="rispettu à"><i>rispettu<b/>'à</i><par n="à__pr"/></e>
+    <e lm="sinu à"><i>sinu<b/>'à</i><par n="à__pr"/></e>
 
+    <e lm="à parta"><i>à<b/>parta</i><par n="à__pr"/></e>
 
 
     <!-- SECTION: Determiners -->
@@ -1594,7 +1602,7 @@
     <e lm="rè"><i>rè</i><par n="re__n"/></e>
 
     <e lm="kick-boxing"><i>kick-boxing</i><par n="sangue__n"/></e>
-
+    <e lm="oru"><i>oru</i><par n="sangue__n"/></e>
 
     <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
@@ -1879,7 +1887,7 @@
     <e lm="particularità"><i>particularit</i><par n="citt/à__n"/></e>
     <e lm="abilità"><i>abilit</i><par n="citt/à__n"/></e>
     <e lm="autorità"><i>autorit</i><par n="citt/à__n"/></e>
-    <e lm="età"><i>età</i><par n="citt/à__n"/></e>
+    <e lm="età"><i>et</i><par n="citt/à__n"/></e>
 
     
     
@@ -1894,7 +1902,7 @@
     <e lm="cumuna"><i>cumun</i><par n="cumun/a__n"/></e>
 
 
-
+    <e lm="seria"><i>seri</i><par n="scienz/a__n"/></e>
     <e lm="via"><i>vi</i><par n="scienz/a__n"/></e>
     <e lm="rivista"><i>rivist</i><par n="scienz/a__n"/></e>
     <e lm="barba"><i>barb</i><par n="scienz/a__n"/></e>
@@ -2203,6 +2211,7 @@
 
 
     <e lm="punenti"><i>punenti</i><par n="nordu__n"/></e>
+    <e lm="punente"><i>punente</i><par n="nordu__n"/></e>
     <e lm="livanti"><i>livanti</i><par n="nordu__n"/></e>
 
     <e lm="dumanda"><i>dumand</i><par n="scienz/a__n"/></e>
@@ -4250,8 +4259,9 @@
     <e lm="burbonicu"><i>burbonic</i><par n="tipic/u__adj"/></e>
     <e lm="classicu"><i>classic</i><par n="tipic/u__adj"/></e>
     <e lm="caratteristicu"><i>caratteristic</i><par n="tipic/u__adj"/></e>
-
+    <e lm="moru"><i>mor</i><par n="vechj/u__adj"/></e>
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
+    <e lm="listessu"><i>listess</i><par n="vechj/u__adj"/></e>
     <e lm="certu"><i>cert</i><par n="vechj/u__adj"/></e>
     <e lm="internu"><i>intern</i><par n="vechj/u__adj"/></e>
     <e lm="numarosu"><i>numaros</i><par n="vechj/u__adj"/></e>
@@ -4458,8 +4468,8 @@
     <e lm="inveci"><i>inveci</i><par n="cusì__adv"/></e>
     <e lm="soprattuttu"><i>soprattuttu</i><par n="cusì__adv"/></e>
     <e lm="mai"><i>mai</i><par n="cusì__adv"/></e>
-
-
+    <e lm="mori"><i>mori</i><par n="cusì__adv"/></e>
+    <e lm="invece"><i>invece</i><par n="cusì__adv"/></e>
     <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>
 
     <e lm="ampiamente"><i>ampiament</i><par n="facilment/e__adv"/></e>

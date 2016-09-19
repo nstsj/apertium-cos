@@ -1338,6 +1338,23 @@
     </pardef>
 
 
+<pardef n="tem/e__vblex">
+      <e><p><l>e</l><r>e<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>u</l><r>e<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>e<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- temi/accadi CORSICAN WHY U NO USE STANDARDS -->
+      <e><p><l>imu</l><r>e<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>e<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enu</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+
+
+
+      
+    </pardef>
+
 
 
 
@@ -1976,7 +1993,7 @@
     <e lm="altezza"><i>altezz</i><par n="scienz/a__n"/></e>
     <e lm="strada"><i>strad</i><par n="scienz/a__n"/></e>
 
-    <e lm="urighjina"><i>urighjina</i><par n="scienz/a__n"/></e>
+    <e lm="urighjina"><i>urighjin</i><par n="scienz/a__n"/></e>
 
 
     <e lm="pruvincia"><i>pruvinci</i><par n="scienz/a__n"/></e>
@@ -4628,6 +4645,10 @@
     <e lm="vedè"><i>v</i><par n="v/edè__vblex"/></e>
     <e lm="nasce"><i>n</i><par n="n/asce__vblex"/></e>
     <e lm="rinasce"><i>rin</i><par n="n/asce__vblex"/></e>
+
+
+    <e lm="teme"><i>tem</i><par n="tem/e__vblex"/></e>
+    <e lm="accade"><i>accad</i><par n="tem/e__vblex"/></e>
 
  
     <!-- SECTION: Interjections -->

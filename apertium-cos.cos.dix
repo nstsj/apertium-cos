@@ -57,6 +57,8 @@
     <sdef n="imp"      c=""/>
     <sdef n="fti"      c=""/>
 
+    <sdef n="sci"      c="Nom científic"/>
+
     <sdef n="m"        c="Masculí"/>
     <sdef n="f"        c="Feminí"/>
     <sdef n="nt"       c="Neutre"/>
@@ -106,6 +108,10 @@
 
     <pardef n="coma">
       <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="latin">
+      <e><re>[a-z]+ceae</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
     </pardef>
 
     <pardef n="paresq">
@@ -4513,6 +4519,7 @@
 
     <e lm="parlà"><i>parl</i><par n="parl/à__vblex"/></e>
     <e lm="truvà"><i>truv</i><par n="parl/à__vblex"/></e>
+    <e lm="truvà" r="LR"><p><l>trov</l><r>truv</r></p><par n="parl/à__vblex"/></e>
     <e lm="aspittà"><i>aspitt</i><par n="parl/à__vblex"/></e>
     <e lm="cantà"><i>cant</i><par n="parl/à__vblex"/></e>
     <e lm="buscà"><i>busc</i><par n="parl/à__vblex"/></e>
@@ -4618,6 +4625,7 @@
 
     <e lm="vedè"><i>v</i><par n="v/edè__vblex"/></e>
     <e lm="nasce"><i>n</i><par n="n/asce__vblex"/></e>
+    <e lm="rinasce"><i>rin</i><par n="n/asce__vblex"/></e>
 
  
     <!-- SECTION: Interjections -->
@@ -4656,6 +4664,8 @@
     <e><par n="numeros"/></e>
     <e><par n="cometa"/></e>
     <e><par n="coma"/></e>
+    <e><par n="latin"/></e>
+    <e><par n="guionet"/></e>
     <e><par n="guionet"/></e>
     <e><par n="quotes"/></e>
     <e><par n="paresq"/></e>

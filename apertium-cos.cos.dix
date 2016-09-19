@@ -1398,7 +1398,8 @@
     <e lm="parò"><i>parò</i><par n="è__cnjcoo"/></e>
     <e lm="ò"><i>ò</i><par n="è__cnjcoo"/></e>
     <e lm="mentre"><i>mentre</i><par n="è__cnjcoo"/></e>
-
+    <e lm="puri"><i>puri</i><par n="è__cnjcoo"/></e>
+    <e lm="nè"><i>nè</i><par n="è__cnjcoo"/></e>
 
 
     <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
@@ -1417,7 +1418,7 @@
 
     <e lm="nonustante"><i>nonustante</i><par n="sì__cnjadv"/></e>
     <e lm="nonustante" r="LR"><p><l>nonustanti</l><r>nonustante</r></p><par n="sì__cnjadv"/></e>
-
+    <e lm="quantunqua"><i>quantunque</i><par n="sì__cnjadv"/></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -1526,6 +1527,7 @@
     <e lm="dui"><i>dui</i><par n="dui__num"/></e>
     <e lm="trè"><i>trè</i><par n="quattru__num"/></e>
     <e lm="quattru"><i>quattru</i><par n="quattru__num"/></e>
+    <e lm="cinqui"><i>cinqui</i><par n="quattru__num"/></e>
     <e lm="cinque"><i>cinque</i><par n="quattru__num"/></e>
     <e lm="sei"><i>sei</i><par n="quattru__num"/></e>
     <e lm="sette"><i>sette</i><par n="quattru__num"/></e>
@@ -1604,7 +1606,7 @@
 
     <e lm="kick-boxing"><i>kick-boxing</i><par n="sangue__n"/></e>
     <e lm="oru"><i>oru</i><par n="sangue__n"/></e>
-
+    <e lm="canali"><i>canali</i><par n="sangue__n"/></e>
     <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
 
@@ -1623,7 +1625,7 @@
     <e lm="dialettu"><i>dialett</i><par n="ann/u__n"/></e>
     <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
     <e lm="motu"><i>mot</i><par n="ann/u__n"/></e>
-
+    <e lm="liveddu"><i>livedd</i><par n="ann/u__n"/></e>
 
 
 
@@ -1787,7 +1789,7 @@
     <e lm="liceu"><i>lice</i><par n="ann/u__n"/></e>
     <e lm="emiciclu"><i>emicicl</i><par n="ann/u__n"/></e>
     <e lm="pasturalismu"><i>pasturalism</i><par n="ann/u__n"/></e>
-    <e lm="ammansu"><i>ammansu</i><par n="ann/u__n"/></e>
+    <e lm="ammansu"><i>ammans</i><par n="ann/u__n"/></e>
 
     <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
 
@@ -1844,7 +1846,7 @@
     <e lm="puteri"><i>puteri</i><par n="sangue__n"/></e>
     <e lm="menu"><i>menu</i><par n="sangue__n"/></e>
     <e lm="livante"><i>livante</i><par n="sangue__n"/></e>
-
+    <e lm="tarmini"><i>tarmini</i><par n="sangue__n"/></e>
     <e lm="fiori"><i>fiori</i><par n="sangue__n"/></e>
     <e lm="animali"><i>animali</i><par n="sangue__n"/></e>
 
@@ -1852,6 +1854,7 @@
   
     
         <e lm="pueta"><i>puet</i><par n="puet/a__n"/></e>
+        <e lm="tiurema"><i>tiurem</i><par n="puet/a__n"/></e>
 
     
     
@@ -1937,6 +1940,7 @@
     <e lm="chitarra"><i>chitarr</i><par n="scienz/a__n"/></e>
     <e lm="biugrafia"><i>biugrafia</i><par n="scienz/a__n"/></e>
     <e lm="annata"><i>annat</i><par n="scienz/a__n"/></e>
+    <e lm="natura"><i>natur</i><par n="scienz/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
     <e lm="fiuma"><i>fium</i><par n="scienz/a__n"/></e>
@@ -2108,6 +2112,7 @@
     <e lm="custruzzione"><i>custruzzion</i><par n="relazion/e__n"/></e>
     <e lm="declinazione"><i>declinazion</i><par n="relazion/e__n"/></e>
     <e lm="altitudine"><i>altitudin</i><par n="relazion/e__n"/></e>
+    <e lm="origine"><i>origin</i><par n="relazion/e__n"/></e>
 
     <e lm="definizione"><i>definizion</i><par n="relazion/e__n"/></e>
     <e lm="definizione" r="LR"><p><l>difinizion</l><r>definizion</r></p><par n="relazion/e__n"/></e>
@@ -2126,7 +2131,7 @@
     <e lm="croce"><i>croc</i><par n="relazion/e__n"/></e>
     <e lm="nave"><i>nav</i><par n="relazion/e__n"/></e>
     <e lm="virsione"><i>virsion</i><par n="relazion/e__n"/></e>
-
+    <e lm="arte"><i>art</i><par n="relazion/e__n"/></e>
     <e lm="fine"><i>fin</i><par n="relazion/e__n"/></e>
 
     <e lm="navigazione"><i>navigazion</i><par n="relazion/e__n"/></e>
@@ -2224,6 +2229,7 @@
     <e lm="sistemu"><i>sistem</i><par n="ann/u__n"/></e> 
     <e lm="sistema"><i>sistem</i><par n="puet/a__n"/></e> 
     <e lm="campagna"><i>campagn</i><par n="scienz/a__n"/></e>
+    <e lm="coda"><i>cod</i><par n="scienz/a__n"/></e>
     <e lm="piaghja"><i>piaghj</i><par n="scienz/a__n"/></e>
     <e lm="persona"><i>person</i><par n="scienz/a__n"/></e>
     <e lm="persona" r="LR"><p><l>parson</l><r>person</r></p><par n="scienz/a__n"/></e>
@@ -3627,6 +3633,8 @@
      <e lm="Mediterraniu"><i>Mediterraniu</i><par n="Aiacciu__np"/></e>
      <e lm="Portugallu"><i>Portugallu</i><par n="Aiacciu__np"/></e>
      <e lm="Brasile"><i>Brasile</i><par n="Aiacciu__np"/></e>
+     <e lm="Sartè"><i>Sartè</i><par n="Aiacciu__np"/></e>
+     <e lm="Corti"><i>Corti</i><par n="Aiacciu__np"/></e>
      <e lm="Livornu"><i>Livornu</i><par n="Aiacciu__np"/></e>
      <e lm="Montecristu"><i>Montecristu</i><par n="Aiacciu__np"/></e>
      <e lm="Sassari"><i>Sassari</i><par n="Aiacciu__np"/></e>
@@ -4262,6 +4270,7 @@
     <e lm="classicu"><i>classic</i><par n="tipic/u__adj"/></e>
     <e lm="caratteristicu"><i>caratteristic</i><par n="tipic/u__adj"/></e>
     <e lm="moru"><i>mor</i><par n="vechj/u__adj"/></e>
+    <e lm="solu"><i>sol</i><par n="vechj/u__adj"/></e>
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
     <e lm="listessu"><i>listess</i><par n="vechj/u__adj"/></e>
     <e lm="certu"><i>cert</i><par n="vechj/u__adj"/></e>
@@ -4317,6 +4326,7 @@
   
     <e lm="mundiale"><i>mundial</i><par n="naziunal/e__adj"/></e>
 
+    <e lm="siguente"><i>siguent</i><par n="maior/e__adj"/></e>
     <e lm="maiore"><i>maior</i><par n="maior/e__adj"/></e>
     <e lm="naziunale"><i>naziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="internaziunale"><i>internaziunal</i><par n="naziunal/e__adj"/></e>
@@ -4419,6 +4429,8 @@
 
     <!-- SECTION: Adverbs -->
 
+
+
     <e lm="parchè"><i>parchè</i><par n="parchè__adv"/></e>
     <e lm="quandu"><i>quandu</i><par n="parchè__adv"/></e>
 
@@ -4433,7 +4445,7 @@
     <e lm="troppu"><i>troppu</i><par n="cusì__adv"/></e>
     <e lm="sopratuttu"><i>sopratuttu</i><par n="cusì__adv"/></e>
     <e lm="a siconda"><i>a<b/>siconda</i><par n="cusì__adv"/></e>
-
+    <e lm="insemu"><i>insemu</i><par n="cusì__adv"/></e>
     <e lm="cusì"><i>cusì</i><par n="cusì__adv"/></e>
     <e lm="avà"><i>avà</i><par n="cusì__adv"/></e>
     <e lm="bè"><i>bè</i><par n="cusì__adv"/></e>
@@ -4473,6 +4485,8 @@
     <e lm="mori"><i>mori</i><par n="cusì__adv"/></e>
     <e lm="invece"><i>invece</i><par n="cusì__adv"/></e>
     <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>
+    <e lm="à volti"><i>à<b/>volti</i><par n="cusì__adv"/></e>
+    <e lm="cà"><i>cà</i><par n="cusì__adv"/></e>
 
     <e lm="ampiamente"><i>ampiament</i><par n="facilment/e__adv"/></e>
     <e lm="prisumibilamente"><i>prisumibilament</i><par n="facilment/e__adv"/></e>
@@ -4678,7 +4692,7 @@
 
     <e lm="teme"><i>tem</i><par n="tem/e__vblex"/></e>
     <e lm="accade"><i>accad</i><par n="tem/e__vblex"/></e>
-
+    <e lm="vale"><i>val</i><par n="tem/e__vblex"/></e>
  
     <!-- SECTION: Interjections -->
 

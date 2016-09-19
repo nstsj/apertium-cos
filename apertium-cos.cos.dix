@@ -1564,6 +1564,7 @@
     <e lm="ghjennaghju"><i>ghjennaghju</i><par n="sangue__n"/></e>
     <e lm="ghjennaghju" r="LR"><p><l>ghjinnaghju</l><r>ghjennaghju</r></p><par n="sangue__n"/></e>
     <e lm="ferraghju"><i>ferraghju</i><par n="sangue__n"/></e>
+    <e lm="frivaghju/"><i>frivaghju/</i><par n="sangue__n"/></e>
     <e lm="marzu"><i>marzu</i><par n="sangue__n"/></e>
     <e lm="aprile"><i>aprile</i><par n="sangue__n"/></e>
     <e lm="aprili"><i>aprili</i><par n="sangue__n"/></e>
@@ -1642,7 +1643,7 @@
     <e lm="tipu"><i>tip</i><par n="ann/u__n"/></e>
     <e lm="corpu"><i>corp</i><par n="ann/u__n"/></e>
     <e lm="rispettu"><i>rispett</i><par n="ann/u__n"/></e>
-
+    <e lm="fruttu"><i>frutt</i><par n="ann/u__n"/></e>
     <e lm="passu"><i>pass</i><par n="ann/u__n"/></e>
     <e lm="chjassu"><i>chjass</i><par n="ann/u__n"/></e>
     <e lm="caminu"><i>camin</i><par n="ann/u__n"/></e>
@@ -1770,9 +1771,9 @@
     <e lm="sviluppu"><i>svilupp</i><par n="ann/u__n"/></e>
 
 
-
+    <e lm="sinu"><i>sin</i><par n="ann/u__n"/></e>
     <e lm="elicotteru"><i>elicotter</i><par n="ann/u__n"/></e>
-
+    <e lm="paesu"><i>paes</i><par n="ann/u__n"/></e>
     <e lm="votu"><i>vot</i><par n="ann/u__n"/></e>
     <e lm="avisu"><i>avis</i><par n="ann/u__n"/></e>
     <e lm="segnu"><i>segn</i><par n="ann/u__n"/></e>
@@ -2164,13 +2165,13 @@
 
     <e lm="presidente"><i>president</i><par n="ribell/e__n"/></e>
     <e lm="uriente"><i>urient</i><par n="ribell/e__n"/></e>
-
+    <e lm="pede"><i>ped</i><par n="ribell/e__n"/></e>
     <e lm="autore"><i>autor</i><par n="ribell/e__n"/></e>
     <e lm="prisente"><i>prisent</i><par n="ribell/e__n"/></e>
     <e lm="fonte"><i>font</i><par n="ribell/e__n"/></e>    
     <e lm="culore"><i>culor</i><par n="ribell/e__n"/></e>
 
-
+    <e lm="cunfine"><i>cunfin</i><par n="ribell/e__n"/></e>
 
     <e lm="abitante"><i>abitant</i><par n="ribell/e__n"/></e>
     <e lm="monte"><i>mont</i><par n="ribell/e__n"/></e>
@@ -2214,6 +2215,7 @@
     <e lm="punente"><i>punente</i><par n="nordu__n"/></e>
     <e lm="livanti"><i>livanti</i><par n="nordu__n"/></e>
 
+    <e lm="acula"><i>acul</i><par n="scienz/a__n"/></e>
     <e lm="dumanda"><i>dumand</i><par n="scienz/a__n"/></e>
     <e lm="biugrafia"><i>biugrafi</i><par n="battagli/a__n"/></e>
     <e lm="filosofia"><i>filosofi</i><par n="battagli/a__n"/></e>

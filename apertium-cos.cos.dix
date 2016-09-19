@@ -353,6 +353,11 @@
       <e><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
+<pardef n="milion/e__num">
+      <e><p><l>e</l><r><s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Nouns -->
 
 
@@ -1516,6 +1521,7 @@
     <e lm="nove"><i>nove</i><par n="quattru__num"/></e>
     <e lm="dodici"><i>dodici</i><par n="quattru__num"/></e>
     <e lm="centu"><i>centu</i><par n="quattru__num"/></e>
+    <e lm="milione"><i>milion</i><par n="milion/e__num"/></e>
     
     <e lm="I"><i>I</i><par n="XIII__num"/></e>
     <e lm="II"><i>II</i><par n="XIII__num"/></e>

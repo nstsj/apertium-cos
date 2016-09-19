@@ -227,3 +227,27 @@
 26	»	»	_	rquot	_	22	punct	_	_
 27	.	.	_	sent	_	2	punct	_	_
 
+1	'Ssa	'ssu	_	det	dem|f|sg	2	det	_	_
+2	spezia	spezia	_	n	f|sg	4	nsubj	_	_
+3	si	si	_	prn	pro|ref|p3|mf|sp	4	obj:ind	_	_
+4	scontra	scontrà	_	vblex	pri|p3|sg	0	root	_	_
+5	in	in	_	pr	_	6	case	_	_
+6	Sardegna	Sardegna	_	np	top|f|sg	4	nmod	_	_
+7	è	è	_	cnjcoo	_	9	cc	_	_
+8	in	in	_	pr	_	9	case	_	_
+9	Corsica	Corsica	_	np	top|f|sg	6	conj	_	_
+10	.	.	_	sent	_	4	punct	_	_
+
+1	Hè	esse	_	vbser	pri|p3|sg	2	cop	_	_
+2	prisente	prisente	_	adj	mf|sg	0	root	_	_
+3	da	da	_	pr	_	5	case	_	_
+4	u	u	_	det	def|m|sg	5	det	_	_
+5	livellu	livellu	_	n	m|sg	2	nmod	_	_
+6	di	di	_	pr	_	8	case	_	_
+7	u	u	_	det	def|m|sg	8	det	_	_
+8	mare	mari	_	n	m|sg	5	nmod:poss	_	_
+9	à	à	_	pr	_	11	case	_	_
+10	1800	1800	_	num	_	11	nummod	_	_
+11	metri	metru	_	n	m|pl	2	nmod	_	_
+12	.	.	_	sent	_	2	punct	_	_
+

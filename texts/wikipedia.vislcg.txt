@@ -445,3 +445,49 @@
 "<.>"
 	"." sent @punct #27->2
 
+"<'Ssa>"
+	"'ssu" det dem f sg @det #1->2
+"<spezia>"
+	"spezia" n f sg @nsubj #2->4
+"<si>"
+	"si" prn pro ref p3 mf sp @obj:ind #3->4
+"<scontra>"
+	"scontrà" vblex pri p3 sg @root #4->0
+"<in>"
+	"in" pr @case #5->6
+"<Sardegna>" 
+	"Sardegna" np top f sg @nmod #6->4
+"<è>"
+	"è" cnjcoo @cc #7->9
+"<in>"
+	"in" pr @case #8->9
+"<Corsica>"
+	"Corsica" np top f sg @conj #9->6
+"<.>"
+	"." sent @punct #10->4
+
+"<Hè>"
+	"esse" vbser pri p3 sg @cop #1->2
+"<prisente>"
+	"prisente" adj mf sg @root #2->0
+"<da>"
+	"da" pr @case #3->5
+"<u>"
+	"u" det def m sg @det #4->5
+"<livellu>"
+	"livellu" n m sg @nmod #5->2
+"<di>"
+	"di" pr @case #6->8
+"<u>"
+	"u" det def m sg @det #7->8
+"<mare>"
+	"mari" n m sg @nmod:poss #8->5
+"<à>"
+	"à" pr @case #9->11
+"<1800>"
+	"1800" num @nummod #10->11
+"<metri>"
+	"metru" n m pl @nmod #11->2
+"<.>"
+	"." sent @punct #12->2
+

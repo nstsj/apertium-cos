@@ -510,7 +510,11 @@
       <e><p><l>ini</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
-
+<pardef n="ghjorn/u__n">
+      <e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Proper nouns -->
 
@@ -1623,10 +1627,9 @@
     <e lm="cantu"><i>cant</i><par n="ann/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="ann/u__n"/></e>
     <e lm="dialettu"><i>dialett</i><par n="ann/u__n"/></e>
-    <e lm="ghjornu"><i>ghjorn</i><par n="ann/u__n"/></e>
     <e lm="motu"><i>mot</i><par n="ann/u__n"/></e>
     <e lm="liveddu"><i>livedd</i><par n="ann/u__n"/></e>
-
+    <e lm="ghjornu"><i>ghjorn</i><par n="ghjorn/u__n"/></e>
 
 
     <e lm="gruppu"><i>grupp</i><par n="ann/u__n"/></e>
@@ -4272,6 +4275,7 @@
     <e lm="moru"><i>mor</i><par n="vechj/u__adj"/></e>
     <e lm="solu"><i>sol</i><par n="vechj/u__adj"/></e>
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
+    <e lm="fermu"><i>ferm</i><par n="vechj/u__adj"/></e>
     <e lm="listessu"><i>listess</i><par n="vechj/u__adj"/></e>
     <e lm="certu"><i>cert</i><par n="vechj/u__adj"/></e>
     <e lm="internu"><i>intern</i><par n="vechj/u__adj"/></e>
@@ -4487,6 +4491,7 @@
     <e lm="prestu"><i>prestu</i><par n="cusì__adv"/></e>
     <e lm="à volti"><i>à<b/>volti</i><par n="cusì__adv"/></e>
     <e lm="cà"><i>cà</i><par n="cusì__adv"/></e>
+    <e lm="dapoi"><i>dapoi</i><par n="cusì__adv"/></e>
 
     <e lm="ampiamente"><i>ampiament</i><par n="facilment/e__adv"/></e>
     <e lm="prisumibilamente"><i>prisumibilament</i><par n="facilment/e__adv"/></e>
@@ -4597,6 +4602,7 @@
     <e lm="trovà"><i>trov</i><par n="parl/à__vblex"/></e>
     <e lm="chjamà"><i>chjam</i><par n="parl/à__vblex"/></e>
     <e lm="diventà"><i>divent</i><par n="parl/à__vblex"/></e>
+    <e lm="divintà"><i>divint</i><par n="parl/à__vblex"/></e>
     <e lm="scontrà"><i>scontr</i><par n="parl/à__vblex"/></e>
     <e lm="contà"><i>cont</i><par n="parl/à__vblex"/></e>
     <e lm="misurà"><i>misur</i><par n="parl/à__vblex"/></e>

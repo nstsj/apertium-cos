@@ -12,7 +12,9 @@ LIST Pro = pro ;
 
 LIST A = "<a>"i ; 
 LIST DI = "<di>"i ; 
+LIST UN = "<un>"i ;
 LIST DÌ = "dì" ; 
+LIST ÙN = "ùn" ; 
 
 LIST Inf/à = ("<.*[Àà]>"r inf) ;
 
@@ -22,6 +24,8 @@ SELECT Pr IF (0 A) (1 A) ;
 
 REMOVE DÌ IF (0 DI) ;
 
+REMOVE ÙN IF (0 UN) ;
+
 SELECT Inf IF (-1C Pr) ;
 
 REMOVE Inf IF (NOT 0 Inf/à) ;
@@ -29,3 +33,4 @@ REMOVE Inf IF (NOT 0 Inf/à) ;
 SELECT Enc IF (-1 Inf) (0 Pro OR Enc) ;
 
 SELECT Enc IF (-2 Inf) (-1 Enc) (0 Pro OR Enc) ;
+

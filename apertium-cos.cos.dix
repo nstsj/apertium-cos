@@ -26,6 +26,7 @@
     <sdef n="def"      c="Definit"/>
     <sdef n="itg"      c="Interrogatiu"/>
     <sdef n="pro"      c="Proclític"/>
+    <sdef n="enc"      c="Enclític"/>
     <sdef n="ref"      c="Reflexiu"/>
     <sdef n="tn"       c="Tònic"/>
     <sdef n="an"       c="Animat/inanimat"/>
@@ -296,6 +297,7 @@
 
     <pardef n="si__prn">
       <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="ci__prn">
@@ -328,6 +330,7 @@
     <pardef n="ne__prn">
     
     <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e><p><l></l><r><s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     
     
     </pardef>
@@ -690,8 +693,8 @@
       <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
     </pardef>
 
-    <pardef n="quandu__adv">
-      <e><p><l></l><r><s n="adv"/><s n="rel"/></r></p></e>
+    <pardef n="quandu__rel">
+      <e><p><l></l><r><s n="rel"/><s n="adv"/></r></p></e>
     </pardef>
 
     <pardef n="cusì__adv">
@@ -1920,6 +1923,7 @@
     <e lm="populu"><i>popul</i><par n="ann/u__n"/></e>
     <e lm="libru"><i>libr</i><par n="ann/u__n"/></e>
     <e lm="viaghju"><i>viaghj</i><par n="ann/u__n"/></e>
+    <e lm="appoghju"><i>appoghj</i><par n="ann/u__n"/></e>
     <e lm="filmu"><i>film</i><par n="ann/u__n"/></e>
     <e lm="problemu"><i>problem</i><par n="ann/u__n"/></e>
     <e lm="problemu" r="LR"><p><l>prublem</l><r>problem</r></p><par n="ann/u__n"/></e>
@@ -4926,6 +4930,7 @@
     <e lm="culuniale"><i>culunial</i><par n="naziunal/e__adj"/></e>
     <e lm="imperiale"><i>imperial</i><par n="naziunal/e__adj"/></e>
 
+    <e lm="inglese"><i>ingles</i><par n="naziunal/e__adj"/></e>
     <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
     <e lm="genuvese"><i>genuves</i><par n="naziunal/e__adj"/></e>
     <e lm="purtughese"><i>purtughes</i><par n="naziunal/e__adj"/></e>
@@ -5001,7 +5006,10 @@
     <e lm="parchè"><i>parchè</i><par n="parchè__adv"/></e>
     <e lm="quandu"><i>quandu</i><par n="parchè__adv"/></e>
 
-    <e lm="quandu"><i>quandu</i><par n="quandu__adv"/></e>
+    <e lm="quandu"><i>quandu</i><par n="quandu__rel"/></e>
+
+    <e lm="induva"><i>induva</i><par n="quandu__rel"/></e>
+    <e lm="induve" r="LR"><p><l>induve</l><r>induva</r></p><par n="quandu__rel"/></e>
 
     <!-- FIXME: Check "com" itg/rel -->
     <e lm="cumu"><i>cumu</i><par n="parchè__adv"/></e>
@@ -5042,12 +5050,10 @@
     <e lm="inoltre"><i>inoltre</i><par n="cusì__adv"/></e>
     <e lm="dinù"><i>dinù</i><par n="cusì__adv"/></e>
     <e lm="dinò"><i>dinò</i><par n="cusì__adv"/></e>
-    <e lm="induva"><i>induva</i><par n="cusì__adv"/></e>
     <e lm="moltu"><i>moltu</i><par n="cusì__adv"/></e>
     <e lm="oghji"><i>oghji</i><par n="cusì__adv"/></e>
     <e lm="tantu"><i>tantu</i><par n="cusì__adv"/></e>
     <e lm="infatti"><i>infatti</i><par n="cusì__adv"/></e>
-    <e lm="induve" r="LR"><p><l>induve</l><r>induva</r></p><par n="cusì__adv"/></e>
     <e lm="almenu"><i>almenu</i><par n="cusì__adv"/></e>
     <e lm="guasi"><i>guasi</i><par n="cusì__adv"/></e>
     <e lm="inveci"><i>inveci</i><par n="cusì__adv"/></e>
@@ -5203,6 +5209,7 @@
     <e lm="cunnosce"><i>cunn</i><par n="cunn/osce__vblex"/></e>
     <e lm="capisce"><i>capi</i><par n="capi/sce__vblex"/></e>
     <e lm="finisce"><i>fini</i><par n="fini/sce__vblex"/></e>
+    <e lm="priferisce"><i>priferi</i><par n="fini/sce__vblex"/></e>
     <e lm="difinisce"><i>difini</i><par n="fini/sce__vblex"/></e>
     <e lm="definisce" r="LR"><p><l>defini</l><r>difini</r></p><par n="fini/sce__vblex"/></e>
 

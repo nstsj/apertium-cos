@@ -7,6 +7,9 @@ LIST Pr = pr ;
 
 LIST Inf = inf ;
 
+LIST Enc = enc ; 
+LIST Pro = pro ;
+
 LIST A = "<a>"i ; 
 LIST DI = "<di>"i ; 
 LIST DÌ = "dì" ; 
@@ -23,3 +26,6 @@ SELECT Inf IF (-1C Pr) ;
 
 REMOVE Inf IF (NOT 0 Inf/à) ;
 
+SELECT Enc IF (-1 Inf) (0 Pro OR Enc) ;
+
+SELECT Enc IF (-2 Inf) (-1 Enc) (0 Pro OR Enc) ;

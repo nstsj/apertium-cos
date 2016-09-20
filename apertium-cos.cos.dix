@@ -58,6 +58,7 @@
     <sdef n="fti"      c=""/>
 
     <sdef n="sci"      c="Nom científic"/>
+    <sdef n="barb"     c="Barbarisme"/>
     <sdef n="percent"  c="Percent"/>
 
     <sdef n="m"        c="Masculí"/>
@@ -116,6 +117,13 @@
       <e><re>[a-z]+acea</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
       <e><re>[a-z]+ium</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
     </pardef>
+
+    <pardef n="barbarisme">
+      <e><re>[اأإآبتثجحخدذرزسشصضطظعغفقكلمنهويىءؤئةە]+</re><p><l></l><r><s n="barb"/></r></p></e>
+      <e><re>[а-яё]+</re><p><l></l><r><s n="barb"/></r></p></e>
+      <e><re>[αβγδεζηθικλμνξοπρσςτυφχψω]+</re><p><l></l><r><s n="barb"/></r></p></e>
+    </pardef>
+
 
     <pardef n="paresq">
       <e><re>[\(\[]</re><p><l/><r><s n="lpar"/></r></p></e>
@@ -1490,6 +1498,7 @@
     <e lm="in"><i>in</i><par n="à__pr"/></e>
     <e lm="indu"><i>indu</i><par n="à__pr"/></e>
     <e lm="indu" r="LR"><p><l>ind'è</l><r>indu</r></p><par n="à__pr"/></e>
+    <e lm="indu" r="LR"><p><l>indè</l><r>indu</r></p><par n="à__pr"/></e>
     <e lm="indu" r="LR"><p><l>ind'ì</l><r>indu</r></p><par n="à__pr"/></e>
     <e lm="pà"><i>pà</i><par n="à__pr"/></e>
     <e lm="per"><i>per</i><par n="à__pr"/></e>
@@ -4950,6 +4959,7 @@
     <e lm="tene"><i>t</i><par n="t/ene__vblex"/></e>
     <e lm="vene"><i>v</i><par n="t/ene__vblex"/></e>
     <e lm="pruvene"><i>pruv</i><par n="t/ene__vblex"/></e>
+    <e lm="pruvene" r="LR"><p><l>prov</l><r>pruv</r></p><par n="t/ene__vblex"/></e>
     <e lm="crede"><i>cr</i><par n="cr/ede__vblex"/></e>
 
 
@@ -5153,6 +5163,7 @@
     <!-- SECTION: Abbreviations -->
 
     <e lm="ecc."><i>ecc</i><par n="ecc/.__abbr"/></e>
+    <e lm="sec."><i>sec</i><par n="ecc/.__abbr"/></e>
 
     <!-- SECTION: Punctuation -->
 
@@ -5209,6 +5220,7 @@
     <e><par n="cometa"/></e>
     <e><par n="coma"/></e>
     <e><par n="latin"/></e>
+    <e><par n="barbarisme"/></e>
     <e><par n="guionet"/></e>
     <e><par n="guionet"/></e>
     <e><par n="quotes"/></e>

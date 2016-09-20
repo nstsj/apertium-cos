@@ -1645,7 +1645,7 @@
     <e lm="ghjennaghju"><i>ghjennaghju</i><par n="sangue__n"/></e>
     <e lm="ghjennaghju" r="LR"><p><l>ghjinnaghju</l><r>ghjennaghju</r></p><par n="sangue__n"/></e>
     <e lm="ferraghju"><i>ferraghju</i><par n="sangue__n"/></e>
-    <e lm="frivaghju"><i>frivaghju/</i><par n="sangue__n"/></e>
+    <e lm="frivaghju" r="LR"><p><l>frivaghju</l><r>ferraghju</r></p><par n="sangue__n"/></e>
 
     <e lm="marzu"><i>marzu</i><par n="sangue__n"/></e>
     <e lm="aprile"><i>aprile</i><par n="sangue__n"/></e>
@@ -1692,6 +1692,10 @@
 
     <e lm="canali"><i>canali</i><par n="sangue__n"/></e>
     <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
+    <e lm="mercatu"><i>mercat</i><par n="ann/u__n"/></e>
+    <e lm="passatu"><i>passat</i><par n="ann/u__n"/></e>
+    <e lm="principatu"><i>principat</i><par n="ann/u__n"/></e>
+    <e lm="mandatu"><i>mandat</i><par n="ann/u__n"/></e>
     <e lm="ughjettu"><i>ughjett</i><par n="ann/u__n"/></e>
     <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
@@ -2033,6 +2037,7 @@
     <e lm="impurtanza"><i>impurtanz</i><par n="scienz/a__n"/></e>
     <e lm="vita"><i>vit</i><par n="scienz/a__n"/></e>
     <e lm="penisula"><i>penisul</i><par n="scienz/a__n"/></e>
+    <e lm="zittula"><i>zittul</i><par n="scienz/a__n"/></e>
 
 
     <e lm="pulitica"><i>pulitic</i><par n="scienz/a__n"/></e>
@@ -2190,9 +2195,85 @@
 
     <e lm="morte"><i>mort</i><par n="relazion/e__n"/></e>
 
+    <e lm="animazione"><i>animazion</i><par n="relazion/e__n"/></e>
+    <e lm="dimensione"><i>dimension</i><par n="relazion/e__n"/></e>
+    <e lm="emuzione"><i>emuzion</i><par n="relazion/e__n"/></e>
+    <e lm="espressione"><i>espression</i><par n="relazion/e__n"/></e>
+    <e lm="numinazione"><i>numinazion</i><par n="relazion/e__n"/></e>
+    <e lm="organisazione"><i>organisazion</i><par n="relazion/e__n"/></e>
+    <e lm="populazione"><i>populazion</i><par n="relazion/e__n"/></e>
+    <e lm="populazione" r="LR"><p><l>pupulazion</l><r>populazion</r></p><par n="relazion/e__n"/></e>
+    <e lm="populazione" r="LR"><p><l>pupolazion</l><r>populazion</r></p><par n="relazion/e__n"/></e>
+    <e lm="sparizione"><i>sparizion</i><par n="relazion/e__n"/></e>
+    <e lm="traslitterazione"><i>traslitterazion</i><par n="relazion/e__n"/></e>
+    <e lm="versione"><i>version</i><par n="relazion/e__n"/></e>
+    <e lm="visione"><i>vision</i><par n="relazion/e__n"/></e>
+
+
+    <e lm="abitazion"><i>abitazion</i><par n="relazion/e__n"/></e>
+    <e lm="accupazion"><i>accupazion</i><par n="relazion/e__n"/></e>
+    <e lm="alizzion"><i>alizzion</i><par n="relazion/e__n"/></e>
+    <e lm="attinzion"><i>attinzion</i><par n="relazion/e__n"/></e>
+    <e lm="cualizion"><i>cualizion</i><par n="relazion/e__n"/></e>
+    <e lm="cultivazion"><i>cultivazion</i><par n="relazion/e__n"/></e>
+    <e lm="cumpusizion"><i>cumpusizion</i><par n="relazion/e__n"/></e>
+    <e lm="cuncintrazion"><i>cuncintrazion</i><par n="relazion/e__n"/></e>
+    <e lm="cuncizzion"><i>cuncizzion</i><par n="relazion/e__n"/></e>
+    <e lm="cunnission"><i>cunnission</i><par n="relazion/e__n"/></e>
+    <e lm="cunsirvazion"><i>cunsirvazion</i><par n="relazion/e__n"/></e>
+    <e lm="custiddazion"><i>custiddazion</i><par n="relazion/e__n"/></e>
+    <e lm="dicurazion"><i>dicurazion</i><par n="relazion/e__n"/></e>
+    <e lm="diffusion"><i>diffusion</i><par n="relazion/e__n"/></e>
+    <e lm="dinuminazion"><i>dinuminazion</i><par n="relazion/e__n"/></e>
+    <e lm="diprission"><i>diprission</i><par n="relazion/e__n"/></e>
+    <e lm="discussion"><i>discussion</i><par n="relazion/e__n"/></e>
+    <e lm="duminazion"><i>duminazion</i><par n="relazion/e__n"/></e>
+    <e lm="eccezzion"><i>eccezzion</i><par n="relazion/e__n"/></e>
+    <e lm="emission"><i>emission</i><par n="relazion/e__n"/></e>
+    <e lm="espansion"><i>espansion</i><par n="relazion/e__n"/></e>
+    <e lm="esprission"><i>esprission</i><par n="relazion/e__n"/></e>
+    <e lm="estinsion"><i>estinsion</i><par n="relazion/e__n"/></e>
+    <e lm="evapurazion"><i>evapurazion</i><par n="relazion/e__n"/></e>
+    <e lm="generazion"><i>generazion</i><par n="relazion/e__n"/></e>
+    <e lm="imbarcazion"><i>imbarcazion</i><par n="relazion/e__n"/></e>
+    <e lm="inclinazion"><i>inclinazion</i><par n="relazion/e__n"/></e>
+    <e lm="incursion"><i>incursion</i><par n="relazion/e__n"/></e>
+    <e lm="intarpritazion"><i>intarpritazion</i><par n="relazion/e__n"/></e>
+    <e lm="intinzion"><i>intinzion</i><par n="relazion/e__n"/></e>
+    <e lm="intruduzion"><i>intruduzion</i><par n="relazion/e__n"/></e>
+    <e lm="inundazion"><i>inundazion</i><par n="relazion/e__n"/></e>
+    <e lm="istituzion"><i>istituzion</i><par n="relazion/e__n"/></e>
+    <e lm="minzion"><i>minzion</i><par n="relazion/e__n"/></e>
+    <e lm="narrazion"><i>narrazion</i><par n="relazion/e__n"/></e>
+    <e lm="nuzion"><i>nuzion</i><par n="relazion/e__n"/></e>
+    <e lm="occasion"><i>occasion</i><par n="relazion/e__n"/></e>
+    <e lm="oppusizion"><i>oppusizion</i><par n="relazion/e__n"/></e>
+    <e lm="passion"><i>passion</i><par n="relazion/e__n"/></e>
+    <e lm="pricipitazion"><i>pricipitazion</i><par n="relazion/e__n"/></e>
+    <e lm="prission"><i>prission</i><par n="relazion/e__n"/></e>
+    <e lm="prucission"><i>prucission</i><par n="relazion/e__n"/></e>
+    <e lm="punizion"><i>punizion</i><par n="relazion/e__n"/></e>
+    <e lm="purzion"><i>purzion</i><par n="relazion/e__n"/></e>
+    <e lm="quistion"><i>quistion</i><par n="relazion/e__n"/></e>
+    <e lm="riazzion"><i>riazzion</i><par n="relazion/e__n"/></e>
+    <e lm="riflission"><i>riflission</i><par n="relazion/e__n"/></e>
+    <e lm="risuluzion"><i>risuluzion</i><par n="relazion/e__n"/></e>
+    <e lm="rivuluzion"><i>rivuluzion</i><par n="relazion/e__n"/></e>
+    <e lm="rutazion"><i>rutazion</i><par n="relazion/e__n"/></e>
+    <e lm="scrizzion"><i>scrizzion</i><par n="relazion/e__n"/></e>
+    <e lm="stazion"><i>stazion</i><par n="relazion/e__n"/></e>
+    <e lm="traduzion"><i>traduzion</i><par n="relazion/e__n"/></e>
+    <e lm="trasfurmazion"><i>trasfurmazion</i><par n="relazion/e__n"/></e>
+    <e lm="uparazion"><i>uparazion</i><par n="relazion/e__n"/></e>
+    <e lm="upinion"><i>upinion</i><par n="relazion/e__n"/></e>
+    <e lm="urganisazion"><i>urganisazion</i><par n="relazion/e__n"/></e>
+    <e lm="ussirvazion"><i>ussirvazion</i><par n="relazion/e__n"/></e>
+
+
     <e lm="traduzzione"><i>traduzzion</i><par n="relazion/e__n"/></e>
     <e lm="affirmazione"><i>affirmazion</i><par n="relazion/e__n"/></e>
     <e lm="amministrazione"><i>amministrazion</i><par n="relazion/e__n"/></e>
+    <e lm="leghje"><i>leghj</i><par n="relazion/e__n"/></e>
     <e lm="criazione"><i>criazion</i><par n="relazion/e__n"/></e>
     <e lm="citazione"><i>citazion</i><par n="relazion/e__n"/></e>
     <e lm="relazione"><i>relazion</i><par n="relazion/e__n"/></e>
@@ -2253,8 +2334,6 @@
     <e lm="occupazione"><i>occupazion</i><par n="relazion/e__n"/></e>
     <e lm="opposizione"><i>opposizion</i><par n="relazion/e__n"/></e>
     <e lm="osservazione"><i>osservazion</i><par n="relazion/e__n"/></e>
-    <e lm="populazione"><i>populazion</i><par n="relazion/e__n"/></e>
-    <e lm="populazione" r="LR"><p><l>pupulazion</l><r>populazion</r></p><par n="relazion/e__n"/></e>
     <e lm="posizione"><i>posizion</i><par n="relazion/e__n"/></e>
     <e lm="descrizzione"><i>descrizzion</i><par n="relazion/e__n"/></e>
     <e lm="trascrizzione"><i>trascrizzion</i><par n="relazion/e__n"/></e>
@@ -2284,6 +2363,7 @@
 
     <e lm="presidente"><i>president</i><par n="ribell/e__n"/></e>
     <e lm="uriente"><i>urient</i><par n="ribell/e__n"/></e>
+    <e lm="uccidente"><i>uccident</i><par n="ribell/e__n"/></e>
     <e lm="pede"><i>ped</i><par n="ribell/e__n"/></e>
     <e lm="autore"><i>autor</i><par n="ribell/e__n"/></e>
     <e lm="prisente"><i>prisent</i><par n="ribell/e__n"/></e>
@@ -2385,6 +2465,9 @@
     <e lm="pruduzzione"><i>pruduzzion</i><par n="relazion/e__n"/></e>
     <e lm="persone"><i>person</i><par n="relazion/e__n"/></e>
     <e lm="sinonimu"><i>sinonim</i><par n="ann/u__n"/></e>
+    <e lm="tuponimu"><i>tuponim</i><par n="ann/u__n"/></e>
+    <e lm="umonimu"><i>umonim</i><par n="ann/u__n"/></e>
+    <e lm="acronimu"><i>acronim</i><par n="ann/u__n"/></e>
     <e lm="umanu"><i>uman</i><par n="ann/u__n"/></e>
     <e lm="membru"><i>membr</i><par n="ann/u__n"/></e>
     <e lm="imperatoru"><i>imperator</i><par n="ann/u__n"/></e>
@@ -2465,6 +2548,7 @@
     <e lm="Puseidonu"><i>Puseidonu</i><par n="Jaume__np"/></e>
     <e lm="David"><i>David</i><par n="Jaume__np"/></e>
     <e lm="Bonifaziu"><i>Bonifaziu</i><par n="Jaume__np"/></e>
+    <e lm="Bonifatu"><i>Bonifatu</i><par n="Jaume__np"/></e>
     <e lm="Oscar"><i>Oscar</i><par n="Jaume__np"/></e>
     <e lm="Richard"><i>Richard</i><par n="Jaume__np"/></e>
     <e lm="Omeru"><i>Omeru</i><par n="Jaume__np"/></e>
@@ -4418,10 +4502,33 @@
     <e lm="cumunu"><i>cumun</i><par n="vechj/u__adj"/></e>
     <e lm="mortu"><i>mort</i><par n="vechj/u__adj"/></e>
     <e lm="stessu"><i>stess</i><par n="vechj/u__adj"/></e>
+    <e lm="cumplessu"><i>cumpless</i><par n="vechj/u__adj"/></e>
 
 
     <e lm="seguitu"><i>seguit</i><par n="vechj/u__adj"/></e>
     <e lm="dettu"><i>dettu</i><par n="vechj/u__adj"/></e>
+
+    <e lm="Adriaticu"><i>adriatic</i><par n="tipic/u__adj"/></e>
+    <e lm="archiulogicu"><i>archiulogic</i><par n="tipic/u__adj"/></e>
+    <e lm="Articu"><i>artic</i><par n="tipic/u__adj"/></e>
+    <e lm="asiaticu"><i>asiatic</i><par n="tipic/u__adj"/></e>
+    <e lm="biblicu"><i>biblic</i><par n="tipic/u__adj"/></e>
+    <e lm="bizzicu"><i>bizzic</i><par n="tipic/u__adj"/></e>
+    <e lm="Dumenicu"><i>dumenic</i><par n="tipic/u__adj"/></e>
+    <e lm="ebraicu"><i>ebraic</i><par n="tipic/u__adj"/></e>
+    <e lm="fisicu"><i>fisic</i><par n="tipic/u__adj"/></e>
+    <e lm="idrugraficu"><i>idrugrafic</i><par n="tipic/u__adj"/></e>
+    <e lm="lessicu"><i>lessic</i><par n="tipic/u__adj"/></e>
+    <e lm="linguisticu"><i>linguistic</i><par n="tipic/u__adj"/></e>
+    <e lm="medicu"><i>medic</i><par n="tipic/u__adj"/></e>
+    <e lm="miticu"><i>mitic</i><par n="tipic/u__adj"/></e>
+    <e lm="numicu"><i>numic</i><par n="tipic/u__adj"/></e>
+    <e lm="politicu"><i>politic</i><par n="tipic/u__adj"/></e>
+    <e lm="risicu"><i>risic</i><par n="tipic/u__adj"/></e>
+    <e lm="salvaticu"><i>salvatic</i><par n="tipic/u__adj"/></e>
+    <e lm="specificu"><i>specific</i><par n="tipic/u__adj"/></e>
+    <e lm="turisticu"><i>turistic</i><par n="tipic/u__adj"/></e>
+    <e lm="vucalicu"><i>vucalic</i><par n="tipic/u__adj"/></e>
 
 
     <e lm="moltu"><i>molt</i><par n="vechj/u__adj"/></e>
@@ -4465,6 +4572,11 @@
     <e lm="cumpostu"><i>cumpost</i><par n="vechj/u__adj"/></e>
     <e lm="fundatu"><i>fundat</i><par n="vechj/u__adj"/></e>
     <e lm="francesu"><i>frances</i><par n="vechj/u__adj"/></e>
+    <e lm="sassaresu"><i>sassares</i><par n="vechj/u__adj"/></e>
+    <e lm="luguduresu"><i>lugudures</i><par n="vechj/u__adj"/></e>
+    <e lm="purtughesu"><i>purtughes</i><par n="vechj/u__adj"/></e>
+    <e lm="maltesu"><i>maltes</i><par n="vechj/u__adj"/></e>
+    <e lm="campidanes"><i>campidanes</i><par n="vechj/u__adj"/></e>
     <e lm="drittu"><i>dritt</i><par n="vechj/u__adj"/></e>
     <e lm="masciu"><i>masci</i><par n="vechj/u__adj"/></e>
 
@@ -4765,6 +4877,8 @@
     <e lm="parlà"><i>parl</i><par n="parl/à__vblex"/></e>
     <e lm="truvà"><i>truv</i><par n="parl/à__vblex"/></e>
     <e lm="truvà" r="LR"><p><l>trov</l><r>truv</r></p><par n="parl/à__vblex"/></e>
+    <e lm="ritruvà"><i>ritruv</i><par n="parl/à__vblex"/></e>
+    <e lm="ritruvà" r="LR"><p><l>ritrov</l><r>ritruv</r></p><par n="parl/à__vblex"/></e>
     <e lm="aspittà"><i>aspitt</i><par n="parl/à__vblex"/></e>
     <e lm="cantà"><i>cant</i><par n="parl/à__vblex"/></e>
     <e lm="cunfinà"><i>cunfin</i><par n="parl/à__vblex"/></e>
@@ -4873,8 +4987,69 @@
     <e lm="urganizà" r="LR"><p><l>organiz</l><r>urganiz</r></p><par n="parl/à__vblex"/></e>
     <e lm="urganizà" r="LR"><p><l>urganizz</l><r>urganiz</r></p><par n="parl/à__vblex"/></e>
 
+    <e lm="imprudà"><i>imprud</i><par n="parl/à__vblex"/></e>
+    <e lm="aduprà"><i>adupr</i><par n="parl/à__vblex"/></e>
+    <e lm="cunsirvà"><i>cunsirv</i><par n="parl/à__vblex"/></e>
+    <e lm="ghjucà"><i>ghjuc</i><par n="parl/à__vblex"/></e>
+    <e lm="dedicà"><i>dedic</i><par n="parl/à__vblex"/></e>
+    <e lm="inspirà"><i>inspir</i><par n="parl/à__vblex"/></e>
+    <e lm="assassinà"><i>assassin</i><par n="parl/à__vblex"/></e>
+    <e lm="arristà"><i>arrist</i><par n="parl/à__vblex"/></e>
+    <e lm="ghjudicà"><i>ghjudic</i><par n="parl/à__vblex"/></e>
+    <e lm="influenzà"><i>influenz</i><par n="parl/à__vblex"/></e>
+    <e lm="influenzà" r="LR"><p><l>influinz</l><r>influenz</r></p><par n="parl/à__vblex"/></e>
+    <e lm="dilimità"><i>dilimit</i><par n="parl/à__vblex"/></e>
+    <e lm="abbandunà"><i>abbandun</i><par n="parl/à__vblex"/></e>
+    <e lm="abandunà" r="LR"><p><l>abandun</l><r>abbandun</r></p><par n="parl/à__vblex"/></e>
+    <e lm="pubblicà"><i>pubblic</i><par n="parl/à__vblex"/></e>
+    <e lm="praticà"><i>pratic</i><par n="parl/à__vblex"/></e>
+    <e lm="assignà"><i>assign</i><par n="parl/à__vblex"/></e>
+    <e lm="mudificà"><i>mudific</i><par n="parl/à__vblex"/></e>
+    <e lm="caratterizà"><i>caratteriz</i><par n="parl/à__vblex"/></e>
+    <e lm="assimilà"><i>assimil</i><par n="parl/à__vblex"/></e>
+    <e lm="utilizà"><i>utiliz</i><par n="parl/à__vblex"/></e>
+    <e lm="vutà"><i>vut</i><par n="parl/à__vblex"/></e>
+    <e lm="visità"><i>visit</i><par n="parl/à__vblex"/></e>
+    <e lm="furtificà"><i>furtific</i><par n="parl/à__vblex"/></e>
+    <e lm="considerà"><i>consider</i><par n="parl/à__vblex"/></e>
+    <e lm="avanzà"><i>avanz</i><par n="parl/à__vblex"/></e>
+    <e lm="traslitterà"><i>traslitter</i><par n="parl/à__vblex"/></e>
+    <e lm="scambià"><i>scambi</i><par n="parl/à__vblex"/></e>
+    <e lm="populà"><i>popul</i><par n="parl/à__vblex"/></e>
+    <e lm="determinà"><i>determin</i><par n="parl/à__vblex"/></e>
+    <e lm="marcà"><i>marc</i><par n="parl/à__vblex"/></e>
+    <e lm="cunsacrà"><i>cunsacr</i><par n="parl/à__vblex"/></e>
+    <e lm="cumunicà"><i>cumunic</i><par n="parl/à__vblex"/></e>
+    <e lm="elevà"><i>elev</i><par n="parl/à__vblex"/></e>
+    <e lm="siparà"><i>sipar</i><par n="parl/à__vblex"/></e>
+
+    <e lm="scuntrà"><i>scuntr</i><par n="parl/à__vblex"/></e>
+    <e lm="ricurdà"><i>ricurd</i><par n="parl/à__vblex"/></e>
+    <e lm="calculà"><i>calcul</i><par n="parl/à__vblex"/></e>
+    <e lm="salvà"><i>salv</i><par n="parl/à__vblex"/></e>
+    <e lm="evità"><i>evit</i><par n="parl/à__vblex"/></e>
+    <e lm="catturà"><i>cattur</i><par n="parl/à__vblex"/></e>
+    <e lm="libarà"><i>libar</i><par n="parl/à__vblex"/></e>
+    <e lm="tumbà"><i>tumb</i><par n="parl/à__vblex"/></e>
+    <e lm="cuntrullà"><i>cuntrull</i><par n="parl/à__vblex"/></e>
+    <e lm="necessità"><i>necessit</i><par n="parl/à__vblex"/></e>
+    <e lm="individuà"><i>individu</i><par n="parl/à__vblex"/></e>
+    <e lm="ditarminà"><i>ditarmin</i><par n="parl/à__vblex"/></e>
+    <e lm="dirivà"><i>diriv</i><par n="parl/à__vblex"/></e>
+    <e lm="attaccà"><i>attacc</i><par n="parl/à__vblex"/></e>
+    <e lm="affirmà"><i>affirm</i><par n="parl/à__vblex"/></e>
+
+
+    <e lm="assucià"><i>assuci</i><par n="parl/à__vblex"/></e>
+    <e lm="assucià" r="LR"><p><l>associ</l><r>assuci</r></p><par n="parl/à__vblex"/></e>
+    <e lm="lancià"><i>lanci</i><par n="parl/à__vblex"/></e>
+    <e lm="cumincià"><i>cuminci</i><par n="parl/à__vblex"/></e>
+    <e lm="travaglià"><i>travagli</i><par n="parl/à__vblex"/></e>
+    <e lm="enuncià"><i>enunci</i><par n="parl/à__vblex"/></e>
+
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>
+    <e lm="invià"><i>invi</i><par n="parl/à__vblex"/></e>
     <e lm="studià"><i>studi</i><par n="parl/à__vblex"/></e>
     <e lm="cambià"><i>cambi</i><par n="parl/à__vblex"/></e>
     <e lm="crià"><i>cri</i><par n="parl/à__vblex"/></e>

@@ -600,6 +600,13 @@
       <e><p><l>e</l><r>u<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="terz/u__adj">
+      <e><p><l>u</l><r>u<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>u<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+ 
     <pardef n="nostr/u__adj">
       <e><p><l>u</l><r>u<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>u<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1785,6 +1792,7 @@
     <e lm="catalogu"><i>catalog</i><par n="ann/u__n"/></e>
     <e lm="tempu"><i>temp</i><par n="ann/u__n"/></e>
     <e lm="portu"><i>port</i><par n="ann/u__n"/></e>
+    <e lm="aeruportu"><i>aeruport</i><par n="ann/u__n"/></e>
     <e lm="trasportu"><i>trasport</i><par n="ann/u__n"/></e>
     <e lm="latinu"><i>latin</i><par n="ann/u__n"/></e>
     <e lm="mondu"><i>mond</i><par n="ann/u__n"/></e>
@@ -4341,11 +4349,20 @@
 
     <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e>
 
+    <e lm="sicondu"><i>sicond</i><par n="terz/u__adj"/></e>
+    <e lm="sicondu" r="LR"><p><l>second</l><r>sicond</r></p><par n="terz/u__adj"/></e>
+    <e lm="terzu"><i>terz</i><par n="terz/u__adj"/></e>
+
     <e lm="altru"><i>altr</i><par n="vechj/u__adj"/></e>
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
     <e lm="anzianu"><i>anzian</i><par n="vechj/u__adj"/></e>
     <e lm="antru"><i>antr</i><par n="vechj/u__adj"/></e>
+
+    <e lm="auropeu"><i>aurope</i><par n="vechj/u__adj"/></e>
+    <e lm="auropeu" r="LR"><p><l>europe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
+    <e lm="auropeu" r="LR"><p><l>aurupe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
+    <e lm="auropeu" r="LR"><p><l>eurupe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
     <e lm="mediu"><i>medi</i><par n="vechj/u__adj"/></e>
@@ -4426,7 +4443,6 @@
     <e lm="endemicu"><i>endemic</i><par n="vechj/u__adj"/></e>
     <e lm="massimu"><i>massim</i><par n="vechj/u__adj"/></e>
     <e lm="solitu"><i>solit</i><par n="vechj/u__adj"/></e>
-    <e lm="terzu"><i>terz</i><par n="vechj/u__adj"/></e>
     <e lm="fermu"><i>ferm</i><par n="vechj/u__adj"/></e>
     <e lm="listessu"><i>listess</i><par n="vechj/u__adj"/></e>
     <e lm="certu"><i>cert</i><par n="vechj/u__adj"/></e>
@@ -4514,6 +4530,7 @@
     <e lm="suciale"><i>sucial</i><par n="naziunal/e__adj"/></e>
     <e lm="suciale" r="LR"><p><l>social</l><r>sucial</r></p><par n="naziunal/e__adj"/></e>
     <e lm="cummerciale"><i>cummercial</i><par n="naziunal/e__adj"/></e>
+    <e lm="cummerciale" r="LR"><p><l>cummircial</l><r>cummercial</r></p><par n="naziunal/e__adj"/></e>
     <e lm="territuriale"><i>territurial</i><par n="naziunal/e__adj"/></e>
     <e lm="industriale"><i>industrial</i><par n="naziunal/e__adj"/></e>
     <e lm="iniziale"><i>inizial</i><par n="naziunal/e__adj"/></e>
@@ -4607,7 +4624,7 @@
     <e lm="ormai"><i>ormai</i><par n="cusì__adv"/></e>
     <e lm="troppu"><i>troppu</i><par n="cusì__adv"/></e>
     <e lm="sopratuttu"><i>sopratuttu</i><par n="cusì__adv"/></e>
-    <e lm="a siconda"><i>a<b/>siconda</i><par n="cusì__adv"/></e>
+    <!--<e lm="a siconda"><i>a<b/>siconda</i><par n="cusì__adv"/></e>-->
     <e lm="insemu"><i>insemu</i><par n="cusì__adv"/></e>
     <e lm="cusì"><i>cusì</i><par n="cusì__adv"/></e>
     <e lm="avà"><i>avà</i><par n="cusì__adv"/></e>
@@ -4848,6 +4865,13 @@
     <e lm="sparà"><i>spar</i><par n="parl/à__vblex"/></e>
     <e lm="acquistà"><i>acquist</i><par n="parl/à__vblex"/></e>
     <e lm="appostà"><i>appost</i><par n="parl/à__vblex"/></e>
+    <e lm="narrà"><i>narr</i><par n="parl/à__vblex"/></e>
+    <e lm="riurganizà"><i>riurganiz</i><par n="parl/à__vblex"/></e>
+    <e lm="riurganizà" r="LR"><p><l>riorganiz</l><r>riurganiz</r></p><par n="parl/à__vblex"/></e>
+    <e lm="riurganizà" r="LR"><p><l>riorganizz</l><r>riurganiz</r></p><par n="parl/à__vblex"/></e>
+    <e lm="urganizà"><i>urganiz</i><par n="parl/à__vblex"/></e>
+    <e lm="urganizà" r="LR"><p><l>organiz</l><r>urganiz</r></p><par n="parl/à__vblex"/></e>
+    <e lm="urganizà" r="LR"><p><l>urganizz</l><r>urganiz</r></p><par n="parl/à__vblex"/></e>
 
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>
@@ -4856,6 +4880,7 @@
     <e lm="crià"><i>cri</i><par n="parl/à__vblex"/></e>
     <e lm="inizià"><i>inizi</i><par n="parl/à__vblex"/></e>
     <e lm="creà"><i>cre</i><par n="parl/à__vblex"/></e>
+    <e lm="suvità"><i>suvit</i><par n="parl/à__vblex"/></e>
     <e lm="significheghjà"><i>significheghj</i><par n="parl/à__vblex"/></e>
 
     <e lm="vedè"><i>v</i><par n="v/edè__vblex"/></e>

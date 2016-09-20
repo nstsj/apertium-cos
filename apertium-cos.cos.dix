@@ -781,7 +781,6 @@
       <e><p><l>eranu</l><r>esse<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>erani</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e r="LR"><p><l>stava</l><r>esse<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1249,7 +1248,14 @@
       <e><p><l>emu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ava</l><r>à<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avamu</l><r>à<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avanu</l><r>à<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>avani</l><r>à<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
       <e><p><l>at</l><r>à<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+
       <e><p><l>endu</l><r>à<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
 

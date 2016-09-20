@@ -316,6 +316,11 @@
       <e><p><l>e</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+ <pardef n="nunda__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+
+    </pardef>
+
  <pardef n="cio__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="sg"/></r></p></e>
 
@@ -681,7 +686,7 @@
     </pardef>
 
 <pardef n="uccidental/i__adj">
-      <e><p><l>i</l><r><s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>i</l><r>i<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
      
 
     </pardef>
@@ -1582,6 +1587,7 @@
     <e lm="questu" r="LR"><p><l>quest</l><r>'ss</r></p><par n="quell/u__det"/></e>
     <e lm="questu" r="LR"><p><l>quist</l><r>'ss</r></p><par n="quell/u__det"/></e>
     <e lm="'ssu"><i>'ss</i><par n="quell/u__det"/></e>
+    <e lm="'ssu" r="LR"><p><l>ss</l><r>'ss</r></p><par n="quell/u__det"/></e>
 
   
 
@@ -1608,6 +1614,7 @@
     <e lm="u quali"><i></i><par n="/u_quali__rel"/></e>
 
     <e lm="ciò"><i>ciò</i><par n="cio__prn"/></e>
+    <e lm="nunda"><i>nunda</i><par n="nunda__prn"/></e>
     
     <e lm="ne"><i>ne</i><par n="ne__prn"/></e>
     <e lm="ci"><i>ci</i><par n="ne__prn"/></e>
@@ -4713,6 +4720,7 @@
     <e lm="moltu"><i>molt</i><par n="molt/u__adj"/></e>
 
     <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e>
+    <e lm="vostru"><i>vostr</i><par n="nostr/u__adj"/></e>
 
     <e lm="primu"><i>prim</i><par n="terz/u__adj"/></e>
     <e lm="sicondu"><i>sicond</i><par n="terz/u__adj"/></e>
@@ -4884,6 +4892,7 @@
     <e lm="storicu"><i>storic</i><par n="tipic/u__adj"/></e>
     <e lm="tecnicu"><i>tecnic</i><par n="tipic/u__adj"/></e>
     <e lm="ecunomicu"><i>ecunomic</i><par n="tipic/u__adj"/></e>
+    <e lm="ecunomicu" r="LR"><p><l>economic</l><r>ecunomic</r></p><par n="tipic/u__adj"/></e>
     <e lm="grecu"><i>grec</i><par n="tipic/u__adj"/></e>
     <e lm="tedescu"><i>tedesc</i><par n="tipic/u__adj"/></e>
     <e lm="chimicu"><i>chimic</i><par n="tipic/u__adj"/></e>
@@ -4948,6 +4957,7 @@
     <e lm="pussibule"><i>pussibul</i><par n="naziunal/e__adj"/></e>
     <e lm="naturale"><i>natural</i><par n="naziunal/e__adj"/></e>
     <e lm="attuale"><i>attual</i><par n="naziunal/e__adj"/></e>
+    <e lm="visuale"><i>visual</i><par n="naziunal/e__adj"/></e>
     <e lm="culturale"><i>cultural</i><par n="naziunal/e__adj"/></e>
     <e lm="tradiziunale"><i>tradiziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="civile"><i>civil</i><par n="naziunal/e__adj"/></e>
@@ -5031,6 +5041,7 @@
     <e lm="inoltri"><i>inoltri</i><par n="cusì__adv"/></e>
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
     <e lm="quà"><i>quà</i><par n="cusì__adv"/></e>
+    <e lm="quì"><i>quì</i><par n="cusì__adv"/></e>
     <e lm="dighjà"><i>dighjà</i><par n="cusì__adv"/></e>
     <e lm="ghjà"><i>ghjà</i><par n="cusì__adv"/></e>
     <e lm="ancora"><i>ancora</i><par n="cusì__adv"/></e>
@@ -5331,7 +5342,9 @@
     <e lm="cumplicà"><i>cumplic</i><par n="parl/à__vblex"/></e>
     <e lm="affirmà"><i>affirm</i><par n="parl/à__vblex"/></e>
     <e lm="consacrà"><i>consacr</i><par n="parl/à__vblex"/></e>
+    <e lm="arruvinà"><i>arruvin</i><par n="parl/à__vblex"/></e>
     <e lm="causà"><i>caus</i><par n="parl/à__vblex"/></e>
+    <e lm="pagà"><i>pag</i><par n="parl/à__vblex"/></e>
     <e lm="interrugà"><i>interrug</i><par n="parl/à__vblex"/></e>
     <e lm="situà"><i>situ</i><par n="parl/à__vblex"/></e>
     <e lm="supportà"><i>support</i><par n="parl/à__vblex"/></e>

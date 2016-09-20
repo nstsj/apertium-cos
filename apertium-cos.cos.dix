@@ -1464,6 +1464,9 @@
     <e lm="sinu à"><i>sinu<b/>à</i><par n="à__pr"/></e>
     <e lm="fin'à"><i>fin'à</i><par n="à__pr"/></e>
     <e lm="in"><i>in</i><par n="à__pr"/></e>
+    <e lm="indu"><i>indu</i><par n="à__pr"/></e>
+    <e lm="indu" r="LR"><p><l>ind'è</l><r>indu</r></p><par n="à__pr"/></e>
+    <e lm="indu" r="LR"><p><l>ind'ì</l><r>indu</r></p><par n="à__pr"/></e>
     <e lm="pà"><i>pà</i><par n="à__pr"/></e>
     <e lm="per"><i>per</i><par n="à__pr"/></e>
     <e lm="per" r="LR" c="sub"><p><l>par</l><r>per</r></p><par n="à__pr"/></e>
@@ -4858,6 +4861,7 @@
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
     <e r="LR" lm="contr'"><p><l>contr'</l><r>contru<s n="pr"/></r></p></e>
     <e r="LR" lm="senz'"><p><l>senz'</l><r>senza<s n="pr"/></r></p></e>
+    <e r="LR" lm="ind'"><p><l>ind'</l><r>indu<s n="pr"/></r></p></e>
     <e r="LR" lm="sott'"><p><l>sott'</l><r>sottu<s n="pr"/></r></p></e>
     <e r="LR" lm="com'"><p><l>com'</l><r>comu<s n="pr"/></r></p></e> <!-- FIXME -->
 

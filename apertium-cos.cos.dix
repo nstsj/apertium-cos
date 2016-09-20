@@ -58,6 +58,7 @@
     <sdef n="fti"      c=""/>
 
     <sdef n="sci"      c="Nom científic"/>
+    <sdef n="percent"  c="Percent"/>
 
     <sdef n="m"        c="Masculí"/>
     <sdef n="f"        c="Feminí"/>
@@ -112,6 +113,7 @@
 
     <pardef n="latin">
       <e><re>[a-z]+ceae</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
+      <e><re>[a-z]+acea</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
     </pardef>
 
     <pardef n="paresq">
@@ -125,6 +127,7 @@
     <pardef n="numeros">
       <e><re>[0-9]+([.,][0-9]+)*</re><p><l/><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)* °C</re><p><l/><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)* *</re><p><l>%</l><r><s n="num"/><s n="percent"/></r></p></e>
     </pardef>
 
     <pardef n="ordinals">
@@ -649,6 +652,10 @@
 
     <pardef n="parchè__adv">
       <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="quandu__adv">
+      <e><p><l></l><r><s n="adv"/><s n="rel"/></r></p></e>
     </pardef>
 
     <pardef n="cusì__adv">
@@ -3050,6 +3057,14 @@
     <e lm="Williams"><i>Williams</i><par n="Colonna__np"/></e>
     <e lm="Evans"><i>Evans</i><par n="Colonna__np"/></e>
     <e lm="Collins"><i>Collins</i><par n="Colonna__np"/></e>
+    <e lm="O'Brien"><i>O'Brien</i><par n="Colonna__np"/></e>
+    <e lm="O'Connor"><i>O'Connor</i><par n="Colonna__np"/></e>
+    <e lm="O'Hara"><i>O'Hara</i><par n="Colonna__np"/></e>
+    <e lm="O'Malley"><i>O'Malley</i><par n="Colonna__np"/></e>
+    <e lm="O'Neill"><i>O'Neill</i><par n="Colonna__np"/></e>
+    <e lm="O'Shea"><i>O'Shea</i><par n="Colonna__np"/></e>
+    <e lm="O'Toole"><i>O'Toole</i><par n="Colonna__np"/></e>
+
     <e lm="Liviu"><i>Liviu</i><par n="Colonna__np"/></e>
     <e lm="Gutenberg"><i>Gutenberg</i><par n="Colonna__np"/></e>
     <e lm="Gyatso"><i>Gyatso</i><par n="Colonna__np"/></e>
@@ -3712,6 +3727,7 @@
      <e lm="Mississippi"><i>Mississippi</i><par n="Aiacciu__np"/></e>
      <e lm="Balticu"><i>Balticu</i><par n="Aiacciu__np"/></e>
      <e lm="Meditarraniu"><i>Meditarraniu</i><par n="Aiacciu__np"/></e>
+     <e lm="Meditarraniu" r="LR"><p><l>Mar'Tirrenu</l><r>Meditarraniu</r></p><par n="Aiacciu__np"/></e>
 
      <e lm="Casteddu"><i>Casteddu</i><par n="Aiacciu__np"/></e>
      <e lm="Maroccu"><i>Maroccu</i><par n="Aiacciu__np"/></e>
@@ -4078,6 +4094,8 @@
     <e lm="Bratislava"><i>Bratislava</i><par n="Aiacciu__np"/></e>
     <e lm="Bratislava"><i>Bratislava</i><par n="Corsica__np"/></e>
     <e lm="British Columbia"><i>British<b/>Columbia</i><par n="Corsica__np"/></e>
+    <e lm="Gran'Britagna"><i>Gran'Britagna</i><par n="Corsica__np"/></e>
+    <e lm="Sant'Elena"><i>Sant'Elena</i><par n="Aiacciu__np"/></e>
     <e lm="Bucarest"><i>Bucarest</i><par n="Aiacciu__np"/></e>
     <e lm="Budapest"><i>Budapest</i><par n="Aiacciu__np"/></e>
     <e lm="Budoni"><i>Budoni</i><par n="Aiacciu__np"/></e>
@@ -4551,6 +4569,8 @@
     <e lm="parchè"><i>parchè</i><par n="parchè__adv"/></e>
     <e lm="quandu"><i>quandu</i><par n="parchè__adv"/></e>
 
+    <e lm="quandu"><i>quandu</i><par n="quandu__adv"/></e>
+
     <!-- FIXME: Check "com" itg/rel -->
     <e lm="cumu"><i>cumu</i><par n="parchè__adv"/></e>
     <e lm="cum'è"><i>cum'è</i><par n="cusì__adv"/></e> 
@@ -4835,26 +4855,39 @@
   </section>
 
   <section id="apost" type="postblank">
-    <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
     <e r="LR" lm="contr'"><p><l>contr'</l><r>contru<s n="pr"/></r></p></e>
+    <e r="LR" lm="senz'"><p><l>senz'</l><r>senza<s n="pr"/></r></p></e>
     <e r="LR" lm="sott'"><p><l>sott'</l><r>sottu<s n="pr"/></r></p></e>
+    <e r="LR" lm="com'"><p><l>com'</l><r>comu<s n="pr"/></r></p></e> <!-- FIXME -->
+
+    <e r="LR" lm="all'"><p><l>all'</l><r>à<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="sull'"><p><l>sull'</l><r>sottu<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="dal'"><p><l>dal'</l><r>di<s n="pr"/><j/>lu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="induv'"><p><l>induv'</l><r>induva<s n="adv"/></r></p></e>
     <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="cnjsub"/></r></p></e>
-    <e r="LR" lm="com'"><p><l>com'</l><r>comu<s n="pr"/></r></p></e> <!-- FIXME -->
     <e r="LR" lm="tropp'"><p><l>tropp'</l><r>troppu</r></p><par n="cusì__adv"/></e>
+    <e r="LR" lm="ss'"><p><l>ss'</l><r>ssu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="'ss'"><p><l>'ss'</l><r>ssu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quidd'"><p><l>quidd'</l><r>quiddu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quist'"><p><l>quist'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="quest'"><p><l>quest'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="st'"><p><l>st'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quiss'"><p><l>quiss'</l><r>quissu<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR" lm="t'"><p><l>t'</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="m'"><p><l>m'</l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="n'"><p><l>n'</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="un'"><p><l>un'</l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="gran'"><p><l>gran'</l><r>grande<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="sant'"><p><l>sant'</l><r>santu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="san'"><p><l>san'</l><r>santu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
+    <e r="LR" lm="quand'"><p><l>quand'</l><r>quandu<s n="adv"/><s n="rel"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">

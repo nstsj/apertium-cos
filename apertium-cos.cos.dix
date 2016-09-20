@@ -114,6 +114,7 @@
     <pardef n="latin">
       <e><re>[a-z]+ceae</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
       <e><re>[a-z]+acea</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
+      <e><re>[a-z]+ium</re><p><l/><r><s n="np"/><s n="sci"/></r></p></e>
     </pardef>
 
     <pardef n="paresq">
@@ -1531,6 +1532,7 @@
     <e lm="quiddu" r="LR"><p><l>idd</l><r>quidd</r></p><par n="quell/u__det"/></e>
     <e lm="quessu" r="LR"><p><l>quess</l><r>'ss</r></p><par n="quell/u__det"/></e>
     <e lm="questu" r="LR"><p><l>quest</l><r>'ss</r></p><par n="quell/u__det"/></e>
+    <e lm="questu" r="LR"><p><l>quist</l><r>'ss</r></p><par n="quell/u__det"/></e>
     <e lm="'ssu"><i>'ss</i><par n="quell/u__det"/></e>
 
   

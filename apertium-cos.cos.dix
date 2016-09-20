@@ -1,5 +1,5 @@
 <dictionary>
-  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁáëūīḥʿțöāîĭēåăíóúÚōÓÍ</alphabet>
+  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁáëūīḥʿțöāîĭēåăíóúÚōÓÍßę</alphabet>
   <sdefs>
     <sdef n="n"        c="Sustantiu"/>
     <sdef n="np"       c="Nom propi"/>
@@ -1456,7 +1456,6 @@
     <e lm="ni"><i>ni</i><par n="è__cnjcoo"/></e>
     <e lm="ancu"><i>ancu</i><par n="è__cnjcoo"/></e>
     <e lm="mentri"><i>mentri</i><par n="è__cnjcoo"/></e>
-    <e lm="sicondu"><i>sicondu</i><par n="è__cnjcoo"/></e>
     <e lm="puru"><i>puru</i><par n="è__cnjcoo"/></e>
     <e lm="piuttostu"><i>piuttostu</i><par n="è__cnjcoo"/></e>
     <e lm="ò"><i>ò</i><par n="è__cnjcoo"/></e>
@@ -1470,6 +1469,7 @@
     <e lm="però"><i>però</i><par n="è__cnjcoo"/></e>
 
 
+    <e lm="sicondu"><i>sicondu</i><par n="sì__cnjadv"/></e>
     <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
 
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
@@ -1598,6 +1598,7 @@
     <e lm="ciò"><i>ciò</i><par n="cio__prn"/></e>
     
     <e lm="ne"><i>ne</i><par n="ne__prn"/></e>
+    <e lm="ci"><i>ci</i><par n="ne__prn"/></e>
     <e lm="edda"><i>edda</i><par n="edda__prn"/></e>
     <e lm="cosa"><i>cosa</i><par n="cosa__prn"/></e>
     
@@ -5267,6 +5268,7 @@
     <e lm="abbandunà"><i>abbandun</i><par n="parl/à__vblex"/></e>
     <e lm="abandunà" r="LR"><p><l>abandun</l><r>abbandun</r></p><par n="parl/à__vblex"/></e>
     <e lm="pubblicà"><i>pubblic</i><par n="parl/à__vblex"/></e>
+    <e lm="pubblicà" r="LR"><p><l>public</l><r>pubblic</r></p><par n="parl/à__vblex"/></e>
     <e lm="praticà"><i>pratic</i><par n="parl/à__vblex"/></e>
     <e lm="assignà"><i>assign</i><par n="parl/à__vblex"/></e>
     <e lm="mudificà"><i>mudific</i><par n="parl/à__vblex"/></e>
@@ -5304,7 +5306,9 @@
     <e lm="stimà"><i>stim</i><par n="parl/à__vblex"/></e>
     <e lm="dirivà"><i>diriv</i><par n="parl/à__vblex"/></e>
     <e lm="attaccà"><i>attacc</i><par n="parl/à__vblex"/></e>
+    <e lm="implicà"><i>implic</i><par n="parl/à__vblex"/></e>
     <e lm="affirmà"><i>affirm</i><par n="parl/à__vblex"/></e>
+    <e lm="causà"><i>caus</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="assucià"><i>assuci</i><par n="parl/à__vblex"/></e>

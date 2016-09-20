@@ -743,6 +743,7 @@
       <e><p><l>fuimu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>fustete</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>funi</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>funu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       
 
 
@@ -881,6 +882,7 @@
       <e><p><l>ossu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>oi</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ò</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ode</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>udemu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>udete</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>onu</l><r>udè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1710,6 +1712,7 @@
     <e lm="mandatu"><i>mandat</i><par n="ann/u__n"/></e>
     <e lm="ughjettu"><i>ughjett</i><par n="ann/u__n"/></e>
     <e lm="ughjettu" r="LR"><p><l>uggett</l><r>ughjett</r></p><par n="ann/u__n"/></e>
+    <e lm="ughjettu" r="LR"><p><l>oggett</l><r>ughjett</r></p><par n="ann/u__n"/></e>
     <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
 
@@ -1735,7 +1738,6 @@
     <e lm="veiculu"><i>veicul</i><par n="ann/u__n"/></e>
     <e lm="successu"><i>success</i><par n="ann/u__n"/></e>
     <e lm="ortu"><i>ort</i><par n="ann/u__n"/></e>
-    <e lm="oggettu"><i>oggett</i><par n="ann/u__n"/></e>
     <e lm="effettu"><i>effett</i><par n="ann/u__n"/></e>
     <e lm="rinforzu"><i>rinforz</i><par n="ann/u__n"/></e>
     <e lm="popolu"><i>popol</i><par n="ann/u__n"/></e>
@@ -5236,7 +5238,6 @@
     <e lm="participà"><i>particip</i><par n="parl/à__vblex"/></e>
     <e lm="trasfurmà"><i>trasfurm</i><par n="parl/à__vblex"/></e>
     <e lm="cullaburà"><i>cullabur</i><par n="parl/à__vblex"/></e>
-    <e lm="utilizzà"><i>utilizz</i><par n="parl/à__vblex"/></e>
     <e lm="occupà"><i>occup</i><par n="parl/à__vblex"/></e>
     <e lm="suparà"><i>supar</i><par n="parl/à__vblex"/></e>
     <e lm="ritirà"><i>ritir</i><par n="parl/à__vblex"/></e>
@@ -5276,6 +5277,7 @@
     <e lm="caratterizà"><i>caratteriz</i><par n="parl/à__vblex"/></e>
     <e lm="assimilà"><i>assimil</i><par n="parl/à__vblex"/></e>
     <e lm="utilizà"><i>utiliz</i><par n="parl/à__vblex"/></e>
+    <e lm="utilizzà" r="LR"><p><l>utilizz</l><r>utiliz</r></p><par n="parl/à__vblex"/></e>
     <e lm="vutà"><i>vut</i><par n="parl/à__vblex"/></e>
     <e lm="visità"><i>visit</i><par n="parl/à__vblex"/></e>
     <e lm="furtificà"><i>furtific</i><par n="parl/à__vblex"/></e>

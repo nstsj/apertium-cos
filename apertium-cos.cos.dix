@@ -764,8 +764,6 @@
       <e><p><l>funi</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>funu</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       
-
-
       <e><p><l>seraghju</l><r>esse<s n="vbser"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>serai</l><r>esse<s n="vbser"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>serà</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -782,6 +780,8 @@
       <e><p><l>erate</l><r>esse<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>eranu</l><r>esse<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>erani</l><r>esse<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e r="LR"><p><l>fù</l><r>stava<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>

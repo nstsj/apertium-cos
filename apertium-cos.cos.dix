@@ -4019,6 +4019,8 @@
      <e lm="Londra"><i>Londra</i><par n="Corsica__np"/></e>
      <e lm="Germania"><i>Germania</i><par n="Corsica__np"/></e>
      <e lm="Parighji"><i>Parighji</i><par n="Corsica__np"/></e>
+     <e lm="Parighji" r="LR"><p><l>Pariggi</l><r>Parighji</r></p><par n="Corsica__np"/></e>
+     <e lm="Parighji" r="LR"><p><l>Parigi</l><r>Parighji</r></p><par n="Corsica__np"/></e>
      <e lm="Etruria"><i>Etruria</i><par n="Corsica__np"/></e>
      <e lm="Ghjermania"><i>Ghjermania</i><par n="Corsica__np"/></e>
      <e lm="Finlandia"><i>Finlandia</i><par n="Corsica__np"/></e>
@@ -5349,6 +5351,59 @@
     <e lm="situà"><i>situ</i><par n="parl/à__vblex"/></e>
     <e lm="datà"><i>dat</i><par n="parl/à__vblex"/></e>
     <e lm="supportà"><i>support</i><par n="parl/à__vblex"/></e>
+
+    <e lm="animà"><i>anim</i><par n="parl/à__vblex"/></e>
+    <e lm="arregistrà"><i>arregistr</i><par n="parl/à__vblex"/></e>
+    <e lm="aspettà"><i>aspett</i><par n="parl/à__vblex"/></e>
+    <e lm="attentà"><i>attent</i><par n="parl/à__vblex"/></e>
+    <e lm="centralizà"><i>centraliz</i><par n="parl/à__vblex"/></e>
+    <e lm="cummentà"><i>cumment</i><par n="parl/à__vblex"/></e>
+    <e lm="cummercializà"><i>cummercializ</i><par n="parl/à__vblex"/></e>
+    <e lm="cumprà"><i>cumpr</i><par n="parl/à__vblex"/></e>
+    <e lm="cunfirmà"><i>cunfirm</i><par n="parl/à__vblex"/></e>
+    <e lm="cunservà"><i>cunserv</i><par n="parl/à__vblex"/></e>
+    <e lm="demitilitarizà"><i>demitilitariz</i><par n="parl/à__vblex"/></e>
+    <e lm="dumandà"><i>dumand</i><par n="parl/à__vblex"/></e>
+    <e lm="egalizà"><i>egaliz</i><par n="parl/à__vblex"/></e>
+    <e lm="eliminà"><i>elimin</i><par n="parl/à__vblex"/></e>
+    <e lm="esaminà"><i>esamin</i><par n="parl/à__vblex"/></e>
+    <e lm="esilià"><i>esili</i><par n="parl/à__vblex"/></e>
+    <e lm="felicità"><i>felicit</i><par n="parl/à__vblex"/></e>
+    <e lm="finanzà"><i>finanz</i><par n="parl/à__vblex"/></e>
+    <e lm="idintificà"><i>idintific</i><par n="parl/à__vblex"/></e>
+    <e lm="imaginà"><i>imagin</i><par n="parl/à__vblex"/></e>
+    <e lm="infiltrà"><i>infiltr</i><par n="parl/à__vblex"/></e>
+    <e lm="insultà"><i>insult</i><par n="parl/à__vblex"/></e>
+    <e lm="integrà"><i>integr</i><par n="parl/à__vblex"/></e>
+    <e lm="interessà"><i>interess</i><par n="parl/à__vblex"/></e>
+    <e lm="intitulà"><i>intitul</i><par n="parl/à__vblex"/></e>
+    <e lm="inventà"><i>invent</i><par n="parl/à__vblex"/></e>
+    <e lm="invità"><i>invit</i><par n="parl/à__vblex"/></e>
+    <e lm="ispirà"><i>ispir</i><par n="parl/à__vblex"/></e>
+    <e lm="manifestà"><i>manifest</i><par n="parl/à__vblex"/></e>
+    <e lm="manipulà"><i>manipul</i><par n="parl/à__vblex"/></e>
+    <e lm="mubilizà"><i>mubiliz</i><par n="parl/à__vblex"/></e>
+    <e lm="peccà"><i>pecc</i><par n="parl/à__vblex"/></e>
+    <e lm="pinsà"><i>pins</i><par n="parl/à__vblex"/></e>
+    <e lm="preoccupà"><i>preoccup</i><par n="parl/à__vblex"/></e>
+    <e lm="preparà"><i>prepar</i><par n="parl/à__vblex"/></e>
+    <e lm="presentà"><i>present</i><par n="parl/à__vblex"/></e>
+    <e lm="priservà"><i>priserv</i><par n="parl/à__vblex"/></e>
+    <e lm="pruclamà"><i>pruclam</i><par n="parl/à__vblex"/></e>
+    <e lm="prununzià"><i>prununzi</i><par n="parl/à__vblex"/></e>
+    <e lm="pupularizà"><i>pupulariz</i><par n="parl/à__vblex"/></e>
+    <e lm="ratificà"><i>ratific</i><par n="parl/à__vblex"/></e>
+    <e lm="ricusà"><i>ricus</i><par n="parl/à__vblex"/></e>
+    <e lm="ripudià"><i>ripudi</i><par n="parl/à__vblex"/></e>
+    <e lm="riservà"><i>riserv</i><par n="parl/à__vblex"/></e>
+    <e lm="rispettà"><i>rispett</i><par n="parl/à__vblex"/></e>
+    <e lm="rivendicà"><i>rivendic</i><par n="parl/à__vblex"/></e>
+    <e lm="selezziunà"><i>selezziun</i><par n="parl/à__vblex"/></e>
+    <e lm="spezializà"><i>spezializ</i><par n="parl/à__vblex"/></e>
+    <e lm="stabilizà"><i>stabiliz</i><par n="parl/à__vblex"/></e>
+    <e lm="suspettà"><i>suspett</i><par n="parl/à__vblex"/></e>
+    <e lm="turnà"><i>turn</i><par n="parl/à__vblex"/></e>
+
 
 
     <e lm="assucià"><i>assuci</i><par n="parl/à__vblex"/></e>

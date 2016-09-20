@@ -315,11 +315,15 @@
       <e><p><l>u<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>u<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>lu<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
+
       <e><p><l>a<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>a<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>la<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
+
       <e><p><l>i<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>i<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      <e r="LR"><p><l>e<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
      
@@ -1414,13 +1418,15 @@
     <e lm="sicondu"><i>sicondu</i><par n="è__cnjcoo"/></e>
     <e lm="puru"><i>puru</i><par n="è__cnjcoo"/></e>
     <e lm="piuttostu"><i>piuttostu</i><par n="è__cnjcoo"/></e>
-    <e lm="parò"><i>parò</i><par n="è__cnjcoo"/></e>
     <e lm="ò"><i>ò</i><par n="è__cnjcoo"/></e>
     <e lm="mentre"><i>mentre</i><par n="è__cnjcoo"/></e>
     <e lm="puri"><i>puri</i><par n="è__cnjcoo"/></e>
     <e lm="nè"><i>nè</i><par n="è__cnjcoo"/></e>
     <e lm="eppo"><i>eppo</i><par n="è__cnjcoo"/></e>
     <e lm="eppuri"><i>eppuri</i><par n="è__cnjcoo"/></e>
+
+    <e lm="parò"><i>parò</i><par n="è__cnjcoo"/></e>
+    <e lm="però"><i>però</i><par n="è__cnjcoo"/></e>
 
 
     <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
@@ -1482,13 +1488,17 @@
     <e lm="sottu"><i>sottu</i><par n="à__pr"/></e>
     <e lm="intornu"><i>intornu</i><par n="à__pr"/></e>
     <e lm="traversu"><i>traversu</i><par n="à__pr"/></e>
+    <e lm="durente"><i>durente</i><par n="à__pr"/></e>
     <e lm="nanzu"><i>nanzu</i><par n="à__pr"/></e>
     <e lm="sin'à"><i>sin'à</i><par n="à__pr"/></e>
     <e lm="rispettu à"><i>rispettu<b/>'à</i><par n="à__pr"/></e>
     <e lm="sinu à"><i>sinu<b/>'à</i><par n="à__pr"/></e>
+    <e lm="fin'à"><i>fin'à</i><par n="à__pr"/></e>
 
     <e lm="à parta"><i>à<b/>parta</i><par n="à__pr"/></e>
     <e lm="insin'à"><i>insin'à</i><par n="à__pr"/></e>
+
+    <e lm="nant'à"><i>nant'à</i><par n="à__pr"/></e>
 
 
     <!-- SECTION: Determiners -->
@@ -1504,9 +1514,13 @@
     <e lm="sto"><i>st</i><par n="st/u__det"/></e>
 
     <e lm="parechju"><i>parechj</i><par n="quell/u__det"/></e>
+
+    <!-- Also probably pronouns -->
     <e lm="quellu"><i>quell</i><par n="quell/u__det"/></e>
-    <e lm="quiddu"><i>quidd</i><par n="quell/u__det"/></e>
+    <e lm="quiddu"><i>quidd</i><par n="quell/u__det"/></e> 
+    <e lm="quiddu" r="LR"><p><l>idd</l><r>quidd</r></p><par n="quell/u__det"/></e>
     <e lm="quessu" r="LR"><p><l>quess</l><r>'ss</r></p><par n="quell/u__det"/></e>
+    <e lm="questu" r="LR"><p><l>quest</l><r>'ss</r></p><par n="quell/u__det"/></e>
     <e lm="'ssu"><i>'ss</i><par n="quell/u__det"/></e>
 
   
@@ -1641,6 +1655,8 @@
 
     <e lm="canali"><i>canali</i><par n="sangue__n"/></e>
     <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
+    <e lm="ughjettu"><i>ughjett</i><par n="ann/u__n"/></e>
+    <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
 
     <e lm="incunabulu"><i>incunabul</i><par n="ann/u__n"/></e>
@@ -1771,6 +1787,8 @@
     <e lm="ritornu"><i>ritorn</i><par n="ann/u__n"/></e>
     <e lm="avvicinamentu"><i>avvicinament</i><par n="ann/u__n"/></e>
     <e lm="assassiniu"><i>assassiniu</i><par n="ann/u__n"/></e>
+    <e lm="attaccu"><i>attaccu</i><par n="ann/u__n"/></e>
+    <e lm="matrimoniu"><i>matrimoni</i><par n="ann/u__n"/></e>
     <e lm="edifiziu"><i>edifizi</i><par n="ann/u__n"/></e>
     <e lm="ghjudicamentu"><i>ghjudicament</i><par n="ann/u__n"/></e>
 	<e lm="sindicatu"><i>sindicat</i><par n="ann/u__n"/></e>
@@ -1914,6 +1932,7 @@
     <e lm="mità"><i>mit</i><par n="citt/à__n"/></e>
 
     <e lm="tutalità"><i>tutalit</i><par n="citt/à__n"/></e>
+    <e lm="variabilità"><i>variabilit</i><par n="citt/à__n"/></e>
     <e lm="lungività"><i>lungivit</i><par n="citt/à__n"/></e>
     <e lm="densità"><i>densit</i><par n="citt/à__n"/></e>
     <e lm="attività"><i>attivit</i><par n="citt/à__n"/></e>
@@ -2293,12 +2312,13 @@
     <e lm="galassia"><i>galassi</i><par n="battagli/a__n"/></e>
     <e lm="sistemu"><i>sistem</i><par n="ann/u__n"/></e> 
     <e lm="sistema"><i>sistem</i><par n="puet/a__n"/></e> 
+    <e lm="puema"><i>puem</i><par n="puet/a__n"/></e> 
     <e lm="campagna"><i>campagn</i><par n="scienz/a__n"/></e>
     <e lm="coda"><i>cod</i><par n="scienz/a__n"/></e>
     <e lm="piaghja"><i>piaghj</i><par n="scienz/a__n"/></e>
+
     <e lm="persona"><i>person</i><par n="scienz/a__n"/></e>
     <e lm="persona" r="LR"><p><l>parson</l><r>person</r></p><par n="scienz/a__n"/></e>
-
     <e lm="parsona"><i>parson</i><par n="form/a__n"/></e>
 
 
@@ -2435,6 +2455,7 @@
     <e lm="Madama"><i>Madama</i><par n="Maria__np"/></e>
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     <e lm="Lelletta"><i>Lelletta</i><par n="Maria__np"/></e>
+    <e lm="Fiffina"><i>Fiffina</i><par n="Maria__np"/></e>
     <e lm="Taylor"><i>Taylor</i><par n="Maria__np"/></e>
     <e lm="Ghjulia"><i>Ghjulia</i><par n="Maria__np"/></e>
     <e lm="Elena"><i>Elena</i><par n="Maria__np"/></e>
@@ -4358,7 +4379,7 @@
     <e lm="furmatu"><i>furmat</i><par n="vechj/u__adj"/></e>
 
     <e lm="strettu"><i>strett</i><par n="vechj/u__adj"/></e>
-    <e lm="endemicu"><i>nov</i><par n="vechj/u__adj"/></e>
+    <e lm="endemicu"><i>endemic</i><par n="vechj/u__adj"/></e>
     <e lm="massimu"><i>massim</i><par n="vechj/u__adj"/></e>
     <e lm="solitu"><i>solit</i><par n="vechj/u__adj"/></e>
     <e lm="terzu"><i>terz</i><par n="vechj/u__adj"/></e>
@@ -4780,6 +4801,7 @@
     <e lm="gridà"><i>grid</i><par n="parl/à__vblex"/></e>
     <e lm="sparà"><i>spar</i><par n="parl/à__vblex"/></e>
     <e lm="acquistà"><i>acquist</i><par n="parl/à__vblex"/></e>
+    <e lm="appostà"><i>appost</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="lascià"><i>lasci</i><par n="parl/à__vblex"/></e>
@@ -4799,6 +4821,7 @@
     <e lm="accade"><i>accad</i><par n="tem/e__vblex"/></e>
     <e lm="vale"><i>val</i><par n="tem/e__vblex"/></e>
     <e lm="pussede"><i>pussed</i><par n="tem/e__vblex"/></e>
+    <e lm="esiste"><i>esist</i><par n="tem/e__vblex"/></e>
  
     <!-- SECTION: Interjections -->
 
@@ -4814,8 +4837,9 @@
   <section id="apost" type="postblank">
     <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+    <e r="LR" lm="contr'"><p><l>contr'</l><r>contru<s n="pr"/></r></p></e>
     <e r="LR" lm="sott'"><p><l>sott'</l><r>sottu<s n="pr"/></r></p></e>
-    <e r="LR" lm="d'"><p><l>induv'</l><r>induva<s n="adv"/></r></p></e>
+    <e r="LR" lm="induv'"><p><l>induv'</l><r>induva<s n="adv"/></r></p></e>
     <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="cnjsub"/></r></p></e>

@@ -1709,6 +1709,7 @@
     <e lm="principatu"><i>principat</i><par n="ann/u__n"/></e>
     <e lm="mandatu"><i>mandat</i><par n="ann/u__n"/></e>
     <e lm="ughjettu"><i>ughjett</i><par n="ann/u__n"/></e>
+    <e lm="ughjettu" r="LR"><p><l>uggett</l><r>ughjett</r></p><par n="ann/u__n"/></e>
     <e lm="prucessu"><i>prucess</i><par n="ann/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="ann/u__n"/></e>
 

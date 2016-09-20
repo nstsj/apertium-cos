@@ -202,6 +202,12 @@
       <e r="LR"><p><l>u</l><r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="tal/e__det">
+      <e><p><l>e</l><r>e<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>e<s n="det"/><s n="dem"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+
     <pardef n="quell/u__det">
       <e><p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
@@ -449,6 +455,13 @@
     <pardef n="acqu/i__n">
       <e><p><l>i</l><r>i<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="de/u__n">
+      <!--<e><p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>-->
+      <e><p><l>i</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>'</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="zitell/u__n">
@@ -737,6 +750,9 @@
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>fussi</l><r>esse<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>fusse</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>fusse</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>fusse</l><r>esse<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>fussimu</l><r>esse<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>fussite</l><r>esse<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>fussinu</l><r>esse<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1526,6 +1542,8 @@
 
     <e lm="parechju"><i>parechj</i><par n="quell/u__det"/></e>
 
+    <e lm="tale"><i>tal</i><par n="tal/e__det"/></e>
+
     <!-- Also probably pronouns -->
     <e lm="quellu"><i>quell</i><par n="quell/u__det"/></e>
     <e lm="quiddu"><i>quidd</i><par n="quell/u__det"/></e> 
@@ -2196,7 +2214,6 @@
     <e lm="custituzione"><i>custituzion</i><par n="relazion/e__n"/></e>
     <e lm="custruzzione"><i>custruzzion</i><par n="relazion/e__n"/></e>
     <e lm="declinazione"><i>declinazion</i><par n="relazion/e__n"/></e>
-    <e lm="cundizione"><i>cundizioni</i><par n="relazion/e__n"/></e>
     <e lm="luce"><i>luc</i><par n="relazion/e__n"/></e>
     <e lm="altitudine"><i>altitudin</i><par n="relazion/e__n"/></e>
     <e lm="origine"><i>origin</i><par n="relazion/e__n"/></e>
@@ -2218,6 +2235,8 @@
     <e lm="croce"><i>croc</i><par n="relazion/e__n"/></e>
     <e lm="nave"><i>nav</i><par n="relazion/e__n"/></e>
     <e lm="virsione"><i>virsion</i><par n="relazion/e__n"/></e>
+    <e lm="rigressione"><i>rigression</i><par n="relazion/e__n"/></e>
+    <e lm="cundizione"><i>cundizion</i><par n="relazion/e__n"/></e>
     <e lm="arte"><i>art</i><par n="relazion/e__n"/></e>
     <e lm="fine"><i>fin</i><par n="relazion/e__n"/></e>
 
@@ -2383,6 +2402,7 @@
 
     <e lm="Bibbia"><i>bibbia</i><par n="Bibbia__n"/></e>
 
+    <e lm="deu"><i>de</i><par n="de/u__n"/></e>
 
     <e lm="matematicu"><i>matematic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
     <e lm="storicu"><i>storic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
@@ -2466,6 +2486,7 @@
 
     <e lm="Madama"><i>Madama</i><par n="Maria__np"/></e>
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
+    <e lm="Pandora"><i>Pandora</i><par n="Maria__np"/></e>
     <e lm="Lelletta"><i>Lelletta</i><par n="Maria__np"/></e>
     <e lm="Fiffina"><i>Fiffina</i><par n="Maria__np"/></e>
     <e lm="Taylor"><i>Taylor</i><par n="Maria__np"/></e>
@@ -4898,6 +4919,9 @@
     <e r="LR" lm="san'"><p><l>san'</l><r>santu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
     <e r="LR" lm="quand'"><p><l>quand'</l><r>quandu<s n="adv"/><s n="rel"/></r></p></e>
+
+    <e r="LR" lm="parch'"><p><l>parch'</l><r>parchè<s n="cnjadv"/></r></p></e>
+    <e r="LR" lm="perch'"><p><l>perch'</l><r>parchè<s n="cnjadv"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">

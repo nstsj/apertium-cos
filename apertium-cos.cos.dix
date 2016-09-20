@@ -4410,6 +4410,85 @@
 
     <e lm="Napuli"><i>Napuli</i><par n="Corsica__np"/></e>
     
+    <e lm="Casabianca"><i>Casabianca</i><par n="Corsica__np"/></e>
+    <e lm="Philadelphia"><i>Philadelphia</i><par n="Corsica__np"/></e>
+    <e lm="Anatulia"><i>Anatulia</i><par n="Corsica__np"/></e>
+    <e lm="Ungaria"><i>Ungaria</i><par n="Corsica__np"/></e>
+    <e lm="Alessandria"><i>Alessandria</i><par n="Corsica__np"/></e>
+    <e lm="Persia"><i>Persia</i><par n="Corsica__np"/></e>
+    <e lm="Prussia"><i>Prussia</i><par n="Corsica__np"/></e>
+    <e lm="Alsazia"><i>Alsazia</i><par n="Corsica__np"/></e>
+    <e lm="Nebraska"><i>Nebraska</i><par n="Corsica__np"/></e>
+    <e lm="Panama"><i>Panama</i><par n="Corsica__np"/></e>
+    <e lm="Britagna"><i>Britagna</i><par n="Corsica__np"/></e>
+    <e lm="Arghjintina"><i>Arghjintina</i><par n="Corsica__np"/></e>
+    <e lm="Ingliterra"><i>Ingliterra</i><par n="Corsica__np"/></e>
+    <e lm="Quebec"><i>Quebec</i><par n="Aiacciu__np"/></e>
+    <e lm="Tennessee"><i>Tennessee</i><par n="Aiacciu__np"/></e>
+    <e lm="Cambridge"><i>Cambridge</i><par n="Aiacciu__np"/></e>
+    <e lm="Filippini"><i>Filippini</i><par n="Aiacciu__np"/></e>
+    <e lm="Istanbul"><i>Istanbul</i><par n="Aiacciu__np"/></e>
+    <e lm="Vietnam"><i>Vietnam</i><par n="Aiacciu__np"/></e>
+    <e lm="Michigan"><i>Michigan</i><par n="Aiacciu__np"/></e>
+    <e lm="Iran"><i>Iran</i><par n="Aiacciu__np"/></e>
+    <e lm="Pakistan"><i>Pakistan</i><par n="Aiacciu__np"/></e>
+    <e lm="Wisconsin"><i>Wisconsin</i><par n="Aiacciu__np"/></e>
+    <e lm="London"><i>London</i><par n="Aiacciu__np"/></e>
+    <e lm="Arkansas"><i>Arkansas</i><par n="Aiacciu__np"/></e>
+    <e lm="Glasgow"><i>Glasgow</i><par n="Aiacciu__np"/></e>
+    <e lm="Uruguay"><i>Uruguay</i><par n="Aiacciu__np"/></e>
+
+    <e lm="Guinea"><i>Guinea</i><par n="Corsica__np"/></e>
+    <e lm="Libia"><i>Libia</i><par n="Corsica__np"/></e>
+    <e lm="Castiglia"><i>Castiglia</i><par n="Corsica__np"/></e>
+    <e lm="Pulonia"><i>Pulonia</i><par n="Corsica__np"/></e>
+    <e lm="Alissandria"><i>Alissandria</i><par n="Corsica__np"/></e>
+    <e lm="Algeria"><i>Algeria</i><par n="Corsica__np"/></e>
+    <e lm="Istria"><i>Istria</i><par n="Corsica__np"/></e>
+    <e lm="Tunisia"><i>Tunisia</i><par n="Corsica__np"/></e>
+    <e lm="Rumagna"><i>Rumagna</i><par n="Corsica__np"/></e>
+    <e lm="Atina"><i>Atina</i><par n="Corsica__np"/></e>
+    <e lm="Valletta"><i>Valletta</i><par n="Corsica__np"/></e>
+    <e lm="Iowa"><i>Iowa</i><par n="Corsica__np"/></e>
+    <e lm="Nizza"><i>Nizza</i><par n="Corsica__np"/></e>
+    <e lm="Idaho"><i>Idaho</i><par n="Aiacciu__np"/></e>
+    <e lm="Monacu"><i>Monacu</i><par n="Aiacciu__np"/></e>
+    <e lm="Orlandu"><i>Orlandu</i><par n="Aiacciu__np"/></e>
+    <e lm="Danubiu"><i>Danubiu</i><par n="Aiacciu__np"/></e>
+    <e lm="Suez"><i>Suez</i><par n="Aiacciu__np"/></e>
+
+
+    <e lm="Conrad"><i>Conrad</i><par n="Jaume__np"/></e>
+    <e lm="Ghjove"><i>Ghjove</i><par n="Jaume__np"/></e>
+    <e lm="León"><i>León</i><par n="Jaume__np"/></e>
+    <e lm="Paulo"><i>Paulo</i><par n="Jaume__np"/></e>
+    <e lm="Bunifaziu"><i>Bunifaziu</i><par n="Jaume__np"/></e>
+    <e lm="Apollu"><i>Apollu</i><par n="Jaume__np"/></e>
+    <e lm="Filippu"><i>Filippu</i><par n="Jaume__np"/></e>
+    <e lm="Anthony"><i>Anthony</i><par n="Jaume__np"/></e>
+    <e lm="Henry"><i>Henry</i><par n="Jaume__np"/></e>
+
+    <e lm="Matteiu"><i>Matteiu</i><par n="Jaume__np"/></e>
+    <e lm="Valentinu"><i>Valentinu</i><par n="Jaume__np"/></e>
+
+
+    <e lm="Borgia"><i>Borgia</i><par n="Colonna__np"/></e>
+    <e lm="Newton"><i>Newton</i><par n="Colonna__np"/></e>
+    <e lm="Malthus"><i>Malthus</i><par n="Colonna__np"/></e>
+    <e lm="Magellanu"><i>Magellanu</i><par n="Colonna__np"/></e>
+
+    <e lm="Rutherford"><i>Rutherford</i><par n="Colonna__np"/></e>
+    <e lm="Sartre"><i>Sartre</i><par n="Colonna__np"/></e>
+    <e lm="English"><i>English</i><par n="Colonna__np"/></e>
+    <e lm="Chamberlain"><i>Chamberlain</i><par n="Colonna__np"/></e>
+    <e lm="Cameron"><i>Cameron</i><par n="Colonna__np"/></e>
+    <e lm="Hudson"><i>Hudson</i><par n="Colonna__np"/></e>
+    <e lm="Beauvoir"><i>Beauvoir</i><par n="Colonna__np"/></e>
+    <e lm="Major"><i>Major</i><par n="Colonna__np"/></e>
+    <e lm="Keynes"><i>Keynes</i><par n="Colonna__np"/></e>
+    <e lm="Kant"><i>Kant</i><par n="Colonna__np"/></e>
+    <e lm="Marx"><i>Marx</i><par n="Colonna__np"/></e>
+
     
     
     

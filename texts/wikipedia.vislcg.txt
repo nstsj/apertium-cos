@@ -491,3 +491,72 @@
 "<.>"
 	"." sent @punct #12->2
 
+"<A>"
+	"u" det def f sg @det #1->2
+"<botanica>"
+	"botanica" n f sg @nsubj:cop #2->26
+"<(>"
+	"(" lpar @punct #3->5
+"<o>"
+	"o" cnjcoo @cc #4->5
+"<butanica>"
+	"butanica" n f sg @appos #5->2
+"<)>"
+	")" rpar @punct #6->5
+"<chi>"
+	"chì" rel an mf sp @nsubj #7->8
+"<provene>"
+	"pruvene" vblex pri p3 sg @acl:relcl #8->2
+"<etimologicamente>"
+	"etimologicamente" adv @advmod #9->8
+"<di>"
+	"di" pr @case #10->12
+"<u>"
+	"u" det def m sg @det #11->12
+"<grecu>"
+	"grecu" n m sg @nmod #12->8
+"<βοτάνη>"
+	"βοτάνη" barb @appos #13->12
+"<(>"
+	"(" lpar @punct #14->16
+"<chi>"
+	"chì" rel an mf sp @nsubj #15->16
+"<significa>"
+	"significà" vblex pri p3 sg @acl:relcl #16->13
+"<«>"
+	"«" lquot @punct #17->18
+"<erba>"
+	"erba" n f sg @obj:dir #18->16
+"<,>"
+	"," cm @punct #19->20
+"<pianta>"
+	"pianta" n f sg @conj #20->18
+"<»>"
+	"»" rquot @punct #21->18
+"<)>"
+	")" rpar @punct #22->16
+"<,>"
+	"," cm @punct #23->16
+"<hè>"
+	"esse" vbser pri p3 sg @cop #24->26
+"<a>"
+	"u" det def f sg @det #25->26
+"<scienza>"
+	"scienza" n f sg @root #26->0
+"<consacrata>"
+	"consacrà" vblex pp f sg @acl #27->26
+"<à>"
+	"à" pr @case #28->30
+"<u>"
+	"u" det def m sg @det #29->30
+"<studiu>"
+	"studiu" n m sg @nmod #30->27
+"<di>"
+	"di" pr @case #31->33
+"<e>"
+	"u" det def f pl @det #32->33
+"<piante>"
+	"pianta" n f pl @nmod:poss #33->30
+"<.>"
+	"." sent @punct #34->26
+

@@ -5,12 +5,18 @@ DELIMITERS = "<.>" ;
 LIST Det = det ;
 LIST Pr = pr ; 
 
+LIST Inf = inf ;
+
 LIST A = "<a>"i ; 
 LIST DI = "<di>"i ; 
 LIST DÌ = "dì" ; 
+
+LIST Inf/à = ("<.*[Àà]>"r inf) ;
 
 SECTION
 
 SELECT Pr IF (0 A) (1 A) ;
 
 REMOVE DÌ IF (0 DI) ;
+
+REMOVE Inf IF (NOT 0 Inf/à) ;

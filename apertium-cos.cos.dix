@@ -2071,6 +2071,7 @@
     <e lm="natura"><i>natur</i><par n="scienz/a__n"/></e>
 
     <e lm="scienza"><i>scienz</i><par n="scienz/a__n"/></e>
+    <e lm="scienza" r="LR"><p><l>scenz</l><r>scienz</r></p><par n="scienz/a__n"/></e>
     <e lm="fiuma"><i>fium</i><par n="scienz/a__n"/></e>
     <e lm="ghjaddina"><i>ghjaddin</i><par n="scienz/a__n"/></e>
     <e lm="cresta"><i>crest</i><par n="scienz/a__n"/></e>
@@ -2128,7 +2129,6 @@
     <e lm="sipultura"><i>sipult</i><par n="scienz/a__n"/></e>
     <e lm="timpesta"><i>timpest</i><par n="scienz/a__n"/></e>
     <e lm="bocca"><i>bocc</i><par n="scienz/a__n"/></e>
-    <e lm="parolla"><i>paroll</i><par n="scienz/a__n"/></e>
     <e lm="canzona"><i>canzon</i><par n="scienz/a__n"/></e>
     <e lm="testa"><i>test</i><par n="scienz/a__n"/></e>
     <e lm="puesia"><i>puesi</i><par n="scienz/a__n"/></e>
@@ -2141,6 +2141,7 @@
     <e lm="aria"><i>ari</i><par n="scienz/a__n"/></e>
     <e lm="causa"><i>caus</i><par n="scienz/a__n"/></e>
     <e lm="parola"><i>parol</i><par n="scienz/a__n"/></e>
+    <e lm="parola" r="LR"><p><l>paroll</l><r>parol</r></p><par n="scienz/a__n"/></e>
     <e lm="arba"><i>arb</i><par n="scienz/a__n"/></e>
     <e lm="erba"><i>erb</i><par n="scienz/a__n"/></e>
     <e lm="distanza"><i>distanz</i><par n="scienz/a__n"/></e>
@@ -4704,6 +4705,7 @@
     <e lm="sicondu"><i>sicond</i><par n="terz/u__adj"/></e>
     <e lm="sicondu" r="LR"><p><l>second</l><r>sicond</r></p><par n="terz/u__adj"/></e>
     <e lm="terzu"><i>terz</i><par n="terz/u__adj"/></e>
+    <e lm="quartu"><i>quart</i><par n="terz/u__adj"/></e>
 
     <e lm="altru"><i>altr</i><par n="vechj/u__adj"/></e>
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
@@ -5137,6 +5139,7 @@
     <e lm="stà"><i>st</i><par n="d/à__vblex"/></e>
     <e lm="dì"><i>d</i><par n="d/ì__vblex"/></e>
     <e lm="tene"><i>t</i><par n="t/ene__vblex"/></e>
+    <e lm="ottene"><i>ott</i><par n="t/ene__vblex"/></e>
     <e lm="vene"><i>v</i><par n="t/ene__vblex"/></e>
     <e lm="pruvene"><i>pruv</i><par n="t/ene__vblex"/></e>
     <e lm="pruvene" r="LR"><p><l>prov</l><r>pruv</r></p><par n="t/ene__vblex"/></e>

@@ -19,4 +19,7 @@ SELECT Pr IF (0 A) (1 A) ;
 
 REMOVE DÌ IF (0 DI) ;
 
+SELECT Inf IF (-1C Pr) ;
+
 REMOVE Inf IF (NOT 0 Inf/à) ;
+

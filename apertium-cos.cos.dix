@@ -150,7 +150,12 @@
       <e><re>[0-9]+</re><p><l>esimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Miscellaneous -->
 
+    <pardef n="u/o">
+      <e><p><l>u</l><r>u</r></p></e>
+      <e r="LR"><p><l>o</l><r>u</r></p></e>
+    </pardef>
 
 
     <!-- SECTION: Conjunctions -->
@@ -2235,7 +2240,6 @@
     <e lm="emuzione"><i>emuzion</i><par n="relazion/e__n"/></e>
     <e lm="espressione"><i>espression</i><par n="relazion/e__n"/></e>
     <e lm="numinazione"><i>numinazion</i><par n="relazion/e__n"/></e>
-    <e lm="organisazione"><i>organisazion</i><par n="relazion/e__n"/></e>
     <e lm="populazione"><i>populazion</i><par n="relazion/e__n"/></e>
     <e lm="populazione" r="LR"><p><l>pupulazion</l><r>populazion</r></p><par n="relazion/e__n"/></e>
     <e lm="populazione" r="LR"><p><l>pupolazion</l><r>populazion</r></p><par n="relazion/e__n"/></e>
@@ -2301,7 +2305,6 @@
     <e lm="trasfurmazion"><i>trasfurmazion</i><par n="relazion/e__n"/></e>
     <e lm="uparazion"><i>uparazion</i><par n="relazion/e__n"/></e>
     <e lm="upinion"><i>upinion</i><par n="relazion/e__n"/></e>
-    <e lm="urganisazion"><i>urganisazion</i><par n="relazion/e__n"/></e>
     <e lm="ussirvazion"><i>ussirvazion</i><par n="relazion/e__n"/></e>
 
 
@@ -2836,7 +2839,6 @@
     <e lm="negazione"><i>negazion</i><par n="relazion/e__n"/></e>
     <e lm="odore"><i>odor</i><par n="ribell/e__n"/></e>
     <e lm="operazione"><i>operazion</i><par n="relazion/e__n"/></e>
-    <e lm="organizazione"><i>organizazion</i><par n="relazion/e__n"/></e>
     <e lm="pensamentu"><i>pensament</i><par n="ann/u__n"/></e>
     <e lm="petizione"><i>petizion</i><par n="relazion/e__n"/></e>
     <e lm="precisione"><i>precision</i><par n="relazion/e__n"/></e>
@@ -2918,7 +2920,6 @@
     <e lm="uccasione"><i>uccasion</i><par n="relazion/e__n"/></e>
     <e lm="uguaglianza"><i>uguaglianz</i><par n="scienz/a__n"/></e>
     <e lm="umiliazione"><i>umiliazion</i><par n="relazion/e__n"/></e>
-    <e lm="urganizazione"><i>urganizazion</i><par n="relazion/e__n"/></e>
     <e lm="utilizazione"><i>utilizazion</i><par n="relazion/e__n"/></e>
     <e lm="viaghjadori"><i>viaghjador</i><par n="ribell/e__n"/></e>
     <e lm="vincidore"><i>vincidor</i><par n="ribell/e__n"/></e>
@@ -2927,6 +2928,8 @@
     <e lm="viulazione"><i>viulazion</i><par n="relazion/e__n"/></e>
     <e lm="viulenza"><i>viulenz</i><par n="scienz/a__n"/></e>
 
+    <e lm="urganizazione"><par n="u/o"/><i>rganizazion</i><par n="relazion/e__n"/></e>
+    <e lm="urganizazione"><par n="u/o"/><p><l>rganisazion</l><r>rganizazion</r></p><par n="relazion/e__n"/></e>
 
     <e lm="dea"><i>de</i><par n="scienz/a__n"/></e>
     <e lm="deu"><i>de</i><par n="de/u__n"/></e>
@@ -4954,6 +4957,7 @@
     <e lm="primu"><i>prim</i><par n="terz/u__adj"/></e>
     <e lm="sicondu"><i>sicond</i><par n="terz/u__adj"/></e>
     <e lm="sicondu" r="LR"><p><l>second</l><r>sicond</r></p><par n="terz/u__adj"/></e>
+    <e lm="sicondu" r="LR"><p><l>segond</l><r>sicond</r></p><par n="terz/u__adj"/></e>
     <e lm="terzu"><i>terz</i><par n="terz/u__adj"/></e>
     <e lm="quartu"><i>quart</i><par n="terz/u__adj"/></e>
 
@@ -5509,9 +5513,8 @@
     <e lm="riurganizà"><i>riurganiz</i><par n="parl/à__vblex"/></e>
     <e lm="riurganizà" r="LR"><p><l>riorganiz</l><r>riurganiz</r></p><par n="parl/à__vblex"/></e>
     <e lm="riurganizà" r="LR"><p><l>riorganizz</l><r>riurganiz</r></p><par n="parl/à__vblex"/></e>
-    <e lm="urganizà"><i>urganiz</i><par n="parl/à__vblex"/></e>
-    <e lm="urganizà" r="LR"><p><l>organiz</l><r>urganiz</r></p><par n="parl/à__vblex"/></e>
-    <e lm="urganizà" r="LR"><p><l>urganizz</l><r>urganiz</r></p><par n="parl/à__vblex"/></e>
+    <e lm="urganizà"><par n="u/o"/><i>rganiz</i><par n="parl/à__vblex"/></e>
+    <e lm="urganizà" r="LR"><par n="u/o"/><p><l>rganizz</l><r>rganiz</r></p><par n="parl/à__vblex"/></e>
 
     <e lm="imprudà"><i>imprud</i><par n="parl/à__vblex"/></e>
     <e lm="aduprà"><i>adupr</i><par n="parl/à__vblex"/></e>
@@ -5583,6 +5586,7 @@
     <e lm="arregistrà"><i>arregistr</i><par n="parl/à__vblex"/></e>
     <e lm="aspettà"><i>aspett</i><par n="parl/à__vblex"/></e>
     <e lm="attentà"><i>attent</i><par n="parl/à__vblex"/></e>
+    <e lm="arrestà"><i>arrest</i><par n="parl/à__vblex"/></e>
     <e lm="centralizà"><i>centraliz</i><par n="parl/à__vblex"/></e>
     <e lm="cummentà"><i>cumment</i><par n="parl/à__vblex"/></e>
     <e lm="cummercializà"><i>cummercializ</i><par n="parl/à__vblex"/></e>

@@ -49,6 +49,6 @@ REMOVE Enc IF (NOT -1 Inf OR Enc) ;
 
 SELECT Det IF (0 A) (1C Pos) ;
 
-SELECT Pro IF (0 L') (1 Fin) ;
+SELECT Pro IF (0 L') (1C Fin) ;
 
 REMOVE Pr IF (0 Det OR Pr) (-1 Pr) (NOT 1 Det) ;

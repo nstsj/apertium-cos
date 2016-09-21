@@ -6080,7 +6080,7 @@ esse	esse - they - Note: feminine
 
     <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="LR" lm="induv'"><p><l>induv'</l><r>induva<s n="adv"/></r></p></e>
+    <e r="LR" lm="induv'"><p><l>induv'</l><r>induva<s n="rel"/><s n="adv"/></r></p></e>
     <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="cnjsub"/></r></p></e>

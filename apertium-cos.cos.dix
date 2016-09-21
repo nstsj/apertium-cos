@@ -1256,10 +1256,10 @@
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>ava</l><r>à<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>avamu</l><r>à<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>avanu</l><r>à<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>avani</l><r>à<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ava</l><r>à<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avamu</l><r>à<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avanu</l><r>à<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>avani</l><r>à<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>at</l><r>à<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
 
@@ -5495,6 +5495,7 @@
     <e lm="dimustrà"><i>dimustr</i><par n="parl/à__vblex"/></e>
     <e lm="accumpagnà"><i>accumpagn</i><par n="parl/à__vblex"/></e>
     <e lm="mustrà"><i>mustr</i><par n="parl/à__vblex"/></e>
+    <e lm="mustrà" r="LR"><p><l>mostr</l><r>mustr</r></p><par n="parl/à__vblex"/></e>
     <e lm="circà"><i>circ</i><par n="circ/à__vblex"/></e>
     <e lm="significà"><i>signific</i><par n="circ/à__vblex"/></e>
     <e lm="didicà"><i>didic</i><par n="circ/à__vblex"/></e>

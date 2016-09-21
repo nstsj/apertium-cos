@@ -326,8 +326,8 @@
 
     </pardef>
 
- <pardef n="cio__prn">
-      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="sg"/></r></p></e>
+ <pardef n="ciò__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 
     </pardef>
  
@@ -358,9 +358,10 @@
       <e r="LR"><p><l>a<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>la<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
 
-      <e><p><l>i<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>i<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>i<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>i<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
 
+      <e><p><l>e<b/>quali</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>e<b/>quale</l><r>u<b/>quali<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
@@ -626,6 +627,13 @@
       <e><p><l>a</l><r>u<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>u<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r>u<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="poc/u__adj">
+      <e><p><l>u</l><r>u<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>hi</l><r>u<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>he</l><r>u<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="terz/u__adj">
@@ -1646,7 +1654,7 @@
 
     <e lm="u quali"><i></i><par n="/u_quali__rel"/></e>
 
-    <e lm="ciò"><i>ciò</i><par n="cio__prn"/></e>
+    <e lm="ciò"><i>ciò</i><par n="ciò__prn"/></e>
     <e lm="nunda"><i>nunda</i><par n="nunda__prn"/></e>
     
     <e lm="ne"><i>ne</i><par n="ne__prn"/></e>
@@ -4980,6 +4988,8 @@
 
     <e lm="gran"><i>gran</i><par n="gran__adj"/></e>
     <e lm="moltu"><i>molt</i><par n="molt/u__adj"/></e>
+    <e lm="altru"><i>altr</i><par n="molt/u__adj"/></e>
+    <e lm="pocu"><i>poc</i><par n="poc/u__adj"/></e>
 
     <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e>
     <e lm="vostru"><i>vostr</i><par n="nostr/u__adj"/></e>
@@ -4991,7 +5001,6 @@
     <e lm="terzu"><i>terz</i><par n="terz/u__adj"/></e>
     <e lm="quartu"><i>quart</i><par n="terz/u__adj"/></e>
 
-    <e lm="altru"><i>altr</i><par n="vechj/u__adj"/></e>
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
     <e lm="anzianu"><i>anzian</i><par n="vechj/u__adj"/></e>
@@ -5144,7 +5153,6 @@
     <e lm="biancu"><i>bianc</i><par n="tipic/u__adj"/></e>
     <e lm="unicu"><i>unic</i><par n="tipic/u__adj"/></e>
     <e lm="britannicu"><i>britannic</i><par n="tipic/u__adj"/></e>
-    <e lm="pocu"><i>poc</i><par n="tipic/u__adj"/></e>
     <e lm="longu"><i>long</i><par n="tipic/u__adj"/></e>
     <e lm="etruscu"><i>etrusc</i><par n="tipic/u__adj"/></e>
     <e lm="largu"><i>larg</i><par n="tipic/u__adj"/></e>

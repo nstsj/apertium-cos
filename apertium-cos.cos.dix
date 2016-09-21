@@ -5535,6 +5535,7 @@ esse	esse - they - Note: feminine
     <e lm="capisce"><i>capi</i><par n="capi/sce__vblex"/></e>
     <e lm="finisce"><i>fini</i><par n="fini/sce__vblex"/></e>
     <e lm="priferisce"><i>priferi</i><par n="fini/sce__vblex"/></e>
+    <e lm="abulisce"><i>abuli</i><par n="fini/sce__vblex"/></e>
     <e lm="pruibisce"><i>pruibi</i><par n="fini/sce__vblex"/></e>
     <e lm="difinisce"><i>difini</i><par n="fini/sce__vblex"/></e>
     <e lm="definisce" r="LR"><p><l>defini</l><r>difini</r></p><par n="fini/sce__vblex"/></e>

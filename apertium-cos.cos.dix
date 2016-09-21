@@ -5807,6 +5807,7 @@ esse	esse - they - Note: feminine
     <e r="LR" lm="'ss'"><p><l>'ss'</l><r>ssu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quidd'"><p><l>quidd'</l><r>quiddu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quist'"><p><l>quist'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="ist'"><p><l>ist'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quest'"><p><l>quest'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="st'"><p><l>st'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quiss'"><p><l>quiss'</l><r>quissu<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>

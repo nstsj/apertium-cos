@@ -276,21 +276,27 @@
     <pardef n="ell/u__prn">
       <e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>i</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>e</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="edd/u__prn">
-<e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>i</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-
-
+      <e><p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>u<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
-<pardef n="ess/a__prn">
-<e><p><l>a</l><r>a<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-
+    <pardef n="ess/a__prn">
+      <e><p><l>a</l><r>a<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
+
+    <pardef n="noi__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="voi__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+
 
     <pardef n="mi__prn">
       <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -548,8 +554,8 @@
     </pardef>
     
         <pardef n="re__n">
-      <e><p><l></l><r><s n="n"/><s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="n"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="attric/e__n">
@@ -1636,12 +1642,39 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e lm="eiu"><i>eiu</i><par n="eiu__prn"/></e>
-    <e lm="tù"><i>tù</i><par n="tù__prn"/></e>
-    <e lm="ellu"><i>ell</i><par n="ell/u__prn"/></e>
-    <e lm="eddu"><i>edd</i><par n="edd/u__prn"/></e>
-    <e lm="essa"><i>ess</i><par n="ess/a__prn"/></e>
+<!-- Pronomi personali: eiu/eo, tu, ellu/ella/eddu/edda/iddu/idda, noi, voi, elli/eddi/iddi-->
+<!--
+eiu	io   - I    -
+tù	tu   - you  - Note: addressed to one person
+ellu	egli - he   - Note: not used in common talk
+essu	esso - it   - Note: masculine, little used in common speech
+ellu	lui  - he   - Note: colloquial
+ella	ella - she  - Note: not used in common talk
+essa	essa - it   - Note: feminine, little used in common speech
+ella	lei  - she  - Note: colloquial
+noi	noi  - we
+voi	voi  - you  - Note: addressed to two or more people
+essi	essi - they - Note: masculine
+esse	esse - they - Note: feminine
+	loro - they - Note: both masculine and feminine, colloquial
+-->
 
+
+    <e lm="eiu"><i>eiu</i><par n="eiu__prn"/></e>
+    <e lm="eiu" r="LR"><p><l>eo</l><r>eiu</r></p><par n="eiu__prn"/></e>
+
+    <e lm="tù"><i>tù</i><par n="tù__prn"/></e>
+
+    <e lm="ellu"><i>ell</i><par n="ell/u__prn"/></e> 
+
+    <e lm="eddu"><i>edd</i><par n="edd/u__prn"/></e> 
+    <e lm="eddu" r="LR"><p><l>idd</l><r>edd</r></p><par n="edd/u__prn"/></e>
+
+    <e lm="essu"><i>ess</i><par n="altr/u__prn"/></e>
+
+    <e lm="noi"><i>noi</i><par n="noi__prn"/></e>
+
+    <e lm="voi"><i>voi</i><par n="voi__prn"/></e>
 
     <e lm="mi"><i>mi</i><par n="mi__prn"/></e>
     <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
@@ -5295,8 +5328,8 @@
 
     <!-- FIXME: Check "com" itg/rel -->
     <e lm="cumu"><i>cumu</i><par n="parchè__adv"/></e>
-    <e lm="cum'è"><i>cum'è</i><par n="cusì__adv"/></e> 
-    <e lm="cum'è" r="LR"><p><l>cume</l><r>cum'è</r></p><par n="cusì__adv"/></e> 
+    <e lm="cum'è"><i>cum'è</i><par n="quandu__rel"/></e> 
+    <e lm="cum'è" r="LR"><p><l>cume</l><r>cum'è</r></p><par n="quandu__rel"/></e> 
 
     <e lm="ùn"><i>ùn</i><par n="cusì__adv"/></e>
     <e lm="micca"><i>micca</i><par n="cusì__adv"/></e>
@@ -5743,7 +5776,7 @@
     <e r="LR" lm="quist'"><p><l>quist'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="quest'"><p><l>quest'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="st'"><p><l>st'</l><r>quistu<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e r="LR" lm="quiss'"><p><l>quiss'</l><r>quissu<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="quiss'"><p><l>quiss'</l><r>quissu<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 
     <e r="LR" lm="m'"><p><l>m'</l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="t'"><p><l>t'</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>

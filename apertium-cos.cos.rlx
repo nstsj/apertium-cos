@@ -34,3 +34,4 @@ SELECT Enc IF (-1 Inf) (0 Pro OR Enc) ;
 
 SELECT Enc IF (-2 Inf) (-1 Enc) (0 Pro OR Enc) ;
 
+REMOVE Enc IF (NOT -1 Inf OR Enc) ;

@@ -27,6 +27,8 @@ LIST UN = "<un>"i ;
 LIST DÌ = "dì" ; 
 LIST SÌ = "sì" ; 
 LIST ÙN = "ùn" ; 
+LIST Di = "di" ; 
+LIST Vene = "vene" ; 
 
 LIST IN = "in" ; 
 
@@ -64,3 +66,5 @@ REMOVE Pr IF (0 Det OR Pr) (-1 Pr) (NOT 1 Det) ;
 SELECT Sg IF (-1 IN) (0 Lingue) ;
 
 SELECT Inf IF (0 Fin OR Inf) (-1 Mod) ;
+
+SELECT Fin IF (NOT -1 Mod) (0 Vene) (1 Di LINK 1 Inf) ;

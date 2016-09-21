@@ -771,6 +771,7 @@
       <e><p><l>sè</l><r>esse<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>hè</l><r>esse<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>semu</l><r>esse<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>simu</l><r>esse<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>sete</l><r>esse<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>sò</l><r>esse<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
@@ -798,6 +799,7 @@
       <e><p><l>serà</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>sarà</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>seremu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>saremu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>serete</l><r>esse<s n="vbser"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>seranu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>saranu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -829,6 +831,8 @@
       <e><p><l>sariami</l><r>esse<s n="vbser"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>sariati</l><r>esse<s n="vbser"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>sariani</l><r>esse<s n="vbser"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e r="LR"><p><l>sarebbe</l><r>esse<s n="vbser"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <e><p><l>stat</l><r>esse<s n="vbser"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
@@ -960,6 +964,7 @@
       <e><p><l>ai</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>à</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>èmu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>emu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ète</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>apè<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
@@ -1493,12 +1498,8 @@
       <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
 
-
-
-      <e><p><l>inutu</l><r>ene<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>inuta</l><r>ene<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>inute</l><r>ene<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>inuti</l><r>ene<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>inut</l><r>ene<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+      <e r="LR"><p><l>enut</l><r>ene<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
 
 
@@ -1711,6 +1712,7 @@ esse	esse - they - Note: feminine
     <e lm="noi" r="LR"><p><l>no</l><r>noi</r></p><par n="noi__prn"/></e>
 
     <e lm="voi"><i>voi</i><par n="voi__prn"/></e>
+    <e lm="voi" r="LR"><p><l>vo</l><r>voi</r></p><par n="voi__prn"/></e>
 
     <e lm="mi"><i>mi</i><par n="mi__prn"/></e>
     <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
@@ -2277,6 +2279,7 @@ esse	esse - they - Note: feminine
     <e lm="distanza"><i>distanz</i><par n="scienz/a__n"/></e>
     <e lm="cunquista"><i>cunquist</i><par n="scienz/a__n"/></e>
     <e lm="cunniscenza"><i>cunniscenz</i><par n="scienz/a__n"/></e>
+    <e lm="ora"><i>or</i><par n="scienz/a__n"/></e>
 
     <e lm="massa"><i>mass</i><par n="scienz/a__n"/></e>
     <e lm="altezza"><i>altezz</i><par n="scienz/a__n"/></e>
@@ -2356,64 +2359,65 @@ esse	esse - they - Note: feminine
     <e lm="visione"><i>vision</i><par n="relazion/e__n"/></e>
 
 
-    <e lm="abitazion"><i>abitazion</i><par n="relazion/e__n"/></e>
-    <e lm="accupazion"><i>accupazion</i><par n="relazion/e__n"/></e>
-    <e lm="alizzion"><i>alizzion</i><par n="relazion/e__n"/></e>
-    <e lm="attinzion"><i>attinzion</i><par n="relazion/e__n"/></e>
-    <e lm="cualizion"><i>cualizion</i><par n="relazion/e__n"/></e>
-    <e lm="cultivazion"><i>cultivazion</i><par n="relazion/e__n"/></e>
-    <e lm="cumpusizion"><i>cumpusizion</i><par n="relazion/e__n"/></e>
-    <e lm="cuncintrazion"><i>cuncintrazion</i><par n="relazion/e__n"/></e>
-    <e lm="cuncizzion"><i>cuncizzion</i><par n="relazion/e__n"/></e>
-    <e lm="cunnission"><i>cunnission</i><par n="relazion/e__n"/></e>
-    <e lm="cunsirvazion"><i>cunsirvazion</i><par n="relazion/e__n"/></e>
-    <e lm="custiddazion"><i>custiddazion</i><par n="relazion/e__n"/></e>
-    <e lm="dicurazion"><i>dicurazion</i><par n="relazion/e__n"/></e>
-    <e lm="diffusion"><i>diffusion</i><par n="relazion/e__n"/></e>
-    <e lm="dinuminazion"><i>dinuminazion</i><par n="relazion/e__n"/></e>
-    <e lm="diprission"><i>diprission</i><par n="relazion/e__n"/></e>
-    <e lm="discussion"><i>discussion</i><par n="relazion/e__n"/></e>
-    <e lm="duminazion"><i>duminazion</i><par n="relazion/e__n"/></e>
-    <e lm="eccezzion"><i>eccezzion</i><par n="relazion/e__n"/></e>
-    <e lm="emission"><i>emission</i><par n="relazion/e__n"/></e>
-    <e lm="espansion"><i>espansion</i><par n="relazion/e__n"/></e>
-    <e lm="esprission"><i>esprission</i><par n="relazion/e__n"/></e>
-    <e lm="estinsion"><i>estinsion</i><par n="relazion/e__n"/></e>
-    <e lm="evapurazion"><i>evapurazion</i><par n="relazion/e__n"/></e>
-    <e lm="generazion"><i>generazion</i><par n="relazion/e__n"/></e>
-    <e lm="imbarcazion"><i>imbarcazion</i><par n="relazion/e__n"/></e>
-    <e lm="inclinazion"><i>inclinazion</i><par n="relazion/e__n"/></e>
-    <e lm="incursion"><i>incursion</i><par n="relazion/e__n"/></e>
-    <e lm="intarpritazion"><i>intarpritazion</i><par n="relazion/e__n"/></e>
-    <e lm="intinzion"><i>intinzion</i><par n="relazion/e__n"/></e>
-    <e lm="intruduzion"><i>intruduzion</i><par n="relazion/e__n"/></e>
-    <e lm="inundazion"><i>inundazion</i><par n="relazion/e__n"/></e>
-    <e lm="istituzion"><i>istituzion</i><par n="relazion/e__n"/></e>
-    <e lm="minzion"><i>minzion</i><par n="relazion/e__n"/></e>
-    <e lm="narrazion"><i>narrazion</i><par n="relazion/e__n"/></e>
-    <e lm="nuzion"><i>nuzion</i><par n="relazion/e__n"/></e>
-    <e lm="occasion"><i>occasion</i><par n="relazion/e__n"/></e>
-    <e lm="oppusizion"><i>oppusizion</i><par n="relazion/e__n"/></e>
-    <e lm="passion"><i>passion</i><par n="relazion/e__n"/></e>
-    <e lm="pricipitazion"><i>pricipitazion</i><par n="relazion/e__n"/></e>
-    <e lm="prission"><i>prission</i><par n="relazion/e__n"/></e>
-    <e lm="prucission"><i>prucission</i><par n="relazion/e__n"/></e>
-    <e lm="punizion"><i>punizion</i><par n="relazion/e__n"/></e>
-    <e lm="purzion"><i>purzion</i><par n="relazion/e__n"/></e>
-    <e lm="quistion"><i>quistion</i><par n="relazion/e__n"/></e>
-    <e lm="riazzion"><i>riazzion</i><par n="relazion/e__n"/></e>
-    <e lm="riflission"><i>riflission</i><par n="relazion/e__n"/></e>
-    <e lm="risuluzion"><i>risuluzion</i><par n="relazion/e__n"/></e>
-    <e lm="rivuluzion"><i>rivuluzion</i><par n="relazion/e__n"/></e>
-    <e lm="rutazion"><i>rutazion</i><par n="relazion/e__n"/></e>
-    <e lm="scrizzion"><i>scrizzion</i><par n="relazion/e__n"/></e>
-    <e lm="stazion"><i>stazion</i><par n="relazion/e__n"/></e>
-    <e lm="traduzion"><i>traduzion</i><par n="relazion/e__n"/></e>
-    <e lm="trasfurmazion"><i>trasfurmazion</i><par n="relazion/e__n"/></e>
-    <e lm="uparazion"><i>uparazion</i><par n="relazion/e__n"/></e>
-    <e lm="upinion"><i>upinion</i><par n="relazion/e__n"/></e>
-    <e lm="ussirvazion"><i>ussirvazion</i><par n="relazion/e__n"/></e>
+    <e lm="abitazione"><i>abitazion</i><par n="relazion/e__n"/></e>
+    <e lm="accupazione"><i>accupazion</i><par n="relazion/e__n"/></e>
+    <e lm="alizzione"><i>alizzion</i><par n="relazion/e__n"/></e>
+    <e lm="attinzione"><i>attinzion</i><par n="relazion/e__n"/></e>
+    <e lm="cualizione"><i>cualizion</i><par n="relazion/e__n"/></e>
+    <e lm="cultivazione"><i>cultivazion</i><par n="relazion/e__n"/></e>
+    <e lm="cumpusizione"><i>cumpusizion</i><par n="relazion/e__n"/></e>
+    <e lm="cuncintrazione"><i>cuncintrazion</i><par n="relazion/e__n"/></e>
+    <e lm="cuncizzione"><i>cuncizzion</i><par n="relazion/e__n"/></e>
+    <e lm="cunnissione"><i>cunnission</i><par n="relazion/e__n"/></e>
+    <e lm="cunsirvazione"><i>cunsirvazion</i><par n="relazion/e__n"/></e>
+    <e lm="custiddazione"><i>custiddazion</i><par n="relazion/e__n"/></e>
+    <e lm="dicurazione"><i>dicurazion</i><par n="relazion/e__n"/></e>
+    <e lm="diffusione"><i>diffusion</i><par n="relazion/e__n"/></e>
+    <e lm="dinuminazione"><i>dinuminazion</i><par n="relazion/e__n"/></e>
+    <e lm="diprissione"><i>diprission</i><par n="relazion/e__n"/></e>
+    <e lm="discussione"><i>discussion</i><par n="relazion/e__n"/></e>
+    <e lm="duminazione"><i>duminazion</i><par n="relazion/e__n"/></e>
+    <e lm="eccezzione"><i>eccezzion</i><par n="relazion/e__n"/></e>
+    <e lm="emissione"><i>emission</i><par n="relazion/e__n"/></e>
+    <e lm="espansione"><i>espansion</i><par n="relazion/e__n"/></e>
+    <e lm="esprissione"><i>esprission</i><par n="relazion/e__n"/></e>
+    <e lm="estinsione"><i>estinsion</i><par n="relazion/e__n"/></e>
+    <e lm="evapurazione"><i>evapurazion</i><par n="relazion/e__n"/></e>
+    <e lm="generazione"><i>generazion</i><par n="relazion/e__n"/></e>
+    <e lm="imbarcazione"><i>imbarcazion</i><par n="relazion/e__n"/></e>
+    <e lm="inclinazione"><i>inclinazion</i><par n="relazion/e__n"/></e>
+    <e lm="incursione"><i>incursion</i><par n="relazion/e__n"/></e>
+    <e lm="intarpritazione"><i>intarpritazion</i><par n="relazion/e__n"/></e>
+    <e lm="intinzione"><i>intinzion</i><par n="relazion/e__n"/></e>
+    <e lm="intruduzione"><i>intruduzion</i><par n="relazion/e__n"/></e>
+    <e lm="inundazione"><i>inundazion</i><par n="relazion/e__n"/></e>
+    <e lm="istituzione"><i>istituzion</i><par n="relazion/e__n"/></e>
+    <e lm="minzione"><i>minzion</i><par n="relazion/e__n"/></e>
+    <e lm="narrazione"><i>narrazion</i><par n="relazion/e__n"/></e>
+    <e lm="nuzione"><i>nuzion</i><par n="relazion/e__n"/></e>
+    <e lm="occasione"><i>occasion</i><par n="relazion/e__n"/></e>
+    <e lm="oppusizione"><i>oppusizion</i><par n="relazion/e__n"/></e>
+    <e lm="passione"><i>passion</i><par n="relazion/e__n"/></e>
+    <e lm="pricipitazione"><i>pricipitazion</i><par n="relazion/e__n"/></e>
+    <e lm="prissione"><i>prission</i><par n="relazion/e__n"/></e>
+    <e lm="prucissione"><i>prucission</i><par n="relazion/e__n"/></e>
+    <e lm="punizione"><i>punizion</i><par n="relazion/e__n"/></e>
+    <e lm="purzione"><i>purzion</i><par n="relazion/e__n"/></e>
+    <e lm="quistione"><i>quistion</i><par n="relazion/e__n"/></e>
+    <e lm="riazzione"><i>riazzion</i><par n="relazion/e__n"/></e>
+    <e lm="riflissione"><i>riflission</i><par n="relazion/e__n"/></e>
+    <e lm="risuluzione"><i>risuluzion</i><par n="relazion/e__n"/></e>
+    <e lm="rivuluzione"><i>rivuluzion</i><par n="relazion/e__n"/></e>
+    <e lm="rutazione"><i>rutazion</i><par n="relazion/e__n"/></e>
+    <e lm="scrizzione"><i>scrizzion</i><par n="relazion/e__n"/></e>
+    <e lm="stazione"><i>stazion</i><par n="relazion/e__n"/></e>
+    <e lm="traduzione"><i>traduzion</i><par n="relazion/e__n"/></e>
+    <e lm="trasfurmazione"><i>trasfurmazion</i><par n="relazion/e__n"/></e>
+    <e lm="uparazione"><i>uparazion</i><par n="relazion/e__n"/></e>
+    <e lm="upinione"><i>upinion</i><par n="relazion/e__n"/></e>
+    <e lm="ussirvazione"><i>ussirvazion</i><par n="relazion/e__n"/></e>
 
+    <e lm="ghjente"><i>ghjent</i><par n="relazion/e__n"/></e>
 
     <e lm="traduzzione"><i>traduzzion</i><par n="relazion/e__n"/></e>
     <e lm="affirmazione"><i>affirmazion</i><par n="relazion/e__n"/></e>
@@ -2530,6 +2534,7 @@ esse	esse - they - Note: feminine
     <e lm="nome"><i>nom</i><par n="ribell/e__n"/></e>
     <e lm="paese"><i>paes</i><par n="ribell/e__n"/></e>
     <e lm="paesu"><i>paes</i><par n="ann/u__n"/></e>
+    <e lm="ritrattu"><i>ritratt</i><par n="ann/u__n"/></e>
     <e lm="attore"><i>attor</i><par n="ribell/e__n"/></e>
     <e lm="scrittore"><i>scrittor</i><par n="ribell/e__n"/></e>
     <e lm="cuntinente"><i>cuntinent</i><par n="ribell/e__n"/></e>
@@ -5081,6 +5086,7 @@ esse	esse - they - Note: feminine
 
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
+    <e lm="bellu"><i>bell</i><par n="vechj/u__adj"/></e>
     <e lm="anzianu"><i>anzian</i><par n="vechj/u__adj"/></e>
 
     <e lm="auropeu"><i>aurope</i><par n="vechj/u__adj"/></e>
@@ -5290,6 +5296,7 @@ esse	esse - they - Note: feminine
 
     <e lm="inglese"><i>ingles</i><par n="naziunal/e__adj"/></e>
     <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
+    <e lm="gallese"><i>galles</i><par n="naziunal/e__adj"/></e>
     <e lm="francese"><i>frances</i><par n="naziunal/e__adj"/></e>
     <e lm="genuvese"><i>genuves</i><par n="naziunal/e__adj"/></e>
     <e lm="purtughese"><i>purtughes</i><par n="naziunal/e__adj"/></e>
@@ -5698,7 +5705,26 @@ esse	esse - they - Note: feminine
     <e lm="cà"><i>cà</i><par n="cusì__adv"/></e>
     <e lm="dapoi"><i>dapoi</i><par n="cusì__adv"/></e>
 
+    <e lm="cumplettamente"><i>cumplettament</i><par n="facilment/e__adv"/></e>
+    <e lm="cuncretamente"><i>cuncretament</i><par n="facilment/e__adv"/></e>
+    <e lm="disgraziatamente"><i>disgraziatament</i><par n="facilment/e__adv"/></e>
+    <e lm="francamente"><i>francament</i><par n="facilment/e__adv"/></e>
+    <e lm="ufficialmente"><par n="u/o"/><i>fficialment</i><par n="facilment/e__adv"/></e>
+    <e lm="pienamente"><i>pienament</i><par n="facilment/e__adv"/></e>
+    <e lm="precisamente"><i>precisament</i><par n="facilment/e__adv"/></e>
+    <e lm="puliticamente"><i>puliticament</i><par n="facilment/e__adv"/></e>
+    <e lm="sclusivamente"><i>sclusivament</i><par n="facilment/e__adv"/></e>
+    <e lm="semplicemente"><i>semplicement</i><par n="facilment/e__adv"/></e>
+    <e lm="sempliciamente" r="LR"><p><l>sempliciament</l><r>semplicement</r></p><par n="facilment/e__adv"/></e>
+    <e lm="sempliciamente" r="LR"><p><l>simplicement</l><r>semplicement</r></p><par n="facilment/e__adv"/></e>
+    <e lm="siguramente"><i>sigurament</i><par n="facilment/e__adv"/></e>
+    <e lm="simplicemente"><i>simplicement</i><par n="facilment/e__adv"/></e>
+    <e lm="strutturalmente"><i>strutturalment</i><par n="facilment/e__adv"/></e>
+    <e lm="veramente"><i>verament</i><par n="facilment/e__adv"/></e>
+
+
     <e lm="ampiamente"><i>ampiament</i><par n="facilment/e__adv"/></e>
+    <e lm="veramente"><i>verament</i><par n="facilment/e__adv"/></e>
     <e lm="prisumibilamente"><i>prisumibilament</i><par n="facilment/e__adv"/></e>
     <e lm="attualmente"><i>attualment</i><par n="facilment/e__adv"/></e>
     <e lm="cumunemente"><i>cumunement</i><par n="facilment/e__adv"/></e>
@@ -5783,6 +5809,7 @@ esse	esse - they - Note: feminine
     <e lm="stà"><i>st</i><par n="d/à__vblex"/></e>
     <e lm="dì"><i>d</i><par n="d/ì__vblex"/></e>
     <e lm="tene"><i>t</i><par n="t/ene__vblex"/></e>
+    <e lm="sustene"><i>sust</i><par n="t/ene__vblex"/></e>
     <e lm="ottene"><i>ott</i><par n="t/ene__vblex"/></e>
     <e lm="vene"><i>v</i><par n="t/ene__vblex"/></e>
     <e lm="pruvene"><i>pruv</i><par n="t/ene__vblex"/></e>
@@ -5851,6 +5878,11 @@ esse	esse - they - Note: feminine
     <!-- FMT: Comprovare -->
     <e lm="aiutà"><i>aiut</i><par n="parl/à__vblex"/></e>
     <e lm="trattà"><i>tratt</i><par n="parl/à__vblex"/></e>
+    <e lm="bettunizà"><i>bettuniz</i><par n="parl/à__vblex"/></e>
+    <e lm="islamizà"><i>islamiz</i><par n="parl/à__vblex"/></e>
+    <e lm="generalizà"><i>generaliz</i><par n="parl/à__vblex"/></e>
+    <e lm="valurizà"><i>valuriz</i><par n="parl/à__vblex"/></e>
+    <e lm="privatizà"><i>privatiz</i><par n="parl/à__vblex"/></e>
     <e lm="rializà"><i>rializ</i><par n="parl/à__vblex"/></e>
     <e lm="rializà" r="LR"><p><l>realiz</l><r>rializ</r></p><par n="parl/à__vblex"/></e>
     <e lm="dimustrà"><i>dimustr</i><par n="parl/à__vblex"/></e>
@@ -6036,6 +6068,7 @@ esse	esse - they - Note: feminine
     <e lm="stabilizà"><i>stabiliz</i><par n="parl/à__vblex"/></e>
     <e lm="suspettà"><i>suspett</i><par n="parl/à__vblex"/></e>
     <e lm="turnà"><i>turn</i><par n="parl/à__vblex"/></e>
+    <e lm="turnà" r="LR"><p><l>torn</l><r>turn</r></p><par n="parl/à__vblex"/></e>
 
 
 
@@ -6063,6 +6096,7 @@ esse	esse - they - Note: feminine
 
 
     <e lm="teme"><i>tem</i><par n="tem/e__vblex"/></e>
+    <e lm="sente"><i>sent</i><par n="tem/e__vblex"/></e>
     <e lm="scrive"><i>scri</i><par n="scri/ve__vblex"/></e>
     <e lm="discrive"><i>discri</i><par n="scri/ve__vblex"/></e>
     <e lm="inscrive"><i>inscri</i><par n="scri/ve__vblex"/></e>
@@ -6076,6 +6110,8 @@ esse	esse - they - Note: feminine
 
     <e lm="iè"><i>iè</i><par n="iè__ij"/></e>
     <e lm="eccu"><i>eccu</i><par n="iè__ij"/></e>
+    <e lm="allora"><i>allora</i><par n="iè__ij"/></e>
+    <e lm="bon"><i>bon</i><par n="iè__ij"/></e>
 
 
     <!-- SECTION: Abbreviations -->

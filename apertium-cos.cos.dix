@@ -1382,6 +1382,14 @@
       <e><p><l>avete</l><r>à<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>avanu</l><r>à<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>assi</l><r>à<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>essi</l><r>à<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>assi</l><r>à<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>essi</l><r>à<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>assi</l><r>à<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>essi</l><r>à<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+
+
 
       <e><p><l>atu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ata</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>

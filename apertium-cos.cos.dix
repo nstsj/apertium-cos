@@ -4989,6 +4989,7 @@
     <e lm="gran"><i>gran</i><par n="gran__adj"/></e>
     <e lm="moltu"><i>molt</i><par n="molt/u__adj"/></e>
     <e lm="altru"><i>altr</i><par n="molt/u__adj"/></e>
+    <e lm="oltru" r="LR"><p><l>oltr</l><r>altr</r></p><par n="molt/u__adj"/></e>
     <e lm="pocu"><i>poc</i><par n="poc/u__adj"/></e>
 
     <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e>
@@ -5247,7 +5248,6 @@
     <e lm="rigulare"><i>rigular</i><par n="naziunal/e__adj"/></e>
     <e lm="famosu"><i>famos</i><par n="vechj/u__adj"/></e>
     <e lm="puliticu"><i>pulitic</i><par n="tipic/u__adj"/></e>
-    <e lm="oltru"><i>oltr</i><par n="vechj/u__adj"/></e>
     <e lm="canadianu"><i>canadian</i><par n="vechj/u__adj"/></e>
     <e lm="scentificu"><i>scentific</i><par n="tipic/u__adj"/></e>
     <e lm="importante"><i>important</i><par n="vechj/u__adj"/></e>
@@ -5757,7 +5757,7 @@
     <e r="LR" lm="sant'"><p><l>sant'</l><r>santu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR" lm="san'"><p><l>san'</l><r>santu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
-    <e r="LR" lm="quand'"><p><l>quand'</l><r>quandu<s n="adv"/><s n="rel"/></r></p></e>
+    <e r="LR" lm="quand'"><p><l>quand'</l><r>quandu<s n="rel"/><s n="adv"/></r></p></e>
 
     <e r="LR" lm="parch'"><p><l>parch'</l><r>parchè<s n="cnjadv"/></r></p></e>
     <e r="LR" lm="perch'"><p><l>perch'</l><r>parchè<s n="cnjadv"/></r></p></e>

@@ -5,6 +5,7 @@ DELIMITERS = "<.>" ;
 LIST Det = det ;
 LIST Pr = pr ; 
 
+LIST Mod = vbmod ;
 LIST Inf = inf ;
 
 LIST Pos = pos ;
@@ -32,6 +33,7 @@ LIST IN = "in" ;
 LIST Lingue = "francesu" "francese" "danese" "inglese" "inglesu" "talianu" ; 
 
 LIST Inf/à = ("<.*[Àà]>"r inf) ;
+LIST Form/a = ("<.*[Aa]>"r inf) ;
 
 SECTION
 
@@ -45,7 +47,7 @@ REMOVE SÌ IF (0 SI) ;
 
 SELECT Inf IF (-1C Pr) ;
 
-REMOVE Inf IF (NOT 0 Inf/à) ;
+REMOVE Inf IF (NOT 0 Inf/à) (0 Form/a) ;
 
 SELECT Enc IF (-1 Inf) (0 Pro OR Enc) ;
 
@@ -60,3 +62,5 @@ SELECT Pro IF (0 L') (1C Fin) ;
 REMOVE Pr IF (0 Det OR Pr) (-1 Pr) (NOT 1 Det) ;
 
 SELECT Sg IF (-1 IN) (0 Lingue) ;
+
+SELECT Inf IF (0 Fin OR Inf) (-1 Mod) ;

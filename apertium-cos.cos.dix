@@ -918,6 +918,13 @@
       <e r="LR"><p><l>ivète</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>evenu</l><r>uvè<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>uvia</l><r>uvè<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>uvii</l><r>uvè<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>uvia</l><r>uvè<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uviamu</l><r>uvè<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uviate</l><r>uvè<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>uvianu</l><r>uvè<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
       <e><p><l>uverà</l><r>uvè<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <e><p><l>uvut</l><r>uvè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
@@ -5777,6 +5784,7 @@ esse	esse - they - Note: feminine
     <e lm="ritruvà" r="LR"><p><l>ritrov</l><r>ritruv</r></p><par n="parl/à__vblex"/></e>
     <e lm="aspittà"><i>aspitt</i><par n="parl/à__vblex"/></e>
     <e lm="cantà"><i>cant</i><par n="parl/à__vblex"/></e>
+    <e lm="cuntinuvà"><i>cuntinuv</i><par n="parl/à__vblex"/></e>
     <e lm="cunfinà"><i>cunfin</i><par n="parl/à__vblex"/></e>
     <e lm="cumportà"><i>cumport</i><par n="parl/à__vblex"/></e>
     <e lm="buscà"><i>busc</i><par n="parl/à__vblex"/></e>
@@ -6046,6 +6054,7 @@ esse	esse - they - Note: feminine
     <e lm="vale"><i>val</i><par n="tem/e__vblex"/></e>
     <e lm="pussede"><i>pussed</i><par n="tem/e__vblex"/></e>
     <e lm="esiste"><i>esist</i><par n="tem/e__vblex"/></e>
+    <e lm="parte"><i>part</i><par n="tem/e__vblex"/></e>
  
     <!-- SECTION: Interjections -->
 

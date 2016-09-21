@@ -946,6 +946,8 @@
 
       <e><p><l>udia</l><r>udè<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
 
+      <e><p><l>uderà</l><r>udè<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+
       <e><p><l>ussut</l><r>udè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
       <e r="LR"><p><l>udut</l><r>udè<s n="vbmod"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
@@ -5850,7 +5852,10 @@ esse	esse - they - Note: feminine
     <e lm="rapprisint"><i>rapprisint</i><par n="parl/à__vblex"/></e>
     <e lm="rapprisint" r="LR"><p><l>rapprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="rapprisint" r="LR"><p><l>ripprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
+    <e lm="rapprisint" r="LR"><p><l>raprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="carattarizà"><i>carattariz</i><par n="parl/à__vblex"/></e>
+    <e lm="scappà"><i>scapp</i><par n="parl/à__vblex"/></e>
+    <e lm="tirà"><i>tir</i><par n="parl/à__vblex"/></e>
     <e lm="illustrà"><i>illustr</i><par n="parl/à__vblex"/></e>
     <e lm="passà"><i>pass</i><par n="parl/à__vblex"/></e>
     <e lm="spusà"><i>spus</i><par n="parl/à__vblex"/></e>
@@ -5895,6 +5900,7 @@ esse	esse - they - Note: feminine
     <e lm="inspirà"><i>inspir</i><par n="parl/à__vblex"/></e>
     <e lm="assassinà"><i>assassin</i><par n="parl/à__vblex"/></e>
     <e lm="arristà"><i>arrist</i><par n="parl/à__vblex"/></e>
+    <e lm="publicità"><i>publicit</i><par n="parl/à__vblex"/></e>
     <e lm="ghjudicà"><i>ghjudic</i><par n="parl/à__vblex"/></e>
     <e lm="influenzà"><i>influenz</i><par n="parl/à__vblex"/></e>
     <e lm="influenzà" r="LR"><p><l>influinz</l><r>influenz</r></p><par n="parl/à__vblex"/></e>
@@ -5951,7 +5957,9 @@ esse	esse - they - Note: feminine
     <e lm="interrugà"><i>interrug</i><par n="parl/à__vblex"/></e>
     <e lm="situà"><i>situ</i><par n="parl/à__vblex"/></e>
     <e lm="datà"><i>dat</i><par n="parl/à__vblex"/></e>
+    <e lm="aghjustà"><i>aghjust</i><par n="parl/à__vblex"/></e>
     <e lm="supportà"><i>support</i><par n="parl/à__vblex"/></e>
+    <e lm="supportà" r="LR"><p><l>suppurt</l><r>support</r></p><par n="parl/à__vblex"/></e>
 
     <e lm="animà"><i>anim</i><par n="parl/à__vblex"/></e>
     <e lm="arregistrà"><i>arregistr</i><par n="parl/à__vblex"/></e>
@@ -5966,6 +5974,7 @@ esse	esse - they - Note: feminine
     <e lm="cunservà"><i>cunserv</i><par n="parl/à__vblex"/></e>
     <e lm="demitilitarizà"><i>demitilitariz</i><par n="parl/à__vblex"/></e>
     <e lm="dumandà"><i>dumand</i><par n="parl/à__vblex"/></e>
+    <e lm="mandà"><i>mand</i><par n="parl/à__vblex"/></e>
     <e lm="egalizà"><i>egaliz</i><par n="parl/à__vblex"/></e>
     <e lm="eliminà"><i>elimin</i><par n="parl/à__vblex"/></e>
     <e lm="esaminà"><i>esamin</i><par n="parl/à__vblex"/></e>
@@ -6000,6 +6009,8 @@ esse	esse - they - Note: feminine
     <e lm="educà"><i>educ</i><par n="parl/à__vblex"/></e>
     <e lm="dubbità"><i>dubbit</i><par n="parl/à__vblex"/></e>
     <e lm="riservà"><i>riserv</i><par n="parl/à__vblex"/></e>
+    <e lm="luttà"><i>lutt</i><par n="parl/à__vblex"/></e>
+    <e lm="luttà" r="LR"><p><l>lott</l><r>lutt</r></p><par n="parl/à__vblex"/></e>
     <e lm="rispettà"><i>rispett</i><par n="parl/à__vblex"/></e>
     <e lm="rivendicà"><i>rivendic</i><par n="parl/à__vblex"/></e>
     <e lm="selezziunà"><i>selezziun</i><par n="parl/à__vblex"/></e>

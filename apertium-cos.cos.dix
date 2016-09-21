@@ -4989,6 +4989,7 @@
     <e lm="gran"><i>gran</i><par n="gran__adj"/></e>
     <e lm="moltu"><i>molt</i><par n="molt/u__adj"/></e>
     <e lm="altru"><i>altr</i><par n="molt/u__adj"/></e>
+    <e lm="antru"><i>antr</i><par n="molt/u__adj"/></e>
     <e lm="oltru" r="LR"><p><l>oltr</l><r>altr</r></p><par n="molt/u__adj"/></e>
     <e lm="pocu"><i>poc</i><par n="poc/u__adj"/></e>
 
@@ -5005,7 +5006,6 @@
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
     <e lm="anzianu"><i>anzian</i><par n="vechj/u__adj"/></e>
-    <e lm="antru"><i>antr</i><par n="vechj/u__adj"/></e>
 
     <e lm="auropeu"><i>aurope</i><par n="vechj/u__adj"/></e>
     <e lm="auropeu" r="LR"><p><l>europe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>

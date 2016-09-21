@@ -1502,7 +1502,7 @@
     </pardef>
 
 
-<pardef n="tem/e__vblex">
+    <pardef n="tem/e__vblex">
       <e><p><l>e</l><r>e<s n="vblex"/><s n="inf"/></r></p></e>
 
       <e><p><l>u</l><r>e<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1512,12 +1512,25 @@
       <e><p><l>imu</l><r>e<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ite</l><r>e<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>enu</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-
-
-
-
       
     </pardef>
+
+    <pardef n="scri/ve__vblex">
+      <e><p><l>ve</l><r>ve<s n="vblex"/><s n="inf"/></r></p></e>
+
+      <e><p><l>vendu</l><r>ve<s n="vblex"/><s n="ger"/></r></p></e>
+
+      <e><p><l>vu</l><r>ve<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>vi</l><r>ve<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ve</l><r>ve<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>vi</l><r>ve<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> 
+      <e><p><l>vimu</l><r>ve<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>vite</l><r>ve<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>venu</l><r>ve<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      
+      <e><p><l>tt</l><r>ve<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+    </pardef>
+
 
 
 
@@ -6050,6 +6063,9 @@ esse	esse - they - Note: feminine
 
 
     <e lm="teme"><i>tem</i><par n="tem/e__vblex"/></e>
+    <e lm="scrive"><i>scri</i><par n="scri/ve__vblex"/></e>
+    <e lm="discrive"><i>discri</i><par n="scri/ve__vblex"/></e>
+    <e lm="inscrive"><i>inscri</i><par n="scri/ve__vblex"/></e>
     <e lm="accade"><i>accad</i><par n="tem/e__vblex"/></e>
     <e lm="vale"><i>val</i><par n="tem/e__vblex"/></e>
     <e lm="pussede"><i>pussed</i><par n="tem/e__vblex"/></e>

@@ -748,9 +748,16 @@
       <e><p><l>e</l><r><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="S__finisce/li">
+      <e><p><l>li</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e><p><l>la</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="S__parla/lli">
       <e><p><l>lli</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e><p><l>lla</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="/esse__vbser">
@@ -1131,6 +1138,8 @@
 
     <pardef n="fini/sce__vblex">
       <e><p><l>sce</l><r>sce<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>sce</l><r>sce<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__finisce/li"/></e>
+
       <e><p><l>scu</l><r>sce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>sci</l><r>sce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>sce</l><r>sce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -5526,6 +5535,7 @@ esse	esse - they - Note: feminine
     <e lm="capisce"><i>capi</i><par n="capi/sce__vblex"/></e>
     <e lm="finisce"><i>fini</i><par n="fini/sce__vblex"/></e>
     <e lm="priferisce"><i>priferi</i><par n="fini/sce__vblex"/></e>
+    <e lm="pruibisce"><i>pruibi</i><par n="fini/sce__vblex"/></e>
     <e lm="difinisce"><i>difini</i><par n="fini/sce__vblex"/></e>
     <e lm="definisce" r="LR"><p><l>defini</l><r>difini</r></p><par n="fini/sce__vblex"/></e>
 

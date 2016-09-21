@@ -734,6 +734,11 @@
       <e><p><l>e</l><r><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="S__parla/lli">
+      <e><p><l>lli</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="/esse__vbser">
       <e><p><l>esse</l><r>esse<s n="vbser"/><s n="inf"/></r></p></e>
       <e><p><l>essendu</l><r>esse<s n="vbser"/><s n="ger"/></r></p></e>
@@ -856,8 +861,10 @@
       <e><p><l>averanu</l><r>avè<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>averìa</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>avaria</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>averìi</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>averìa</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>avaria</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>averìamu</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>averìate</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>averìanu</l><r>avè<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1353,6 +1360,7 @@
 
     <pardef n="parl/à__vblex">
       <e><p><l>à</l><r>à<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>a</l><r>à<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__parla/lli"/></e>
       <e><p><l>èndu</l><r>à<s n="vblex"/><s n="ger"/></r></p></e>
 
       <e><p><l>u</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1444,6 +1452,11 @@
       <e><p><l>engamu</l><r>ene<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>engate</l><r>ene<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>enganu</l><r>ene<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+
 
 
       <e><p><l>inutu</l><r>ene<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1638,7 +1651,9 @@
     <e lm="ne"><i>ne</i><par n="ne__prn"/></e>
     <e lm="ci"><i>ci</i><par n="ne__prn"/></e>
     <e lm="edda"><i>edda</i><par n="edda__prn"/></e>
+
     <e lm="cosa"><i>cosa</i><par n="cosa__prn"/></e>
+    <e lm="què"><i>què</i><par n="cosa__prn"/></e> <!-- FIXME: chè?-->
     
     
     

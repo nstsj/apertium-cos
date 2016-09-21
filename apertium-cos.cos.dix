@@ -680,13 +680,7 @@
     </pardef>
       
     
-    <pardef n="naziunalist/a__adj">
-      <e><p><l>a</l><r>a<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r>a<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-
-      <e><p><l>i</l><r>a<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>e</l><r>a<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
+  
 
 
 <pardef n="gran__adj">
@@ -5202,7 +5196,7 @@ esse	esse - they - Note: feminine
     <e lm="campidanes"><i>campidanes</i><par n="vechj/u__adj"/></e>
     <e lm="drittu"><i>dritt</i><par n="vechj/u__adj"/></e>
     <e lm="masciu"><i>masci</i><par n="vechj/u__adj"/></e>
-
+    <e lm="naziunalistu"><i>naziunalist</i><par n="vechj/u__adj"/></e>
     <e lm="luntanu"><i>luntan</i><par n="vechj/u__adj"/></e>
     <e lm="atomicu"><i>atomic</i><par n="tipic/u__adj"/></e>
 
@@ -5229,7 +5223,7 @@ esse	esse - they - Note: feminine
     <e lm="tedescu"><i>tedesc</i><par n="tipic/u__adj"/></e>
     <e lm="chimicu"><i>chimic</i><par n="tipic/u__adj"/></e>
 
-    <e lm="naziunalista"><i>naziunalist</i><par n="naziunalist/a__adj"/></e>
+
   
     <e lm="mundiale"><i>mundial</i><par n="naziunal/e__adj"/></e>
 

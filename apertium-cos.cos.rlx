@@ -12,6 +12,8 @@ LIST Pos = pos ;
 LIST Enc = enc ; 
 LIST Pro = pro ;
 
+LIST Sg = sg ;
+
 LIST Fin = pri prs pii pis fti ifi ; 
 
 LIST Unk = "<\\*.*>"r ;
@@ -24,6 +26,10 @@ LIST UN = "<un>"i ;
 LIST DÌ = "dì" ; 
 LIST SÌ = "sì" ; 
 LIST ÙN = "ùn" ; 
+
+LIST IN = "in" ; 
+
+LIST Lingue = "francesu" "francese" "danese" "inglese" "inglesu" "talianu" ; 
 
 LIST Inf/à = ("<.*[Àà]>"r inf) ;
 
@@ -52,3 +58,5 @@ SELECT Det IF (0 A) (1C Pos) ;
 SELECT Pro IF (0 L') (1C Fin) ;
 
 REMOVE Pr IF (0 Det OR Pr) (-1 Pr) (NOT 1 Det) ;
+
+SELECT Sg IF (-1 IN) (0 Lingue) ;

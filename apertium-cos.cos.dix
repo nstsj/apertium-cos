@@ -1688,6 +1688,7 @@ esse	esse - they - Note: feminine
     <e lm="essu"><i>ess</i><par n="altr/u__prn"/></e>
 
     <e lm="noi"><i>noi</i><par n="noi__prn"/></e>
+    <e lm="noi" r="LR"><p><l>no</l><r>noi</r></p><par n="noi__prn"/></e>
 
     <e lm="voi"><i>voi</i><par n="voi__prn"/></e>
 
@@ -5269,6 +5270,7 @@ esse	esse - they - Note: feminine
 
     <e lm="inglese"><i>ingles</i><par n="naziunal/e__adj"/></e>
     <e lm="danese"><i>danes</i><par n="naziunal/e__adj"/></e>
+    <e lm="francese"><i>frances</i><par n="naziunal/e__adj"/></e>
     <e lm="genuvese"><i>genuves</i><par n="naziunal/e__adj"/></e>
     <e lm="purtughese"><i>purtughes</i><par n="naziunal/e__adj"/></e>
     <e lm="chinese"><i>chines</i><par n="naziunal/e__adj"/></e>

@@ -736,7 +736,7 @@
 
     <pardef n="S__parla/lli">
       <e><p><l>lli</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     </pardef>
 
     <pardef n="/esse__vbser">
@@ -776,6 +776,7 @@
       <e><p><l>seremu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>serete</l><r>esse<s n="vbser"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>seranu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>saranu</l><r>esse<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>era</l><r>esse<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>eri</l><r>esse<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -5656,6 +5657,7 @@
     <e lm="ratificà"><i>ratific</i><par n="parl/à__vblex"/></e>
     <e lm="ricusà"><i>ricus</i><par n="parl/à__vblex"/></e>
     <e lm="ripudià"><i>ripudi</i><par n="parl/à__vblex"/></e>
+    <e lm="dubbità"><i>dubbit</i><par n="parl/à__vblex"/></e>
     <e lm="riservà"><i>riserv</i><par n="parl/à__vblex"/></e>
     <e lm="rispettà"><i>rispett</i><par n="parl/à__vblex"/></e>
     <e lm="rivendicà"><i>rivendic</i><par n="parl/à__vblex"/></e>

@@ -648,6 +648,10 @@
       <e><p><l>i</l><r>u<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r>u<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="mo__adj">
+      <e><p><l></l><r><s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
  
     <pardef n="nostr/u__adj">
       <e><p><l>u</l><r>u<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -5034,6 +5038,13 @@ esse	esse - they - Note: feminine
     <e lm="antru"><i>antr</i><par n="molt/u__adj"/></e>
     <e lm="oltru" r="LR"><p><l>oltr</l><r>altr</r></p><par n="molt/u__adj"/></e>
     <e lm="pocu"><i>poc</i><par n="poc/u__adj"/></e>
+
+    <e lm="mo"><i>mo</i><par n="mo__adj"/></e>
+    <e lm="mo" r="LR"><p><l>mio</l><r>mo</r></p><par n="mo__adj"/></e>
+    <e lm="to"><i>to</i><par n="mo__adj"/></e>
+    <e lm="to" r="LR"><p><l>tuo</l><r>to</r></p><par n="mo__adj"/></e>
+    <e lm="so"><i>so</i><par n="mo__adj"/></e>
+    <e lm="so" r="LR"><p><l>suo</l><r>so</r></p><par n="mo__adj"/></e>
 
     <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e>
     <e lm="vostru"><i>vostr</i><par n="nostr/u__adj"/></e>

@@ -7,6 +7,8 @@ LIST Pr = pr ;
 
 LIST Inf = inf ;
 
+LIST Pos = pos ;
+
 LIST Enc = enc ; 
 LIST Pro = pro ;
 
@@ -39,3 +41,5 @@ SELECT Enc IF (-1 Inf) (0 Pro OR Enc) ;
 SELECT Enc IF (-2 Inf) (-1 Enc) (0 Pro OR Enc) ;
 
 REMOVE Enc IF (NOT -1 Inf OR Enc) ;
+
+SELECT Det IF (0 A) (1C Pos) ;

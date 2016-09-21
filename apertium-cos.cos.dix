@@ -5,6 +5,7 @@
     <sdef n="np"       c="Nom propi"/>
     <sdef n="adv"      c="Adverbi"/>
     <sdef n="pr"       c="Preposició"/>
+    <sdef n="ij"       c=""/>
     <sdef n="num"      c="Numeral"/>
     <sdef n="adj"      c="Adjectiu"/>
     <sdef n="rel"      c="Relatiu"/>
@@ -157,6 +158,10 @@
       <e r="LR"><p><l>o</l><r>u</r></p></e>
     </pardef>
 
+
+    <pardef n="iè__ij">
+      <e><p><l></l><r><s n="ij"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Conjunctions -->
 
@@ -5765,6 +5770,9 @@ esse	esse - they - Note: feminine
  
     <!-- SECTION: Interjections -->
 
+    <e lm="iè"><i>iè</i><par n="iè__ij"/></e>
+
+
     <!-- SECTION: Abbreviations -->
 
     <e lm="ecc."><i>ecc</i><par n="ecc/.__abbr"/></e>
@@ -5789,6 +5797,7 @@ esse	esse - they - Note: feminine
     <e r="LR" lm="dal'"><p><l>dal'</l><r>di<s n="pr"/><j/>u<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e r="LR" lm="l'"><p><l>l'</l><r>u<s n="det"/><s n="def"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" lm="l'"><p><l>l'</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR" lm="induv'"><p><l>induv'</l><r>induva<s n="adv"/></r></p></e>
     <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="ch'"><p><l>ch'</l><r>chì<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>

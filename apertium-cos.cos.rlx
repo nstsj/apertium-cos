@@ -12,6 +12,9 @@ LIST Pos = pos ;
 LIST Enc = enc ; 
 LIST Pro = pro ;
 
+LIST Fin = pri prs pii pis fti ifi ; 
+
+LIST L' = "<l'>"i ;
 LIST A = "<a>"i ; 
 LIST DI = "<di>"i ; 
 LIST SI = "<si>"i ; 
@@ -43,3 +46,5 @@ SELECT Enc IF (-2 Inf) (-1 Enc) (0 Pro OR Enc) ;
 REMOVE Enc IF (NOT -1 Inf OR Enc) ;
 
 SELECT Det IF (0 A) (1C Pos) ;
+
+SELECT Pro IF (0 L') (1 Fin) ;

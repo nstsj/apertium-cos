@@ -1991,7 +1991,16 @@ esse	esse - they - Note: feminine
     <e lm="cuntrollu"><i>cuntroll</i><par n="ann/u__n"/></e>
     <e lm="sdegnu"><i>sdegn</i><par n="ann/u__n"/></e>
     <e lm="processu"><i>process</i><par n="ann/u__n"/></e>
-    <e lm="anniversariu"><i>anniversariu</i><par n="ann/u__n"/></e>
+
+    <e lm="cunservatoriu"><i>cunservatori</i><par n="ann/u__n"/></e>
+    <e lm="equilibriu"><i>equilibri</i><par n="ann/u__n"/></e>
+    <e lm="legiunariu"><i>legiunari</i><par n="ann/u__n"/></e>
+    <e lm="ministeriu"><i>ministeri</i><par n="ann/u__n"/></e>
+    <e lm="seminariu"><i>seminari</i><par n="ann/u__n"/></e>
+
+
+    <e lm="anniversariu"><i>anniversari</i><par n="ann/u__n"/></e>
+    <e lm="anniversariu" r="LR"><p><l>annivarsari</l><r>anniversari</r></p><par n="ann/u__n"/></e>
     <e lm="scontru"><i>scontr</i><par n="ann/u__n"/></e>
     <e lm="prevenutu"><i>prevenut</i><par n="ann/u__n"/></e>
     <e lm="quadru"><i>quadr</i><par n="ann/u__n"/></e>
@@ -5039,6 +5048,136 @@ esse	esse - they - Note: feminine
     <e lm="Kant"><i>Kant</i><par n="Colonna__np"/></e>
     <e lm="Marx"><i>Marx</i><par n="Colonna__np"/></e>
 
+    <e lm="Antoine"><i>Antoine</i><par n="Jaume__np"/></e>
+    <e lm="Guy"><i>Guy</i><par n="Jaume__np"/></e>
+    <e lm="Didier"><i>Didier</i><par n="Jaume__np"/></e>
+    <e lm="Tony"><i>Tony</i><par n="Jaume__np"/></e>
+    <e lm="Rey"><i>Rey</i><par n="Jaume__np"/></e>
+    <e lm="César"><i>César</i><par n="Jaume__np"/></e>
+    <e lm="Vidal"><i>Vidal</i><par n="Jaume__np"/></e>
+    <e lm="Luc"><i>Luc</i><par n="Jaume__np"/></e>
+    <e lm="Félix"><i>Félix</i><par n="Jaume__np"/></e>
+    <e lm="Devota"><i>Devota</i><par n="Maria__np"/></e>
+    <e lm="Billy"><i>Billy</i><par n="Jaume__np"/></e>
+    <e lm="Travis"><i>Travis</i><par n="Jaume__np"/></e>
+    <e lm="Tina"><i>Tina</i><par n="Maria__np"/></e>
+    <e lm="SOL"><i>SOL</i><par n="Maria__np"/></e>
+    <e lm="Nancy"><i>Nancy</i><par n="Maria__np"/></e>
+    <e lm="Marge"><i>Marge</i><par n="Maria__np"/></e>
+    <e lm="Marc"><i>Marc</i><par n="Jaume__np"/></e>
+    <e lm="Justin"><i>Justin</i><par n="Jaume__np"/></e>
+    <e lm="Jameson"><i>Jameson</i><par n="Jaume__np"/></e>
+    <e lm="Axel"><i>Axel</i><par n="Jaume__np"/></e>
+    <e lm="Audrey"><i>Audrey</i><par n="Maria__np"/></e>
+    <e lm="Abraham"><i>Abraham</i><par n="Jaume__np"/></e>
+    <e lm="Aaron"><i>Aaron</i><par n="Jaume__np"/></e>
+    <e lm="Whitney"><i>Whitney</i><par n="Maria__np"/></e>
+    <e lm="Thierry"><i>Thierry</i><par n="Jaume__np"/></e>
+    <e lm="Teodoro"><i>Teodoro</i><par n="Jaume__np"/></e>
+    <e lm="Stefani"><i>Stefani</i><par n="Maria__np"/></e>
+    <e lm="Sonny"><i>Sonny</i><par n="Jaume__np"/></e>
+    <e lm="Ronald"><i>Ronald</i><par n="Jaume__np"/></e>
+    <e lm="Roland"><i>Roland</i><par n="Jaume__np"/></e>
+    <e lm="River"><i>River</i><par n="Jaume__np"/></e>
+    <e lm="Remington"><i>Remington</i><par n="Jaume__np"/></e>
+    <e lm="Raymond"><i>Raymond</i><par n="Jaume__np"/></e>
+    <e lm="Paris"><i>Paris</i><par n="Maria__np"/></e>
+    <e lm="Neil"><i>Neil</i><par n="Jaume__np"/></e>
+    <e lm="Modesto"><i>Modesto</i><par n="Jaume__np"/></e>
+    <e lm="Miracle"><i>Miracle</i><par n="Maria__np"/></e>
+    <e lm="Mickey"><i>Mickey</i><par n="Jaume__np"/></e>
+    <e lm="Marcel"><i>Marcel</i><par n="Jaume__np"/></e>
+    <e lm="Lothar"><i>Lothar</i><par n="Jaume__np"/></e>
+    <e lm="Keegan"><i>Keegan</i><par n="Jaume__np"/></e>
+    <e lm="Jurgen"><i>Jurgen</i><par n="Jaume__np"/></e>
+    <e lm="Julio"><i>Julio</i><par n="Jaume__np"/></e>
+    <e lm="Johan"><i>Johan</i><par n="Jaume__np"/></e>
+    <e lm="Jeremy"><i>Jeremy</i><par n="Jaume__np"/></e>
+    <e lm="Jenifer"><i>Jenifer</i><par n="Maria__np"/></e>
+    <e lm="Jacky"><i>Jacky</i><par n="Maria__np"/></e>
+    <e lm="Houston"><i>Houston</i><par n="Jaume__np"/></e>
+    <e lm="Gigi"><i>Gigi</i><par n="Maria__np"/></e>
+    <e lm="Gianluca"><i>Gianluca</i><par n="Jaume__np"/></e>
+    <e lm="Gary"><i>Gary</i><par n="Jaume__np"/></e>
+    <e lm="Francesca"><i>Francesca</i><par n="Maria__np"/></e>
+    <e lm="Fidel"><i>Fidel</i><par n="Jaume__np"/></e>
+    <e lm="Emmanuelle"><i>Emmanuelle</i><par n="Jaume__np"/></e>
+    <e lm="Emil"><i>Emil</i><par n="Jaume__np"/></e>
+    <e lm="Duane"><i>Duane</i><par n="Jaume__np"/></e>
+    <e lm="Dorothy"><i>Dorothy</i><par n="Maria__np"/></e>
+    <e lm="Dominique"><i>Dominique</i><par n="Jaume__np"/></e>
+    <e lm="Dominique"><i>Dominique</i><par n="Maria__np"/></e>
+    <e lm="Coleman"><i>Coleman</i><par n="Jaume__np"/></e>
+    <e lm="Chelsea"><i>Chelsea</i><par n="Maria__np"/></e>
+    <e lm="Cesar"><i>Cesar</i><par n="Jaume__np"/></e>
+    <e lm="Casta"><i>Casta</i><par n="Maria__np"/></e>
+    <e lm="Camille"><i>Camille</i><par n="Maria__np"/></e>
+    <e lm="Branco"><i>Branco</i><par n="Jaume__np"/></e>
+    <e lm="Bobby"><i>Bobby</i><par n="Jaume__np"/></e>
+    <e lm="Bailey"><i>Bailey</i><par n="Jaume__np"/></e>
+    <e lm="Bailey"><i>Bailey</i><par n="Maria__np"/></e>
+    <e lm="Ashley"><i>Ashley</i><par n="Maria__np"/></e>
+    <e lm="Abram"><i>Abram</i><par n="Jaume__np"/></e>
+
+    <e lm="Patrizia"><i>Patrizia</i><par n="Maria__np"/></e>
+    <e lm="Pasqualina"><i>Pasqualina</i><par n="Maria__np"/></e>
+    <e lm="Massimo"><i>Massimo</i><par n="Jaume__np"/></e>
+    <e lm="Immacolata"><i>Immacolata</i><par n="Maria__np"/></e>
+    <e lm="Cristiano"><i>Cristiano</i><par n="Jaume__np"/></e>
+    <e lm="Canio"><i>Canio</i><par n="Jaume__np"/></e>
+    <e lm="Candida"><i>Candida</i><par n="Maria__np"/></e>
+    <e lm="Brunetta"><i>Brunetta</i><par n="Maria__np"/></e>
+    <e lm="Adele"><i>Adele</i><par n="Maria__np"/></e>
+
+    <e lm="Laurent"><i>Laurent</i><par n="Jaume__np"/></e>
+    <e lm="Pascal"><i>Pascal</i><par n="Jaume__np"/></e>
+    <e lm="Gilles"><i>Gilles</i><par n="Jaume__np"/></e>
+    <e lm="Gérard"><i>Gérard</i><par n="Jaume__np"/></e>
+    <e lm="Yves"><i>Yves</i><par n="Jaume__np"/></e>
+    <e lm="Jérôme"><i>Jérôme</i><par n="Jaume__np"/></e>
+    <e lm="Fabien"><i>Fabien</i><par n="Jaume__np"/></e>
+    <e lm="Etienne"><i>Etienne</i><par n="Jaume__np"/></e>
+    <e lm="Christophe"><i>Christophe</i><par n="Jaume__np"/></e>
+    <e lm="Noël"><i>Noël</i><par n="Jaume__np"/></e>
+    <e lm="Marius"><i>Marius</i><par n="Jaume__np"/></e>
+    <e lm="Léa"><i>Léa</i><par n="Jaume__np"/></e>
+    <e lm="Juppé"><i>Juppé</i><par n="Jaume__np"/></e>
+    <e lm="Hubert"><i>Hubert</i><par n="Jaume__np"/></e>
+    <e lm="Franck"><i>Franck</i><par n="Jaume__np"/></e>
+    <e lm="Emile"><i>Emile</i><par n="Jaume__np"/></e>
+    <e lm="Arnaud"><i>Arnaud</i><par n="Jaume__np"/></e>
+
+    <e lm="Cruyff"><i>Cruyff</i><par n="Jaume__np"/></e>
+
+
+    <e lm="Niklas"><i>Niklas</i><par n="Jaume__np"/></e>
+    <e lm="Vince"><i>Vince</i><par n="Jaume__np"/></e>
+    <e lm="Andrei"><i>Andrei</i><par n="Jaume__np"/></e>
+    <e lm="Henrique"><i>Henrique</i><par n="Jaume__np"/></e>
+
+    <e lm="Matilda"><i>Matilda</i><par n="Maria__np"/></e>
+    <e lm="Lourdes"><i>Lourdes</i><par n="Maria__np"/></e>
+
+    <e lm="Just"><i>Just</i><par n="Colonna__np"/></e>
+    <e lm="Peri"><i>Peri</i><par n="Colonna__np"/></e>
+    <e lm="Zubizarreta"><i>Zubizarreta</i><par n="Colonna__np"/></e>
+    <e lm="Laudrup"><i>Laudrup</i><par n="Colonna__np"/></e>
+    <e lm="Jornet"><i>Jornet</i><par n="Colonna__np"/></e>
+    <e lm="Gray"><i>Gray</i><par n="Colonna__np"/></e>
+    <e lm="Depardieu"><i>Depardieu</i><par n="Colonna__np"/></e>
+    <e lm="Clooney"><i>Clooney</i><par n="Colonna__np"/></e>
+    <e lm="Berenguer"><i>Berenguer</i><par n="Colonna__np"/></e>
+    <e lm="Bayrou"><i>Bayrou</i><par n="Colonna__np"/></e>
+    <e lm="Gates"><i>Gates</i><par n="Colonna__np"/></e>
+    <e lm="Ferri"><i>Ferri</i><par n="Colonna__np"/></e>
+    <e lm="Roch"><i>Roch</i><par n="Colonna__np"/></e>
+    <e lm="Kennedy"><i>Kennedy</i><par n="Colonna__np"/></e>
+    <e lm="Hollande"><i>Hollande</i><par n="Colonna__np"/></e>
+    <e lm="Grimaldi"><i>Grimaldi</i><par n="Colonna__np"/></e>
+    <e lm="Campà"><i>Campà</i><par n="Colonna__np"/></e>
+    <e lm="Wang"><i>Wang</i><par n="Colonna__np"/></e>
+
+
     
     
     
@@ -5210,6 +5349,24 @@ esse	esse - they - Note: feminine
     <e lm="cristianu"><i>cristian</i><par n="vechj/u__adj"/></e>
     <e lm="grandissimu"><i>grandissim</i><par n="vechj/u__adj"/></e>
 
+    <e lm="benefiziariu"><i>benefiziari</i><par n="vechj/u__adj"/></e>
+    <e lm="fundiariu"><i>fundiari</i><par n="vechj/u__adj"/></e>
+    <e lm="giudiziariu"><i>giudiziari</i><par n="vechj/u__adj"/></e>
+    <e lm="interplanetariu"><i>interplanetari</i><par n="vechj/u__adj"/></e>
+    <e lm="literariu"><i>literari</i><par n="vechj/u__adj"/></e>
+    <e lm="miliardariu"><i>miliardari</i><par n="vechj/u__adj"/></e>
+    <e lm="necessariu"><i>necessari</i><par n="vechj/u__adj"/></e>
+    <e lm="pianetariu"><i>pianetari</i><par n="vechj/u__adj"/></e>
+    <e lm="primariu"><i>primari</i><par n="vechj/u__adj"/></e>
+    <e lm="pruprietariu"><i>pruprietari</i><par n="vechj/u__adj"/></e>
+    <e lm="pruprietariu" r="LR"><p><l>prupietari</l><r>pruprietari</r></p><par n="vechj/u__adj"/></e>
+    <e lm="securitariu"><i>securitari</i><par n="vechj/u__adj"/></e>
+    <e lm="segundariu"><i>segundari</i><par n="vechj/u__adj"/></e>
+    <e lm="seriu"><i>seri</i><par n="vechj/u__adj"/></e>
+    <e lm="sulidariu"><i>sulidari</i><par n="vechj/u__adj"/></e>
+    <e lm="universitariu"><i>universitari</i><par n="vechj/u__adj"/></e>
+
+
     <e lm="citatu"><i>citat</i><par n="vechj/u__adj"/></e>
     <e lm="cumpostu"><i>cumpost</i><par n="vechj/u__adj"/></e>
     <e lm="fundatu"><i>fundat</i><par n="vechj/u__adj"/></e>
@@ -5263,6 +5420,40 @@ esse	esse - they - Note: feminine
     <e lm="grande"><i>grand</i><par n="naziunal/e__adj"/></e>
     <e lm="bisestile"><i>bisestil</i><par n="naziunal/e__adj"/></e>
 
+    <e lm="amicale"><i>amical</i><par n="naziunal/e__adj"/></e>
+    <e lm="architetturale"><i>architettural</i><par n="naziunal/e__adj"/></e>
+    <e lm="artigianale"><i>artigianal</i><par n="naziunal/e__adj"/></e>
+    <e lm="cuntinentale"><i>cuntinental</i><par n="naziunal/e__adj"/></e>
+    <e lm="eletturale"><i>elettural</i><par n="naziunal/e__adj"/></e>
+    <e lm="essenziale"><i>essenzial</i><par n="naziunal/e__adj"/></e>
+    <e lm="fiscale"><i>fiscal</i><par n="naziunal/e__adj"/></e>
+    <e lm="immurtale"><i>immurtal</i><par n="naziunal/e__adj"/></e>
+    <e lm="inabituale"><i>inabitual</i><par n="naziunal/e__adj"/></e>
+    <e lm="individuale"><i>individual</i><par n="naziunal/e__adj"/></e>
+    <e lm="istituziunale"><i>istituziunal</i><par n="naziunal/e__adj"/></e>
+    <e lm="laterale"><i>lateral</i><par n="naziunal/e__adj"/></e>
+    <e lm="liturale"><i>litural</i><par n="naziunal/e__adj"/></e>
+    <e lm="medievale"><i>medieval</i><par n="naziunal/e__adj"/></e>
+    <e lm="musicale"><i>musical</i><par n="naziunal/e__adj"/></e>
+    <e lm="nationale"><i>national</i><par n="naziunal/e__adj"/></e>
+    <e lm="normale"><i>normal</i><par n="naziunal/e__adj"/></e>
+    <e lm="occidentale"><i>occidental</i><par n="naziunal/e__adj"/></e>
+    <e lm="ozzionale"><i>ozzional</i><par n="naziunal/e__adj"/></e>
+    <e lm="presidenziale"><i>presidenzial</i><par n="naziunal/e__adj"/></e>
+    <e lm="principiale"><i>principial</i><par n="naziunal/e__adj"/></e>
+    <e lm="prufessiunale"><i>prufessiunal</i><par n="naziunal/e__adj"/></e>
+    <e lm="regiunale"><i>regiunal</i><par n="naziunal/e__adj"/></e>
+    <e lm="residenziale"><i>residenzial</i><par n="naziunal/e__adj"/></e>
+    <e lm="speziale"><i>spezial</i><par n="naziunal/e__adj"/></e>
+    <e lm="sucetale"><i>sucetal</i><par n="naziunal/e__adj"/></e>
+    <e lm="tempurale"><i>tempural</i><par n="naziunal/e__adj"/></e>
+    <e lm="territoriale"><i>territorial</i><par n="naziunal/e__adj"/></e>
+    <e lm="trimestriale"><i>trimestrial</i><par n="naziunal/e__adj"/></e>
+    <e lm="universale"><i>universal</i><par n="naziunal/e__adj"/></e>
+    <e lm="uriginale"><i>uriginal</i><par n="naziunal/e__adj"/></e>
+    <e lm="virtuale"><i>virtual</i><par n="naziunal/e__adj"/></e>
+
+
     <e lm="currente"><i>current</i><par n="naziunal/e__adj"/></e>
     <e lm="uguale"><i>ugual</i><par n="naziunal/e__adj"/></e>
     <e lm="federale"><i>federal</i><par n="naziunal/e__adj"/></e>
@@ -5270,8 +5461,8 @@ esse	esse - they - Note: feminine
     <e lm="cintrale"><i>cintral</i><par n="naziunal/e__adj"/></e>
     <e lm="cintrale" r="LR"><p><l>central</l><r>cintral</r></p><par n="naziunal/e__adj"/></e>
     <e lm="prisente"><i>prisent</i><par n="naziunal/e__adj"/></e>
-    <e lm="ufficiale"><i>ufficial</i><par n="naziunal/e__adj"/></e>
-    <e lm="ufficiale" r="LR"><p><l>uffizial</l><r>ufficial</r></p><par n="naziunal/e__adj"/></e>
+    <e lm="ufficiale"><par n="u/o"/><i>fficial</i><par n="naziunal/e__adj"/></e>
+    <e lm="ufficiale" r="LR"><par n="u/o"/><p><l>ffizial</l><r>ufficial</r></p><par n="naziunal/e__adj"/></e>
     <e lm="impurtante"><i>impurtant</i><par n="naziunal/e__adj"/></e>
     <e lm="rurale"><i>rurale</i><par n="naziunal/e__adj"/></e>
     <e lm="originale"><i>original</i><par n="naziunal/e__adj"/></e>

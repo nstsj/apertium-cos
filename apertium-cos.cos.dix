@@ -1438,12 +1438,9 @@
       <e><p><l>assi</l><r>à<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>essi</l><r>à<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
 
+      <e><p><l>a</l><r>à<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
 
-
-      <e><p><l>atu</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ata</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ati</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ate</l><r>à<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>at</l><r>à<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p><par n="S__stat/u"/></e>
     </pardef>
 
     <pardef n="d/ì__vblex">

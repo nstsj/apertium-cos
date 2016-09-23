@@ -6497,11 +6497,12 @@ esse	esse - they - Note: feminine
     <e lm="cuntà"><i>cunt</i><par n="parl/à__vblex"/></e>
     <e lm="adattà"><i>adatt</i><par n="parl/à__vblex"/></e>
     <e lm="accettà"><i>accett</i><par n="parl/à__vblex"/></e>
+    <e lm="accettà" r="LR"><p><l>accet</l><r>accett</r></p><par n="parl/à__vblex"/></e>
+    <e lm="accettà" r="LR"><p><l>accert</l><r>accett</r></p><par n="parl/à__vblex"/></e>
     <e lm="abbraculà"><i>abbracul</i><par n="parl/à__vblex"/></e>
     <e lm="occuppà"><i>occupp</i><par n="parl/à__vblex"/></e>
     <e lm="annunzià"><i>annunzi</i><par n="parl/à__vblex"/></e>
     <e lm="viaghjà"><i>viaghj</i><par n="parl/à__vblex"/></e>
-    <e lm="accetà"><i>accet</i><par n="parl/à__vblex"/></e>
     <e lm="spiegà"><i>spieg</i><par n="parl/à__vblex"/></e>
     <e lm="vergognà"><i>vergogn</i><par n="parl/à__vblex"/></e>
     <e lm="marchjà"><i>marchj</i><par n="parl/à__vblex"/></e>

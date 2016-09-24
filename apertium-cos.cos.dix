@@ -769,6 +769,7 @@
       <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="S__parla/lli">
@@ -778,6 +779,8 @@
       <e><p><l>cci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e><p><l>cci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>ssi</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="/esse__vbser">
@@ -1368,6 +1371,7 @@
 
     <pardef n="m/ette__vblex">
       <e><p><l>ette</l><r>ette<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ette</l><r>ette<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__finisce/li"/></e>
 
       <e><p><l>ettu</l><r>ette<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>etti</l><r>ette<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -2304,6 +2308,72 @@ esse	esse - they - Note: feminine
     <e lm="pasturalismu"><i>pasturalism</i><par n="ann/u__n"/></e>
     <e lm="ammansu"><i>ammans</i><par n="ann/u__n"/></e>
 
+    <e lm="alpinismu"><i>alpinism</i><par n="ann/u__n"/></e>
+    <e lm="anglismu"><i>anglism</i><par n="ann/u__n"/></e>
+    <e lm="clientelismu"><i>clientelism</i><par n="ann/u__n"/></e>
+    <e lm="antagunismu"><i>antagunism</i><par n="ann/u__n"/></e>
+    <e lm="arianismu"><i>arianism</i><par n="ann/u__n"/></e>
+    <e lm="asterismu"><i>asterism</i><par n="ann/u__n"/></e>
+    <e lm="ateismu"><i>ateism</i><par n="ann/u__n"/></e>
+    <e lm="atumismu"><i>atumism</i><par n="ann/u__n"/></e>
+    <e lm="autoritarismu"><i>autoritarism</i><par n="ann/u__n"/></e>
+    <e lm="banditismu"><i>banditism</i><par n="ann/u__n"/></e>
+    <e lm="buddismu"><i>buddism</i><par n="ann/u__n"/></e>
+    <e lm="cameratismu"><i>cameratism</i><par n="ann/u__n"/></e>
+    <e lm="capitalismu"><i>capitalism</i><par n="ann/u__n"/></e>
+    <e lm="carismu"><i>carism</i><par n="ann/u__n"/></e>
+    <e lm="casteismu"><i>casteism</i><par n="ann/u__n"/></e>
+    <e lm="catechismu"><i>catechism</i><par n="ann/u__n"/></e>
+    <e lm="catolicismu"><i>catolicism</i><par n="ann/u__n"/></e>
+    <e lm="cristianismu"><i>cristianism</i><par n="ann/u__n"/></e>
+    <e lm="culunialismu"><i>culunialism</i><par n="ann/u__n"/></e>
+    <e lm="cumunismu"><i>cumunism</i><par n="ann/u__n"/></e>
+    <e lm="dicadentismu"><i>dicadentism</i><par n="ann/u__n"/></e>
+    <e lm="dimurfismu"><i>dimurfism</i><par n="ann/u__n"/></e>
+    <e lm="dispotismu"><i>dispotism</i><par n="ann/u__n"/></e>
+    <e lm="empirismu"><i>empirism</i><par n="ann/u__n"/></e>
+    <e lm="endemismu"><i>endemism</i><par n="ann/u__n"/></e>
+    <e lm="eroismu"><i>eroism</i><par n="ann/u__n"/></e>
+    <e lm="espansiunismu"><i>espansiunism</i><par n="ann/u__n"/></e>
+    <e lm="fascismu"><i>fascism</i><par n="ann/u__n"/></e>
+    <e lm="fenumenismu"><i>fenumenism</i><par n="ann/u__n"/></e>
+    <e lm="furmalismu"><i>furmalism</i><par n="ann/u__n"/></e>
+    <e lm="ghjudaismu"><i>ghjudaism</i><par n="ann/u__n"/></e>
+    <e lm="hinduismu"><i>hinduism</i><par n="ann/u__n"/></e>
+    <e lm="idealismu"><i>idealism</i><par n="ann/u__n"/></e>
+    <e lm="illeterismu"><i>illeterism</i><par n="ann/u__n"/></e>
+    <e lm="illuminismu"><i>illuminism</i><par n="ann/u__n"/></e>
+    <e lm="independintismu"><i>independintism</i><par n="ann/u__n"/></e>
+    <e lm="induismu"><i>induism</i><par n="ann/u__n"/></e>
+    <e lm="isumurfismu"><i>isumurfism</i><par n="ann/u__n"/></e>
+    <e lm="jainismu"><i>jainism</i><par n="ann/u__n"/></e>
+    <e lm="meccanismu"><i>meccanism</i><par n="ann/u__n"/></e>
+    <e lm="miccanismu"><i>miccanism</i><par n="ann/u__n"/></e>
+    <e lm="militarismu"><i>militarism</i><par n="ann/u__n"/></e>
+    <e lm="naxalismu"><i>naxalism</i><par n="ann/u__n"/></e>
+    <e lm="nazismu"><i>nazism</i><par n="ann/u__n"/></e>
+    <e lm="naziunalismu"><i>naziunalism</i><par n="ann/u__n"/></e>
+    <e lm="neulugismu"><i>neulugism</i><par n="ann/u__n"/></e>
+    <e lm="omeumurfismu"><i>omeumurfism</i><par n="ann/u__n"/></e>
+    <e lm="omumurfismu"><i>omumurfism</i><par n="ann/u__n"/></e>
+    <e lm="patriuttismu"><i>patriuttism</i><par n="ann/u__n"/></e>
+    <e lm="raziunalismu"><i>raziunalism</i><par n="ann/u__n"/></e>
+    <e lm="revanchismu"><i>revanchism</i><par n="ann/u__n"/></e>
+    <e lm="romanticismu"><i>romanticism</i><par n="ann/u__n"/></e>
+    <e lm="saudusismu"><i>saudusism</i><par n="ann/u__n"/></e>
+    <e lm="schiavismu"><i>schiavism</i><par n="ann/u__n"/></e>
+    <e lm="sicchismu"><i>sicchism</i><par n="ann/u__n"/></e>
+    <e lm="simbulismu"><i>simbulism</i><par n="ann/u__n"/></e>
+    <e lm="sinecismu"><i>sinecism</i><par n="ann/u__n"/></e>
+    <e lm="sismu"><i>sism</i><par n="ann/u__n"/></e>
+    <e lm="terrorismu"><i>terrorism</i><par n="ann/u__n"/></e>
+    <e lm="turismu"><i>turism</i><par n="ann/u__n"/></e>
+    <e lm="tutalitarismu"><i>tutalitarism</i><par n="ann/u__n"/></e>
+    <e lm="urganismu"><i>urganism</i><par n="ann/u__n"/></e>
+    <e lm="vandalismu"><i>vandalism</i><par n="ann/u__n"/></e>
+    <e lm="zoroatrismu"><i>zoroatrism</i><par n="ann/u__n"/></e>
+
+
     <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
 
     <e lm="populu"><i>popul</i><par n="ann/u__n"/></e>
@@ -3045,7 +3115,8 @@ esse	esse - they - Note: feminine
     <e lm="rinfurzamentu"><i>rinfurzament</i><par n="ann/u__n"/></e>
     <e lm="rigimu"><i>rigim</i><par n="ann/u__n"/></e>
     <e lm="quartiere"><i>quartier</i><par n="ribell/e__n"/></e>
-    <e lm="prutagonistu"><i>prutagonist</i><par n="ann/u__n"/></e>
+    <e lm="prutagonistu"><i>prutagonist</i><par n="zitell/u__n"/></e>
+    <e lm="facistu"><i>facist</i><par n="zitell/u__n"/></e>
     <e lm="prufilu"><i>prufil</i><par n="ann/u__n"/></e>
     <e lm="prubitariu"><i>prubitari</i><par n="ann/u__n"/></e>
     <e lm="pritestu"><i>pritest</i><par n="ann/u__n"/></e>
@@ -3315,6 +3386,23 @@ esse	esse - they - Note: feminine
 
     <e lm="dea"><i>de</i><par n="scienz/a__n"/></e>
     <e lm="deu"><i>de</i><par n="de/u__n"/></e>
+
+    <e lm="anarchistu"><i>anarchist</i><par n="zitell/u__n"/></e>
+    <e lm="antecristu"><i>antecrist</i><par n="zitell/u__n"/></e>
+    <e lm="artistu"><i>artist</i><par n="zitell/u__n"/></e>
+    <e lm="autonomistu"><i>autonomist</i><par n="zitell/u__n"/></e>
+    <e lm="avangardistu"><i>avangardist</i><par n="zitell/u__n"/></e>
+    <e lm="contrabassistu"><i>contrabassist</i><par n="zitell/u__n"/></e>
+    <e lm="culunialistu"><i>culunialist</i><par n="zitell/u__n"/></e>
+    <e lm="finalistu"><i>finalist</i><par n="zitell/u__n"/></e>
+    <e lm="giuristu"><i>giurist</i><par n="zitell/u__n"/></e>
+    <e lm="giurnalistu"><i>giurnalist</i><par n="zitell/u__n"/></e>
+    <e lm="paulistu"><i>paulist</i><par n="zitell/u__n"/></e>
+    <e lm="sucialistu"><i>sucialist</i><par n="zitell/u__n"/></e>
+    <e lm="turistu"><i>turist</i><par n="zitell/u__n"/></e>
+    <e lm="sulistu"><i>sulist</i><par n="zitell/u__n"/></e>
+    <e lm="viulunistu"><i>viulunist</i><par n="zitell/u__n"/></e>
+
 
     <e lm="matematicu"><i>matematic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
     <e lm="storicu"><i>storic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
@@ -5629,6 +5717,7 @@ esse	esse - they - Note: feminine
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
     <e lm="bellu"><i>bell</i><par n="vechj/u__adj"/></e>
     <e lm="anzianu"><i>anzian</i><par n="vechj/u__adj"/></e>
+    <e lm="falsu"><i>fals</i><par n="vechj/u__adj"/></e>
     <e lm="intesu"><i>intes</i><par n="vechj/u__adj"/></e> <!-- FIXME: Verb? -->
 
     <e lm="auropeu"><i>aurope</i><par n="vechj/u__adj"/></e>
@@ -5636,6 +5725,7 @@ esse	esse - they - Note: feminine
     <e lm="auropeu" r="LR"><p><l>aurupe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
     <e lm="auropeu" r="LR"><p><l>eurupe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
     <e lm="auropeu" r="LR"><p><l>auropean</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
+    <e lm="auropeu" r="LR"><p><l>aurupean</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
     <e lm="mediu"><i>medi</i><par n="vechj/u__adj"/></e>
@@ -6610,6 +6700,7 @@ esse	esse - they - Note: feminine
     <e lm="rapprisint" r="LR"><p><l>rapprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="rapprisint" r="LR"><p><l>ripprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="rapprisint" r="LR"><p><l>raprisent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
+    <e lm="rapprisint" r="LR"><p><l>rapresent</l><r>rapprisint</r></p><par n="parl/à__vblex"/></e>
     <e lm="carattarizà"><i>carattariz</i><par n="parl/à__vblex"/></e>
     <e lm="scappà"><i>scapp</i><par n="parl/à__vblex"/></e>
     <e lm="tirà"><i>tir</i><par n="parl/à__vblex"/></e>
@@ -6851,6 +6942,7 @@ esse	esse - they - Note: feminine
     <e lm="vergognà"><i>vergogn</i><par n="parl/à__vblex"/></e>
     <e lm="marchjà"><i>marchj</i><par n="parl/à__vblex"/></e>
     <e lm="girà"><i>gir</i><par n="parl/à__vblex"/></e>
+    <e lm="imprestà"><i>imprest</i><par n="parl/à__vblex"/></e>
     <e lm="disputà"><i>disput</i><par n="parl/à__vblex"/></e>
     <e lm="dimostrà"><i>dimostr</i><par n="parl/à__vblex"/></e>
     <e lm="cummandà"><i>cummand</i><par n="parl/à__vblex"/></e>

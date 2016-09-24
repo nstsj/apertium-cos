@@ -2850,6 +2850,8 @@ esse	esse - they - Note: feminine
     <e lm="sprissione"><i>sprission</i><par n="relazion/e__n"/></e>
 
     <e lm="presidente"><i>president</i><par n="ribell/e__n"/></e>
+    <e lm="liturale"><i>litural</i><par n="ribell/e__n"/></e>
+
     <e lm="uriente"><i>urient</i><par n="ribell/e__n"/></e>
     <e lm="uccidente"><i>uccident</i><par n="ribell/e__n"/></e>
     <e lm="pede"><i>ped</i><par n="ribell/e__n"/></e>
@@ -6012,7 +6014,6 @@ esse	esse - they - Note: feminine
     <e lm="individuale"><i>individual</i><par n="naziunal/e__adj"/></e>
     <e lm="istituziunale"><i>istituziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="laterale"><i>lateral</i><par n="naziunal/e__adj"/></e>
-    <e lm="liturale"><i>litural</i><par n="naziunal/e__adj"/></e>
     <e lm="medievale"><i>medieval</i><par n="naziunal/e__adj"/></e>
     <e lm="musicale"><i>musical</i><par n="naziunal/e__adj"/></e>
     <e lm="nationale"><i>national</i><par n="naziunal/e__adj"/></e>

@@ -139,7 +139,8 @@
     <pardef n="numeros">
       <e><re>[0-9]+([.,][0-9]+)*</re><p><l/><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)* °C</re><p><l/><r><s n="num"/></r></p></e>
-      <e><re>[0-9]+([.,][0-9]+)* *</re><p><l>%</l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)*</re><p><l>%</l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e r="LR"><re>[0-9]+([.,][0-9]+)*</re><p><l><b/>%</l><r><s n="num"/><s n="percent"/></r></p></e>
     </pardef>
 
     <pardef n="ordinals">
@@ -221,6 +222,13 @@
       <e r="RL"><p><l><a/>i</l><r>u<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l><a/>e</l><r>u<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="nissun/u__det">
+      <e><p><l>u</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>'</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
 
     <pardef n="un__det">
       <e><p><l>a</l><r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1686,6 +1694,7 @@
 
     <pardef n="scri/ve__vblex">
       <e><p><l>ve</l><r>ve<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ve</l><r>ve<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__finisce/li"/></e>
 
       <e><p><l>vendu</l><r>ve<s n="vblex"/><s n="ger"/></r></p></e>
 
@@ -1703,6 +1712,7 @@
 
     <pardef n="tradu/ce__vblex">
       <e><p><l>ce</l><r>ce<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ce</l><r>ce<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__finisce/li"/></e>
 
       <e><p><l>cendu</l><r>ce<s n="vblex"/><s n="ger"/></r></p></e>
 
@@ -1719,6 +1729,7 @@
 
     <pardef n="po/ne__vblex">
       <e><p><l>ne</l><r>ne<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ne</l><r>ne<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__finisce/li"/></e>
 
       <e><p><l>nendu</l><r>ne<s n="vblex"/><s n="ger"/></r></p></e>
 
@@ -1836,6 +1847,7 @@
     <e lm="incù"><i>incù</i><par n="à__pr"/></e>
     <e lm="annantu"><i>annantu</i><par n="à__pr"/></e>
     <e lm="dopu"><i>dopu</i><par n="à__pr"/></e>
+    <e lm="dopu" r="LR"><p><l>dop'à</l><r>dopu</r></p><par n="à__pr"/></e>
     <e lm="contru"><i>contru</i><par n="à__pr"/></e>
     <e lm="prima"><i>prima</i><par n="à__pr"/></e>
     <e lm="trà"><i>trà</i><par n="à__pr"/></e>
@@ -1883,6 +1895,9 @@
     <e lm="parechju"><i>parechj</i><par n="quell/u__det"/></e>
 
     <e lm="tale"><i>tal</i><par n="tal/e__det"/></e>
+
+    <e lm="nissunu"><i>nissun</i><par n="nissun/u__det"/></e>
+    <e lm="nissunu" r="LR"><p><l>nisun</l><r>nissun</r></p><par n="nissun/u__det"/></e>
 
     <!-- Also probably pronouns -->
     <e lm="quellu"><i>quell</i><par n="quell/u__det"/></e>
@@ -2017,6 +2032,7 @@ esse	esse - they - Note: feminine
     <e lm="XXI"><i>XXI</i><par n="XIII__num"/></e>
 
     
+    <!-- SECTION: Nouns -->
     
     <!-- SECTION: Months and Days of the Week -->
     
@@ -2060,9 +2076,9 @@ esse	esse - they - Note: feminine
     <e lm="Sabatu"><i>sabatu</i><par n="sangue__n"/></e>
     <e lm="Dumenica"><i>dumenica</i><par n="sangue__n"/></e>
 
+    <e lm="avvene"><i>avvene</i><par n="sangue__n"/></e>
     
 
-    <!-- SECTION: Nouns -->
 
 
     <e lm="omu"><i>om</i><par n="om/u__n"/></e>
@@ -2236,6 +2252,7 @@ esse	esse - they - Note: feminine
     <e lm="cunservatoriu"><i>cunservatori</i><par n="ann/u__n"/></e>
     <e lm="equilibriu"><i>equilibri</i><par n="ann/u__n"/></e>
     <e lm="legiunariu"><i>legiunari</i><par n="ann/u__n"/></e>
+    <e lm="parlamentariu"><i>parlamentari</i><par n="ann/u__n"/></e>
     <e lm="ministeriu"><i>ministeri</i><par n="ann/u__n"/></e>
     <e lm="seminariu"><i>seminari</i><par n="ann/u__n"/></e>
 
@@ -2311,7 +2328,7 @@ esse	esse - they - Note: feminine
     <e lm="documentariu"><i>documentari</i><par n="esempi/u__n"/></e>
     <e lm="tempacciu"><i>tempacci</i><par n="esempi/u__n"/></e>
 
-    <e lm="diu"><i>di</i><par n="esempi/u__n"/></e>
+    <!--<e lm="diu"><i>di</i><par n="esempi/u__n"/></e>-->
 
 
 
@@ -4817,6 +4834,7 @@ esse	esse - they - Note: feminine
      <e lm="Egittu"><i>Egittu</i><par n="Aiacciu__np"/></e>
      <e lm="Regnu Unitu"><i>Regnu<b/>Unitu</i><par n="Aiacciu__np"/></e>
      <e lm="Regnu Unitu" r="LR"><p><l>Reame<b/>Uniti</l><r>Regnu<b/>Unitu</r></p><par n="Aiacciu__np"/></e>
+     <e lm="Regnu Unitu" r="LR"><p><l>Reame<b/>Unitu</l><r>Regnu<b/>Unitu</r></p><par n="Aiacciu__np"/></e>
      <e lm="Ascu"><i>Ascu</i><par n="Aiacciu__np"/></e>
 
     <e lm="Acquatella"><i>Acquatella</i><par n="Corsica__np"/></e>
@@ -5617,6 +5635,7 @@ esse	esse - they - Note: feminine
     <e lm="auropeu" r="LR"><p><l>europe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
     <e lm="auropeu" r="LR"><p><l>aurupe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
     <e lm="auropeu" r="LR"><p><l>eurupe</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
+    <e lm="auropeu" r="LR"><p><l>auropean</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
     <e lm="mediu"><i>medi</i><par n="vechj/u__adj"/></e>
@@ -6558,6 +6577,7 @@ esse	esse - they - Note: feminine
     <e lm="sbandisce"><i>sbandi</i><par n="fini/sce__vblex"/></e>
     <e lm="unisce"><i>uni</i><par n="fini/sce__vblex"/></e>
     <e lm="cresce"><i>cre</i><par n="fini/sce__vblex"/></e>
+    <e lm="cresce" r="LR"><p><l>cri</l><r>cre</r></p><par n="fini/sce__vblex"/></e>
     <e lm="punisce"><i>puni</i><par n="fini/sce__vblex"/></e>
     <e lm="surtisce"><i>surti</i><par n="fini/sce__vblex"/></e>
 
@@ -6713,7 +6733,8 @@ esse	esse - they - Note: feminine
 
     <e lm="cunfirmà"><i>cunfirm</i><par n="parl/à__vblex"/></e>
     <e lm="cunservà"><i>cunserv</i><par n="parl/à__vblex"/></e>
-    <e lm="demitilitarizà"><i>demitilitariz</i><par n="parl/à__vblex"/></e>
+    <e lm="demilitarizà"><i>demilitariz</i><par n="parl/à__vblex"/></e>
+    <e lm="demilitarizà" r="LR"><p><l>demitilitariz</l><r>demilitariz</r></p><par n="parl/à__vblex"/></e>
     <e lm="dumandà"><i>dumand</i><par n="parl/à__vblex"/></e>
     <e lm="mandà"><i>mand</i><par n="parl/à__vblex"/></e>
     <e lm="egalizà"><i>egaliz</i><par n="parl/à__vblex"/></e>

@@ -1861,6 +1861,7 @@
     <e lm="cun"><i>cun</i><par n="à__pr"/></e>
     <e lm="daretu"><i>daretu</i><par n="à__pr"/></e>
     <e lm="sopra"><i>sopra</i><par n="à__pr"/></e>
+    <e lm="sopra" r="LR"><p><l>sopr'a</l><r>sopra</r></p><par n="à__pr"/></e>
     <e lm="finu"><i>finu</i><par n="à__pr"/></e>
     <e lm="versu"><i>versu</i><par n="à__pr"/></e>
     <e lm="frà"><i>frà</i><par n="à__pr"/></e>
@@ -2432,7 +2433,6 @@ esse	esse - they - Note: feminine
    
     <e lm="sangue"><i>sangue</i><par n="sangue__n"/></e>
     <e lm="puteri"><i>puteri</i><par n="sangue__n"/></e>
-    <e lm="menu"><i>menu</i><par n="sangue__n"/></e>
     <e lm="livante"><i>livante</i><par n="sangue__n"/></e>
     <e lm="tarmini"><i>tarmini</i><par n="sangue__n"/></e>
     <e lm="fiori"><i>fior</i><par n="mar/i__n"/></e>
@@ -5730,6 +5730,7 @@ esse	esse - they - Note: feminine
     <e lm="auropeu" r="LR"><p><l>aurupean</l><r>aurope</r></p><par n="vechj/u__adj"/></e>
 
     <e lm="vechju"><i>vechj</i><par n="vechj/u__adj"/></e>
+    <e lm="attrattivu"><i>attrattiv</i><par n="vechj/u__adj"/></e>
     <e lm="mediu"><i>medi</i><par n="vechj/u__adj"/></e>
     <e lm="dirivatu"><i>dirivat</i><par n="vechj/u__adj"/></e>
 
@@ -5915,7 +5916,6 @@ esse	esse - they - Note: feminine
       <e lm="alemanu"><i>aleman</i><par n="vechj/u__adj"/></e>
       <e lm="amichèvule"><i>amichèvul</i><par n="naziunal/e__adj"/></e>
       <e lm="arabbu"><i>arabb</i><par n="vechj/u__adj"/></e>
-      <e lm="auropeanu"><i>auropean</i><par n="vechj/u__adj"/></e>
       <e lm="bastiacciu"><i>bastiacci</i><par n="vechj/u__adj"/></e>
       <e lm="bellissimu"><i>bellissim</i><par n="vechj/u__adj"/></e>
       <e lm="bonu"><i>bon</i><par n="vechj/u__adj"/></e>
@@ -5945,6 +5945,7 @@ esse	esse - they - Note: feminine
       <e lm="giovane"><i>giovan</i><par n="naziunal/e__adj"/></e>
       <e lm="illegale"><i>illegal</i><par n="naziunal/e__adj"/></e>
       <e lm="immubiliare"><i>immubiliar</i><par n="naziunal/e__adj"/></e>
+      <e lm="immubiliariu"><i>immubiliari</i><par n="vechj/u__adj"/></e>
       <e lm="impressiunante"><i>impressiunant</i><par n="naziunal/e__adj"/></e>
       <e lm="impussibule"><i>impussibul</i><par n="naziunal/e__adj"/></e>
       <e lm="indipendente"><i>indipendent</i><par n="naziunal/e__adj"/></e>
@@ -6082,6 +6083,7 @@ esse	esse - they - Note: feminine
 
     <e lm="particulare"><i>particular</i><par n="naziunal/e__adj"/></e>
     <e lm="pussibule"><i>pussibul</i><par n="naziunal/e__adj"/></e>
+    <e lm="custruttibile"><i>custruttibil</i><par n="naziunal/e__adj"/></e>
     <e lm="naturale"><i>natural</i><par n="naziunal/e__adj"/></e>
     <e lm="attuale"><i>attual</i><par n="naziunal/e__adj"/></e>
     <e lm="visuale"><i>visual</i><par n="naziunal/e__adj"/></e>
@@ -6440,6 +6442,7 @@ esse	esse - they - Note: feminine
     <e lm="assai"><i>assai</i><par n="cusì__adv"/></e>
     <e lm="quà"><i>quà</i><par n="cusì__adv"/></e>
     <e lm="quì"><i>quì</i><par n="cusì__adv"/></e>
+    <e lm="menu"><i>menu</i><par n="cusì__adv"/></e>
     <e lm="dighjà"><i>dighjà</i><par n="cusì__adv"/></e>
     <e lm="ghjà"><i>ghjà</i><par n="cusì__adv"/></e>
     <e lm="ancora"><i>ancora</i><par n="cusì__adv"/></e>

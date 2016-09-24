@@ -2080,6 +2080,7 @@ esse	esse - they - Note: feminine
     <e lm="Vennari" r="LR"><p><l>venneri</l><r>Vennari</r></p><par n="sangue__n"/></e>
     <e lm="Sabatu"><i>sabatu</i><par n="sangue__n"/></e>
     <e lm="Dumenica"><i>dumenica</i><par n="sangue__n"/></e>
+    
 
     <e lm="avvene"><i>avvene</i><par n="sangue__n"/></e>
     
@@ -2432,6 +2433,10 @@ esse	esse - they - Note: feminine
 
    
     <e lm="sangue"><i>sangue</i><par n="sangue__n"/></e>
+    <e lm="petroliu"><i>petroliu</i><par n="sangue__n"/></e>
+    <e lm="bettonu"><i>bettonu</i><par n="sangue__n"/></e>
+
+    
     <e lm="puteri"><i>puteri</i><par n="sangue__n"/></e>
     <e lm="livante"><i>livante</i><par n="sangue__n"/></e>
     <e lm="tarmini"><i>tarmini</i><par n="sangue__n"/></e>
@@ -2546,6 +2551,7 @@ esse	esse - they - Note: feminine
     <e lm="fiuma"><i>fium</i><par n="scienz/a__n"/></e>
     <e lm="ghjaddina"><i>ghjaddin</i><par n="scienz/a__n"/></e>
     <e lm="cresta"><i>crest</i><par n="scienz/a__n"/></e>
+    <e lm="merendella"><i>merendell</i><par n="scienz/a__n"/></e>
 
     <e lm="forza"><i>forz</i><par n="form/a__n"/></e>
     <e lm="terra"><i>terr</i><par n="scienz/a__n"/></e>
@@ -2851,6 +2857,7 @@ esse	esse - they - Note: feminine
 
     <e lm="presidente"><i>president</i><par n="ribell/e__n"/></e>
     <e lm="liturale"><i>litural</i><par n="ribell/e__n"/></e>
+    <e lm="astutone"><i>astuton</i><par n="ribell/e__n"/></e>
 
     <e lm="uriente"><i>urient</i><par n="ribell/e__n"/></e>
     <e lm="uccidente"><i>uccident</i><par n="ribell/e__n"/></e>
@@ -3069,6 +3076,8 @@ esse	esse - they - Note: feminine
     <e lm="scagnu"><i>scagn</i><par n="ann/u__n"/></e>
     <e lm="ritruvamentu"><i>ritruvament</i><par n="ann/u__n"/></e>
     <e lm="rinnovu"><i>rinnov</i><par n="ann/u__n"/></e>
+    <e lm="minacciatu"><i>minacciat</i><par n="ann/u__n"/></e>
+
     <e lm="premiu"><i>premi</i><par n="ann/u__n"/></e>
     <e lm="predominiu"><i>predomini</i><par n="ann/u__n"/></e>
     <e lm="pesu"><i>pes</i><par n="ann/u__n"/></e>
@@ -3168,6 +3177,8 @@ esse	esse - they - Note: feminine
     <e lm="agregazione"><i>agregazion</i><par n="relazion/e__n"/></e>
     <e lm="agressione"><i>agression</i><par n="relazion/e__n"/></e>
     <e lm="alienazione"><i>alienazion</i><par n="relazion/e__n"/></e>
+    <e lm="lege"><i>leg</i><par n="relazion/e__n"/></e>
+
     <e lm="allucazione"><i>allucazion</i><par n="relazion/e__n"/></e>
     <e lm="allusione"><i>allusion</i><par n="relazion/e__n"/></e>
     <e lm="alternanza"><i>alternanz</i><par n="scienz/a__n"/></e>
@@ -5797,7 +5808,6 @@ esse	esse - they - Note: feminine
     <e lm="asiaticu"><i>asiatic</i><par n="tipic/u__adj"/></e>
     <e lm="biblicu"><i>biblic</i><par n="tipic/u__adj"/></e>
     <e lm="bizzicu"><i>bizzic</i><par n="tipic/u__adj"/></e>
-    <e lm="Dumenicu"><i>dumenic</i><par n="tipic/u__adj"/></e>
     <e lm="ebraicu"><i>ebraic</i><par n="tipic/u__adj"/></e>
     <e lm="fisicu"><i>fisic</i><par n="tipic/u__adj"/></e>
     <e lm="idrugraficu"><i>idrugrafic</i><par n="tipic/u__adj"/></e>
@@ -6219,7 +6229,6 @@ esse	esse - they - Note: feminine
     <e lm="diplomaticu"><i>diplomatic</i><par n="tipic/u__adj"/></e>
     <e lm="diplumaticu"><i>diplumatic</i><par n="tipic/u__adj"/></e>
     <e lm="diureticu"><i>diuretic</i><par n="tipic/u__adj"/></e>
-    <e lm="domenicu"><i>domenic</i><par n="tipic/u__adj"/></e>
     <e lm="drammaticu"><i>drammatic</i><par n="tipic/u__adj"/></e>
     <e lm="drasticu"><i>drastic</i><par n="tipic/u__adj"/></e>
     <e lm="ecclesiasticu"><i>ecclesiastic</i><par n="tipic/u__adj"/></e>

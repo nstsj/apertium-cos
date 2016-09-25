@@ -29,6 +29,9 @@
   <char value="ù">
     <equiv-char value="u"/>
   </char>
+  <char value="å">
+    <equiv-char value="a"/>
+  </char>
 
   <char value="a">
     <equiv-char value="à"/>

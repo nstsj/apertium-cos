@@ -6,6 +6,8 @@ SUBREADINGS = LTR ;
 LIST N = n ;
 LIST Det = det ;
 LIST Pr = pr ; 
+LIST A = adj ;
+LIST V = vblex ;
 
 LIST Prop = np ;
 LIST Mod = vbmod ;
@@ -33,7 +35,7 @@ LIST Masc = m ;
 LIST Fem = f ;
 
 LIST L' = "<l'>"i ;
-LIST A = "<a>"i ; 
+LIST Surf/A = "<a>"i ; 
 LIST DI = "<di>"i ; 
 LIST SI = "<si>"i ; 
 LIST UN = "<un>"i ;
@@ -54,7 +56,7 @@ SET Gen = Masc | Fem ;
 
 SECTION
 
-SELECT Pr IF (0 A) (1 A) ;
+SELECT Pr IF (0 Surf/A) (1 Surf/A) ;
 
 REMOVE DÌ IF (0 DI) ;
 
@@ -72,7 +74,7 @@ SELECT Enc IF (-2 Inf) (-1 Enc) (0 Pro OR Enc) ;
 
 REMOVE Enc IF (NOT -1 Inf OR Enc) ;
 
-SELECT Det IF (0 A) (1C Pos) ;
+SELECT Det IF (0 Surf/A) (1C Pos) ;
 
 SELECT Pro IF (0 L') (1C Fin) ;
 
@@ -98,4 +100,8 @@ SELECT Fin IF (-2 Prop) (-1 Prop OR Unk) (0C Fin OR Inf) ;
 
 REMOVE Pos IF (-1C Pro) ;
 
+REMOVE Pos IF (-1 ÙN) ;
+
 SELECT SUB:1 Def + $$Gen IF (0 Pr) (1C N + $$Gen) ;
+
+SELECT N IF (-1C A) (0C V OR N) (1 Fin) ;

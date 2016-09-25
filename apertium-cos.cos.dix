@@ -1,5 +1,5 @@
 <dictionary>
-  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁáëūīḥʿțöāîĭēåăíóúÚōÓÍłßęåÅâêûîô</alphabet>
+  <alphabet>aàbcdeèfghiìïjlmnoòpqrstuùüvzAÀBCDEÈFGHIÌÏJLMNOÒPQRSTUÙÜVZÉéWwKkXxYyÁáëūīḥʿțöāîĭēåăíóúÚōÓÍłßęåÅâêûîôç</alphabet>
   <sdefs>
     <sdef n="n"        c="Sustantiu"/>
     <sdef n="np"       c="Nom propi"/>
@@ -2097,6 +2097,7 @@ esse	esse - they - Note: feminine
 
     <e lm="canali"><i>canali</i><par n="sangue__n"/></e>
     <e lm="deputatu"><i>deputat</i><par n="ann/u__n"/></e>
+    <e lm="scornu"><i>scorn</i><par n="ann/u__n"/></e>
     <e lm="mercatu"><i>mercat</i><par n="ann/u__n"/></e>
     <e lm="passatu"><i>passat</i><par n="ann/u__n"/></e>
     <e lm="principatu"><i>principat</i><par n="ann/u__n"/></e>
@@ -6655,6 +6656,7 @@ esse	esse - they - Note: feminine
     <e lm="purtà"><i>purt</i><par n="parl/à__vblex"/></e>
 
     <e lm="assumiglià"><i>assumigli</i><par n="parl/à__vblex"/></e>
+    <e lm="minaccià"><i>minacci</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="fidià"><i>fid</i><par n="fid/ià__vblex"/></e>
@@ -6957,6 +6959,7 @@ esse	esse - they - Note: feminine
     <e lm="girà"><i>gir</i><par n="parl/à__vblex"/></e>
     <e lm="imprestà"><i>imprest</i><par n="parl/à__vblex"/></e>
     <e lm="disputà"><i>disput</i><par n="parl/à__vblex"/></e>
+    <e lm="migliorà"><i>miglior</i><par n="parl/à__vblex"/></e>
     <e lm="dimostrà"><i>dimostr</i><par n="parl/à__vblex"/></e>
     <e lm="cummandà"><i>cummand</i><par n="parl/à__vblex"/></e>
     <e lm="classificà"><i>classific</i><par n="parl/à__vblex"/></e>
@@ -6986,6 +6989,7 @@ esse	esse - they - Note: feminine
     <e lm="risponde"><i>rispond</i><par n="tem/e__vblex"/></e>
     <e lm="currisponde"><i>currispond</i><par n="tem/e__vblex"/></e>
     <e lm="fughje"><i>fughj</i><par n="tem/e__vblex"/></e>
+    <e lm="pienghje"><i>pienghj</i><par n="tem/e__vblex"/></e>
     <e lm="decide"><i>decid</i><par n="tem/e__vblex"/></e>
     <e lm="sente"><i>sent</i><par n="tem/e__vblex"/></e>
     <e lm="corre"><i>corr</i><par n="tem/e__vblex"/></e>

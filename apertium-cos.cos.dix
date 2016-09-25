@@ -1896,6 +1896,7 @@
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
     <e lm="chì" r="LR"><p><l>chè</l><r>chì</r></p><par n="chì__cnjsub"/></e>
     <e lm="chì" r="LR"><p><l>ca</l><r>chì</r></p><par n="chì__cnjsub"/></e>
+    <e lm="chì" r="LR"><p><l>ch'è</l><r>chì</r></p><par n="chì__cnjsub"/></e>
 
     <e lm="parchì"><i>parchì</i><par n="sì__cnjadv"/></e>
     <e lm="parchì" r="LR"><p><l>parchè</l><r>parchì</r></p><par n="sì__cnjadv"/></e>
@@ -3755,6 +3756,7 @@ esse	esse - they - Note: feminine
     <e lm="retorica"><i>retoric</i><par n="scienz/a__n"/></e>
     <e lm="rettore"><i>rettor</i><par n="ribell/e__n"/></e>
     <e lm="riassuntu"><i>riassunt</i><par n="ann/u__n"/></e>
+    <e lm="accunsentu"><i>accunsentu</i><par n="sangue__n"/></e>
     <e lm="ricchezza"><i>ricchezz</i><par n="scienz/a__n"/></e>
     <e lm="ricordu"><i>ricord</i><par n="ann/u__n"/></e>
     <e lm="riforma"><i>riform</i><par n="scienz/a__n"/></e>

@@ -16,6 +16,9 @@ LIST Pro = pro ;
 
 LIST Sg = sg ;
 
+LIST Sg1 = (p1 sg) ;
+LIST Sg3 = (p3 sg) ;
+
 LIST Fin = pri prs pii pis fti ifi ; 
 
 LIST Unk = "<\\*.*>"r ;
@@ -71,3 +74,5 @@ SELECT Inf IF (0 Fin OR Inf) (-1 Mod) ;
 SELECT Fin IF (NOT -1 Mod) (0 Vene) (1 Di LINK 1 Inf) ;
 
 REMOVE Fin IF (-1 Fin) (0/* Enc) ;
+
+REMOVE Sg1 IF (0C Sg1 OR Sg3) (-1 SI) ;

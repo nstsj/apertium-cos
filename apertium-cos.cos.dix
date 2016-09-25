@@ -670,6 +670,10 @@
     <pardef n="mo__adj">
       <e><p><l></l><r><s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
+
+    <pardef n="soii__adj">
+      <e><p><l></l><r><s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
  
     <pardef n="nostr/u__adj">
       <e><p><l>u</l><r>u<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -772,6 +776,8 @@
       <e><p><l>lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
       <e><p><l>la</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e r="LR"><p><l>nne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -782,6 +788,7 @@
       <e><p><l>llu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
       <e><p><l>lla</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>cci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e><p><l>nne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e><p><l>cci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>ssi</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -997,6 +1004,7 @@
 
     <pardef n="s/apè__vblex">
       <e><p><l>apè</l><r>apè<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ape</l><r>apè<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__finisce/li"/></e>
 
       <e><p><l>ò</l><r>apè<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ai</l><r>apè<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1291,6 +1299,8 @@
       <e><p><l>iscate</l><r>esce<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>escanu</l><r>esce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>escerà</l><r>esce<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+
       <e><p><l>sciut</l><r>esce<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
       <e r="LR"><p><l>esciut</l><r>esce<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
@@ -1373,6 +1383,16 @@
       <e><p><l>e</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>enu</l><r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>ia</l><r>e<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>erà</l><r>e<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>eranu</l><r>à<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>eria</l><r>e<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>iut</l><r>e<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
+
     </pardef>
 
     <pardef n="m/ette__vblex">
@@ -1393,6 +1413,7 @@
       <e><p><l>ettite</l><r>ette<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ettinu</l><r>ette<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
+      <e><p><l>etterà</l><r>ette<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <e><p><l>essu</l><r>ette<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>essa</l><r>ette<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1486,6 +1507,7 @@
       <e><p><l>eghja</l><r>ià<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>arà</l><r>ià<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>erà</l><r>ià<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ierà</l><r>ià<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eremu</l><r>ià<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
       
       <e><p><l>iava</l><r>ià<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3706,6 +3728,31 @@ esse	esse - they - Note: feminine
     <e lm="vuluntà"><i>vulunt</i><par n="citt/à__n"/></e>
     <e lm="webmaestru"><i>webmaestr</i><par n="zitell/u__n"/></e>
 
+    <e lm="sucetà"><i>sucet</i><par n="citt/à__n"/></e>
+    <e lm="festività"><i>festivit</i><par n="citt/à__n"/></e>
+    <e lm="sulidarità"><i>sulidarit</i><par n="citt/à__n"/></e>
+    <e lm="spezialità"><i>spezialit</i><par n="citt/à__n"/></e>
+    <e lm="specificità"><i>specificit</i><par n="citt/à__n"/></e>
+    <e lm="simplicità"><i>simplicit</i><par n="citt/à__n"/></e>
+    <e lm="serenità"><i>serenit</i><par n="citt/à__n"/></e>
+    <e lm="sensibilità"><i>sensibilit</i><par n="citt/à__n"/></e>
+    <e lm="respunsabilità"><i>respunsabilit</i><par n="citt/à__n"/></e>
+    <e lm="precarità"><i>precarit</i><par n="citt/à__n"/></e>
+    <e lm="ostilità"><i>ostilit</i><par n="citt/à__n"/></e>
+    <e lm="nubiltà"><i>nubilt</i><par n="citt/à__n"/></e>
+    <e lm="municipalità"><i>municipalit</i><par n="citt/à__n"/></e>
+    <e lm="minurità"><i>minurit</i><par n="citt/à__n"/></e>
+    <e lm="maiurità"><i>maiurit</i><par n="citt/à__n"/></e>
+    <e lm="magiorità"><i>magiorit</i><par n="citt/à__n"/></e>
+    <e lm="leghjitimità"><i>leghjitimit</i><par n="citt/à__n"/></e>
+    <e lm="leghjitimità" r="LR"><p><l>leghitimit</l><r>leghjitimit</r></p><par n="citt/à__n"/></e>
+    <e lm="impupularità"><i>impupularit</i><par n="citt/à__n"/></e>
+    <e lm="fraternità"><i>fraternit</i><par n="citt/à__n"/></e>
+    <e lm="fecundità"><i>fecundit</i><par n="citt/à__n"/></e>
+    <e lm="curiosità"><i>curiosit</i><par n="citt/à__n"/></e>
+    <e lm="cunvivialità"><i>cunvivialit</i><par n="citt/à__n"/></e>
+    <e lm="cullettività"><i>cullettivit</i><par n="citt/à__n"/></e>
+
 
 
     <e lm="matematicu"><i>matematic</i><par n="amic/u__n"/></e> <!-- FIXME: check prof +a? -->
@@ -3728,6 +3775,7 @@ esse	esse - they - Note: feminine
     <e lm="Jaume"><i>Jaume</i><par n="Jaume__np"/></e>
     <e lm="François"><i>François</i><par n="Jaume__np"/></e>
     <e lm="Stéphane"><i>Stéphane</i><par n="Jaume__np"/></e>
+    <e lm="Ghjuvà"><i>Ghjuvà</i><par n="Jaume__np"/></e>
     <e lm="Dumè"><i>Dumè</i><par n="Jaume__np"/></e>
     <e lm="Titu"><i>Titu</i><par n="Jaume__np"/></e>
     <e lm="Pitagora"><i>Pitagora</i><par n="Jaume__np"/></e>
@@ -6010,6 +6058,7 @@ esse	esse - they - Note: feminine
     <e lm="to" r="LR"><p><l>tuo</l><r>to</r></p><par n="mo__adj"/></e>
     <e lm="so"><i>so</i><par n="mo__adj"/></e>
     <e lm="so" r="LR"><p><l>suo</l><r>so</r></p><par n="mo__adj"/></e>
+    <e lm="so" r="LR"><p><l>soii</l><r>so</r></p><par n="soii__adj"/></e>
 
     <e lm="nostru"><i>nostr</i><par n="nostr/u__adj"/></e>
     <e lm="vostru"><i>vostr</i><par n="nostr/u__adj"/></e>
@@ -6906,6 +6955,7 @@ esse	esse - they - Note: feminine
     <e lm="appartene"><i>appart</i><par n="t/ene__vblex"/></e>
     <e lm="ottene"><i>ott</i><par n="t/ene__vblex"/></e>
     <e lm="vene"><i>v</i><par n="t/ene__vblex"/></e>
+    <e lm="cunvene"><i>cunv</i><par n="t/ene__vblex"/></e>
     <e lm="prevene"><i>prev</i><par n="t/ene__vblex"/></e>
     <e lm="pruvene"><i>pruv</i><par n="t/ene__vblex"/></e>
     <e lm="pruvene" r="LR"><p><l>prov</l><r>pruv</r></p><par n="t/ene__vblex"/></e>
@@ -6966,6 +7016,7 @@ esse	esse - they - Note: feminine
 
     <e lm="vulè"><i>v</i><par n="v/ulè__vblex"/></e>
     <e lm="piace"><i>piac</i><par n="piac/e__vblex"/></e>
+    <e lm="dispiace"><i>dispiac</i><par n="piac/e__vblex"/></e>
     <e lm="mette"><i>m</i><par n="m/ette__vblex"/></e>
     <e lm="permette"><i>perm</i><par n="m/ette__vblex"/></e>
     <e lm="esce"><i></i><par n="/esce__vblex"/></e>
@@ -6977,6 +7028,7 @@ esse	esse - they - Note: feminine
     <e lm="riferisce"><i>riferi</i><par n="fini/sce__vblex"/></e>
     <e lm="abulisce"><i>abuli</i><par n="fini/sce__vblex"/></e>
     <e lm="pruibisce"><i>pruibi</i><par n="fini/sce__vblex"/></e>
+    <e lm="cunvertisce"><i>cunverti</i><par n="fini/sce__vblex"/></e>
     <e lm="difinisce"><i>difini</i><par n="fini/sce__vblex"/></e>
     <e lm="definisce" r="LR"><p><l>defini</l><r>difini</r></p><par n="fini/sce__vblex"/></e>
     <e lm="custruisce"><i>custrui</i><par n="fini/sce__vblex"/></e>
@@ -7256,6 +7308,7 @@ esse	esse - they - Note: feminine
     <e lm="fermà"><i>ferm</i><par n="parl/à__vblex"/></e>
     <e lm="viaghjà"><i>viaghj</i><par n="parl/à__vblex"/></e>
     <e lm="spiegà"><i>spieg</i><par n="parl/à__vblex"/></e>
+    <e lm="sbuccià"><i>sbucc</i><par n="lasc/ià__vblex"/></e>
     <e lm="vergognà"><i>vergogn</i><par n="parl/à__vblex"/></e>
     <e lm="marchjà"><i>marchj</i><par n="parl/à__vblex"/></e>
     <e lm="girà"><i>gir</i><par n="parl/à__vblex"/></e>
@@ -7265,6 +7318,8 @@ esse	esse - they - Note: feminine
     <e lm="dimostrà"><i>dimostr</i><par n="parl/à__vblex"/></e>
     <e lm="cummandà"><i>cummand</i><par n="parl/à__vblex"/></e>
     <e lm="classificà"><i>classific</i><par n="parl/à__vblex"/></e>
+    <e lm="saltà"><i>salt</i><par n="parl/à__vblex"/></e>
+    <e lm="assaltà"><i>assalt</i><par n="parl/à__vblex"/></e>
     <e lm="abbunà"><i>abbun</i><par n="parl/à__vblex"/></e>
     <e lm="vindicà"><i>vindic</i><par n="parl/à__vblex"/></e>
     <e lm="circuleghjà"><i>circuleghj</i><par n="parl/à__vblex"/></e>
@@ -7272,6 +7327,59 @@ esse	esse - they - Note: feminine
     <e lm="arricordà"><i>arricord</i><par n="parl/à__vblex"/></e>
     <e lm="arricordà" r="LR"><p><l>arricurd</l><r>arricord</r></p><par n="parl/à__vblex"/></e>
     <e lm="arrizzà"><i>arrizz</i><par n="parl/à__vblex"/></e>
+
+    <e lm="aduttà"><i>adutt</i><par n="parl/à__vblex"/></e>
+    <e lm="affascinà"><i>affascin</i><par n="parl/à__vblex"/></e>
+    <e lm="affrancà"><i>affranc</i><par n="parl/à__vblex"/></e>
+    <e lm="allargà"><i>allarg</i><par n="parl/à__vblex"/></e>
+    <e lm="ballà"><i>ball</i><par n="parl/à__vblex"/></e>
+    <e lm="benefizià"><i>benefiz</i><par n="lasc/ià__vblex"/></e>
+    <e lm="biscà"><i>bisc</i><par n="parl/à__vblex"/></e>
+    <e lm="cappià"><i>cappi</i><par n="parl/à__vblex"/></e>
+    <e lm="circulà"><i>circul</i><par n="parl/à__vblex"/></e>
+    <e lm="cuncintrà"><i>cuncintr</i><par n="parl/à__vblex"/></e>
+    <e lm="cunsultà"><i>cunsult</i><par n="parl/à__vblex"/></e>
+    <e lm="duminà"><i>dumin</i><par n="parl/à__vblex"/></e>
+    <e lm="esultà"><i>esult</i><par n="parl/à__vblex"/></e>
+    <e lm="evuluvà"><i>evuluv</i><par n="parl/à__vblex"/></e>
+    <e lm="fabricà"><i>fabric</i><par n="parl/à__vblex"/></e>
+    <e lm="furzà"><i>furz</i><par n="parl/à__vblex"/></e>
+    <e lm="ghjuvà"><i>ghjuv</i><par n="parl/à__vblex"/></e>
+    <e lm="imparà"><i>impar</i><par n="parl/à__vblex"/></e>
+    <e lm="impiantà"><i>impiant</i><par n="parl/à__vblex"/></e>
+    <e lm="impressiunà"><i>impressiun</i><par n="parl/à__vblex"/></e>
+    <e lm="medità"><i>medit</i><par n="parl/à__vblex"/></e>
+    <e lm="pianterà"><i>pianter</i><par n="parl/à__vblex"/></e>
+    <e lm="piattà"><i>piatt</i><par n="parl/à__vblex"/></e>
+    <e lm="preservà"><i>preserv</i><par n="parl/à__vblex"/></e>
+    <e lm="prutestà"><i>prutest</i><par n="parl/à__vblex"/></e>
+    <e lm="raschjà"><i>raschj</i><par n="parl/à__vblex"/></e>
+    <e lm="ricumpensà"><i>ricumpens</i><par n="parl/à__vblex"/></e>
+    <e lm="rifiatà"><i>rifiat</i><par n="parl/à__vblex"/></e>
+    <e lm="rimarcà"><i>rimarc</i><par n="parl/à__vblex"/></e>
+    <e lm="ripensà"><i>ripens</i><par n="parl/à__vblex"/></e>
+    <e lm="ripiglà"><i>ripigl</i><par n="parl/à__vblex"/></e>
+    <e lm="ripupulà"><i>ripupul</i><par n="parl/à__vblex"/></e>
+    <e lm="risunà"><i>risun</i><par n="parl/à__vblex"/></e>
+    <e lm="sacrificà"><i>sacrific</i><par n="parl/à__vblex"/></e>
+    <e lm="salutà"><i>salut</i><par n="parl/à__vblex"/></e>
+    <e lm="sbancà"><i>sbanc</i><par n="parl/à__vblex"/></e>
+    <e lm="scalà"><i>scal</i><par n="parl/à__vblex"/></e>
+    <e lm="scantà"><i>scant</i><par n="parl/à__vblex"/></e>
+    <e lm="scempià"><i>scemp</i><par n="lasc/ià__vblex"/></e>
+    <e lm="sfilà"><i>sfil</i><par n="parl/à__vblex"/></e>
+    <e lm="smintincà"><i>smintinc</i><par n="parl/à__vblex"/></e>
+    <e lm="soffrerà"><i>soffrer</i><par n="parl/à__vblex"/></e>
+    <e lm="stinzà"><i>stinz</i><par n="parl/à__vblex"/></e>
+    <e lm="stirpà"><i>stirp</i><par n="parl/à__vblex"/></e>
+    <e lm="stumacà"><i>stumac</i><par n="parl/à__vblex"/></e>
+    <e lm="stuzzicà"><i>stuzzic</i><par n="parl/à__vblex"/></e>
+    <e lm="sunà"><i>sun</i><par n="parl/à__vblex"/></e>
+    <e lm="sunnà"><i>sunn</i><par n="parl/à__vblex"/></e>
+    <e lm="traccià"><i>tracc</i><par n="lasc/ià__vblex"/></e>
+    <e lm="tramutà"><i>tramut</i><par n="parl/à__vblex"/></e>
+    <e lm="trapassà"><i>trapass</i><par n="parl/à__vblex"/></e>
+    <e lm="urdinà"><i>urdin</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="vedè"><i>v</i><par n="v/edè__vblex"/></e>

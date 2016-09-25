@@ -838,6 +838,7 @@
       <e><p><l>sò</l><r>esse<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>sè</l><r>esse<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>hè</l><r>esse<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ghjè</l><r>esse<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>semu</l><r>esse<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>simu</l><r>esse<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>sete</l><r>esse<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -1603,7 +1604,10 @@
       
       <e><p><l>ò</l><r>à<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
 
-      <e><p><l>eghja</l><r>à<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <!--<e><p><l>eghja</l><r>à<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>--> <!-- FIXME: CHECK -->
+
+      <e><p><l>aru</l><r>à<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e> <!-- FIXME: CHECK -->
+      <e r="LR"><p><l>eru</l><r>à<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e> <!-- FIXME: CHECK -->
       <e><p><l>arà</l><r>à<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>erà</l><r>à<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eremu</l><r>à<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -6426,6 +6430,7 @@ esse	esse - they - Note: feminine
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="cubanu"><i>cuban</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
+    <e lm="peghju"><i>peghj</i><par n="vechj/u__adj"/></e>
     <e lm="viotu"><i>viot</i><par n="vechj/u__adj"/></e>
     <e lm="leghjitimu"><i>leghjitim</i><par n="vechj/u__adj"/></e>
     <e lm="bellu"><i>bell</i><par n="vechj/u__adj"/></e>
@@ -7502,6 +7507,7 @@ esse	esse - they - Note: feminine
     <e lm="trasfurmà" r="LR"><p><l>trasform</l><r>trasfurm</r></p><par n="parl/à__vblex"/></e>
     <e lm="cullaburà"><i>cullabur</i><par n="parl/à__vblex"/></e>
     <e lm="occupà"><i>occup</i><par n="parl/à__vblex"/></e>
+    <e lm="occupà" r="LR"><p><l>occupp</l><r>occup</r></p><par n="parl/à__vblex"/></e>
     <e lm="suparà"><i>supar</i><par n="parl/à__vblex"/></e>
     <e lm="ritirà"><i>ritir</i><par n="parl/à__vblex"/></e>
     <e lm="salpà"><i>salp</i><par n="parl/à__vblex"/></e>
@@ -7773,6 +7779,7 @@ esse	esse - they - Note: feminine
     <e lm="rimarcà"><i>rimarc</i><par n="parl/à__vblex"/></e>
     <e lm="ripensà"><i>ripens</i><par n="parl/à__vblex"/></e>
     <e lm="ripiglà"><i>ripigl</i><par n="parl/à__vblex"/></e>
+    <e lm="arradicà"><i>arradic</i><par n="parl/à__vblex"/></e>
     <e lm="ammazzà"><i>ammazz</i><par n="parl/à__vblex"/></e>
     <e lm="ripupulà"><i>ripupul</i><par n="parl/à__vblex"/></e>
     <e lm="risunà"><i>risun</i><par n="parl/à__vblex"/></e>
@@ -7833,6 +7840,13 @@ esse	esse - they - Note: feminine
     <e lm="currisponde"><i>currispond</i><par n="tem/e__vblex"/></e>
     <e lm="fughje"><i>fughj</i><par n="tem/e__vblex"/></e>
     <e lm="pienghje"><i>pienghj</i><par n="tem/e__vblex"/></e>
+    <e lm="eleghje"><i>eleghj</i><par n="tem/e__vblex"/></e>
+    <e lm="munghje"><i>munghj</i><par n="tem/e__vblex"/></e>
+    <e lm="pinghje"><i>pinghj</i><par n="tem/e__vblex"/></e>
+    <e lm="raghjunghje"><i>raghjunghj</i><par n="tem/e__vblex"/></e>
+    <e lm="ghjunghje"><i>ghjunghj</i><par n="tem/e__vblex"/></e>
+    <e lm="spenghje"><i>spenghj</i><par n="tem/e__vblex"/></e>
+    <e lm="distrughje"><i>distrughj</i><par n="tem/e__vblex"/></e>
     <e lm="decide"><i>decid</i><par n="tem/e__vblex"/></e>
     <e lm="sente"><i>sent</i><par n="tem/e__vblex"/></e>
     <e lm="corre"><i>corr</i><par n="tem/e__vblex"/></e>
@@ -7868,6 +7882,45 @@ esse	esse - they - Note: feminine
     <e lm="oppone"><i>oppo</i><par n="po/ne__vblex"/></e>
     <e lm="ripone"><i>ripo</i><par n="po/ne__vblex"/></e>
     <e lm="impone"><i>impo</i><par n="po/ne__vblex"/></e>
+
+    <e lm="argumenteghjà"><i>argumenteghj</i><par n="parl/à__vblex"/></e>
+    <e lm="arregistreghjà"><i>arregistreghj</i><par n="parl/à__vblex"/></e>
+    <e lm="assicureghjà"><i>assicureghj</i><par n="parl/à__vblex"/></e>
+    <e lm="bullicineghjà"><i>bullicineghj</i><par n="parl/à__vblex"/></e>
+    <e lm="cinnuleghjà"><i>cinnuleghj</i><par n="parl/à__vblex"/></e>
+    <e lm="circuleghjà"><i>circuleghj</i><par n="parl/à__vblex"/></e>
+    <e lm="cunsidereghjà"><i>cunsidereghj</i><par n="parl/à__vblex"/></e>
+    <e lm="cuntinueghjà"><i>cuntinueghj</i><par n="parl/à__vblex"/></e>
+    <e lm="cuntinuveghjà"><i>cuntinuveghj</i><par n="parl/à__vblex"/></e>
+    <e lm="eviteghju"><i>eviteghju</i><par n="parl/à__vblex"/></e>
+    <e lm="falcunaghjà"><i>falcunaghj</i><par n="parl/à__vblex"/></e>
+    <e lm="feliciteghjà"><i>feliciteghj</i><par n="parl/à__vblex"/></e>
+    <e lm="fideghjà"><i>fideghj</i><par n="parl/à__vblex"/></e>
+    <e lm="giranduleghjà"><i>giranduleghj</i><par n="parl/à__vblex"/></e>
+    <e lm="impruviseghjà"><i>impruviseghj</i><par n="parl/à__vblex"/></e>
+    <e lm="interrucheghjà"><i>interrucheghj</i><par n="parl/à__vblex"/></e>
+    <e lm="intituleghjà"><i>intituleghj</i><par n="parl/à__vblex"/></e>
+    <e lm="lamparaghju"><i>lamparaghju</i><par n="parl/à__vblex"/></e>
+    <e lm="mubilizeghjà"><i>mubilizeghj</i><par n="parl/à__vblex"/></e>
+    <e lm="multiplichghjà"><i>multiplichghj</i><par n="parl/à__vblex"/></e>
+    <e lm="organizeghjà"><i>organizeghj</i><par n="parl/à__vblex"/></e>
+    <e lm="participeghjà"><i>participeghj</i><par n="parl/à__vblex"/></e>
+    <e lm="persunificheghjà"><i>persunificheghj</i><par n="parl/à__vblex"/></e>
+    <e lm="mughjà"><i>mughj</i><par n="parl/à__vblex"/></e>
+    <e lm="praticheghjà"><i>praticheghj</i><par n="parl/à__vblex"/></e>
+    <e lm="primureghjà"><i>primureghj</i><par n="parl/à__vblex"/></e>
+    <e lm="pruvucheghjà"><i>pruvucheghj</i><par n="parl/à__vblex"/></e>
+    <e lm="realizeghjà"><i>realizeghj</i><par n="parl/à__vblex"/></e>
+    <e lm="rimpruvereghjà"><i>rimpruvereghj</i><par n="parl/à__vblex"/></e>
+    <e lm="appoghjà"><i>appoghj</i><par n="parl/à__vblex"/></e>
+    <e lm="risicheghjà"><i>risicheghj</i><par n="parl/à__vblex"/></e>
+    <e lm="sbattuleghjà"><i>sbattuleghj</i><par n="parl/à__vblex"/></e>
+    <e lm="pattighjà"><i>pattighj</i><par n="parl/à__vblex"/></e>
+    <e lm="sunnieghjà"><i>sunnieghj</i><par n="parl/à__vblex"/></e>
+    <e lm="supplicheghjà"><i>supplicheghj</i><par n="parl/à__vblex"/></e>
+    <e lm="supraneghjà"><i>supraneghj</i><par n="parl/à__vblex"/></e>
+    <e lm="sventuleghjà"><i>sventuleghj</i><par n="parl/à__vblex"/></e>
+
  
     <!-- SECTION: Interjections -->
 

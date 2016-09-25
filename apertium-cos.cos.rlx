@@ -11,6 +11,9 @@ LIST Inf = inf ;
 
 LIST Pos = pos ;
 
+LIST Tonic = tn ; 
+LIST Rel = rel ; 
+
 LIST Enc = enc ; 
 LIST Pro = pro ;
 
@@ -76,3 +79,7 @@ SELECT Fin IF (NOT -1 Mod) (0 Vene) (1 Di LINK 1 Inf) ;
 REMOVE Fin IF (-1 Fin) (0/* Enc) ;
 
 REMOVE Sg1 IF (0C Sg1 OR Sg3) (-1 SI) ;
+
+SELECT Fin IF (-2 Rel) (-1 Tonic) (0C Fin OR Inf) ;
+
+SELECT Fin IF (-1C SI) (0C Fin OR Inf) ;

@@ -3,11 +3,14 @@ DELIMITERS = "<.>" ;
 
 SUBREADINGS = LTR ; 
 
+LIST N = n ;
 LIST Det = det ;
 LIST Pr = pr ; 
 
+LIST Prop = np ;
 LIST Mod = vbmod ;
 LIST Inf = inf ;
+LIST Def = def ;
 
 LIST Pos = pos ;
 
@@ -24,7 +27,10 @@ LIST Sg3 = (p3 sg) ;
 
 LIST Fin = pri prs pii pis fti ifi ; 
 
-LIST Unk = "<\\*.*>"r ;
+LIST Unk = "\\*.*"r ;
+
+LIST Masc = m ; 
+LIST Fem = f ;
 
 LIST L' = "<l'>"i ;
 LIST A = "<a>"i ; 
@@ -43,6 +49,8 @@ LIST Lingue = "francesu" "francese" "danese" "inglese" "inglesu" "talianu" ;
 
 LIST Inf/à = ("<.*[Àà]>"r inf) ;
 LIST Form/a = ("<.*[Aa]>"r inf) ;
+
+SET Gen = Masc | Fem ;
 
 SECTION
 
@@ -82,4 +90,12 @@ REMOVE Sg1 IF (0C Sg1 OR Sg3) (-1 SI) ;
 
 SELECT Fin IF (-2 Rel) (-1 Tonic) (0C Fin OR Inf) ;
 
+SELECT Fin IF (-1 Rel) (0C Fin OR Inf) ;
+
 SELECT Fin IF (-1C SI) (0C Fin OR Inf) ;
+
+SELECT Fin IF (-2 Prop) (-1 Prop OR Unk) (0C Fin OR Inf) ;
+
+REMOVE Pos IF (-1C Pro) ;
+
+SELECT SUB:1 Def + $$Gen IF (0 Pr) (1C N + $$Gen) ;

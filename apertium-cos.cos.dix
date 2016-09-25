@@ -1920,6 +1920,12 @@
     <e lm="sinu à"><i>sinu<b/>à</i><par n="à__pr"/></e>
     <e lm="fin'à"><i>fin'à</i><par n="à__pr"/></e>
     <e lm="in"><i>in</i><par n="à__pr"/></e>
+
+    <e lm="allocch'è à"><i>allocch'è<b/>à</i><par n="à__pr"/></e>
+    <e lm="allocch'è à" r="LR"><p><l>allocchè<b/>à</l><r>allocch'è<b/>à</r></p><par n="à__pr"/></e>
+    <e lm="allocch'è à" r="LR"><p><l>allocch'è<b/>a</l><r>allocch'è<b/>à<s n="pr"/><j/>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="allocch'è à" r="LR"><p><l>allocchè<b/>a</l><r>allocch'è<b/>à<s n="pr"/><j/>u<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+
     <e lm="vicinu à"><i>vicinu<b/>à</i><par n="à__pr"/></e>
     <e lm="indu"><i>indu</i><par n="à__pr"/></e>
     <e lm="indu" r="LR"><p><l>ind'è</l><r>indu</r></p><par n="à__pr"/></e>
@@ -7869,6 +7875,7 @@ esse	esse - they - Note: feminine
     <e lm="eh"><i>eh</i><par n="iè__ij"/></e>
     <e lm="eccu"><i>eccu</i><par n="iè__ij"/></e>
     <e lm="allora"><i>allora</i><par n="iè__ij"/></e>
+    <e lm="nò"><i>nò</i><par n="iè__ij"/></e>
     <e lm="bon"><i>bon</i><par n="iè__ij"/></e>
 
 

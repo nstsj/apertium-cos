@@ -1891,6 +1891,7 @@
 
     <e lm="sicondu"><i>sicondu</i><par n="sì__cnjadv"/></e>
     <e lm="sì"><i>sì</i><par n="sì__cnjadv"/></e>
+    <e lm="sì" r="LR"><p><l>s'è</l><r>sì</r></p><par n="sì__cnjadv"/></e>
 
     <e lm="chì"><i>chì</i><par n="chì__cnjsub"/></e>
     <e lm="chì" r="LR"><p><l>chè</l><r>chì</r></p><par n="chì__cnjsub"/></e>
@@ -7916,7 +7917,7 @@ esse	esse - they - Note: feminine
 
     <e r="LR" lm="n'"><p><l>n'</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="c'"><p><l>c'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-    <e r="LR" lm="s'"><p><l>s'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="LR" lm="s'"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR" lm="un'"><p><l>un'</l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="gran'"><p><l>gran'</l><r>grande<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>

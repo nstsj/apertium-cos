@@ -2939,6 +2939,7 @@ esse	esse - they - Note: feminine
     <e lm="abitazione"><i>abitazion</i><par n="relazion/e__n"/></e>
     <e lm="accupazione"><i>accupazion</i><par n="relazion/e__n"/></e>
     <e lm="alizzione"><i>alizzion</i><par n="relazion/e__n"/></e>
+    <e lm="attrazzione"><i>attrazzion</i><par n="relazion/e__n"/></e>
     <e lm="cuntraccezzione"><i>cuntraccezzion</i><par n="relazion/e__n"/></e>
     <e lm="attinzione"><i>attinzion</i><par n="relazion/e__n"/></e>
     <e lm="cualizione"><i>cualizion</i><par n="relazion/e__n"/></e>
@@ -3124,6 +3125,7 @@ esse	esse - they - Note: feminine
     <e lm="nome"><i>nom</i><par n="ribell/e__n"/></e>
     <e lm="paese"><i>paes</i><par n="ribell/e__n"/></e>
     <e lm="paesu"><i>paes</i><par n="ann/u__n"/></e>
+    <e lm="anellu"><i>anell</i><par n="ann/u__n"/></e>
     <e lm="ritrattu"><i>ritratt</i><par n="ann/u__n"/></e>
     <e lm="prefettu"><i>prefett</i><par n="ann/u__n"/></e>
     <e lm="attore"><i>attor</i><par n="ribell/e__n"/></e>
@@ -7008,6 +7010,8 @@ esse	esse - they - Note: feminine
     <e lm="immurtale"><i>immurtal</i><par n="naziunal/e__adj"/></e>
     <e lm="inabituale"><i>inabitual</i><par n="naziunal/e__adj"/></e>
     <e lm="individuale"><i>individual</i><par n="naziunal/e__adj"/></e>
+    <e lm="sessuale"><i>sessual</i><par n="naziunal/e__adj"/></e>
+    <e lm="ormonale"><i>ormonal</i><par n="naziunal/e__adj"/></e>
     <e lm="istituziunale"><i>istituziunal</i><par n="naziunal/e__adj"/></e>
     <e lm="laterale"><i>lateral</i><par n="naziunal/e__adj"/></e>
     <e lm="medievale"><i>medieval</i><par n="naziunal/e__adj"/></e>
@@ -8158,6 +8162,7 @@ esse	esse - they - Note: feminine
     <e lm="pussede"><i>pussed</i><par n="tem/e__vblex"/></e>
     <e lm="esiste"><i>esist</i><par n="tem/e__vblex"/></e>
     <e lm="parte"><i>part</i><par n="tem/e__vblex"/></e>
+    <e lm="riparte"><i>ripart</i><par n="tem/e__vblex"/></e>
     <e lm="entre"><i>entr</i><par n="tem/e__vblex"/></e>
     <e lm="batte"><i>batt</i><par n="tem/e__vblex"/></e>
     <e lm="ride"><i>rid</i><par n="tem/e__vblex"/></e>

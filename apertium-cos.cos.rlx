@@ -96,6 +96,8 @@ SELECT Fin IF (-1 Rel) (0C Fin OR Inf) ;
 
 SELECT Fin IF (-1C SI) (0C Fin OR Inf) ;
 
+SELECT Fin IF (-2 Pro) (-1 Pro) (0C Fin OR Inf) ;
+
 SELECT Fin IF (-2 Prop) (-1 Prop OR Unk) (0C Fin OR Inf) ;
 
 REMOVE Pos IF (-1C Pro) ;

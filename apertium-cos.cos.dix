@@ -3149,6 +3149,9 @@ esse	esse - they - Note: feminine
     
     <e lm="locu"><i>loc</i><par n="loc/u__n"/></e>
     <e lm="capilocu"><i>capiloc</i><par n="loc/u__n"/></e>
+    <e lm="bizzicu"><i>bizzic</i><par n="loc/u__n"/></e>
+    <e lm="focu"><i>foc</i><par n="loc/u__n"/></e>
+    <e lm="risicu"><i>risic</i><par n="loc/u__n"/></e>
 
     <e lm="amicu"><i>amic</i><par n="amic/u__n"/></e>
     <e lm="focu"><i>foc</i><par n="amic/u__n"/></e>
@@ -6768,7 +6771,7 @@ esse	esse - they - Note: feminine
     <e lm="Articu"><i>artic</i><par n="tipic/u__adj"/></e>
     <e lm="asiaticu"><i>asiatic</i><par n="tipic/u__adj"/></e>
     <e lm="biblicu"><i>biblic</i><par n="tipic/u__adj"/></e>
-    <e lm="bizzicu"><i>bizzic</i><par n="tipic/u__adj"/></e>
+
     <e lm="ebraicu"><i>ebraic</i><par n="tipic/u__adj"/></e>
     <e lm="fisicu"><i>fisic</i><par n="tipic/u__adj"/></e>
     <e lm="idrugraficu"><i>idrugrafic</i><par n="tipic/u__adj"/></e>
@@ -6778,7 +6781,7 @@ esse	esse - they - Note: feminine
     <e lm="miticu"><i>mitic</i><par n="tipic/u__adj"/></e>
     <e lm="numicu"><i>numic</i><par n="tipic/u__adj"/></e>
     <e lm="politicu"><i>politic</i><par n="tipic/u__adj"/></e>
-    <e lm="risicu"><i>risic</i><par n="tipic/u__adj"/></e>
+
     <e lm="salvaticu"><i>salvatic</i><par n="tipic/u__adj"/></e>
     <e lm="specificu"><i>specific</i><par n="tipic/u__adj"/></e>
     <e lm="turisticu"><i>turistic</i><par n="tipic/u__adj"/></e>

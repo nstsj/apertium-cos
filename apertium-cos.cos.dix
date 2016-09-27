@@ -1624,7 +1624,7 @@
 
       <e><p><l>ia</l><r>ià<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
 
-      <e><p><l>iat</l><r>ià<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p><par n="S__stat/u"/></e>
+      <e><p><l>iat</l><r>ià<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
 
 
@@ -3091,6 +3091,7 @@ esse	esse - they - Note: feminine
     <e lm="sprissione"><i>sprission</i><par n="relazion/e__n"/></e>
 
     <e lm="cliente"><i>client</i><par n="ribell/e__n"/></e>
+    <e lm="affare"><i>affar</i><par n="ribell/e__n"/></e>
     <e lm="agente"><i>agent</i><par n="ribell/e__n"/></e>
     <e lm="accidente"><i>accident</i><par n="ribell/e__n"/></e>
     <e lm="presidente"><i>president</i><par n="ribell/e__n"/></e>
@@ -6677,6 +6678,7 @@ esse	esse - they - Note: feminine
 
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="cubanu"><i>cuban</i><par n="vechj/u__adj"/></e>
+    <e lm="serenu"><i>seren</i><par n="vechj/u__adj"/></e>
     <e lm="giovanu"><i>giovan</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
     <e lm="peghju"><i>peghj</i><par n="vechj/u__adj"/></e>
@@ -8310,6 +8312,8 @@ esse	esse - they - Note: feminine
     <e lm="stunà"><i>stun</i><par n="parl/à__vblex"/></e>
 
     <e lm="scusà"><i>scus</i><par n="parl/à__vblex"/></e>
+    <e lm="sbaglià"><i>sbagl</i><par n="lasc/ià__vblex"/></e>
+    <e lm="cunsiglià"><i>cunsigl</i><par n="lasc/ià__vblex"/></e>
     <e lm="avventurà"><i>avventur</i><par n="parl/à__vblex"/></e>
 
  
@@ -8324,6 +8328,7 @@ esse	esse - they - Note: feminine
     <e lm="nò"><i>nò</i><par n="iè__ij"/></e>
     <e lm="bon"><i>bon</i><par n="iè__ij"/></e>
     <e lm="ok"><i>ok</i><par n="iè__ij"/></e>
+    <e lm="aiò"><i>aiò</i><par n="iè__ij"/></e>
 
 
     <!-- SECTION: Abbreviations -->

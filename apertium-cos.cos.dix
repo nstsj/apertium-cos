@@ -6871,8 +6871,12 @@ esse	esse - they - Note: feminine
     <e lm="matematicu"><i>matematic</i><par n="tipic/u__adj"/></e>
     <e lm="storicu"><i>storic</i><par n="tipic/u__adj"/></e>
     <e lm="tecnicu"><i>tecnic</i><par n="tipic/u__adj"/></e>
+
     <e lm="ecunomicu"><i>ecunomic</i><par n="tipic/u__adj"/></e>
     <e lm="ecunomicu" r="LR"><p><l>economic</l><r>ecunomic</r></p><par n="tipic/u__adj"/></e>
+    <e lm="ecunumicu" r="LR"><p><l>ecunumic</l><r>ecunomic</r></p><par n="tipic/u__adj"/></e>
+    <e lm="ecunomicu" r="LR"><p><l>acunomic</l><r>ecunomic</r></p><par n="tipic/u__adj"/></e>
+
     <e lm="grecu"><i>grec</i><par n="tipic/u__adj"/></e>
     <e lm="tedescu"><i>tedesc</i><par n="tipic/u__adj"/></e>
     <e lm="chimicu"><i>chimic</i><par n="tipic/u__adj"/></e>
@@ -7124,7 +7128,6 @@ esse	esse - they - Note: feminine
     <e lm="aeronauticu"><i>aeronautic</i><par n="tipic/u__adj"/></e>
     <e lm="agnosticu"><i>agnostic</i><par n="tipic/u__adj"/></e>
     <e lm="alcolicu"><i>alcolic</i><par n="tipic/u__adj"/></e>
-    <e lm="alettricu"><i>alettric</i><par n="tipic/u__adj"/></e>
     <e lm="alfabeticu"><i>alfabetic</i><par n="tipic/u__adj"/></e>
     <e lm="algebricu"><p><l>algebric</l><r>alghjebric</r></p><par n="tipic/u__adj"/></e>
     <e lm="alghjebricu"><i>alghjebric</i><par n="tipic/u__adj"/></e>
@@ -7217,11 +7220,14 @@ esse	esse - they - Note: feminine
     <e lm="drammaticu"><i>drammatic</i><par n="tipic/u__adj"/></e>
     <e lm="drasticu"><i>drastic</i><par n="tipic/u__adj"/></e>
     <e lm="ecclesiasticu"><i>ecclesiastic</i><par n="tipic/u__adj"/></e>
-    <e lm="ecclisiasticu"><p><l>ecclisiastic</l><r>ecclesiastic</r></p><par n="tipic/u__adj"/></e>
+    <e lm="ecclisiasticu" r="LR"><p><l>ecclisiastic</l><r>ecclesiastic</r></p><par n="tipic/u__adj"/></e>
     <e lm="eculogicu"><i>eculogic</i><par n="tipic/u__adj"/></e>
-    <e lm="ecunumicu"><p><l>ecunumic</l><r>econumic</r></p><par n="tipic/u__adj"/></e>
-    <e lm="eletricu"><p><l>eletric</l><r>elettric</r></p><par n="tipic/u__adj"/></e>
+
+    <e lm="alettricu"><i>alettric</i><par n="tipic/u__adj"/></e>
     <e lm="elettricu"><i>elettric</i><par n="tipic/u__adj"/></e>
+    <e lm="elettricu"><p><l>eletric</l><r>elettric</r></p><par n="tipic/u__adj"/></e>
+    <e lm="elettricu" r="LR"><p><l>alettric</l><r>elettric</r></p><par n="tipic/u__adj"/></e>
+
     <e lm="ellitticu"><i>ellittic</i><par n="tipic/u__adj"/></e>
     <e lm="emblematicu"><i>emblematic</i><par n="tipic/u__adj"/></e>
     <e lm="empiricu"><i>empiric</i><par n="tipic/u__adj"/></e>

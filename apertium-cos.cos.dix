@@ -1299,10 +1299,7 @@
 
       <e><p><l>scerà</l><r>sce<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
 
-      <e><p><l>tu</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ta</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ti</l><r>sce<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>te</l><r>sce<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>t</l><r>sce<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
 
       <e><p><l>scendu</l><r>sce<s n="vblex"/><s n="ger"/></r></p></e>
     </pardef>
@@ -6744,7 +6741,6 @@ esse	esse - they - Note: feminine
     <e lm="usatu"><i>usat</i><par n="vechj/u__adj"/></e>
     <e lm="picculu"><i>piccul</i><par n="vechj/u__adj"/></e>
     <e lm="marinu"><i>marinu</i><par n="vechj/u__adj"/></e>
-    <e lm="custruitu"><i>custruit</i><par n="vechj/u__adj"/></e>
     <e lm="bassu"><i>bass</i><par n="vechj/u__adj"/></e>
     <e lm="rossu"><i>ross</i><par n="vechj/u__adj"/></e>
     <e lm="rumanu"><i>ruman</i><par n="vechj/u__adj"/></e>
@@ -7506,7 +7502,7 @@ esse	esse - they - Note: feminine
     <e lm="abbastanza"><i>abbastanza</i><par n="cusì__adv"/></e>
     <e lm="inoltre"><i>inoltre</i><par n="cusì__adv"/></e>
     <e lm="dinù"><i>dinù</i><par n="cusì__adv"/></e>
-    <e lm="dinò"><i>dinò</i><par n="cusì__adv"/></e>
+    <e lm="dinò" r="LR"><p><l>dinò</l><r>dinù</r></p><par n="cusì__adv"/></e>
     <e lm="moltu"><i>moltu</i><par n="cusì__adv"/></e>
     <e lm="oghji"><i>oghji</i><par n="cusì__adv"/></e>
     <e lm="tantu"><i>tantu</i><par n="cusì__adv"/></e>
@@ -7724,6 +7720,7 @@ esse	esse - they - Note: feminine
     <e lm="difinisce"><i>difini</i><par n="fini/sce__vblex"/></e>
     <e lm="definisce" r="LR"><p><l>defini</l><r>difini</r></p><par n="fini/sce__vblex"/></e>
     <e lm="custruisce"><i>custrui</i><par n="fini/sce__vblex"/></e>
+    <e lm="custruisce" r="LR"><p><l>costrui</l><r>custrui</r></p><par n="fini/sce__vblex"/></e>
     <e lm="sbandisce"><i>sbandi</i><par n="fini/sce__vblex"/></e>
     <e lm="unisce"><i>uni</i><par n="fini/sce__vblex"/></e>
     <e lm="cresce"><i>cre</i><par n="fini/sce__vblex"/></e>

@@ -38,18 +38,22 @@
     <equiv-char value="à"/>
     <equiv-char value="á"/>
   </char>
+
   <char value="e">
     <equiv-char value="è"/>
     <equiv-char value="é"/>
   </char>
+
   <char value="i">
     <equiv-char value="ì"/>
     <equiv-char value="í"/>
   </char>
+
   <char value="o">
     <equiv-char value="ò"/>
     <equiv-char value="ó"/>
   </char>
+
   <char value="u">
     <equiv-char value="ù"/>
     <equiv-char value="ú"/>

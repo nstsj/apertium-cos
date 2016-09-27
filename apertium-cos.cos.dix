@@ -1340,6 +1340,7 @@
       <e><p><l>osci</l><r>osce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>osce</l><r>osce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iscemu</l><r>osce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>iscimu</l><r>osce<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iscite</l><r>osce<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>oscenu</l><r>osce<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
@@ -1799,6 +1800,7 @@
       <e><p><l>eneranu</l><r>ene<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>enia</l><r>ene<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>eniamu</l><r>ene<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
 
       <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -2937,6 +2939,7 @@ esse	esse - they - Note: feminine
     <e lm="abitazione"><i>abitazion</i><par n="relazion/e__n"/></e>
     <e lm="accupazione"><i>accupazion</i><par n="relazion/e__n"/></e>
     <e lm="alizzione"><i>alizzion</i><par n="relazion/e__n"/></e>
+    <e lm="cuntraccezzione"><i>cuntraccezzion</i><par n="relazion/e__n"/></e>
     <e lm="attinzione"><i>attinzion</i><par n="relazion/e__n"/></e>
     <e lm="cualizione"><i>cualizion</i><par n="relazion/e__n"/></e>
     <e lm="cultivazione"><i>cultivazion</i><par n="relazion/e__n"/></e>
@@ -7649,6 +7652,7 @@ esse	esse - they - Note: feminine
     <e lm="ascultà"><i>ascult</i><par n="parl/à__vblex"/></e>
     <e lm="sperà"><i>sper</i><par n="parl/à__vblex"/></e>
     <e lm="cuntinuvà"><i>cuntinuv</i><par n="parl/à__vblex"/></e>
+    <e lm="cuntinuvà" r="LR"><p><l>cuntinu</l><r>cuntinuv</r></p><par n="parl/à__vblex"/></e>
     <e lm="apprufittà"><i>apprufitt</i><par n="parl/à__vblex"/></e>
     <e lm="campà"><i>camp</i><par n="parl/à__vblex"/></e>
     <e lm="cunfinà"><i>cunfin</i><par n="parl/à__vblex"/></e>
@@ -8298,6 +8302,9 @@ esse	esse - they - Note: feminine
     <e lm="stallà"><i>stall</i><par n="parl/à__vblex"/></e>
     <e lm="strutturà"><i>struttur</i><par n="parl/à__vblex"/></e>
     <e lm="stunà"><i>stun</i><par n="parl/à__vblex"/></e>
+
+    <e lm="scusà"><i>scus</i><par n="parl/à__vblex"/></e>
+    <e lm="avventurà"><i>avventur</i><par n="parl/à__vblex"/></e>
 
  
     <!-- SECTION: Interjections -->

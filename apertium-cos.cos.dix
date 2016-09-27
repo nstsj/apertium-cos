@@ -876,7 +876,7 @@
       <e><p><l>sia</l><r>esse<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>sia</l><r>esse<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>sia</l><r>esse<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>sii</l><r>esse<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>sii</l><r>esse<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
 
       <e><p><l>siamu</l><r>esse<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>siate</l><r>esse<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -952,7 +952,7 @@
       <e r="LR"><p><l>ete</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>hannu</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ani</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ani</l><r>avè<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
 
       <e><p><l>aghja</l><r>avè<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1638,7 +1638,7 @@
       <e><p><l>emu</l><r>à<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ate</l><r>à<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>anu</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ani</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ani</l><r>à<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>i</l><r>à<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>à<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>

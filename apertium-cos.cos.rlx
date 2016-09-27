@@ -107,3 +107,5 @@ REMOVE Pos IF (-1 ÙN) ;
 SELECT SUB:1 Def + $$Gen IF (0 Pr) (1C N + $$Gen) ;
 
 SELECT N IF (-1C A) (0C V OR N) (1 Fin) ;
+
+SELECT Fin IF (-1C Tonic) (0C Fin OR Inf) ;

@@ -2670,6 +2670,7 @@ esse	esse - they - Note: feminine
     
     <e lm="città"><i>citt</i><par n="citt/à__n"/></e>
     <e lm="città" r="LR" c="sub"><p><l>cit</l><r>citt</r></p><par n="citt/à__n"/></e>
+    <e lm="publicità"><i>publicit</i><par n="citt/à__n"/></e>
     <e lm="civiltà"><i>civilt</i><par n="citt/à__n"/></e>
     <e lm="libertà"><i>libert</i><par n="citt/à__n"/></e>
     <e lm="varietà"><i>variet</i><par n="citt/à__n"/></e>
@@ -3088,6 +3089,9 @@ esse	esse - they - Note: feminine
     <e lm="sprissione"><i>sprission</i><par n="relazion/e__n"/></e>
 
     <e lm="cliente"><i>client</i><par n="ribell/e__n"/></e>
+    <e lm="insidiamentu"><i>insidiament</i><par n="ann/u__n"/></e>
+    <e lm="avvinimentu"><i>avviniment</i><par n="ann/u__n"/></e>
+    <e lm="pussidimentu"><i>pussidiment</i><par n="ann/u__n"/></e>
     <e lm="affare"><i>affar</i><par n="ribell/e__n"/></e>
     <e lm="agente"><i>agent</i><par n="ribell/e__n"/></e>
     <e lm="accidente"><i>accident</i><par n="ribell/e__n"/></e>
@@ -6757,6 +6761,7 @@ esse	esse - they - Note: feminine
     <e lm="natu"><i>nat</i><par n="vechj/u__adj"/></e>
     <e lm="altu"><i>alt</i><par n="vechj/u__adj"/></e>
     <e lm="passatu"><i>passat</i><par n="vechj/u__adj"/></e>
+    <e lm="passiunatu"><i>passiunat</i><par n="vechj/u__adj"/></e>
     <e lm="cumunu"><i>cumun</i><par n="vechj/u__adj"/></e>
     <e lm="mortu"><i>mort</i><par n="vechj/u__adj"/></e>
     <e lm="stessu"><i>stess</i><par n="vechj/u__adj"/></e>
@@ -6920,6 +6925,7 @@ esse	esse - they - Note: feminine
       <e lm="ecologistu"><i>ecologist</i><par n="vechj/u__adj"/></e>
       <e lm="effettivu"><i>effettiv</i><par n="vechj/u__adj"/></e>
       <e lm="feminile"><i>feminil</i><par n="naziunal/e__adj"/></e>
+      <e lm="prubabile"><i>prubabil</i><par n="naziunal/e__adj"/></e>
       <e lm="feritu"><i>ferit</i><par n="vechj/u__adj"/></e>
       <e lm="finlandese"><i>finlandes</i><par n="naziunal/e__adj"/></e>
       <e lm="ghjenuvese"><i>ghjenuves</i><par n="naziunal/e__adj"/></e>
@@ -7584,7 +7590,6 @@ esse	esse - they - Note: feminine
     <e lm="tipicamente"><i>tipicament</i><par n="facilment/e__adv"/></e>
     <e lm="sturicamente"><i>sturicament</i><par n="facilment/e__adv"/></e>
     <e lm="simpliciamente"><i>simpliciament</i><par n="facilment/e__adv"/></e>
-    <e lm="insidiamente"><i>insidiament</i><par n="facilment/e__adv"/></e>
     <e lm="intiriamente"><i>intiriament</i><par n="facilment/e__adv"/></e>
     <e lm="ufficialamente"><i>ufficialament</i><par n="facilment/e__adv"/></e>
     <e lm="spicialamente"><i>spicialament</i><par n="facilment/e__adv"/></e>
@@ -7608,7 +7613,6 @@ esse	esse - they - Note: feminine
     <e lm="difinitivamente"><i>difinitivament</i><par n="facilment/e__adv"/></e>
     <e lm="rispittivamente"><i>rispittivament</i><par n="facilment/e__adv"/></e>
     <e lm="pussidimente"><i>pussidiment</i><par n="facilment/e__adv"/></e>
-    <e lm="avvinimente"><i>avviniment</i><par n="facilment/e__adv"/></e>
 
 
     <e lm="suprattuttu"><i>suprattuttu</i><par n="cusì__adv"/></e>
@@ -7818,7 +7822,6 @@ esse	esse - they - Note: feminine
     <e lm="inspirà"><i>inspir</i><par n="parl/à__vblex"/></e>
     <e lm="assassinà"><i>assassin</i><par n="parl/à__vblex"/></e>
     <e lm="arristà"><i>arrist</i><par n="parl/à__vblex"/></e>
-    <e lm="publicità"><i>publicit</i><par n="parl/à__vblex"/></e>
     <e lm="ghjudicà"><i>ghjudic</i><par n="parl/à__vblex"/></e>
     <e lm="spanzà"><i>spanz</i><par n="parl/à__vblex"/></e>
     <e lm="appinzà"><i>appinz</i><par n="parl/à__vblex"/></e>
@@ -7987,12 +7990,10 @@ esse	esse - they - Note: feminine
     <e lm="entrà"><i>entr</i><par n="parl/à__vblex"/></e>
     <e lm="incaricà"><i>incaric</i><par n="parl/à__vblex"/></e>
     <e lm="aghjustà"><i>aghjust</i><par n="parl/à__vblex"/></e>
-    <e lm="interpretà"><i>interpret</i><par n="parl/à__vblex"/></e>
     <e lm="lampà"><i>lamp</i><par n="parl/à__vblex"/></e>
     <e lm="manghjà"><i>manghj</i><par n="parl/à__vblex"/></e>
     <e lm="mutà"><i>mut</i><par n="parl/à__vblex"/></e>
     <e lm="palisà"><i>palis</i><par n="parl/à__vblex"/></e>
-    <e lm="passiunà"><i>passiun</i><par n="parl/à__vblex"/></e>
     <e lm="rimpiazzà"><i>rimpiazz</i><par n="parl/à__vblex"/></e>
     <e lm="ubligà"><par n="u/o"/><i>blig</i><par n="parl/à__vblex"/></e>
 
@@ -8283,7 +8284,7 @@ esse	esse - they - Note: feminine
     <e lm="incimentà"><i>inciment</i><par n="parl/à__vblex"/></e>
     <e lm="inghjulià"><i>inghjul</i><par n="lasc/ià__vblex"/></e>
     <e lm="innamurà"><i>innamur</i><par n="parl/à__vblex"/></e>
-    <e lm="interpretatà"><i>interpretat</i><par n="parl/à__vblex"/></e>
+    <e lm="interpretà"><i>interpret</i><par n="parl/à__vblex"/></e>
     <e lm="intrenà"><i>intren</i><par n="parl/à__vblex"/></e>
     <e lm="levà"><i>lev</i><par n="parl/à__vblex"/></e>
     <e lm="ligà"><i>lig</i><par n="parl/à__vblex"/></e>

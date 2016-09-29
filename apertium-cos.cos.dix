@@ -696,6 +696,13 @@
 
     </pardef>
 
+<pardef n="Beatles__np">
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="f"/><s n="pl"/></r></p></e>
+
+    </pardef>
+
+
+
 
     <!-- SECTION: Adjectives -->
 
@@ -3383,6 +3390,8 @@ esse	esse - they - Note: feminine
     <e lm="trasfirimentu"><i>trasfiriment</i><par n="ann/u__n"/></e>
     <e lm="tonu"><i>ton</i><par n="ann/u__n"/></e>
     <e lm="tirannu"><i>tirann</i><par n="ann/u__n"/></e>
+    <e lm="pettu"><i>pettu</i><par n="ann/u__n"/></e>
+
     <e lm="vulcanu"><i>vulcan</i><par n="ann/u__n"/></e>
     <e lm="tassu"><i>tass</i><par n="ann/u__n"/></e>
     <e lm="tagliu"><i>tagli</i><par n="ann/u__n"/></e>
@@ -3446,6 +3455,8 @@ esse	esse - they - Note: feminine
     <e lm="affiliazione"><i>affiliazion</i><par n="relazion/e__n"/></e>
     <e lm="agregazione"><i>agregazion</i><par n="relazion/e__n"/></e>
     <e lm="agressione"><i>agression</i><par n="relazion/e__n"/></e>
+    <e lm="album"><i>album</i><par n="capidopera__n"/></e>
+
     <e lm="alienazione"><i>alienazion</i><par n="relazion/e__n"/></e>
     <e lm="lege"><i>leg</i><par n="relazion/e__n"/></e>
 
@@ -3691,6 +3702,7 @@ esse	esse - they - Note: feminine
     <e lm="accordu"><i>accord</i><par n="ann/u__n"/></e>
     <e lm="agentu"><i>agent</i><par n="ann/u__n"/></e>
     <e lm="agenzia"><i>agenzi</i><par n="scienz/a__n"/></e>
+
     <e lm="amore"><i>amor</i><par n="ribell/e__n"/></e>
     <e lm="andatura"><i>andatur</i><par n="scienz/a__n"/></e>
     <e lm="apertura"><i>apertur</i><par n="scienz/a__n"/></e>
@@ -3738,6 +3750,7 @@ esse	esse - they - Note: feminine
     <e lm="citatinu"><i>citatin</i><par n="ann/u__n"/></e>
     <e lm="clientela"><i>clientel</i><par n="scienz/a__n"/></e>
     <e lm="clip"><i>clip</i><par n="sangue__n"/></e>
+    <e lm="concia"><i>conci</i><par n="scienz/a__n"/></e>
     <e lm="cosa"><i>cos</i><par n="scienz/a__n"/></e>
     <e lm="crisa"><i>cris</i><par n="scienz/a__n"/></e>
     <e lm="cucina"><i>cucin</i><par n="scienz/a__n"/></e>
@@ -3816,6 +3829,7 @@ esse	esse - they - Note: feminine
     <e lm="linea"><i>line</i><par n="scienz/a__n"/></e>
     <e lm="lista"><i>list</i><par n="scienz/a__n"/></e>
     <e lm="macciu"><i>macci</i><par n="ann/u__n"/></e>
+    <e lm="machja"><i>machja</i><par n="scienz/a__n"/></e>
     <e lm="maffiosu"><i>maffios</i><par n="ann/u__n"/></e>
     <e lm="magagna"><i>magagn</i><par n="scienz/a__n"/></e>
     <e lm="magazinu"><i>magazin</i><par n="ann/u__n"/></e>
@@ -6626,7 +6640,11 @@ esse	esse - they - Note: feminine
     <e lm="Arsenal"><i>Arsenal</i><par n="FLNC__np"/></e>
     <e lm="YouTube"><i>YouTube</i><par n="FLNC__np"/></e>
     <e lm="YouTube" r="LR"><p><l>Youtube</l><r>YouTube</r></p><par n="FLNC__np"/></e>
+    <e lm="Sporting"><i>Sporting</i><par n="FLNC__np"/></e>
 
+
+    <e lm="Muvrini"><i>Muvrini</i><par n="Beatles__np"/></e>
+    <e lm="Chjami Aghjalesi"><i>Chjami<b/>Aghjalesi</i><par n="Beatles__np"/></e>
 
 
      <e lm="FLNC"><i>FLNC</i><par n="FLNC__np"/></e>
@@ -6646,7 +6664,7 @@ esse	esse - they - Note: feminine
     <e lm="AS"><i>AS</i><par n="ONU__n"/></e>
     <e lm="UPC"><i>UPC</i><par n="ONU__n"/></e>
     <e lm="PP"><i>PP</i><par n="FC__n"/></e>
-
+    <e lm="Euro"><i>Euro</i><par n="FC__n"/></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -6801,8 +6819,10 @@ esse	esse - they - Note: feminine
     <e lm="moru"><i>mor</i><par n="vechj/u__adj"/></e>
     <e lm="solu"><i>sol</i><par n="vechj/u__adj"/></e>
     <e lm="novu"><i>nov</i><par n="vechj/u__adj"/></e>
-    <e lm="beddu"><i>bedd</i><par n="vechj/u__adj"/></e>
+    <e lm="pienu"><i>pien</i><par n="vechj/u__adj"/></e>
 
+    <e lm="beddu"><i>bedd</i><par n="vechj/u__adj"/></e>
+    <e lm="elettu"><i>elett</i><par n="vechj/u__adj"/></e>
     <e lm="umanu"><i>uman</i><par n="vechj/u__adj"/></e>
     <e lm="probbiu"><i>probbi</i><par n="vechj/u__adj"/></e>
 

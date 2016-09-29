@@ -3449,7 +3449,7 @@ esse	esse - they - Note: feminine
     <e lm="alienazione"><i>alienazion</i><par n="relazion/e__n"/></e>
     <e lm="lege"><i>leg</i><par n="relazion/e__n"/></e>
 
-    <e lm="allucazione"><i>allucazion</i><par n="relazion/e__n"/></e>
+    <!--<e lm="allucazione"><i>allucazion</i><par n="relazion/e__n"/></e>-->
     <e lm="allusione"><i>allusion</i><par n="relazion/e__n"/></e>
     <e lm="alternanza"><i>alternanz</i><par n="scienz/a__n"/></e>
     <e lm="ambianza"><i>ambianz</i><par n="scienz/a__n"/></e>
@@ -3625,7 +3625,6 @@ esse	esse - they - Note: feminine
     <e lm="rumanizazione"><i>rumanizazion</i><par n="relazion/e__n"/></e>
     <e lm="sanzione"><i>sanzion</i><par n="relazion/e__n"/></e>
     <e lm="scaldamentu"><i>scaldament</i><par n="ann/u__n"/></e>
-    <e lm="schenza"><i>schenz</i><par n="scienz/a__n"/></e>
     <e lm="sclusione"><i>sclusion</i><par n="relazion/e__n"/></e>
     <e lm="seanza"><i>seanz</i><par n="scienz/a__n"/></e>
     <e lm="secessione"><i>secession</i><par n="relazion/e__n"/></e>
@@ -6762,6 +6761,7 @@ esse	esse - they - Note: feminine
     <e lm="altu"><i>alt</i><par n="vechj/u__adj"/></e>
     <e lm="passatu"><i>passat</i><par n="vechj/u__adj"/></e>
     <e lm="passiunatu"><i>passiunat</i><par n="vechj/u__adj"/></e>
+    <e lm="appassiunatu"><i>appassiunat</i><par n="vechj/u__adj"/></e>
     <e lm="cumunu"><i>cumun</i><par n="vechj/u__adj"/></e>
     <e lm="mortu"><i>mort</i><par n="vechj/u__adj"/></e>
     <e lm="stessu"><i>stess</i><par n="vechj/u__adj"/></e>
@@ -7150,8 +7150,6 @@ esse	esse - they - Note: feminine
     <e lm="allegoricu"><i>allegoric</i><par n="tipic/u__adj"/></e>
     <e lm="allergicu"><i>allergic</i><par n="tipic/u__adj"/></e>
     <e lm="altaicu"><i>altaic</i><par n="tipic/u__adj"/></e>
-    <e lm="amaricu"><p><l>amaric</l><r>americ</r></p><par n="tipic/u__adj"/></e>
-    <e lm="americu"><i>americ</i><par n="tipic/u__adj"/></e>
     <e lm="analiticu"><i>analitic</i><par n="tipic/u__adj"/></e>
     <e lm="anarchicu"><i>anarchic</i><par n="tipic/u__adj"/></e>
     <e lm="anatolicu"><i>anatolic</i><par n="tipic/u__adj"/></e>
@@ -7416,7 +7414,7 @@ esse	esse - they - Note: feminine
     <e lm="numinativu"><i>numinativ</i><par n="vechj/u__adj"/></e>
     <e lm="ligislativu"><i>ligislativ</i><par n="vechj/u__adj"/></e>
     <e lm="festivu"><i>festiv</i><par n="vechj/u__adj"/></e>
-    <e lm="evvivu"><i>evviv</i><par n="vechj/u__adj"/></e>
+    <!--<e lm="evvivu"><i>evviv</i><par n="vechj/u__adj"/></e>-->
     <e lm="dissuasivu"><i>dissuasiv</i><par n="vechj/u__adj"/></e>
     <e lm="depressivu"><i>depressiv</i><par n="vechj/u__adj"/></e>
     <e lm="decisivu"><i>decisiv</i><par n="vechj/u__adj"/></e>
@@ -7612,7 +7610,6 @@ esse	esse - they - Note: feminine
     <e lm="rilativamente"><i>rilativament</i><par n="facilment/e__adv"/></e>
     <e lm="difinitivamente"><i>difinitivament</i><par n="facilment/e__adv"/></e>
     <e lm="rispittivamente"><i>rispittivament</i><par n="facilment/e__adv"/></e>
-    <e lm="pussidimente"><i>pussidiment</i><par n="facilment/e__adv"/></e>
 
 
     <e lm="suprattuttu"><i>suprattuttu</i><par n="cusì__adv"/></e>
@@ -8256,6 +8253,7 @@ esse	esse - they - Note: feminine
 
     <e lm="rivultà"><i>rivult</i><par n="parl/à__vblex"/></e>
     <e lm="simbulizà"><i>simbuliz</i><par n="parl/à__vblex"/></e>
+    <e lm="esecutà"><i>esecut</i><par n="parl/à__vblex"/></e>
     <e lm="strappà"><i>strapp</i><par n="parl/à__vblex"/></e>
 
     <e lm="accittà"><i>accitt</i><par n="parl/à__vblex"/></e>
@@ -8264,6 +8262,7 @@ esse	esse - they - Note: feminine
     <e lm="braccà"><i>bracc</i><par n="parl/à__vblex"/></e>
     <e lm="casticà"><i>castic</i><par n="parl/à__vblex"/></e>
     <e lm="cundannà"><i>cundann</i><par n="parl/à__vblex"/></e>
+    <e lm="cundannà" r="LR"><p><l>cundan</l><r>cundann</r></p><par n="parl/à__vblex"/></e>
     <e lm="cunvucà"><i>cunvuc</i><par n="parl/à__vblex"/></e>
     <e lm="destinà"><i>destin</i><par n="parl/à__vblex"/></e>
     <e lm="divurzià"><i>divurz</i><par n="lasc/ià__vblex"/></e>

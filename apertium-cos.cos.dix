@@ -1313,6 +1313,7 @@
       <e><p><l>scanu</l><r>sce<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>scerà</l><r>sce<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>sceranu</l><r>sce<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>t</l><r>sce<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
 
@@ -1819,10 +1820,14 @@
 
       <e><p><l>enia</l><r>ene<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eniamu</l><r>ene<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>enianu</l><r>ene<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>inissi</l><r>ene<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>enite</l><r>ene<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enite</l><r>ene<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__finisce/li"/></e>
 
       <e><p><l>inut</l><r>ene<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
       <e r="LR"><p><l>enut</l><r>ene<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
@@ -1903,6 +1908,9 @@
       <e><p><l>nimu</l><r>ne<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>nite</l><r>ne<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>nenu</l><r>ne<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>nia</l><r>ne<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>nianu</l><r>ne<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       
       <e><p><l>st</l><r>ne<s n="vblex"/><s n="pp"/></r></p><par n="S__stat/u"/></e>
     </pardef>
@@ -2311,7 +2319,10 @@ esse	esse - they - Note: feminine
     <e lm="basket"><i>basket</i><par n="sangue__n"/></e>
     <e lm="punk"><i>punk</i><par n="sangue__n"/></e>
     <e lm="cocktail"><i>cocktail</i><par n="hooligan__n"/></e>
+    <e lm="kick-boxing"><i>kick-boxing</i><par n="sangue__n"/></e>
+    <e lm="rock"><i>rock</i><par n="sangue__n"/></e>
     <e lm="hooligan"><i>hooligan</i><par n="hooligan__n"/></e>
+    <e lm="track"><i>track</i><par n="hooligan__n"/></e>
     <e lm="whisky"><i>whisky</i><par n="sangue__n"/></e>
     <e lm="jazz"><i>jazz</i><par n="sangue__n"/></e>
     <e lm="disco"><i>disco</i><par n="sangue__n"/></e>
@@ -2325,8 +2336,6 @@ esse	esse - they - Note: feminine
 
     <e lm="rè"><i>rè</i><par n="re__n"/></e>
 
-    <e lm="kick-boxing"><i>kick-boxing</i><par n="sangue__n"/></e>
-    <e lm="rock"><i>rock</i><par n="sangue__n"/></e>
     <e lm="oru"><i>oru</i><par n="sangue__n"/></e>
 
     <e lm="canali"><i>canali</i><par n="sangue__n"/></e>
@@ -2349,6 +2358,7 @@ esse	esse - they - Note: feminine
     <e lm="incunabulu"><i>incunabul</i><par n="ann/u__n"/></e>
     <e lm="mulinu"><i>mulin</i><par n="ann/u__n"/></e>
     <e lm="situ"><i>sit</i><par n="ann/u__n"/></e>
+    <e lm="prupositu"><i>pruposit</i><par n="ann/u__n"/></e>
     <e lm="acellu"><i>acell</i><par n="ann/u__n"/></e>
     <e lm="postu"><i>post</i><par n="ann/u__n"/></e>
     <e lm="mezu"><i>mez</i><par n="ann/u__n"/></e>
@@ -2411,6 +2421,7 @@ esse	esse - they - Note: feminine
     <e lm="laziu"><i>lazi</i><par n="ann/u__n"/></e>
     <e lm="rollu"><i>roll</i><par n="ann/u__n"/></e>
     <e lm="manu"><i>man</i><par n="ann/u__n"/></e>
+    <e lm="capitanu"><i>capitan</i><par n="ann/u__n"/></e>
     <e lm="rittangulu"><i>rittangul</i><par n="ann/u__n"/></e>
     <e lm="frateddu"><i>fratedd</i><par n="ann/u__n"/></e>
     <e lm="cultu"><i>cult</i><par n="ann/u__n"/></e>
@@ -2784,6 +2795,7 @@ esse	esse - they - Note: feminine
     <e lm="impurtanza"><i>impurtanz</i><par n="scienz/a__n"/></e>
     <e lm="panicca"><i>panicc</i><par n="scienz/a__n"/></e>
     <e lm="vita"><i>vit</i><par n="scienz/a__n"/></e>
+    <e lm="crescita"><i>crescit</i><par n="scienz/a__n"/></e>
     <e lm="penisula"><i>penisul</i><par n="scienz/a__n"/></e>
     <e lm="zittula"><i>zittul</i><par n="scienz/a__n"/></e>
 
@@ -6728,6 +6740,13 @@ esse	esse - they - Note: feminine
 
     <e lm="ultimu"><i>ultim</i><par n="vechj/u__adj"/></e>
     <e lm="cubanu"><i>cuban</i><par n="vechj/u__adj"/></e>
+    <e lm="republicanu"><i>republican</i><par n="vechj/u__adj"/></e>
+    <e lm="cutidianu"><i>cutidian</i><par n="vechj/u__adj"/></e>
+    <e lm="urbanu"><i>urban</i><par n="vechj/u__adj"/></e>
+    <e lm="tunisianu"><i>tunisian</i><par n="vechj/u__adj"/></e>
+    <e lm="lituanianu"><i>lituanian</i><par n="vechj/u__adj"/></e>
+    <e lm="algerianu"><i>algerian</i><par n="vechj/u__adj"/></e>
+    <e lm="amerindianu"><i>amerindian</i><par n="vechj/u__adj"/></e>
     <e lm="serenu"><i>seren</i><par n="vechj/u__adj"/></e>
     <e lm="giovanu"><i>giovan</i><par n="vechj/u__adj"/></e>
     <e lm="guerrieru"><i>guerrier</i><par n="vechj/u__adj"/></e>
@@ -7707,6 +7726,7 @@ esse	esse - they - Note: feminine
     <e lm="cantà"><i>cant</i><par n="parl/à__vblex"/></e>
     <e lm="pesà"><i>pes</i><par n="parl/à__vblex"/></e>
     <e lm="bastà"><i>bast</i><par n="parl/à__vblex"/></e>
+    <e lm="bumbardà"><i>bumbard</i><par n="parl/à__vblex"/></e>
     <e lm="ascultà"><i>ascult</i><par n="parl/à__vblex"/></e>
     <e lm="sperà"><i>sper</i><par n="parl/à__vblex"/></e>
     <e lm="cuntinuvà"><i>cuntinuv</i><par n="parl/à__vblex"/></e>
@@ -7715,6 +7735,7 @@ esse	esse - they - Note: feminine
     <e lm="campà"><i>camp</i><par n="parl/à__vblex"/></e>
     <e lm="cunfinà"><i>cunfin</i><par n="parl/à__vblex"/></e>
     <e lm="cumportà"><i>cumport</i><par n="parl/à__vblex"/></e>
+    <e lm="trasportà"><i>trasport</i><par n="parl/à__vblex"/></e>
     <e lm="cercà"><i>cerc</i><par n="parl/à__vblex"/></e>
     <e lm="buscà"><i>busc</i><par n="parl/à__vblex"/></e>
     <e lm="cunsiderà"><i>cunsider</i><par n="parl/à__vblex"/></e>
@@ -8240,11 +8261,16 @@ esse	esse - they - Note: feminine
 
     <e lm="pone"><i>po</i><par n="po/ne__vblex"/></e>
     <e lm="prupone"><i>prupo</i><par n="po/ne__vblex"/></e>
+    <e lm="prupone" r="LR"><p><l>prupu</l><r>prupo</r></p><par n="po/ne__vblex"/></e>
     <e lm="cumpone"><i>cumpo</i><par n="po/ne__vblex"/></e>
     <e lm="oppone"><i>oppo</i><par n="po/ne__vblex"/></e>
     <e lm="ripone"><i>ripo</i><par n="po/ne__vblex"/></e>
     <e lm="impone"><i>impo</i><par n="po/ne__vblex"/></e>
 
+    <e lm="valorizeghjà"><i>valorizeghj</i><par n="parl/à__vblex"/></e>
+    <e lm="plasticheghjà"><i>plasticheghj</i><par n="parl/à__vblex"/></e>
+    <e lm="ordineghjà"><i>ordineghj</i><par n="parl/à__vblex"/></e>
+    <e lm="capituleghjà"><i>capituleghj</i><par n="parl/à__vblex"/></e>
     <e lm="argumenteghjà"><i>argumenteghj</i><par n="parl/à__vblex"/></e>
     <e lm="arregistreghjà"><i>arregistreghj</i><par n="parl/à__vblex"/></e>
     <e lm="assicureghjà"><i>assicureghj</i><par n="parl/à__vblex"/></e>

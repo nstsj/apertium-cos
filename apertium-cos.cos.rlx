@@ -10,7 +10,7 @@ LIST A = adj ;
 LIST V = vblex ;
 
 LIST Prop = np ;
-LIST Mod = vbmod ;
+LIST Mod = vbmod "vulè" ;
 LIST Inf = inf ;
 LIST Def = def ;
 

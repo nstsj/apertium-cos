@@ -147,9 +147,12 @@
       <e r="LR"><re>[0-9]+</re><p><l>imu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><re>[0-9]+</re><p><l>ima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><re>[0-9]+</re><p><l>imi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e><re>[0-9]+</re><p><l>esimu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><re>[0-9]+</re><p><l>esima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><re>[0-9]+</re><p><l>esimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><re>2</re><p><l>ndu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><re>2</re><p><l>nda</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><re>2</re><p><l>ndi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><re>[0-9][0-9]+</re><p><l>esimu</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><re>[0-9][0-9]+</re><p><l>esima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><re>[0-9][0-9]+</re><p><l>esimi</l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Miscellaneous -->
@@ -591,6 +594,11 @@
 
     <pardef n="capidopera__n">
 	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="hooligan__n">
+	<e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+	<e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="sangue__n">
@@ -1488,6 +1496,7 @@
     <pardef n="m/ette__vblex">
       <e><p><l>ette</l><r>ette<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>ette</l><r>ette<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__finisce/li"/></e>
+      <e><p><l>ettendu</l><r>ette<s n="vblex"/><s n="ger"/></r></p></e>
 
       <e><p><l>ettu</l><r>ette<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>etti</l><r>ette<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1784,6 +1793,7 @@
 
     <pardef n="t/ene__vblex">
       <e><p><l>ene</l><r>ene<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>enendu</l><r>ene<s n="vblex"/><s n="ger"/></r></p></e>
 
       <e><p><l>engu</l><r>ene<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>eni</l><r>ene<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -2053,6 +2063,8 @@
     <e lm="nantu"><i>nantu</i><par n="à__pr"/></e>
     <e lm="ind"><i>ind</i><par n="à__pr"/></e>
     <e lm="sottu"><i>sottu</i><par n="à__pr"/></e>
+    <e lm="innù"><i>innù</i><par n="à__pr"/></e>
+    <e lm="innù" r="LR"><p><l>innò</l><r>innù</r></p><par n="à__pr"/></e>
     <e lm="intornu"><i>intornu</i><par n="à__pr"/></e>
     <e lm="traversu"><i>traversu</i><par n="à__pr"/></e>
     <e lm="durente"><i>durente</i><par n="à__pr"/></e>
@@ -2290,8 +2302,11 @@ esse	esse - they - Note: feminine
     
     <e lm="basket"><i>basket</i><par n="sangue__n"/></e>
     <e lm="punk"><i>punk</i><par n="sangue__n"/></e>
-    <e lm="cocktail"><i>cocktail</i><par n="sangue__n"/></e>
+    <e lm="cocktail"><i>cocktail</i><par n="hooligan__n"/></e>
+    <e lm="hooligan"><i>hooligan</i><par n="hooligan__n"/></e>
     <e lm="whisky"><i>whisky</i><par n="sangue__n"/></e>
+    <e lm="jazz"><i>jazz</i><par n="sangue__n"/></e>
+    <e lm="disco"><i>disco</i><par n="sangue__n"/></e>
     <e lm="folk"><i>folk</i><par n="sangue__n"/></e>
     <e lm="biking"><i>biking</i><par n="sangue__n"/></e>
     <e lm="vodka"><i>vodka</i><par n="Bibbia__n"/></e>
@@ -2766,6 +2781,10 @@ esse	esse - they - Note: feminine
 
     <e lm="pulitica"><i>pulitic</i><par n="scienz/a__n"/></e>
 
+    <e lm="archeulugia"><i>archeulugi</i><par n="scienz/a__n"/></e>
+    <e lm="etimulugia"><i>etimulugi</i><par n="scienz/a__n"/></e>
+    <e lm="metudulugia"><i>metudulugi</i><par n="scienz/a__n"/></e>
+    <e lm="zuulugia"><i>zuulugi</i><par n="scienz/a__n"/></e>
     <e lm="antulugia"><i>antulugi</i><par n="scienz/a__n"/></e>
     <e lm="diaspora"><i>diaspor</i><par n="scienz/a__n"/></e>
     <e lm="memoria"><i>memori</i><par n="scienz/a__n"/></e>
@@ -7727,6 +7746,7 @@ esse	esse - they - Note: feminine
     <e lm="piace"><i>piac</i><par n="piac/e__vblex"/></e>
     <e lm="dispiace"><i>dispiac</i><par n="piac/e__vblex"/></e>
     <e lm="mette"><i>m</i><par n="m/ette__vblex"/></e>
+    <e lm="trasmette"><i>trasm</i><par n="m/ette__vblex"/></e>
     <e lm="permette"><i>perm</i><par n="m/ette__vblex"/></e>
     <e lm="esce"><i></i><par n="/esce__vblex"/></e>
     <e lm="riesce"><i>ri</i><par n="/esce__vblex"/></e>
@@ -7774,6 +7794,7 @@ esse	esse - they - Note: feminine
     <e lm="mustrà"><i>mustr</i><par n="parl/à__vblex"/></e>
     <e lm="mustrà" r="LR"><p><l>mostr</l><r>mustr</r></p><par n="parl/à__vblex"/></e>
     <e lm="circà"><i>circ</i><par n="circ/à__vblex"/></e>
+    <e lm="classificà"><i>classific</i><par n="circ/à__vblex"/></e>
     <e lm="arricà"><i>arric</i><par n="circ/à__vblex"/></e>
     <e lm="significà"><i>signific</i><par n="circ/à__vblex"/></e>
     <e lm="didicà"><i>didic</i><par n="circ/à__vblex"/></e>
@@ -8047,7 +8068,6 @@ esse	esse - they - Note: feminine
     <e lm="migliorà"><i>miglior</i><par n="parl/à__vblex"/></e>
     <e lm="dimostrà"><i>dimostr</i><par n="parl/à__vblex"/></e>
     <e lm="cummandà"><i>cummand</i><par n="parl/à__vblex"/></e>
-    <e lm="classificà"><i>classific</i><par n="parl/à__vblex"/></e>
     <e lm="saltà"><i>salt</i><par n="parl/à__vblex"/></e>
     <e lm="assaltà"><i>assalt</i><par n="parl/à__vblex"/></e>
     <e lm="abbunà"><i>abbun</i><par n="parl/à__vblex"/></e>
@@ -8146,6 +8166,12 @@ esse	esse - they - Note: feminine
     <e lm="rinasce"><i>rin</i><par n="n/asce__vblex"/></e>
 
     <e lm="beie"><i>bei</i><par n="tem/e__vblex"/></e>
+    <e lm="sinte"><i>sint</i><par n="tem/e__vblex"/></e>
+    <e lm="cupre"><i>cupr</i><par n="tem/e__vblex"/></e>
+    <e lm="appuntelle"><i>appuntell</i><par n="tem/e__vblex"/></e>
+    <e lm="blucche"><i>blucch</i><par n="tem/e__vblex"/></e>
+    <e lm="impigne"><i>impign</i><par n="tem/e__vblex"/></e>
+    <e lm="stride"><i>strid</i><par n="tem/e__vblex"/></e>
     <e lm="racoglie"><i>racogli</i><par n="tem/e__vblex"/></e>
     <e lm="empie"><i>empi</i><par n="tem/e__vblex"/></e>
 
@@ -8290,6 +8316,7 @@ esse	esse - they - Note: feminine
     <e lm="emigrà"><i>emigr</i><par n="parl/à__vblex"/></e>
     <e lm="favurizà"><i>favuriz</i><par n="parl/à__vblex"/></e>
     <e lm="fucalizà"><i>fucaliz</i><par n="parl/à__vblex"/></e>
+    <e lm="ghjuntà"><i>ghjunt</i><par n="parl/à__vblex"/></e>
     <e lm="ghjurà"><i>ghjur</i><par n="parl/à__vblex"/></e>
     <e lm="ghjustificà"><i>ghjustific</i><par n="parl/à__vblex"/></e>
     <e lm="guvernà"><i>guvern</i><par n="parl/à__vblex"/></e>

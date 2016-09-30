@@ -1598,8 +1598,10 @@
 
       <e><p><l>iu</l><r>ià<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>ià<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ii</l><r>ià<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ia</l><r>ià<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>emu</l><r>ià<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>iemu</l><r>ià<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iate</l><r>ià<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ianu</l><r>ià<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iani</l><r>ià<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1612,12 +1614,14 @@
       <e><p><l>inu</l><r>ià<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       
       <e><p><l>iò</l><r>ià<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iarianu</l><r>ià<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>eghja</l><r>ià<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>arà</l><r>ià<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>erà</l><r>ià<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ierà</l><r>ià<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eremu</l><r>ià<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ieremu</l><r>ià<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
       
       <e><p><l>iava</l><r>ià<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>iave</l><r>ià<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -2211,8 +2215,12 @@ esse	esse - they - Note: feminine
     <e lm="setti"><i>setti</i><par n="quattru__num"/></e>
     <e lm="ottu"><i>ottu</i><par n="quattru__num"/></e>
     <e lm="nove"><i>nove</i><par n="quattru__num"/></e>
+    <e lm="deci"><i>deci</i><par n="quattru__num"/></e>
+    <e lm="deci" r="LR"><p><l>dece</l><r>deci</r></p><par n="quattru__num"/></e>
     <e lm="ondeci"><i>ondeci</i><par n="quattru__num"/></e>
-    <e lm="dodici"><i>dodici</i><par n="quattru__num"/></e>
+    <e lm="ondeci" r="LR"><p><l>ondici</l><r>ondeci</r></p><par n="quattru__num"/></e>
+    <e lm="dodeci"><i>dodeci</i><par n="quattru__num"/></e>
+    <e lm="dodeci" r="LR"><p><l>dodici</l><r>dodeci</r></p><par n="quattru__num"/></e>
     <e lm="tredici"><i>tredici</i><par n="quattru__num"/></e>
     <e lm="quindici"><i>quindici</i><par n="quattru__num"/></e>
     <e lm="dicesette"><i>dicesette</i><par n="quattru__num"/></e>
@@ -2764,6 +2772,7 @@ esse	esse - they - Note: feminine
     <e lm="moglia"><i>mogli</i><par n="battagli/a__n"/></e>
     <e lm="grazia"><i>grazi</i><par n="battagli/a__n"/></e>
     <e lm="lotta"><i>lott</i><par n="scienz/a__n"/></e>
+    <e lm="ballotta"><i>ballott</i><par n="scienz/a__n"/></e>
 
     <e lm="ghjesgia"><i>ghjesgi</i><par n="battagli/a__n"/></e>
     <e lm="magia"><i>magi</i><par n="battagli/a__n"/></e>
@@ -5469,6 +5478,7 @@ esse	esse - they - Note: feminine
      <e lm="Populonia"><i>Populonia</i><par n="Corsica__np"/></e>
 
      <e lm="Furiani"><i>Furiani</i><par n="Aiacciu__np"/></e>
+     <e lm="Barbados"><i>Barbados</i><par n="Aiacciu__np"/></e>
      <e lm="Baku"><i>Baku</i><par n="Aiacciu__np"/></e>
      <e lm="Benidorm"><i>Benidorm</i><par n="Aiacciu__np"/></e>
      <e lm="Åland"><i>Åland</i><par n="Aiacciu__np"/></e>
@@ -7734,8 +7744,6 @@ esse	esse - they - Note: feminine
     <e lm="purtà"><i>purt</i><par n="parl/à__vblex"/></e>
     <e lm="purtà" r="LR"><p><l>port</l><r>purt</r></p><par n="parl/à__vblex"/></e>
 
-    <e lm="assumiglià"><i>assumigli</i><par n="parl/à__vblex"/></e>
-    <e lm="minaccià"><i>minacci</i><par n="parl/à__vblex"/></e>
 
 
     <e lm="fidià"><i>fid</i><par n="fid/ià__vblex"/></e>
@@ -7884,7 +7892,6 @@ esse	esse - they - Note: feminine
     <e lm="considerà"><i>consider</i><par n="parl/à__vblex"/></e>
     <e lm="avanzà"><i>avanz</i><par n="parl/à__vblex"/></e>
     <e lm="traslitterà"><i>traslitter</i><par n="parl/à__vblex"/></e>
-    <e lm="scambià"><i>scambi</i><par n="parl/à__vblex"/></e>
     <e lm="populà"><i>popul</i><par n="parl/à__vblex"/></e>
     <e lm="determinà"><i>determin</i><par n="parl/à__vblex"/></e>
     <e lm="marcà"><i>marc</i><par n="parl/à__vblex"/></e>
@@ -7946,7 +7953,6 @@ esse	esse - they - Note: feminine
     <e lm="egalizà"><i>egaliz</i><par n="parl/à__vblex"/></e>
     <e lm="eliminà"><i>elimin</i><par n="parl/à__vblex"/></e>
     <e lm="esaminà"><i>esamin</i><par n="parl/à__vblex"/></e>
-    <e lm="esilià"><i>esili</i><par n="parl/à__vblex"/></e>
     <e lm="felicità"><i>felicit</i><par n="parl/à__vblex"/></e>
     <e lm="finanzà"><i>finanz</i><par n="parl/à__vblex"/></e>
     <e lm="idintificà"><i>idintific</i><par n="parl/à__vblex"/></e>
@@ -7966,14 +7972,13 @@ esse	esse - they - Note: feminine
     <e lm="pinsà"><i>pins</i><par n="parl/à__vblex"/></e>
     <e lm="preoccupà"><i>preoccup</i><par n="parl/à__vblex"/></e>
     <e lm="preparà"><i>prepar</i><par n="parl/à__vblex"/></e>
+    <e lm="preparà" r="LR"><p><l>pripar</l><r>prepar</r></p><par n="parl/à__vblex"/></e>
     <e lm="presentà"><i>present</i><par n="parl/à__vblex"/></e>
     <e lm="priservà"><i>priserv</i><par n="parl/à__vblex"/></e>
     <e lm="pruclamà"><i>pruclam</i><par n="parl/à__vblex"/></e>
-    <e lm="prununzià"><i>prununzi</i><par n="parl/à__vblex"/></e>
     <e lm="pupularizà"><i>pupulariz</i><par n="parl/à__vblex"/></e>
     <e lm="ratificà"><i>ratific</i><par n="parl/à__vblex"/></e>
     <e lm="ricusà"><i>ricus</i><par n="parl/à__vblex"/></e>
-    <e lm="ripudià"><i>ripudi</i><par n="parl/à__vblex"/></e>
     <e lm="educà"><i>educ</i><par n="parl/à__vblex"/></e>
     <e lm="dubbità"><i>dubbit</i><par n="parl/à__vblex"/></e>
     <e lm="votà"><i>vot</i><par n="parl/à__vblex"/></e>
@@ -7992,16 +7997,22 @@ esse	esse - they - Note: feminine
 
 
 
-    <e lm="cummencià"><i>cummenci</i><par n="parl/à__vblex"/></e>
-    <e lm="assucià"><i>assuci</i><par n="parl/à__vblex"/></e>
-    <e lm="assucià" r="LR"><p><l>associ</l><r>assuci</r></p><par n="parl/à__vblex"/></e>
-    <e lm="lancià"><i>lanci</i><par n="parl/à__vblex"/></e>
+    <e lm="esilià"><i>esil</i><par n="lasc/ià__vblex"/></e>
+    <e lm="scambià"><i>scamb</i><par n="lasc/ià__vblex"/></e>
+    <e lm="assumiglià"><i>assumigl</i><par n="lasc/ià__vblex"/></e>
+    <e lm="minaccià"><i>minacc</i><par n="lasc/ià__vblex"/></e>
+    <e lm="prununzià"><i>prununz</i><par n="lasc/ià__vblex"/></e>
+    <e lm="ripudià"><i>ripud</i><par n="lasc/ià__vblex"/></e>
+    <e lm="cummencià"><i>cummenc</i><par n="lasc/ià__vblex"/></e>
+    <e lm="assucià"><i>assuc</i><par n="lasc/ià__vblex"/></e>
+    <e lm="assucià" r="LR"><p><l>assoc</l><r>assuc</r></p><par n="lasc/ià__vblex"/></e>
+    <e lm="lancià"><i>lanc</i><par n="lasc/ià__vblex"/></e>
     <e lm="cumincià"><i>cuminc</i><par n="lasc/ià__vblex"/></e>
     <e lm="cumincià" r="LR"><p><l>cumminc</l><r>cuminc</r></p><par n="lasc/ià__vblex"/></e>
-    <e lm="travaglià"><i>travagli</i><par n="parl/à__vblex"/></e>
-    <e lm="piglià"><i>pigli</i><par n="parl/à__vblex"/></e>
-    <e lm="ripiglià"><i>ripigli</i><par n="parl/à__vblex"/></e>
-    <e lm="enuncià"><i>enunci</i><par n="parl/à__vblex"/></e>
+    <e lm="travaglià"><i>travagl</i><par n="lasc/ià__vblex"/></e>
+    <e lm="piglià"><i>pigl</i><par n="lasc/ià__vblex"/></e>
+    <e lm="ripiglià"><i>ripigl</i><par n="lasc/ià__vblex"/></e>
+    <e lm="enuncià"><i>enunc</i><par n="lasc/ià__vblex"/></e>
 
     <e lm="ghjoca"><i>ghjoc</i><par n="parl/à__vblex"/></e>
     <e lm="ghjoca" r="LR"><p><l>ghjuc</l><r>ghjoc</r></p><par n="parl/à__vblex"/></e>

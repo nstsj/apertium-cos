@@ -833,6 +833,10 @@
     <pardef n="cusì__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+    
+    <pardef n="bellu__adv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
 
     <pardef n="facilment/e__adv">
       <e><p><l>e</l><r>e<s n="adv"/></r></p></e>
@@ -7785,10 +7789,13 @@ esse	esse - they - Note: feminine
     <e lm="spessu"><i>spessu</i><par n="cusì__adv"/></e>
     <e lm="sempri"><i>sempr</i><par n="sempr/i__adv"/></e>
     <e lm="difatti"><i>difatti</i><par n="cusì__adv"/></e>
+   
     <e lm="solu"><i>solu</i><par n="cusì__adv"/></e>
     <e lm="tandu"><i>tandu</i><par n="cusì__adv"/></e>
     <e lm="sinu a"><i>sinu<b/>a</i><par n="cusì__adv"/></e>
     <e lm="appena"><i>appena</i><par n="cusì__adv"/></e>
+    <e lm="caud"><i>caud</i><par n="cusì__adv"/></e>
+    <e lm="freddo"><i>freddo</i><par n="cusì__adv"/></e>
     <e lm="subitu"><i>subitu</i><par n="cusì__adv"/></e>
     <e lm="abbastanza"><i>abbastanza</i><par n="cusì__adv"/></e>
     <e lm="inoltre"><i>inoltre</i><par n="cusì__adv"/></e>

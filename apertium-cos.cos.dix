@@ -4,6 +4,7 @@
     <sdef n="n"        c="Sustantiu"/>
     <sdef n="np"       c="Nom propi"/>
     <sdef n="adv"      c="Adverbi"/>
+    <sdef n="preadv"   c="Preadverbi"/>
     <sdef n="pr"       c="Preposició"/>
     <sdef n="ij"       c=""/>
     <sdef n="num"      c="Numeral"/>
@@ -851,6 +852,12 @@
       <e><p><l>i</l><r>i<s n="adv"/></r></p></e>
       <e r="LR"><p><l>e</l><r>i<s n="adv"/></r></p></e>
     </pardef>
+    
+    <!-- SECTION: Preadverbs (adv modifying other adverbs)-->
+    <pardef n="assai__preadv">
+      <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+    
 
     <!-- SECTION: Verbs -->
 
